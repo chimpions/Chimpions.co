@@ -13,6 +13,7 @@ export default function BasicExample() {
 			<Navigation />
 			<Routes>
 				<Route path='/' element={<Landing />} />
+				
 				<Route path='/compendium' element={<Compendium />} />
 				<Route path='/our-vision' element={<OurVision />} />
 				<Route path='/the-chiao' element={<TheChiao />} />
