@@ -1,0 +1,1008 @@
+[
+  {
+    "index": 0,
+    "path": "TheAberration-Planeswalkers-Darkness-None-None-None.png",
+    "animationPath": "TheAberration-Planeswalkers-Darkness-None-None-None.gif"
+  },
+  {
+    "index": 1,
+    "path": "TheAchromatic-Proletariat-BygoneEra-None-None-None.png",
+    "animationPath": "TheAchromatic-Proletariat-BygoneEra-None-None-None.gif"
+  },
+  {
+    "index": 2,
+    "path": "TheAdolescent-Proletariat-MellowSkies-Cap-None-Hoodie.png",
+    "animationPath": "TheAdolescent-Proletariat-MellowSkies-Cap-None-Hoodie.gif"
+  },
+  {
+    "index": 3,
+    "path": "TheAgitator-Planeswalkers-OriginOfPride-None-None-None.png",
+    "animationPath": "TheAgitator-Planeswalkers-OriginOfPride-None-None-None.gif"
+  },
+  {
+    "index": 4,
+    "path": "TheAmalgamation-FutureWarPack-Synth-None-None-None.png",
+    "animationPath": "TheAmalgamation-FutureWarPack-Synth-None-None-None.gif"
+  },
+  {
+    "index": 5,
+    "path": "TheAnalyst-FutureWarPack-Twilight-None-Scanner-Pad.png",
+    "animationPath": "TheAnalyst-FutureWarPack-Twilight-None-Scanner-Pad.gif"
+  },
+  {
+    "index": 6,
+    "path": "TheAncestral-Proletariat-Twilight-Tribal-None-None.png",
+    "animationPath": "TheAncestral-Proletariat-Twilight-Tribal-None-None.gif"
+  },
+  {
+    "index": 7,
+    "path": "TheAncient-Proletariat-Ancient-None-None-None.png",
+    "animationPath": "TheAncient-Proletariat-Ancient-None-None-None.gif"
+  },
+  {
+    "index": 8,
+    "path": "TheAngsty-Proletariat-NightCity-None-None-Hoodie.png",
+    "animationPath": "TheAngsty-Proletariat-NightCity-None-None-Hoodie.gif"
+  },
+  {
+    "index": 9,
+    "path": "TheAntipaladin-OldWorldCult-Infernal-Knight-None-Knight.png",
+    "animationPath": "TheAntipaladin-OldWorldCult-Infernal-Knight-None-Knight.gif"
+  },
+  {
+    "index": 10,
+    "path": "TheApologetic-Proletariat-Icefall-Mountie-None-Uniform.png",
+    "animationPath": "TheApologetic-Proletariat-Icefall-Mountie-None-Uniform.gif"
+  },
+  {
+    "index": 11,
+    "path": "TheArchon-OldWorldCult-Twilight-Wizard-None-Wizard.png",
+    "animationPath": "TheArchon-OldWorldCult-Twilight-Wizard-None-Wizard.gif"
+  },
+  {
+    "index": 12,
+    "path": "TheArisen-Planeswalkers-GalacticRadiation-None-None-None.png",
+    "animationPath": "TheArisen-Planeswalkers-GalacticRadiation-None-None-None.gif"
+  },
+  {
+    "index": 13,
+    "path": "TheArmsman-OldWorldCult-DeepPurple-None-None-Knight.png",
+    "animationPath": "TheArmsman-OldWorldCult-DeepPurple-None-None-Knight.gif"
+  },
+  {
+    "index": 14,
+    "path": "TheAttendant-Proletariat-MellowSkies-FastFood-None-FastFood.png",
+    "animationPath": "TheAttendant-Proletariat-MellowSkies-FastFood-None-FastFood.gif"
+  },
+  {
+    "index": 15,
+    "path": "TheAureate-Planeswalkers-EnterNight-None-None-None.png",
+    "animationPath": "TheAureate-Planeswalkers-EnterNight-None-None-None.gif"
+  },
+  {
+    "index": 16,
+    "path": "TheAutomaton-FutureWarPack-Twilight-None-None-None.png",
+    "animationPath": "TheAutomaton-FutureWarPack-Twilight-None-None-None.gif"
+  },
+  {
+    "index": 17,
+    "path": "TheAviator-Proletariat-Tranquility-Pilot-None-Uniform.png",
+    "animationPath": "TheAviator-Proletariat-Tranquility-Pilot-None-Uniform.gif"
+  },
+  {
+    "index": 18,
+    "path": "TheBeacon-FutureWarPack-EnterNight-None-None-None.png",
+    "animationPath": "TheBeacon-FutureWarPack-EnterNight-None-None-None.gif"
+  },
+  {
+    "index": 19,
+    "path": "TheBeholder-Planeswalkers-AbyssalEnvy-None-None-None.png",
+    "animationPath": "TheBeholder-Planeswalkers-AbyssalEnvy-None-None-None.gif"
+  },
+  {
+    "index": 20,
+    "path": "TheBinary-OldWorldCult-BygoneEra-Monitor-None-None.png",
+    "animationPath": "TheBinary-OldWorldCult-BygoneEra-Monitor-None-None.gif"
+  },
+  {
+    "index": 21,
+    "path": "TheBionic-FutureWarPack-Synth-None-Bionic-None.png",
+    "animationPath": "TheBionic-FutureWarPack-Synth-None-Bionic-None.gif"
+  },
+  {
+    "index": 22,
+    "path": "TheBlazing-Planeswalkers-GalacticRadiation-Fire-None-None.png",
+    "animationPath": "TheBlazing-Planeswalkers-GalacticRadiation-Fire-None-None.gif"
+  },
+  {
+    "index": 23,
+    "path": "TheBonesmith-OldWorldCult-OriginOfEnvy-Skull-None-None.png",
+    "animationPath": "TheBonesmith-OldWorldCult-OriginOfEnvy-Skull-None-None.gif"
+  },
+  {
+    "index": 24,
+    "path": "TheBored-Proletariat-Twilight-Cap-None-None.png",
+    "animationPath": "TheBored-Proletariat-Twilight-Cap-None-None.gif"
+  },
+  {
+    "index": 25,
+    "path": "TheBosun-OldWorldCult-EarlyRiser-Pirate-Eyepatch-Overcoat.png",
+    "animationPath": "TheBosun-OldWorldCult-EarlyRiser-Pirate-Eyepatch-Overcoat.gif"
+  },
+  {
+    "index": 26,
+    "path": "TheBranded-Planeswalkers-JungleVines-None-None-None.png",
+    "animationPath": "TheBranded-Planeswalkers-JungleVines-None-None-None.gif"
+  },
+  {
+    "index": 27,
+    "path": "TheBubbly-Proletariat-Icefall-None-Glasses-Flanel.png",
+    "animationPath": "TheBubbly-Proletariat-Icefall-None-Glasses-Flanel.gif"
+  },
+  {
+    "index": 28,
+    "path": "TheCaptain-OldWorldCult-Darkness-Pirate-None-None.png",
+    "animationPath": "TheCaptain-OldWorldCult-Darkness-Pirate-None-None.gif"
+  },
+  {
+    "index": 29,
+    "path": "TheCelestial-Planeswalkers-EnterNight-None-None-None.png",
+    "animationPath": "TheCelestial-Planeswalkers-EnterNight-None-None-None.gif"
+  },
+  {
+    "index": 30,
+    "path": "TheCeremonial-Proletariat-DeepSeaSpace-Tribal-None-None.png",
+    "animationPath": "TheCeremonial-Proletariat-DeepSeaSpace-Tribal-None-None.gif"
+  },
+  {
+    "index": 31,
+    "path": "TheChemist-FutureWarPack-NightCity-None-Goggles-LabCoat.png",
+    "animationPath": "TheChemist-FutureWarPack-NightCity-None-Goggles-LabCoat.gif"
+  },
+  {
+    "index": 32,
+    "path": "TheChevalier-OldWorldCult-JungleVines-None-None-Knight.png",
+    "animationPath": "TheChevalier-OldWorldCult-JungleVines-None-None-Knight.gif"
+  },
+  {
+    "index": 33,
+    "path": "TheChief-FutureWarPack-EnterNight-Chief-None-None.png"
+  },
+  {
+    "index": 34,
+    "path": "TheChromatic-FutureWarPack-Rainbow-None-Visor-None.png",
+    "animationPath": "TheChromatic-FutureWarPack-Rainbow-None-Visor-None.gif"
+  },
+  {
+    "index": 35,
+    "path": "TheColorful-Proletariat-Rainbow-None-None-TieDye.png"
+  },
+  {
+    "index": 36,
+    "path": "TheComedian-Proletariat-Twilight-None-Clown-Suit.png",
+    "animationPath": "TheComedian-Proletariat-Twilight-None-Clown-Suit.gif"
+  },
+  {
+    "index": 37,
+    "path": "TheCommodore-Proletariat-NightCity-Sailor-None-Overcoat.png"
+  },
+  {
+    "index": 38,
+    "path": "TheComrade-Proletariat-Noir-Winter-None-Overcoat.png"
+  },
+  {
+    "index": 39,
+    "path": "TheConcealed-Proletariat-FallFoliage-Korok-None-Plumber.png",
+    "animationPath": "TheConcealed-Proletariat-FallFoliage-Korok-None-Plumber.gif"
+  },
+  {
+    "index": 40,
+    "path": "TheConstantCompanion-Planeswalkers-Noir-None-None-None.png",
+    "animationPath": "TheConstantCompanion-Planeswalkers-Noir-None-None-None.gif"
+  },
+  {
+    "index": 41,
+    "path": "TheCoordinator-Proletariat-GalacticRadiation-Beret-Headset-Uniform.png",
+    "animationPath": "TheCoordinator-Proletariat-GalacticRadiation-Beret-Headset-Uniform.gif"
+  },
+  {
+    "index": 42,
+    "path": "TheCountryman-Proletariat-MellowSkies-Rancher-None-Overalls.png",
+    "animationPath": "TheCountryman-Proletariat-MellowSkies-Rancher-None-Overalls.gif"
+  },
+  {
+    "index": 43,
+    "path": "TheCultist-Proletariat-Infernal-Horns-None-None.png"
+  },
+  {
+    "index": 44,
+    "path": "TheCursed-OldWorldCult-IntoDarkness-Mummy-None-Mummy.png",
+    "animationPath": "TheCursed-OldWorldCult-IntoDarkness-Mummy-None-Mummy.gif"
+  },
+  {
+    "index": 45,
+    "path": "TheCybernetic-FutureWarPack-Twilight-None-Implant-None.png"
+  },
+  {
+    "index": 46,
+    "path": "TheCyborg-FutureWarPack-Synth-None-Implant-None.png",
+    "animationPath": "TheCyborg-FutureWarPack-Synth-None-Implant-None.gif"
+  },
+  {
+    "index": 47,
+    "path": "TheDeckhand-OldWorldCult-DeepSeaSpace-Pirate-Eyepatch-None.png"
+  },
+  {
+    "index": 48,
+    "path": "TheDecorated-Proletariat-TranquilBeach-None-Tiki-None.png"
+  },
+  {
+    "index": 49,
+    "path": "TheDeepdweller-Proletariat-Acid-Spelunker-None-None.png"
+  },
+  {
+    "index": 50,
+    "path": "TheDemon-OldWorldCult-IntoShadow-Oni-None-Samurai.png"
+  },
+  {
+    "index": 51,
+    "path": "TheDigital-Planeswalkers-Twilight-None-None-None.png"
+  },
+  {
+    "index": 52,
+    "path": "TheDoctor-OldWorldCult-OriginOfPride-Doctor-Doctor-Doctor.png"
+  },
+  {
+    "index": 53,
+    "path": "TheDormant-FutureWarPack-CosmicRadiation-None-None-Projector.png",
+    "animationPath": "TheDormant-FutureWarPack-CosmicRadiation-None-None-Projector.gif"
+  },
+  {
+    "index": 54,
+    "path": "TheDreamer-Planeswalkers-Darkness-None-None-None.png",
+    "animationPath": "TheDreamer-Planeswalkers-Darkness-None-None-None.gif"
+  },
+  {
+    "index": 55,
+    "path": "TheDrowsy-Proletariat-Faded-Thought-None-None.png"
+  },
+  {
+    "index": 56,
+    "path": "TheEdgy-Proletariat-Twilight-None-None-TieDye.png"
+  },
+  {
+    "index": 57,
+    "path": "TheElated-OldWorldCult-JungleVines-Monitor-None-None.png",
+    "animationPath": "TheElated-OldWorldCult-JungleVines-Monitor-None-None.png"
+  },
+  {
+    "index": 58,
+    "path": "TheEmaciated-Planeswalkers-IntoShadow-Skull-Skull-Ribcage.png"
+  },
+  {
+    "index": 59,
+    "path": "TheEnameled-Proletariat-NightCity-None-Tiki-None.png",
+    "animationPath": "TheEnameled-Proletariat-NightCity-None-Tiki-None.gif"
+  },
+  {
+    "index": 60,
+    "path": "TheEncased-Planeswalkers-DeepSeaSpace-Slime-None-None.png",
+    "animationPath": "TheEncased-Planeswalkers-DeepSeaSpace-Slime-None-None.gif"
+  },
+  {
+    "index": 61,
+    "path": "TheEnforcer-FutureWarPack-EnterNight-Casque-Display-None.png"
+  },
+  {
+    "index": 62,
+    "path": "TheEnraged-Proletariat-Creamsicle-Thought-None-None.png"
+  },
+  {
+    "index": 63,
+    "path": "TheEnvoy-OldWorldCult-Silver-Headdress-None-Toga.png",
+    "animationPath": "TheEnvoy-OldWorldCult-Silver-Headdress-None-Toga.gif"
+  },
+  {
+    "index": 64,
+    "path": "TheEphemeral-Planeswalkers-Darkness-None-None-None.png",
+    "animationPath": "TheEphemeral-Planeswalkers-Darkness-None-None-None.gif"
+  },
+  {
+    "index": 65,
+    "path": "TheEradicator-FutureWarPack-EnterNight-None-None-None.png"
+  },
+  {
+    "index": 66,
+    "path": "TheErroneous-OldWorldCult-Creamsicle-Monitor-None-None.png"
+  },
+  {
+    "index": 67,
+    "path": "TheEvaluator-FutureWarPack-DeepSeaSpace-None-None-None.png"
+  },
+  {
+    "index": 68,
+    "path": "TheExecutioner-FutureWarPack-Twilight-Judge-None-None.png"
+  },
+  {
+    "index": 69,
+    "path": "TheExperiment-FutureWarPack-GalacticRadiation-None-None-None.png"
+  },
+  {
+    "index": 70,
+    "path": "TheExpressive-Planeswalkers-Whitewash-None-None-None.png"
+  },
+  {
+    "index": 71,
+    "path": "TheFaded-Proletariat-Faded-None-None-None.png"
+  },
+  {
+    "index": 72,
+    "path": "TheFaulty-OldWorldCult-IntoShadow-Monitor-None-None.png",
+    "animationPath": "TheFaulty-OldWorldCult-IntoShadow-Monitor-None-None.gif"
+  },
+  {
+    "index": 73,
+    "path": "TheFearless-Proletariat-Infernal-Cowboy-None-Vest.png"
+  },
+  {
+    "index": 74,
+    "path": "TheFirestarter-Planeswalkers-EarlyRiser-None-None-None.png",
+    "animationPath": "TheFirestarter-Planeswalkers-EarlyRiser-None-None-None.gif"
+  },
+  {
+    "index": 75,
+    "path": "TheFirethrower-Proletariat-Infernal-Plumber-None-Plumber.png",
+    "animationPath": "TheFirethrower-Proletariat-Infernal-Plumber-None-Plumber.gif"
+  },
+  {
+    "index": 76,
+    "path": "TheFirewatch-Proletariat-Creamsicle-None-None-None.png",
+    "animationPath": "TheFirewatch-Proletariat-Creamsicle-None-None-None.gif"
+  },
+  {
+    "index": 77,
+    "path": "TheFirstBorn-Proletariat-Twilight-None-None-None.png",
+    "animationPath": "TheFirstBorn-Proletariat-Twilight-None-None-None.gif"
+  },
+  {
+    "index": 78,
+    "path": "TheFlamescarred-Planeswalkers-Infernal-Fire-None-None.png"
+  },
+  {
+    "index": 79,
+    "path": "TheFractured-Proletariat-NightCity-Skull-None-None.png"
+  },
+  {
+    "index": 80,
+    "path": "TheFreelancer-OldWorldCult-IntoShadow-Knight-None-Knight.png"
+  },
+  {
+    "index": 81,
+    "path": "TheFriendly-Proletariat-Pondside-Frog-None-None.png",
+    "animationPath": "TheFriendly-Proletariat-Pondside-Frog-None-None.gif"
+  },
+  {
+    "index": 82,
+    "path": "TheFrozen-Planeswalkers-Icefall-None-None-None.png",
+    "animationPath": "TheFrozen-Planeswalkers-Icefall-None-None-None.gif"
+  },
+  {
+    "index": 83,
+    "path": "TheFuturist-FutureWarPack-Twilight-None-Goggles-None.png"
+  },
+  {
+    "index": 84,
+    "path": "TheGangster-Proletariat-ElectricDawn-None-None-LeatherJacket.png",
+    "animationPath": "TheGangster-Proletariat-ElectricDawn-None-None-LeatherJacket.gif"
+  },
+  {
+    "index": 85,
+    "path": "TheGhastly-OldWorldCult-GalacticRadiation-Pirate-Eyepatch-Overcoat.png"
+  },
+  {
+    "index": 86,
+    "path": "TheGhostHunter-Proletariat-Wobniar-Plumber-None-Plumber.png"
+  },
+  {
+    "index": 87,
+    "path": "TheGilded-OldWorldCult-Gold-None-None-None.png"
+  },
+  {
+    "index": 88,
+    "path": "TheGolem-Planeswalkers-Brimstone-None-None-None.png",
+    "animationPath": "TheGolem-Planeswalkers-Brimstone-None-None-None.gif"
+  },
+  {
+    "index": 89,
+    "path": "TheGreeter-FutureWarPack-Rainbow-Casque-Greeting-None.png",
+    "animationPath": "TheGreeter-FutureWarPack-Rainbow-Casque-Greeting-None.gif"
+  },
+  {
+    "index": 90,
+    "path": "TheGrunt-Proletariat-GalacticRadiation-Beret-None-Uniform.png"
+  },
+  {
+    "index": 91,
+    "path": "TheHardwired-FutureWarPack-DeepSeaSpace-None-None-None.png",
+    "animationPath": "TheHardwired-FutureWarPack-DeepSeaSpace-None-None-None.gif"
+  },
+  {
+    "index": 92,
+    "path": "TheHealer-Proletariat-JungleVines-Tribal-None-None.png"
+  },
+  {
+    "index": 93,
+    "path": "TheHellion-Planeswalkers-OriginOfPride-None-None-None.png",
+    "animationPath": "TheHellion-Planeswalkers-OriginOfPride-None-None-None.gif"
+  },
+  {
+    "index": 94,
+    "path": "TheHerdsman-Proletariat-Rainbow-Rancher-None-Overalls.png",
+    "animationPath": "TheHerdsman-Proletariat-Rainbow-Rancher-None-Overalls.gif"
+  },
+  {
+    "index": 95,
+    "path": "TheHeretic-Planeswalkers-OriginOfPride-Horns-None-Armband.png"
+  },
+  {
+    "index": 96,
+    "path": "TheHeroic-OldWorldCult-Pondside-Bandana-None-Traveler.png",
+    "animationPath": "TheHeroic-OldWorldCult-Pondside-Bandana-None-Traveler.gif"
+  },
+  {
+    "index": 97,
+    "path": "TheHidden-Proletariat-Woodland-Korok-None-None.png",
+    "animationPath": "TheHidden-Proletariat-Woodland-Korok-None-None.gif"
+  },
+  {
+    "index": 98,
+    "path": "TheHighPriest-Proletariat-Gold-Marking-None-Robe.png",
+    "animationPath": "TheHighPriest-Proletariat-Gold-Marking-None-Robe.gif"
+  },
+  {
+    "index": 99,
+    "path": "TheHip-Proletariat-Wobniar-Beanie-None-Scarf.png"
+  },
+  {
+    "index": 100,
+    "path": "TheHollow-OldWorldCult-NightCity-Hollow-None-None.png",
+    "animationPath": "TheHollow-OldWorldCult-NightCity-Hollow-None-None.gif"
+  },
+  {
+    "index": 101,
+    "path": "TheHost-FutureWarPack-Synth-Infection-None-Infection.png",
+    "animationPath": "TheHost-FutureWarPack-Synth-Infection-None-Infection.gif"
+  },
+  {
+    "index": 102,
+    "path": "TheHunter-OldWorldCult-JungleVines-None-None-Pelt.png"
+  },
+  {
+    "index": 103,
+    "path": "TheHuntress-OldWorldCult-JungleVines-None-None-Knight.png"
+  },
+  {
+    "index": 104,
+    "path": "TheIllustrator-Proletariat-MellowSkies-Note-None-None.png"
+  },
+  {
+    "index": 105,
+    "path": "TheImperial-OldWorldCult-Gold-Laurel-None-Toga.png",
+    "animationPath": "TheImperial-OldWorldCult-Gold-Laurel-None-Toga.gif"
+  },
+  {
+    "index": 106,
+    "path": "TheIndecisive-OldWorldCult-Ancient-Monitor-None-None.png",
+    "animationPath": "TheIndecisive-OldWorldCult-Ancient-Monitor-None-None.gif"
+  },
+  {
+    "index": 107,
+    "path": "TheInquisitive-FutureWarPack-ElectricDawn-None-Scanner-None.png",
+    "animationPath": "TheInquisitive-FutureWarPack-ElectricDawn-None-Scanner-None.gif"
+  },
+  {
+    "index": 108,
+    "path": "TheInsomniac-Proletariat-RedOctober-None-None-None.png"
+  },
+  {
+    "index": 109,
+    "path": "TheInstrument-FutureWarPack-Noir-None-None-None.png"
+  },
+  {
+    "index": 110,
+    "path": "TheInverted-Planeswalkers-Escher-None-None-None.png",
+    "animationPath": "TheInverted-Planeswalkers-Escher-None-None-None.gif"
+  },
+  {
+    "index": 111,
+    "path": "TheIrate-FutureWarCult-Creamsicle-None-Goggles-None.png"
+  },
+  {
+    "index": 112,
+    "path": "TheIrradiated-Proletariat-Acid-None-None-None.png",
+    "animationPath": "TheIrradiated-Proletariat-Acid-None-None-None.gif"
+  },
+  {
+    "index": 113,
+    "path": "TheJockey-FutureWarPack-Overdrive-Biker-None-None.png"
+  },
+  {
+    "index": 114,
+    "path": "TheJovian-Planeswalkers-EnterNight-None-None-None.png",
+    "animationPath": "TheJovian-Planeswalkers-EnterNight-None-None-None.gif"
+  },
+  {
+    "index": 115,
+    "path": "TheJoyful-FutureWarPack-Synth-None-Goggles-None.png",
+    "animationPath": "TheJoyful-FutureWarPack-Synth-None-Goggles-None.gif"
+  },
+  {
+    "index": 116,
+    "path": "TheJudge-FutureWarPack-Synth-Judge-None-None.png",
+    "animationPath": "TheJudge-FutureWarPack-Synth-Judge-None-None.gif"
+  },
+  {
+    "index": 117,
+    "path": "TheJuror-FutureWarPack-NightCity-Judge-None-None.png",
+    "animationPath": "TheJuror-FutureWarPack-NightCity-Judge-None-None.gif"
+  },
+  {
+    "index": 118,
+    "path": "TheKnightCommander-OldWorldCult-Gold-None-None-Knight.png",
+    "animationPath": "TheKnightCommander-OldWorldCult-Gold-None-None-Knight.gif"
+  },
+  {
+    "index": 119,
+    "path": "TheKnightCompanion-OldWorldCult-Silver-None-None-Knight.png"
+  },
+  {
+    "index": 120,
+    "path": "TheLeftHand-Proletariat-Silver-None-Blindfold-Robe.png"
+  },
+  {
+    "index": 121,
+    "path": "TheLeisurely-Proletariat-TranquilBeach-Snorkel-None-None.png",
+    "animationPath": "TheLeisurely-Proletariat-TranquilBeach-Snorkel-None-None.gif"
+  },
+  {
+    "index": 122,
+    "path": "TheLightInShadow-Planeswalkers-Darkness-Fire-None-None.png"
+  },
+  {
+    "index": 123,
+    "path": "TheLover-Proletariat-BygoneEra-Thought-None-None.png"
+  },
+  {
+    "index": 124,
+    "path": "TheMainCharacter-Planeswalkers-CRT-None-None-None.png"
+  },
+  {
+    "index": 125,
+    "path": "TheMartialArtist-OldWorldCult-EarlyRiser-Headband-None-Robe.png",
+    "animationPath": "TheMartialArtist-OldWorldCult-EarlyRiser-Headband-None-Robe.gif"
+  },
+  {
+    "index": 126,
+    "path": "TheMasked-Proletariat-Faded-None-EyeMask-None.png",
+    "animationPath": "TheMasked-Proletariat-Faded-None-EyeMask-None.gif"
+  },
+  {
+    "index": 127,
+    "path": "TheMeathead-Planeswalkers-Infernal-MeatBoy-None-None.png"
+  },
+  {
+    "index": 128,
+    "path": "TheMechanized-FutureWarPack-Twilight-None-Goggles-None.png"
+  },
+  {
+    "index": 129,
+    "path": "TheMercenary-OldWorldCult-Acid-None-None-Knight.png",
+    "animationPath": "TheMercenary-OldWorldCult-Acid-None-None-Knight.gif"
+  },
+  {
+    "index": 130,
+    "path": "TheMessenger-FutureWarPack-Rainbow-Biker-None-None.png",
+    "animationPath": "TheMessenger-FutureWarPack-Rainbow-Biker-None-None.gif"
+  },
+  {
+    "index": 131,
+    "path": "TheMilitant-OldWorldCult-EarlyRiser-None-None-Samurai.png"
+  },
+  {
+    "index": 132,
+    "path": "TheMischievous-Planeswalkers-DeepSeaSpace-None-Squad-None.png",
+    "animationPath": "TheMischievous-Planeswalkers-DeepSeaSpace-None-Squad-None.gif"
+  },
+  {
+    "index": 133,
+    "path": "TheMutant-Proletariat-GalacticRadiation-None-EyeMask-Turtle.png"
+  },
+  {
+    "index": 134,
+    "path": "TheNeuromancer-FutureWarPack-Synth-Neuromancer-Visor-None.png",
+    "animationPath": "TheNeuromancer-FutureWarPack-Synth-Neuromancer-Visor-None.gif"
+  },
+  {
+    "index": 135,
+    "path": "TheNightstalker-OldWorldCult-IntoShadow-Ninja-Ninja-Ninja.png"
+  },
+  {
+    "index": 136,
+    "path": "TheNomad-Proletariat-Tranquility-Bender-None-Robe.png",
+    "animationPath": "TheNomad-Proletariat-Tranquility-Bender-None-Robe.gif"
+  },
+  {
+    "index": 137,
+    "path": "TheOathkeeper-OldWorldCult-MellowSkies-None-None-None.png"
+  },
+  {
+    "index": 138,
+    "path": "TheOfficer-Proletariat-DeepPurple-Police-None-Police.png"
+  },
+  {
+    "index": 139,
+    "path": "TheOffworlder-FutureWarPack-RedPlanet-Space-None-Space.png",
+    "animationPath": "TheOffworlder-FutureWarPack-RedPlanet-Space-None-Space.gif"
+  },
+  {
+    "index": 140,
+    "path": "TheOmniscient-FutureWarCult-IntergalacticVoid-None-None-Projector.png",
+    "animationPath": "TheOmniscient-FutureWarCult-IntergalacticVoid-None-None-Projector.gif"
+  },
+  {
+    "index": 141,
+    "path": "TheOneWhoLurksInShadow-Planeswalkers-Darkness-None-None-None.png"
+  },
+  {
+    "index": 142,
+    "path": "TheOneWhoRocksHard-Proletariat-Twilight-Cap-None-Chains.png"
+  },
+  {
+    "index": 143,
+    "path": "TheOperative-Proletariat-GalacticRadiation-SpecialForces-Goggles-SpecialForces.png"
+  },
+  {
+    "index": 144,
+    "path": "TheOrdained-Proletariat-Tranquility-None-None-Robes.png"
+  },
+  {
+    "index": 145,
+    "path": "TheOriginal-Planeswalkers-OldSchool-None-None-None.png",
+    "animationPath": "TheOriginal-Planeswalkers-OldSchool-None-None-None.gif"
+  },
+  {
+    "index": 146,
+    "path": "TheOrnamented-Proletariat-JungleVines-None-Tiki-None.png"
+  },
+  {
+    "index": 147,
+    "path": "TheOtherwordly-Planeswalkers-EnterNight-None-None-None.png"
+  },
+  {
+    "index": 148,
+    "path": "TheOutrunner-FutureWarPack-Overdrive-Biker-None-LeatherJacket.png",
+    "animationPath": "TheOutrunner-FutureWarPack-Overdrive-Biker-None-LeatherJacket.gif"
+  },
+  {
+    "index": 149,
+    "path": "TheOverflowing-OldWorldCult-DeepSeaSpace-Monitor-None-None.png"
+  },
+  {
+    "index": 150,
+    "path": "ThePackLeader-Proletariat-Twilight-Punk-None-LeatherJacket.png",
+    "lore": true
+  },
+  {
+    "index": 151,
+    "path": "ThePainted-Proletariat-Wobniar-Skull-None-None.png",
+    "animationPath": "ThePainted-Proletariat-Wobniar-Skull-None-None.gif"
+  },
+  {
+    "index": 152,
+    "path": "ThePainter-Proletariat-Rainbow-Afro-None-None.png",
+    "animationPath": "ThePainter-Proletariat-Rainbow-Afro-None-None.gif"
+  },
+  {
+    "index": 153,
+    "path": "ThePaladin-OldWorldCult-TranquilBeach-Knight-None-Knight.png"
+  },
+  {
+    "index": 154,
+    "path": "ThePatient-Planeswalkers-JungleVines-None-None-None.png"
+  },
+  {
+    "index": 155,
+    "path": "ThePatrolman-FutureWarPack-EnterNight-Cop-None-None.png",
+    "animationPath": "ThePatrolman-FutureWarPack-EnterNight-Cop-None-None.gif"
+  },
+  {
+    "index": 156,
+    "path": "ThePensive-Proletariat-Ancient-Thought-None-None.png",
+    "animationPath": "ThePensive-Proletariat-Ancient-Thought-None-None.gif"
+  },
+  {
+    "index": 157,
+    "path": "ThePerplexed-Proletariat-ClearSkies-Thought-None-None.png",
+    "animationPath": "ThePerplexed-Proletariat-ClearSkies-Thought-None-None.gif"
+  },
+  {
+    "index": 158,
+    "path": "ThePioneer-FutureWarPack-EnterNight-Space-None-Space.png"
+  },
+  {
+    "index": 159,
+    "path": "ThePlumber-Proletariat-Rainbow-Plumber-None-Plumber.png"
+  },
+  {
+    "index": 160,
+    "path": "ThePocketMonkey-Planeswalkers-Noir-None-None-None.png"
+  },
+  {
+    "index": 161,
+    "path": "ThePowderMonkey-OldWorldCult-GalacticRadiation-Pirate-None-TankTop.png"
+  },
+  {
+    "index": 162,
+    "path": "ThePreeminent-FutureWarPack-OriginOfRage-None-None-Projector.png",
+    "animationPath": "ThePreeminent-FutureWarPack-OriginOfRage-None-None-Projector.gif"
+  },
+  {
+    "index": 163,
+    "path": "TheProfessional-Planeswalkers-OriginOfRage-None-None-Suit.png"
+  },
+  {
+    "index": 164,
+    "path": "TheProgrammed-FutureWarPack-EnterNight-None-None-None.png",
+    "animationPath": "TheProgrammed-FutureWarPack-EnterNight-None-None-None.gif"
+  },
+  {
+    "index": 165,
+    "path": "ThePtolemaic-OldWorldCult-Gold-Pharoah-None-Loincloth.png"
+  },
+  {
+    "index": 166,
+    "path": "ThePunk-Proletariat-NightCity-Punk-None-Chain.png"
+  },
+  {
+    "index": 167,
+    "path": "TheRancher-Planeswalkers-DeepSeaSpace-Slime-None-None.png"
+  },
+  {
+    "index": 168,
+    "path": "TheRapscallion-Proletariat-BygoneEra-None-Glasses-LeatherJacket.png"
+  },
+  {
+    "index": 169,
+    "path": "TheRebel-FutureWarPack-Overdrive-Pilot-Visor-None.png",
+    "animationPath": "TheRebel-FutureWarPack-Overdrive-Pilot-Visor-None.gif"
+  },
+  {
+    "index": 170,
+    "path": "TheRegal-Proletariat-Gold-Circlet-None-None.png",
+    "animationPath": "TheRegal-Proletariat-Gold-Circlet-None-None.gif"
+  },
+  {
+    "index": 171,
+    "path": "TheReincarnated-Proletariat-Wobniar-None-Tiki-None.png",
+    "animationPath": "TheReincarnated-Proletariat-Wobniar-None-Tiki-None.gif"
+  },
+  {
+    "index": 172,
+    "path": "TheRemnant-Proletariat-NightCity-None-GasMask-Survivor.png"
+  },
+  {
+    "index": 173,
+    "path": "TheReverent-Proletariat-Synth-Tribal-None-None.png"
+  },
+  {
+    "index": 174,
+    "path": "TheReversed-Planeswalkers-Escher-None-None-None.png"
+  },
+  {
+    "index": 175,
+    "path": "TheRightHand-Proletariat-Silver-None-None-Robe.png"
+  },
+  {
+    "index": 176,
+    "path": "TheRigid-Proletariat-MellowSkies-None-Plank-None.png",
+    "animationPath": "TheRigid-Proletariat-MellowSkies-None-Plank-None.gif"
+  },
+  {
+    "index": 177,
+    "path": "TheRitualist-Proletariat-NightCity-Tribal-None-None.png"
+  },
+  {
+    "index": 178,
+    "path": "TheRocker-Proletariat-GalacticRadiation-Headset-None-TShirt.png",
+    "animationPath": "TheRocker-Proletariat-GalacticRadiation-Headset-None-TShirt.gif"
+  },
+  {
+    "index": 179,
+    "path": "TheRoyal-OldWorldCult-Gold-Crown-None-None.png"
+  },
+  {
+    "index": 180,
+    "path": "TheScientist-FutureWarPack-Twilight-None-Goggles-LabCoat.png",
+    "animationPath": "TheScientist-FutureWarPack-Twilight-None-Goggles-LabCoat.gif"
+  },
+  {
+    "index": 181,
+    "path": "TheScorched-Planeswalkers-DeepSeaSpace-None-None-None.png",
+    "animationPath": "TheScorched-Planeswalkers-DeepSeaSpace-None-None-None.gif"
+  },
+  {
+    "index": 182,
+    "path": "TheScoundrel-Proletariat-Noir-Punk-None-LeatherJacket.png"
+  },
+  {
+    "index": 183,
+    "path": "TheShieldBearer-OldWorldCult-DeepSeaSpace-None-None-Knight.png",
+    "animationPath": "TheShieldBearer-OldWorldCult-DeepSeaSpace-None-None-Knight.gif"
+  },
+  {
+    "index": 184,
+    "path": "TheShogun-OldWorldCult-EarlyRiser-Samurai-None-Samurai.png",
+    "animationPath": "TheShogun-OldWorldCult-EarlyRiser-Samurai-None-Samurai.gif"
+  },
+  {
+    "index": 185,
+    "path": "TheSinged-Planeswalkers-EarlyRiser-Scorched-Scorched-Scorched.png"
+  },
+  {
+    "index": 186,
+    "path": "TheSocial-Proletariat-Rainbow-None-None-Frog.png"
+  },
+  {
+    "index": 187,
+    "path": "TheSpectral-Planeswalkers-GalacticRadiation-None-None-None.png"
+  },
+  {
+    "index": 188,
+    "path": "TheSpelunker-Proletariat-Gold-Spelunker-None-None.png"
+  },
+  {
+    "index": 189,
+    "path": "TheSpiritKeeper-Proletariat-Gold-None-None-KeepSpirit.png",
+    "animationPath": "TheSpiritKeeper-Proletariat-Gold-None-None-KeepSpirit.gif"
+  },
+  {
+    "index": 190,
+    "path": "TheSquire-OldWorldCult-EarlyRiser-None-None-Knight.png"
+  },
+  {
+    "index": 191,
+    "path": "TheStarbound-Planeswalkers-GalacticRadiation-None-None-None.png"
+  },
+  {
+    "index": 192,
+    "path": "TheStatic-OldWorldCult-Noir-Monitor-None-None.png",
+    "animationPath": "TheStatic-OldWorldCult-Noir-Monitor-None-None.gif"
+  },
+  {
+    "index": 193,
+    "path": "TheStreetFighter-OldWorldCult-DeepPurple-Headband-None-Robe.png"
+  },
+  {
+    "index": 194,
+    "path": "TheStubborn-Planeswalkers-ElectricBlue-None-None-None.png"
+  },
+  {
+    "index": 195,
+    "path": "TheStudious-Proletariat-Rainbow-Cap-None-Student.png"
+  },
+  {
+    "index": 196,
+    "path": "TheSultan-OldWorldCult-EarlyRiser-Turban-None-None.png"
+  },
+  {
+    "index": 197,
+    "path": "TheSummoner-OldWorldCult-OriginOfWrath-Skull-None-Chains.png",
+    "animationPath": "TheSummoner-OldWorldCult-OriginOfWrath-Skull-None-Chains.gif"
+  },
+  {
+    "index": 198,
+    "path": "TheSurvivor-Proletariat-GalacticRadiation-None-GasMask-Survivor.png"
+  },
+  {
+    "index": 199,
+    "path": "TheTattered-Proletariat-Retrofuturist-None-None-None.png"
+  },
+  {
+    "index": 200,
+    "path": "TheTechnician-FutureWarPack-Synth-None-Goggles-None.png",
+    "animationPath": "TheTechnician-FutureWarPack-Synth-None-Goggles-None.gif"
+  },
+  {
+    "index": 201,
+    "path": "TheTechnophile-FutureWarPack-Ancient-None-Goggles-None.png",
+    "animationPath": "TheTechnophile-FutureWarPack-Ancient-None-Goggles-None.gif"
+  },
+  {
+    "index": 202,
+    "path": "TheTestSubject-OldWorldCult-DeepSeaSpace-Monitor-None-None.png"
+  },
+  {
+    "index": 203,
+    "path": "TheThug-Proletariat-Rainbow-None-Thug-None.png"
+  },
+  {
+    "index": 204,
+    "path": "TheTimeworn-OldWorldCult-Pondside-None-None-None.png",
+    "animationPath": "TheTimeworn-OldWorldCult-Pondside-None-None-None.gif"
+  },
+  {
+    "index": 205,
+    "path": "TheTotemic-Proletariat-TranquilBeach-None-Tribal-None.png"
+  },
+  {
+    "index": 206,
+    "path": "TheTraditional-Proletariat-Wobniar-Tribal-None-None.png"
+  },
+  {
+    "index": 207,
+    "path": "TheTrained-Planeswalkers-Noir-None-None-None.png",
+    "animationPath": "TheTrained-Planeswalkers-Noir-None-None-None.gif"
+  },
+  {
+    "index": 208,
+    "path": "TheTrickster-OldWorldCult-Twilight-Ninja-Ninja-Ninja.png"
+  },
+  {
+    "index": 209,
+    "path": "TheUneasy-Proletariat-Twilight-None-None-Jacket.png",
+    "animationPath": "TheUneasy-Proletariat-Twilight-None-None-Jacket.gif"
+  },
+  {
+    "index": 210,
+    "path": "TheUnknowable-OldWorldCult-DeepSeaSpace-None-Tribal-Tribal.png"
+  },
+  {
+    "index": 211,
+    "path": "TheVassal-OldWorldCult-Noir-Knight-None-Knight.png"
+  },
+  {
+    "index": 212,
+    "path": "TheWarlike-OldWorldCult-Ancient-None-None-Samurai.png",
+    "animationPath": "TheWarlike-OldWorldCult-Ancient-None-None-Samurai.gif"
+  },
+  {
+    "index": 213,
+    "path": "TheWartorn-OldWorldCult-Twilight-None-None-Samurai.png"
+  },
+  {
+    "index": 214,
+    "path": "TheWastelander-Proletariat-DesertHeat-Punk-Goggles-Bandana.png"
+  },
+  {
+    "index": 215,
+    "path": "TheWatchman-Proletariat-BygoneEra-Winter-None-Overcoat.png"
+  },
+  {
+    "index": 216,
+    "path": "TheWitchDoctor-OldWorldCult-OriginOfPride-Skull-None-Chains.png",
+    "animationPath": "TheWitchDoctor-OldWorldCult-OriginOfPride-Skull-None-Chains.gif"
+  },
+  {
+    "index": 217,
+    "path": "TheWithered-Proletariat-Twilight-Skull-None-None.png"
+  },
+  {
+    "index": 218,
+    "path": "TheWondrous-Planeswalkers-Wonderland-None-None-None.png",
+    "animationPath": "TheWondrous-Planeswalkers-Wonderland-None-None-None.gif"
+  },
+  {
+    "index": 219,
+    "path": "TheYeoman-Proletariat-Noir-Farmer-None-Overalls.png",
+    "animationPath": "TheYeoman-Proletariat-Noir-Farmer-None-Overalls.gif"
+  },
+  {
+    "index": 220,
+    "path": "TheYouthful-Proletariat-MellowSkies-Cap-None-None.png",
+    "animationPath": "TheYouthful-Proletariat-MellowSkies-Cap-None-None.gif"
+  },
+  {
+    "index": 221,
+    "path": "TheZealous-OldWorldCult-BygoneEra-None-None-Samurai.png"
+  }
+]
