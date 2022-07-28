@@ -11,6 +11,9 @@ import { initializeApp } from "firebase/app";
 import { getAnalytics } from "firebase/analytics";
 // TODO: Add SDKs for Firebase products that you want to use
 // https://firebase.google.com/docs/web/setup#available-libraries
+import TogetherWeStand from '_components/TogetherWeStand/TogetherWeStand';
+import Artist from '_components/TogetherWeStand/Artist';
+import { Drop, drops } from '_content/tws';
 
 // Your web app's Firebase configuration
 // For Firebase JS SDK v7.20.0 and later, measurementId is optional
@@ -39,6 +42,10 @@ export default function ChimpionsWeb() {
 				<Route path='/compendium' element={<Compendium />} />
 				<Route path='/our-vision' element={<OurVision />} />
 				<Route path='/the-chiao' element={<TheChiao />} />
+				<Route path='/treehouse' element={<TogetherWeStand />} />
+				{drops.map((Drop) => (
+					<Route path={`/treehouse/${Drop.artistPath}`} element={<Artist drop={Drop}/>} />
+				))}
 			</Routes>
 		</Router>
 	);

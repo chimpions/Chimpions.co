@@ -98,3 +98,9 @@ body {
 .bg-base {
 	background-color: #0f061d;
 }
+
+.tws-banner {
+	grid-row: 1;
+	grid-column: 1;
+	place-self: center;
+}
