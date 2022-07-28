@@ -50,7 +50,7 @@ const DropView = (props: DropViewProps) => {
 	return (
 		<a href={`/treehouse/${props.Drop.artistPath}`}>
 			<div className={styles.dropsContainer}>
-				<div className='mb-2 tws-banner hover:border-4 hover:border-pink-500'>
+				<div className='mb-2 tws-banner border-4 border-transparent hover:border-pink-500'>
 					<img
 						className={ props.Drop.piece.revealed ? 'rounded' : 'rounded opacity-50' }
 						src={`images/tws/${props.Drop.piece.teaserPath}`}
