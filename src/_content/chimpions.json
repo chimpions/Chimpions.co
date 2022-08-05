@@ -389,7 +389,8 @@
   },
   {
     "index": 83,
-    "path": "TheFuturist-FutureWarPack-Twilight-None-Goggles-None.png"
+    "path": "TheFuturist-FutureWarPack-Twilight-None-Goggles-None.png",
+    "animationPath": "TheFuturist-FutureWarPack-Twilight-None-Goggles-None.gif"
   },
   {
     "index": 84,
@@ -950,7 +951,8 @@
   },
   {
     "index": 208,
-    "path": "TheTrickster-OldWorldCult-Twilight-Ninja-Ninja-Ninja.png"
+    "path": "TheTrickster-OldWorldCult-Twilight-Ninja-Ninja-Ninja.png",
+    "animationPath": "TheTrickster-OldWorldCult-Twilight-Ninja-Ninja-Ninja.gif"
   },
   {
     "index": 209,
