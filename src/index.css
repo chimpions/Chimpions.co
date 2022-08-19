@@ -110,7 +110,7 @@ body {
 	justify-content: center;
 	align-items: center;
 	overflow: hidden;
-	height: 400px;
+	max-height: 400px;
 	width: 100%;
 }
 .fill img {
