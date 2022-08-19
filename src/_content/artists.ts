@@ -263,8 +263,7 @@ export const artists: Artist[] = [
   {
     "piece": "DeriKei - Carmen Cano.png",
     "bio": "I am a cat, that draws! I draw colourful, cute, cool, awesome things, of any and all kinds! I enjoy telling a story through my artwork!",
-    "twitter": "https://twitter.com/septadenata",
-    "instagram": "https://www.instagram.com/septadenata/",
+    "twitter": "https://twitter.com/nyaumon",
     "portfolio": "https://nyaumon.wixsite.com/website",
     "misc": "https://linktr.ee/nyaumon",
     "formfunction": "https://formfunction.xyz/@Nyaumon",
