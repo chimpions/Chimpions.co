@@ -2,6 +2,7 @@ import React from 'react';
 import { AiOutlineTwitter } from 'react-icons/ai';
 import { FaDiscord } from 'react-icons/fa';
 import { Lead, leads } from '_content/leads';
+import OurVision from '_components/OurVision/OurVision';
 
 const TheChiao = () => {
 	return (
@@ -13,6 +14,7 @@ const TheChiao = () => {
 					<LeadView key={lead.name} lead={lead} />
 				))}
 			</div>
+			<OurVision />
 		</section>
 	);
 };

@@ -4,7 +4,6 @@ import { BrowserRouter as Router, Routes, Route } from 'react-router-dom';
 import Navigation from '_components/Navigation/Navigation';
 import Landing from '_components/Landing/Landing';
 import Compendium from '_components/Compendium/Compendium';
-import OurVision from '_components/OurVision/OurVision';
 import TheChiao from '_components/TheChiao/TheChiao';
 // Import the functions you need from the SDKs you need
 import { initializeApp } from "firebase/app";
@@ -13,7 +12,8 @@ import { getAnalytics } from "firebase/analytics";
 // https://firebase.google.com/docs/web/setup#available-libraries
 import TogetherWeStand from '_components/TogetherWeStand/TogetherWeStand';
 import Artist from '_components/TogetherWeStand/Artist';
-import { Drop, drops } from '_content/tws';
+import Directory from '_components/Directory/Directory';
+import { drops } from '_content/tws';
 
 // Your web app's Firebase configuration
 // For Firebase JS SDK v7.20.0 and later, measurementId is optional
@@ -40,9 +40,9 @@ export default function ChimpionsWeb() {
 				<Route path='/' element={<Landing />} />
 
 				<Route path='/compendium' element={<Compendium />} />
-				<Route path='/our-vision' element={<OurVision />} />
 				<Route path='/the-chiao' element={<TheChiao />} />
 				<Route path='/treehouse' element={<TogetherWeStand />} />
+				<Route path='/artists' element={<Directory />} />
 				{drops.map((Drop) => (
 					<Route path={`/treehouse/${Drop.artistPath}`} element={<Artist drop={Drop}/>} />
 				))}
