@@ -8,9 +8,52 @@ export type Artist = {
 	portfolio?: string;
 	formfunction?: string;
 	exchangeart?: string;
+  tws?: boolean;
+  chimpion?: boolean;
 };
 
 export const artists: Artist[] = [
+  {
+    "piece": "artifact - Matasatu Matabolong.jpg",
+    "bio": "I'm an architect/illustrator from Indonesia. I created Matasatu and Matabolong as the main characters fof my artworks. Matasatu is a one-eyed animal shapeshifter, and Matabolong is a hollow-eyed plant shapeshifter. I create artworks based on them, on their journey, and on their character design.",
+    "twitter": "https://twitter.com/Matabolong",
+    "misc": "https://objkt.com/profile/matasatumatabolong/created",
+    "instagram": "https://www.instagram.com/matasatu_matabolong/",
+    "formfunction": "https://formfunction.xyz/@matasatumatabolong",
+    "name": "Matasatu / Matabolong",
+    "tws": true
+  },
+  {
+    "piece": "DeriKei - Carmen Cano.png",
+    "bio": "I am a cat, that draws! I draw colourful, cute, cool, awesome things, of any and all kinds! I enjoy telling a story through my artwork!",
+    "twitter": "https://twitter.com/nyaumon",
+    "portfolio": "https://nyaumon.wixsite.com/website",
+    "misc": "https://linktr.ee/nyaumon",
+    "formfunction": "https://formfunction.xyz/@Nyaumon",
+    "exchangeart": "https://exchange.art/artists/Nyaumon/nfts",
+    "name": "Nyaumon",
+    "tws": true
+  },
+  {
+    "piece": "231A0845 - kyle danley.jpg",
+    "bio": "Wetiko is the creative output of artist Kyle Danley. \"Wetiko\" was first written on the streets of Detroit around 2003. For the past 6 years, Wetiko has been a full time painter and mural artist, travelling all over the US creating large public and private murals. Within Solana, the most sought after NFTs are the Edith collection. 10% of mural profits are rebated to Edith holders directly. Some clients/collaborators include Jeep Chrylser, the Detroit Pistons, Oculus, Arcteryx",
+    "twitter": "https://www.twitter.com/wetikos",
+    "instagram": "https://www.instagram.com/wetiko.work",
+    "portfolio": "https://www.wetiko.work",
+    "exchangeart": "https://exchange.art/artists/wetiko/nfts",
+    "name": "Wetiko",
+    "chimpion": true
+  },
+  {
+    "piece": "cosplayx_me_500x500 - DXC777 デッドキャット.gif",
+    "bio": "Founder and artist of the @cosplayxio collection and other alternative collections.",
+    "twitter": "https://twitter.com/DXC7777",
+    "misc": "https://www.magiceden.io/marketplace/cosplayx",
+    "instagram": "https://twitter.com/cosplayxio",
+    "portfolio": "https://cosplayx.io",
+    "name": "zeroxxx",
+    "chimpion": true
+  },
   {
     "piece": "Bony LOGO_glicht - alirio silva.png",
     "bio": "I like to create pixel art, illustrations and creative coding. My art is inspired in Skulls, doodles and retro techie vibes. For me, art is a process of constant exploration where I seek to express everything I imagine and feel about my inner world.",
@@ -148,15 +191,6 @@ export const artists: Artist[] = [
     "name": "Findante"
   },
   {
-    "piece": "231A0845 - kyle danley.jpg",
-    "bio": "Wetiko is the creative output of artist Kyle Danley. \"Wetiko\" was first written on the streets of Detroit around 2003. For the past 6 years, Wetiko has been a full time painter and mural artist, travelling all over the US creating large public and private murals. Within Solana, the most sought after NFTs are the Edith collection. 10% of mural profits are rebated to Edith holders directly. Some clients/collaborators include Jeep Chrylser, the Detroit Pistons, Oculus, Arcteryx",
-    "twitter": "https://www.twitter.com/wetikos",
-    "instagram": "https://www.instagram.com/wetiko.work",
-    "portfolio": "https://www.wetiko.work",
-    "exchangeart": "https://exchange.art/artists/wetiko/nfts",
-    "name": "Wetiko"
-  },
-  {
     "piece": "pixel_profile_vibrant_large_solana - mint rain.png",
     "bio": "Pixel artist and music producer discovering worlds on the blockchain",
     "twitter": "https://twitter.com/mintrainmint",
@@ -198,15 +232,6 @@ export const artists: Artist[] = [
     "name": "M / Hellspxwn"
   },
   {
-    "piece": "cosplayx_me_500x500 - DXC777 デッドキャット.gif",
-    "bio": "Founder and artist of the @cosplayxio collection and other alternative collections.",
-    "twitter": "https://twitter.com/DXC7777",
-    "misc": "https://www.magiceden.io/marketplace/cosplayx",
-    "instagram": "https://twitter.com/cosplayxio",
-    "portfolio": "https://cosplayx.io",
-    "name": "zeroxxx"
-  },
-  {
     "piece": "6-wp2iNn_400x400 - W.jpg",
     "bio": "I am a self-taught artist with a background in textile and fashion design. I have been focusing on drawings and large-scale site-specific pieces since April 2021. Fashion and surrealism are common themes in my work, which aims to portray women as proud and stylish protagonists.",
     "twitter": "https://twitter.com/shadyladyNFT",
@@ -223,15 +248,6 @@ export const artists: Artist[] = [
     "formfunction": "https://formfunction.xyz/@imnotwordy",
     "exchangeart": "https://exchange.art/artists/imnotwordy/nfts",
     "name": "Wordy"
-  },
-  {
-    "piece": "artifact - Matasatu Matabolong.jpg",
-    "bio": "I'm an architect/illustrator from Indonesia. I created Matasatu and Matabolong as the main characters fof my artworks. Matasatu is a one-eyed animal shapeshifter, and Matabolong is a hollow-eyed plant shapeshifter. I create artworks based on them, on their journey, and on their character design.",
-    "twitter": "https://twitter.com/Matabolong",
-    "misc": "https://objkt.com/profile/matasatumatabolong/created",
-    "instagram": "https://www.instagram.com/matasatu_matabolong/",
-    "formfunction": "https://formfunction.xyz/@matasatumatabolong",
-    "name": "Matasatu / Matabolong"
   },
   {
     "piece": "56B4E5B0-82B8-445E-9528-AF44F0DF6CCE - Mama_s Boy.jpeg",
@@ -259,15 +275,5 @@ export const artists: Artist[] = [
     "formfunction": "https://formfunction.xyz/@SDNT",
     "exchangeart": "https://exchange.art/artists/SDNT/nfts",
     "name": "SDNT"
-  },
-  {
-    "piece": "DeriKei - Carmen Cano.png",
-    "bio": "I am a cat, that draws! I draw colourful, cute, cool, awesome things, of any and all kinds! I enjoy telling a story through my artwork!",
-    "twitter": "https://twitter.com/nyaumon",
-    "portfolio": "https://nyaumon.wixsite.com/website",
-    "misc": "https://linktr.ee/nyaumon",
-    "formfunction": "https://formfunction.xyz/@Nyaumon",
-    "exchangeart": "https://exchange.art/artists/Nyaumon/nfts",
-    "name": "Nyaumon"
   }
 ];
