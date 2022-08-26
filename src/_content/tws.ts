@@ -60,10 +60,10 @@ export const drops: Drop[] = [
 			"<h1 class='text-xl text-gray-100'>Holder Benefits</h1><br/><ul class='list-disc ml-8'><li>Access to The Treehouse Discord channels</li><li>Allowlist for Kitten Coup: Into the Aether</li></ul>",
 			"<h1 class='text-xl text-gray-100 pt-4 md:pt-8'>About the Artist</h1>",
 			"Nyaumon is the co-founder of Yume Labs and has provided art direction for their various collections, including Kitten Coup and Glitterflies. She has also collaborated with Famous Fox Federation and Just Ape on banners and artwork. ",
-			"<div class='border-l-2 bg-pink-500 bg-opacity-10 p-2 pl-4 rounded'>Read our full <a href='https://twitter.com/TheChimpions/status/1552347499377065990?s=20&t=FQ_D4JF10bTHVwFYWy5-Sg' target='_blank' class='text-gray-100 underline'>artist interview here</a></div>",
+			"<div class='border-l-2 bg-pink-500 bg-opacity-10 p-2 pl-4 rounded'>Read our full <a href='https://twitter.com/TheChimpions/status/1563212852474761216?s=20&t=_su4m4PfmlfOX_pLuACQpA' target='_blank' class='text-gray-100 underline'>artist interview here</a></div>",
 			"<h1 class='text-xl text-gray-100 pt-4 md:pt-8'>About Yume Labs</h1>",
 			"Yume Labs is the brainchild of Misty Bayou and NYaUmon: a multi-project umbrella organization dedicated to realizing the potential of Solana NFTs and the decentralized economy that they open up.",
-			"<div class='border-l-2 bg-pink-500 bg-opacity-10 p-2 pl-4 rounded'>Check out their <a href='https://twitter.com/TheChimpions/status/1552347499377065990?s=20&t=FQ_D4JF10bTHVwFYWy5-Sg' target='_blank' class='text-gray-100 underline'>Vision Document</a> for a broader overview of who they are and what they are building.</div>",
+			"<div class='border-l-2 bg-pink-500 bg-opacity-10 p-2 pl-4 rounded'>Check out their <a href='https://docs.google.com/document/d/1ojrTcNDDWhcAuylcuf2m6nK8J6TeRljijZcPJoFWRg4/edit?usp=sharing' target='_blank' class='text-gray-100 underline'>Vision Document</a> for a broader overview of who they are and what they are building.</div>",
 		],
 	},
 	{
