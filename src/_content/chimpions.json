@@ -280,7 +280,8 @@
   },
   {
     "index": 58,
-    "path": "TheEmaciated-Planeswalkers-IntoShadow-Skull-Skull-Ribcage.png"
+    "path": "TheEmaciated-Planeswalkers-IntoShadow-Skull-Skull-Ribcage.png",
+    "animationPath": "TheEmaciated-Planeswalkers-IntoShadow-Skull-Skull-Ribcage.gif"
   },
   {
     "index": 59,
@@ -598,7 +599,8 @@
   },
   {
     "index": 127,
-    "path": "TheMeathead-Planeswalkers-Infernal-MeatBoy-None-None.png"
+    "path": "TheMeathead-Planeswalkers-Infernal-MeatBoy-None-None.png",
+    "animationPath": "TheMeathead-Planeswalkers-Infernal-MeatBoy-None-None.gif"
   },
   {
     "index": 128,
