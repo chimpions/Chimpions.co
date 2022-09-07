@@ -250,7 +250,8 @@
   },
   {
     "index": 51,
-    "path": "TheDigital-Planeswalkers-Twilight-None-None-None.png"
+    "path": "TheDigital-Planeswalkers-Twilight-None-None-None.png",
+    "animationPath": "TheDigital-Planeswalkers-Twilight-None-None-None.gif"
   },
   {
     "index": 52,
@@ -907,7 +908,8 @@
   },
   {
     "index": 194,
-    "path": "TheStubborn-Planeswalkers-ElectricBlue-None-None-None.png"
+    "path": "TheStubborn-Planeswalkers-ElectricBlue-None-None-None.png",
+    "animationPath": "TheStubborn-Planeswalkers-ElectricBlue-None-None-None.gif"
   },
   {
     "index": 195,
