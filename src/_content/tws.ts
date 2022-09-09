@@ -35,8 +35,8 @@ export const drops: Drop[] = [
 			"<div class='border-l-2 bg-pink-500 bg-opacity-10 p-2 pl-4 rounded'>Read our <a href='' target='_blank' class='text-gray-100 underline'>project analysis here</a></div>",
 		],
 		qa: [
-			["Tell us more about the piece you created for Together We Stand. What was your vision?", "My idea for the piece was to invite the Chimpions and @komori_nft into Matabolong’s world. It depicts their first meeting in a lush green forest."],
-			["What is the story behind your main series Matasatu and Matabolong?", "I created Matasatu as a one eyed animal shapeshifter, and Matabolong as a hollow-eyed plant shapeshifter. After creating several pieces I started to add more storytelling through these characters. On Solana, I mainly create artworks that visualize Matabolong’s journey around the forest and other places he visits."],
+			["Tell us more about the piece you created for Together We Stand. What was your vision?", "My idea for the piece was to invite the Chimpions and @komori_nft into Matabolong's world. It depicts their first meeting in a lush green forest."],
+			["What is the story behind your main series Matasatu and Matabolong?", "I created Matasatu as a one eyed animal shapeshifter, and Matabolong as a hollow-eyed plant shapeshifter. After creating several pieces I started to add more storytelling through these characters. On Solana, I mainly create artworks that visualize Matabolong's journey around the forest and other places he visits."],
 			["Who/what inspires you to create?", "I am mainly inspired by nature and enjoy creating characters based on animals and plants. I've also always enjoyed reading Japanese and Western comic books since I was young which has influenced my art style."],
 			["What is your origin story as an artist? How did you get started? How did you end up on Solana?", "I started making drawings more seriously around 5 years ago. It was a way for me to stay productive while having fun in my spare time. In 2019, I started creating the characters Matasatu and Matabolong, and in 2021 I started selling the illustrations as NFTs. I got into Solana from doing a collaboration with @eternalsnft. After the collaboration I started doing more auctions on Solana. On Solana I focus more on the environment and background of the illustrations while on Tezos I focus mainly on the character designs."],
 			["What is next for you?", "I have a collaboration upcoming and I'm going to release another 1/1 auction very soon. The artwork is almost finished…"]
@@ -59,7 +59,7 @@ export const drops: Drop[] = [
 		copy: [
 			"<h1 class='text-xl text-gray-100'>Holder Benefits</h1><br/><ul class='list-disc ml-8'><li>Access to The Treehouse Discord channels</li><li>Allowlist for Kitten Coup: Into the Aether</li></ul>",
 			"<h1 class='text-xl text-gray-100 pt-4 md:pt-8'>About the Artist</h1>",
-			"Nyaumon is the co-founder of Yume Labs and has provided art direction for their various collections, including Kitten Coup and Glitterflies. She has also collaborated with Famous Fox Federation and Just Ape on banners and artwork. ",
+			"Nyaumon is the co-founder of Yume Labs and has provided art direction for their various collections, including Kitten Coup and Glitterflies. She has also collaborated with Famous Fox Federation and Just Ape on banners and artwork.",
 			"<div class='border-l-2 bg-pink-500 bg-opacity-10 p-2 pl-4 rounded'>Read our full <a href='https://twitter.com/TheChimpions/status/1563212852474761216?s=20&t=_su4m4PfmlfOX_pLuACQpA' target='_blank' class='text-gray-100 underline'>artist interview here</a></div>",
 			"<h1 class='text-xl text-gray-100 pt-4 md:pt-8'>About Yume Labs</h1>",
 			"Yume Labs is the brainchild of Misty Bayou and NYaUmon: a multi-project umbrella organization dedicated to realizing the potential of Solana NFTs and the decentralized economy that they open up.",
@@ -67,14 +67,34 @@ export const drops: Drop[] = [
 		],
 	},
 	{
-		artist: 'unrevealed',
-		date: 'TBD',
+		artist: 'rgb',
+		date: '22/09/09',
+		discord: 'rgb0x00#5068',
+		twitter: '@rgb0x00',
+		portfolio: 'https://critterscult.com/',
+		artistPath: 'rgb',
 		piece: {
-			path: "",
-			teaserPath: "tws_banner_teaser.png",
-			title: "Edition 3",
-			revealed: false,
+			path: "rgb/ChimpionXCritters.png",
+			teaserPath: "rgb/ChimpionXCritters_teaser.png",
+			title: "The Fall of the Eradicator",
+			revealed: true,
+			released: true,
 		},
+		copy: [
+			"<h1 class='text-xl text-gray-100'>Holder Benefits</h1><br/><ul class='list-disc ml-8'><li>Access to The Treehouse Discord channels</li><li>Whitelist for Critters Cult</li></ul>",
+			"<h1 class='text-xl text-gray-100 pt-4 md:pt-8'>About the Artist</h1>",
+			"RGB is the creator of Suns Studio which created @solsunsets and the upcoming @CrittersCult collection. RGB is also a Day 1 Chimpion selected for creating some epic fan art and developed the current Chimpion Twitter banner.",
+			"<div class='border-l-2 bg-pink-500 bg-opacity-10 p-2 pl-4 rounded'>Read our full <a href='https://twitter.com/TheChimpions/status/1567960875012878337?s=20&t=Mimimr4gTRTqcyctKItv6w' target='_blank' class='text-gray-100 underline'>artist interview here</a></div>",
+			"<h1 class='text-xl text-gray-100 pt-4 md:pt-8'>About Critters cult</h1>",
+			"Critters Cult is an indie experiment developed by Suns Studio under the same standards that drive all @rgb0x00 pixel art creations -- excelling at the craft of pixel art and bringing together people who share the same passion for visual narratives and nostalgic pixel art aesthetics. ",
+			"<div class='border-l-2 bg-pink-500 bg-opacity-10 p-2 pl-4 rounded'>Check out the <a href='https://critterscult.com/' target='_blank' class='text-gray-100 underline'>Evocative Sci-Fi Mystery here</a>, and make sure to unmute!</div>",
+		],
+		qa: [
+			["The piece you created for Together We Stand takes a darker turn than what we've seen previously. What inspired the edition you created?", "The piece is inspired by The Eradicator and what I imagined about the world where the Future War Pack Chimpion tribe is from."],
+			["Who/what inspires you to create?", "The nostalgic video game memories of the 90s are my main source of inspiration. I believe that the lack of definition of those landscapes and the distance from a photographic register would leave room for the childhood imagination to travel across this world and beyond, blurring the lines between fantasy and reality. I'm also inspired by the Solana community: I have received so much love, support, and engagement with people who help imagine stories behind the landscapes which informs my practice in turn."],
+			["What is your origin story as an artist? How did you get started? How did you end up on Solana?", "I have a background in architecture and have been working with visualization for quite some time now, which inspired me a lot and always pushed me to imagine places and spaces. Together with my professional practice, I have always kept a multidisciplinary artistic work in parallel, working with different mediums such watercolor, engraving and drawing, which also gave me the basis for my practice. It wasn't until last year that I started merging the digital tools I used professionally with my artistic practice and work with pixel art. I was moved by the challenge of making generative landscapes which culminated in @solsunsets. I shifted to 1/1 art with the Sci-Fi collection and forthcoming Fantasy collection, but I'm also digging back into generative art on two more @solsunsets collections: @CrittersCult and 'Sunset: Saga'."],
+			["We are incredibly excited about @critterscultnft. What should people know about this project?", "They should know that, once they enter, there is no way out."]
+		],
 	},
 	{
 		artist: 'unrevealed',

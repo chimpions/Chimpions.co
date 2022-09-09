@@ -14,6 +14,15 @@ export type Artist = {
 
 export const artists: Artist[] = [
   {
+    "piece": "ChimpionXCritters.png",
+    "bio": "Founder/artist of Suns, the pixel art studio behind @solsunsets and @critterscult.",
+    "twitter": "https://twitter.com/rgb0x00",
+    "misc": "https://critterscult.com/",
+    "exchangeart": "https://exchange.art/artists/suns/series",
+    "name": "rgb",
+    "tws": true
+  },
+  {
     "piece": "artifact - Matasatu Matabolong.jpg",
     "bio": "I'm an architect/illustrator from Indonesia. I created Matasatu and Matabolong as the main characters fof my artworks. Matasatu is a one-eyed animal shapeshifter, and Matabolong is a hollow-eyed plant shapeshifter. I create artworks based on them, on their journey, and on their character design.",
     "twitter": "https://twitter.com/Matabolong",
