@@ -315,7 +315,8 @@
   },
   {
     "index": 65,
-    "path": "TheEradicator-FutureWarPack-EnterNight-None-None-None.png"
+    "path": "TheEradicator-FutureWarPack-EnterNight-None-None-None.png",
+    "animationPath": "TheEradicator-FutureWarPack-EnterNight-None-None-None.gif"
   },
   {
     "index": 66,
@@ -528,7 +529,8 @@
   },
   {
     "index": 111,
-    "path": "TheIrate-FutureWarCult-Creamsicle-None-Goggles-None.png"
+    "path": "TheIrate-FutureWarCult-Creamsicle-None-Goggles-None.png",
+    "animationPath": "TheIrate-FutureWarCult-Creamsicle-None-Goggles-None.gif"
   },
   {
     "index": 112,
@@ -755,7 +757,8 @@
   },
   {
     "index": 160,
-    "path": "ThePocketMonkey-Planeswalkers-Noir-None-None-None.png"
+    "path": "ThePocketMonkey-Planeswalkers-Noir-None-None-None.png",
+    "animationPath": "ThePocketMonkey-Planeswalkers-Noir-None-None-None.gif"
   },
   {
     "index": 161,
@@ -816,7 +819,8 @@
   },
   {
     "index": 174,
-    "path": "TheReversed-Planeswalkers-Escher-None-None-None.png"
+    "path": "TheReversed-Planeswalkers-Escher-None-None-None.png",
+    "animationPath": "TheReversed-Planeswalkers-Escher-None-None-None.gif"
   },
   {
     "index": 175,
