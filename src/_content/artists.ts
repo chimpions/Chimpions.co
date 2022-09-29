@@ -71,7 +71,7 @@ export const artists: Artist[] = [
     "name": "4c3m1t4"
   },
   {
-    "piece": "51D31624-F391-4FAA-A489-17B7F17A40BD - Faiq Safwan.jpeg",
+    "piece": "lahseminit.gif",
     "bio": "A fraction of collective opinions, and a struggling web3 artist",
     "twitter": "https://instagram.com/lahseminit",
     "formfunction": "https://formfunction.xyz/@lahseminit",
@@ -284,5 +284,26 @@ export const artists: Artist[] = [
     "formfunction": "https://formfunction.xyz/@SDNT",
     "exchangeart": "https://exchange.art/artists/SDNT/nfts",
     "name": "SDNT"
-  }
+  },
+  {
+    "piece": "57-A64-F31-E49-F-4589-809-B-4-D3-A67-D0-BCF5-odd-skull.gif",
+    "bio": "An odd artist in an odd world.",
+    "twitter": "https://twitter.com/OddSkull_",
+    "misc": "https://magiceden.io/creators/odd_skull",
+    "name": "OddSkull"
+  },
+  {
+    "piece": "deergirlcommission-pfp-Arc-Jamie.png",
+    "bio": "Game Designer and Pixel Artist",
+    "twitter": "https://twitter.com/AstraArc",
+    "portfolio": "https://linktr.ee/worldofastria",
+    "name": "AstraArc"
+  },
+  {
+    "piece": "4nl-G-vy0766-Bm4-TWy4-Zo-VSiko-YIM4-Sf-Gw-Mr9-EWA-Neuromind.png",
+    "bio": "I'm Neuromind and I've been making digital paintings since 2010 utilizing programs such as Photoshop, Fractal, AI tools and various 3d programs. I'm also an aspiring game developer and hope to start making my own small game as well. I was drawn to Solana because of the Art and I've stayed because of the people.",
+    "twitter": "https://twitter.com/NeuromindArt",
+    "misc": "https://twitter.com/sol9lives",
+    "name": "Neuromind"
+  },
 ];
