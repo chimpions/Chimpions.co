@@ -35,7 +35,7 @@ const Artist = (props: ArtistProps) => {
 					{props.drop.twitter && (
 						<div className='flex justify-center items-center text-gray-500 gap-x-2'>
 							<AiOutlineTwitter size={14} />
-							<a href={`twitter.com/${props.drop.twitter}`}>{props.drop.twitter}</a>
+							<a href={`https://twitter.com/${props.drop.twitter}`}>{props.drop.twitter}</a>
 						</div>
 					)}
 					{props.drop.discord && (
