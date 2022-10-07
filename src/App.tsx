@@ -13,7 +13,8 @@ import { getAnalytics } from "firebase/analytics";
 // https://firebase.google.com/docs/web/setup#available-libraries
 import TogetherWeStand from "_components/TogetherWeStand/TogetherWeStand";
 import Artist from "_components/TogetherWeStand/Artist";
-import { Drop, drops } from "_content/tws";
+import Directory from "_components/Directory/Directory";
+import { drops } from "_content/tws";
 
 // Your web app's Firebase configuration
 // For Firebase JS SDK v7.20.0 and later, measurementId is optional

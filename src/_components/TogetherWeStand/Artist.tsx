@@ -35,7 +35,7 @@ const Artist = (props: ArtistProps) => {
 					{props.drop.twitter && (
 						<div className='flex justify-center items-center text-gray-500 gap-x-2'>
 							<AiOutlineTwitter size={14} />
-							{props.drop.twitter}
+							<a href={`https://twitter.com/${props.drop.twitter}`}>{props.drop.twitter}</a>
 						</div>
 					)}
 					{props.drop.discord && (
@@ -51,15 +51,17 @@ const Artist = (props: ArtistProps) => {
 				))}
 				</div>
 			</div>
-			<h2 className={styles.subsectionHeading}>Q &amp; A</h2>
-			<div>
-				{props.drop.qa && props.drop.qa.map((qa: [string, string]) => (
+			{props.drop.qa && (
+				<h2 className={styles.subsectionHeading}>Q &amp; A</h2>
+			)}
+			{props.drop.qa && props.drop.qa.map((qa: [string, string]) => (
+				<div>
 					<div className="rounded bg-pink-500 bg-opacity-10 p-4 my-4">
 						<p className={styles.subsectionQuestion}>{qa[0]}</p>
 						<p className={`${styles.subsectionAnswer} mb-0`}>"{qa[1]}"</p>
 					</div>
-				))}
 				</div>
+			))}
 		</section>
 	);
 };

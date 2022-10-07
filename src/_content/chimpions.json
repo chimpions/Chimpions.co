@@ -190,7 +190,8 @@
   },
   {
     "index": 38,
-    "path": "TheComrade-Proletariat-Noir-Winter-None-Overcoat.png"
+    "path": "TheComrade-Proletariat-Noir-Winter-None-Overcoat.png",
+    "animationPath": "TheComrade-Proletariat-Noir-Winter-None-Overcoat.gif"
   },
   {
     "index": 39,
@@ -214,7 +215,8 @@
   },
   {
     "index": 43,
-    "path": "TheCultist-Proletariat-Infernal-Horns-None-None.png"
+    "path": "TheCultist-Proletariat-Infernal-Horns-None-None.png",
+    "animationPath": "TheCultist-Proletariat-Infernal-Horns-None-None.gif"
   },
   {
     "index": 44,
@@ -232,7 +234,8 @@
   },
   {
     "index": 47,
-    "path": "TheDeckhand-OldWorldCult-DeepSeaSpace-Pirate-Eyepatch-None.png"
+    "path": "TheDeckhand-OldWorldCult-DeepSeaSpace-Pirate-Eyepatch-None.png",
+    "animationPath": "TheDeckhand-OldWorldCult-DeepSeaSpace-Pirate-Eyepatch-None.gif"
   },
   {
     "index": 48,
@@ -248,7 +251,8 @@
   },
   {
     "index": 51,
-    "path": "TheDigital-Planeswalkers-Twilight-None-None-None.png"
+    "path": "TheDigital-Planeswalkers-Twilight-None-None-None.png",
+    "animationPath": "TheDigital-Planeswalkers-Twilight-None-None-None.gif"
   },
   {
     "index": 52,
@@ -279,7 +283,8 @@
   },
   {
     "index": 58,
-    "path": "TheEmaciated-Planeswalkers-IntoShadow-Skull-Skull-Ribcage.png"
+    "path": "TheEmaciated-Planeswalkers-IntoShadow-Skull-Skull-Ribcage.png",
+    "animationPath": "TheEmaciated-Planeswalkers-IntoShadow-Skull-Skull-Ribcage.gif"
   },
   {
     "index": 59,
@@ -293,7 +298,8 @@
   },
   {
     "index": 61,
-    "path": "TheEnforcer-FutureWarPack-EnterNight-Casque-Display-None.png"
+    "path": "TheEnforcer-FutureWarPack-EnterNight-Casque-Display-None.png",
+    "animationPath": "TheEnforcer-FutureWarPack-EnterNight-Casque-Display-None.gif"
   },
   {
     "index": 62,
@@ -311,7 +317,8 @@
   },
   {
     "index": 65,
-    "path": "TheEradicator-FutureWarPack-EnterNight-None-None-None.png"
+    "path": "TheEradicator-FutureWarPack-EnterNight-None-None-None.png",
+    "animationPath": "TheEradicator-FutureWarPack-EnterNight-None-None-None.gif"
   },
   {
     "index": 66,
@@ -425,7 +432,8 @@
   },
   {
     "index": 90,
-    "path": "TheGrunt-Proletariat-GalacticRadiation-Beret-None-Uniform.png"
+    "path": "TheGrunt-Proletariat-GalacticRadiation-Beret-None-Uniform.png",
+    "animationPath": "TheGrunt-Proletariat-GalacticRadiation-Beret-None-Uniform.gif"
   },
   {
     "index": 91,
@@ -434,7 +442,8 @@
   },
   {
     "index": 92,
-    "path": "TheHealer-Proletariat-JungleVines-Tribal-None-None.png"
+    "path": "TheHealer-Proletariat-JungleVines-Tribal-None-None.png",
+    "animationPath": "TheHealer-Proletariat-JungleVines-Tribal-None-None.gif"
   },
   {
     "index": 93,
@@ -490,7 +499,8 @@
   },
   {
     "index": 104,
-    "path": "TheIllustrator-Proletariat-MellowSkies-Note-None-None.png"
+    "path": "TheIllustrator-Proletariat-MellowSkies-Note-None-None.png",
+    "animationPath": "TheIllustrator-Proletariat-MellowSkies-Note-None-None.gif"
   },
   {
     "index": 105,
@@ -509,7 +519,8 @@
   },
   {
     "index": 108,
-    "path": "TheInsomniac-Proletariat-RedOctober-None-None-None.png"
+    "path": "TheInsomniac-Proletariat-RedOctober-None-None-None.png",
+    "animationPath": "TheInsomniac-Proletariat-RedOctober-None-None-None.gif"
   },
   {
     "index": 109,
@@ -522,7 +533,8 @@
   },
   {
     "index": 111,
-    "path": "TheIrate-FutureWarCult-Creamsicle-None-Goggles-None.png"
+    "path": "TheIrate-FutureWarCult-Creamsicle-None-Goggles-None.png",
+    "animationPath": "TheIrate-FutureWarCult-Creamsicle-None-Goggles-None.gif"
   },
   {
     "index": 112,
@@ -595,7 +607,8 @@
   },
   {
     "index": 127,
-    "path": "TheMeathead-Planeswalkers-Infernal-MeatBoy-None-None.png"
+    "path": "TheMeathead-Planeswalkers-Infernal-MeatBoy-None-None.png",
+    "animationPath": "TheMeathead-Planeswalkers-Infernal-MeatBoy-None-None.gif"
   },
   {
     "index": 128,
@@ -613,7 +626,8 @@
   },
   {
     "index": 131,
-    "path": "TheMilitant-OldWorldCult-EarlyRiser-None-None-Samurai.png"
+    "path": "TheMilitant-OldWorldCult-EarlyRiser-None-None-Samurai.png",
+    "animationPath": "TheMilitant-OldWorldCult-EarlyRiser-None-None-Samurai.gif"
   },
   {
     "index": 132,
@@ -622,7 +636,8 @@
   },
   {
     "index": 133,
-    "path": "TheMutant-Proletariat-GalacticRadiation-None-EyeMask-Turtle.png"
+    "path": "TheMutant-Proletariat-GalacticRadiation-None-EyeMask-Turtle.png",
+    "animationPath": "TheMutant-Proletariat-GalacticRadiation-None-EyeMask-Turtle.gif"
   },
   {
     "index": 134,
@@ -631,7 +646,8 @@
   },
   {
     "index": 135,
-    "path": "TheNightstalker-OldWorldCult-IntoShadow-Ninja-Ninja-Ninja.png"
+    "path": "TheNightstalker-OldWorldCult-IntoShadow-Ninja-Ninja-Ninja.png",
+    "animationPath": "TheNightstalker-OldWorldCult-IntoShadow-Ninja-Ninja-Ninja.gif"
   },
   {
     "index": 136,
@@ -644,7 +660,8 @@
   },
   {
     "index": 138,
-    "path": "TheOfficer-Proletariat-DeepPurple-Police-None-Police.png"
+    "path": "TheOfficer-Proletariat-DeepPurple-Police-None-Police.png",
+    "animationPath": "TheOfficer-Proletariat-DeepPurple-Police-None-Police.gif"
   },
   {
     "index": 139,
@@ -663,11 +680,13 @@
   },
   {
     "index": 142,
-    "path": "TheOneWhoRocksHard-Proletariat-Twilight-Cap-None-Chains.png"
+    "path": "TheOneWhoRocksHard-Proletariat-Twilight-Cap-None-Chains.png",
+    "animationPath": "TheOneWhoRocksHard-Proletariat-Twilight-Cap-None-Chains.gif"
   },
   {
     "index": 143,
-    "path": "TheOperative-Proletariat-GalacticRadiation-SpecialForces-Goggles-SpecialForces.png"
+    "path": "TheOperative-Proletariat-GalacticRadiation-SpecialForces-Goggles-SpecialForces.png",
+    "animationPath": "TheOperative-Proletariat-GalacticRadiation-SpecialForces-Goggles-SpecialForces.gif"
   },
   {
     "index": 144,
@@ -680,11 +699,13 @@
   },
   {
     "index": 146,
-    "path": "TheOrnamented-Proletariat-JungleVines-None-Tiki-None.png"
+    "path": "TheOrnamented-Proletariat-JungleVines-None-Tiki-None.png",
+    "animationPath": "TheOrnamented-Proletariat-JungleVines-None-Tiki-None.gif"
   },
   {
     "index": 147,
-    "path": "TheOtherwordly-Planeswalkers-EnterNight-None-None-None.png"
+    "path": "TheOtherwordly-Planeswalkers-EnterNight-None-None-None.png",
+    "animationPath": "TheOtherwordly-Planeswalkers-EnterNight-None-None-None.gif"
   },
   {
     "index": 148,
@@ -713,7 +734,8 @@
   },
   {
     "index": 153,
-    "path": "ThePaladin-OldWorldCult-TranquilBeach-Knight-None-Knight.png"
+    "path": "ThePaladin-OldWorldCult-TranquilBeach-Knight-None-Knight.png",
+    "animationPath": "ThePaladin-OldWorldCult-TranquilBeach-Knight-None-Knight.gif"
   },
   {
     "index": 154,
@@ -745,11 +767,13 @@
   },
   {
     "index": 160,
-    "path": "ThePocketMonkey-Planeswalkers-Noir-None-None-None.png"
+    "path": "ThePocketMonkey-Planeswalkers-Noir-None-None-None.png",
+    "animationPath": "ThePocketMonkey-Planeswalkers-Noir-None-None-None.gif"
   },
   {
     "index": 161,
-    "path": "ThePowderMonkey-OldWorldCult-GalacticRadiation-Pirate-None-TankTop.png"
+    "path": "ThePowderMonkey-OldWorldCult-GalacticRadiation-Pirate-None-TankTop.png",
+    "animationPath": "ThePowderMonkey-OldWorldCult-GalacticRadiation-Pirate-None-TankTop.gif"
   },
   {
     "index": 162,
@@ -806,7 +830,8 @@
   },
   {
     "index": 174,
-    "path": "TheReversed-Planeswalkers-Escher-None-None-None.png"
+    "path": "TheReversed-Planeswalkers-Escher-None-None-None.png",
+    "animationPath": "TheReversed-Planeswalkers-Escher-None-None-None.gif"
   },
   {
     "index": 175,
@@ -861,7 +886,8 @@
   },
   {
     "index": 186,
-    "path": "TheSocial-Proletariat-Rainbow-None-None-Frog.png"
+    "path": "TheSocial-Proletariat-Rainbow-None-None-Frog.png",
+    "animationPath": "TheSocial-Proletariat-Rainbow-None-None-Frog.gif"
   },
   {
     "index": 187,
@@ -870,7 +896,8 @@
   },
   {
     "index": 188,
-    "path": "TheSpelunker-Proletariat-Gold-Spelunker-None-None.png"
+    "path": "TheSpelunker-Proletariat-Gold-Spelunker-None-None.png",
+    "animationPath": "TheSpelunker-Proletariat-Gold-Spelunker-None-None.gif"
   },
   {
     "index": 189,
@@ -897,7 +924,8 @@
   },
   {
     "index": 194,
-    "path": "TheStubborn-Planeswalkers-ElectricBlue-None-None-None.png"
+    "path": "TheStubborn-Planeswalkers-ElectricBlue-None-None-None.png",
+    "animationPath": "TheStubborn-Planeswalkers-ElectricBlue-None-None-None.gif"
   },
   {
     "index": 195,
@@ -936,7 +964,8 @@
   },
   {
     "index": 203,
-    "path": "TheThug-Proletariat-Rainbow-None-Thug-None.png"
+    "path": "TheThug-Proletariat-Rainbow-None-Thug-None.png",
+    "animationPath": "TheThug-Proletariat-Rainbow-None-Thug-None.gif"
   },
   {
     "index": 204,

@@ -92,7 +92,7 @@ const OurVision = () => {
 export default OurVision;
 
 const styles = {
-	container: 'max-w-screen-lg w-full mx-auto my-24 md:my-48 px-12 md:px-6',
+	container: 'max-w-screen-lg w-full mx-auto my-12 md:my-24 px-12 md:px-6',
 	heading: 'font-display text-4xl md:text-6xl mb-8 md:mb-12',
 	subsectionHeading: 'font-display text-2xl md:text-4xl mb-4',
 	subsectionParagraph:
