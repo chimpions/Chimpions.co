@@ -1,0 +1,1112 @@
+[
+  {
+    "Name": "The Aberration",
+    "": 1,
+    "Claimed": "Y"
+  },
+  {
+    "Name": "The Achromatic",
+    "": 1,
+    "Claimed": "N"
+  },
+  {
+    "Name": "The Adolescent",
+    "": 1,
+    "Claimed": "N"
+  },
+  {
+    "Name": "The Agitator",
+    "": 1,
+    "Claimed": "Y"
+  },
+  {
+    "Name": "The Amalgamation",
+    "": 1,
+    "Claimed": "N"
+  },
+  {
+    "Name": "The Analyst",
+    "": 1,
+    "Claimed": "Y"
+  },
+  {
+    "Name": "The Ancestral",
+    "": 1,
+    "Claimed": "Y"
+  },
+  {
+    "Name": "The Ancient",
+    "": 1,
+    "Claimed": "Y"
+  },
+  {
+    "Name": "The Angsty",
+    "": 1,
+    "Claimed": "N"
+  },
+  {
+    "Name": "The Antipaladin",
+    "": 1,
+    "Claimed": "N"
+  },
+  {
+    "Name": "The Apologetic",
+    "": 1,
+    "Claimed": "N"
+  },
+  {
+    "Name": "The Archon",
+    "": 1,
+    "Claimed": "N"
+  },
+  {
+    "Name": "The Arisen",
+    "": 1,
+    "Claimed": "N"
+  },
+  {
+    "Name": "The Armsman",
+    "": 1,
+    "Claimed": "N"
+  },
+  {
+    "Name": "The Attendant",
+    "": 1,
+    "Claimed": "N"
+  },
+  {
+    "Name": "The Aureate",
+    "": 1,
+    "Claimed": "N"
+  },
+  {
+    "Name": "The Automaton",
+    "": 1,
+    "Claimed": "Y"
+  },
+  {
+    "Name": "The Aviator",
+    "": 1,
+    "Claimed": "Y"
+  },
+  {
+    "Name": "The Beacon",
+    "": 1,
+    "Claimed": "N"
+  },
+  {
+    "Name": "The Beholder",
+    "": 1,
+    "Claimed": "N"
+  },
+  {
+    "Name": "The Binary",
+    "": 1,
+    "Claimed": "Y"
+  },
+  {
+    "Name": "The Bionic",
+    "": 1,
+    "Claimed": "Y"
+  },
+  {
+    "Name": "The Blazing",
+    "": 1,
+    "Claimed": "N"
+  },
+  {
+    "Name": "The Bonesmith",
+    "": 1,
+    "Claimed": "N"
+  },
+  {
+    "Name": "The Bored",
+    "": 1,
+    "Claimed": "Y"
+  },
+  {
+    "Name": "The Bosun",
+    "": 1,
+    "Claimed": "N"
+  },
+  {
+    "Name": "The Branded",
+    "": 1,
+    "Claimed": "N"
+  },
+  {
+    "Name": "The Bubbly",
+    "": 1,
+    "Claimed": "N"
+  },
+  {
+    "Name": "The Captain",
+    "": 1,
+    "Claimed": "N"
+  },
+  {
+    "Name": "The Celestial",
+    "": 1,
+    "Claimed": ""
+  },
+  {
+    "Name": "The Ceremonial",
+    "": 1,
+    "Claimed": ""
+  },
+  {
+    "Name": "The Chemist",
+    "": 1,
+    "Claimed": ""
+  },
+  {
+    "Name": "The Chevalier",
+    "": 1,
+    "Claimed": ""
+  },
+  {
+    "Name": "The Chief",
+    "": 1,
+    "Claimed": ""
+  },
+  {
+    "Name": "The Chromatic",
+    "": 1,
+    "Claimed": ""
+  },
+  {
+    "Name": "The Colorful",
+    "": 1,
+    "Claimed": ""
+  },
+  {
+    "Name": "The Comedian",
+    "": 1,
+    "Claimed": ""
+  },
+  {
+    "Name": "The Commodore",
+    "": 1,
+    "Claimed": ""
+  },
+  {
+    "Name": "The Comrade",
+    "": 1,
+    "Claimed": ""
+  },
+  {
+    "Name": "The Concealed",
+    "": 1,
+    "Claimed": "Y"
+  },
+  {
+    "Name": "The Constant Companion",
+    "": 1,
+    "Claimed": ""
+  },
+  {
+    "Name": "The Coordinator",
+    "": 1,
+    "Claimed": ""
+  },
+  {
+    "Name": "The Countryman",
+    "": 1,
+    "Claimed": "Y"
+  },
+  {
+    "Name": "The Cultist",
+    "": 1,
+    "Claimed": ""
+  },
+  {
+    "Name": "The Cursed",
+    "": 1,
+    "Claimed": ""
+  },
+  {
+    "Name": "The Cybernetic",
+    "": 1,
+    "Claimed": ""
+  },
+  {
+    "Name": "The Cyborg",
+    "": 1,
+    "Claimed": ""
+  },
+  {
+    "Name": "The Deckhand",
+    "": 1,
+    "Claimed": "Y"
+  },
+  {
+    "Name": "The Decorated",
+    "": 1,
+    "Claimed": ""
+  },
+  {
+    "Name": "The Deepdweller",
+    "": 1,
+    "Claimed": ""
+  },
+  {
+    "Name": "The Demon",
+    "": 1,
+    "Claimed": ""
+  },
+  {
+    "Name": "The Digital",
+    "": 1,
+    "Claimed": ""
+  },
+  {
+    "Name": "The Doctor",
+    "": 1,
+    "Claimed": ""
+  },
+  {
+    "Name": "The Dormant",
+    "": 1,
+    "Claimed": ""
+  },
+  {
+    "Name": "The Dreamer",
+    "": 1,
+    "Claimed": "Y"
+  },
+  {
+    "Name": "The Drowsy",
+    "": 1,
+    "Claimed": ""
+  },
+  {
+    "Name": "The Edgy",
+    "": 1,
+    "Claimed": ""
+  },
+  {
+    "Name": "The Elated",
+    "": 1,
+    "Claimed": ""
+  },
+  {
+    "Name": "The Emaciated",
+    "": 1,
+    "Claimed": ""
+  },
+  {
+    "Name": "The Enameled",
+    "": 1,
+    "Claimed": ""
+  },
+  {
+    "Name": "The Encased",
+    "": 1,
+    "Claimed": "Y"
+  },
+  {
+    "Name": "The Enforcer",
+    "": 1,
+    "Claimed": ""
+  },
+  {
+    "Name": "The Enraged",
+    "": 1,
+    "Claimed": "Y"
+  },
+  {
+    "Name": "The Envoy",
+    "": 1,
+    "Claimed": ""
+  },
+  {
+    "Name": "The Ephemeral",
+    "": 1,
+    "Claimed": ""
+  },
+  {
+    "Name": "The Eradicator",
+    "": 1,
+    "Claimed": ""
+  },
+  {
+    "Name": "The Erroneous",
+    "": 1,
+    "Claimed": ""
+  },
+  {
+    "Name": "The Evaluator",
+    "": 1,
+    "Claimed": "Y"
+  },
+  {
+    "Name": "The Executioner",
+    "": 1,
+    "Claimed": ""
+  },
+  {
+    "Name": "The Experiment",
+    "": 1,
+    "Claimed": ""
+  },
+  {
+    "Name": "The Expressive",
+    "": 1,
+    "Claimed": ""
+  },
+  {
+    "Name": "The Faded",
+    "": 1,
+    "Claimed": ""
+  },
+  {
+    "Name": "The Faulty",
+    "": 1,
+    "Claimed": "Y"
+  },
+  {
+    "Name": "The Fearless",
+    "": 1,
+    "Claimed": ""
+  },
+  {
+    "Name": "The Firestarter",
+    "": 1,
+    "Claimed": "Y"
+  },
+  {
+    "Name": "The Firethrower",
+    "": 1,
+    "Claimed": "Y"
+  },
+  {
+    "Name": "The Firewatch",
+    "": 1,
+    "Claimed": "Y"
+  },
+  {
+    "Name": "The First Born",
+    "": 1,
+    "Claimed": ""
+  },
+  {
+    "Name": "The Flamescarred",
+    "": 1,
+    "Claimed": "Y"
+  },
+  {
+    "Name": "The Fractured",
+    "": 1,
+    "Claimed": ""
+  },
+  {
+    "Name": "The Freelancer",
+    "": 1,
+    "Claimed": ""
+  },
+  {
+    "Name": "The Friendly",
+    "": 1,
+    "Claimed": ""
+  },
+  {
+    "Name": "The Frozen",
+    "": 1,
+    "Claimed": ""
+  },
+  {
+    "Name": "The Futurist",
+    "": 1,
+    "Claimed": ""
+  },
+  {
+    "Name": "The Gangster",
+    "": 1,
+    "Claimed": ""
+  },
+  {
+    "Name": "The Ghastly",
+    "": 1,
+    "Claimed": ""
+  },
+  {
+    "Name": "The Ghost Hunter",
+    "": 1,
+    "Claimed": ""
+  },
+  {
+    "Name": "The Gilded",
+    "": 1,
+    "Claimed": ""
+  },
+  {
+    "Name": "The Golem",
+    "": 1,
+    "Claimed": ""
+  },
+  {
+    "Name": "The Greeter",
+    "": 1,
+    "Claimed": ""
+  },
+  {
+    "Name": "The Grunt",
+    "": 1,
+    "Claimed": ""
+  },
+  {
+    "Name": "The Hardwired",
+    "": 1,
+    "Claimed": ""
+  },
+  {
+    "Name": "The Healer",
+    "": 1,
+    "Claimed": ""
+  },
+  {
+    "Name": "The Hellion",
+    "": 1,
+    "Claimed": "Y"
+  },
+  {
+    "Name": "The Herdsman",
+    "": 1,
+    "Claimed": "Y"
+  },
+  {
+    "Name": "The Heretic",
+    "": 1,
+    "Claimed": ""
+  },
+  {
+    "Name": "The Heroic",
+    "": 1,
+    "Claimed": ""
+  },
+  {
+    "Name": "The Hidden",
+    "": 1,
+    "Claimed": ""
+  },
+  {
+    "Name": "The High Priest",
+    "": 1,
+    "Claimed": "Y"
+  },
+  {
+    "Name": "The Hip",
+    "": 1,
+    "Claimed": ""
+  },
+  {
+    "Name": "The Hollow",
+    "": 1,
+    "Claimed": ""
+  },
+  {
+    "Name": "The Host",
+    "": 1,
+    "Claimed": ""
+  },
+  {
+    "Name": "The Hunter",
+    "": 1,
+    "Claimed": ""
+  },
+  {
+    "Name": "The Huntress",
+    "": 1,
+    "Claimed": ""
+  },
+  {
+    "Name": "The Illustrator",
+    "": 1,
+    "Claimed": ""
+  },
+  {
+    "Name": "The Imperial",
+    "": 1,
+    "Claimed": ""
+  },
+  {
+    "Name": "The Indecisive",
+    "": 1,
+    "Claimed": ""
+  },
+  {
+    "Name": "The Inquisitive",
+    "": 1,
+    "Claimed": ""
+  },
+  {
+    "Name": "The Insomniac",
+    "": 1,
+    "Claimed": ""
+  },
+  {
+    "Name": "The Instrument",
+    "": 1,
+    "Claimed": ""
+  },
+  {
+    "Name": "The Inverted",
+    "": 1,
+    "Claimed": ""
+  },
+  {
+    "Name": "The Irate",
+    "": 1,
+    "Claimed": ""
+  },
+  {
+    "Name": "The Irradiated",
+    "": 1,
+    "Claimed": ""
+  },
+  {
+    "Name": "The Jockey",
+    "": 1,
+    "Claimed": ""
+  },
+  {
+    "Name": "The Jovian",
+    "": 1,
+    "Claimed": ""
+  },
+  {
+    "Name": "The Joyful",
+    "": 1,
+    "Claimed": "Y"
+  },
+  {
+    "Name": "The Judge",
+    "": 1,
+    "Claimed": "Y"
+  },
+  {
+    "Name": "The Juror",
+    "": 1,
+    "Claimed": ""
+  },
+  {
+    "Name": "The Knight Commander",
+    "": 1,
+    "Claimed": ""
+  },
+  {
+    "Name": "The Knight Companion",
+    "": 1,
+    "Claimed": "Y"
+  },
+  {
+    "Name": "The Left Hand",
+    "": 1,
+    "Claimed": "Y"
+  },
+  {
+    "Name": "The Leisurely",
+    "": 1,
+    "Claimed": "Y"
+  },
+  {
+    "Name": "The Light In Shadow",
+    "": 1,
+    "Claimed": "Y"
+  },
+  {
+    "Name": "The Lover",
+    "": 1,
+    "Claimed": ""
+  },
+  {
+    "Name": "The Main Character",
+    "": 1,
+    "Claimed": ""
+  },
+  {
+    "Name": "The Martial Artist",
+    "": 1,
+    "Claimed": ""
+  },
+  {
+    "Name": "The Masked",
+    "": 1,
+    "Claimed": ""
+  },
+  {
+    "Name": "The Meathead",
+    "": 1,
+    "Claimed": ""
+  },
+  {
+    "Name": "The Mechanized",
+    "": 1,
+    "Claimed": ""
+  },
+  {
+    "Name": "The Mercenary",
+    "": 1,
+    "Claimed": "Y"
+  },
+  {
+    "Name": "The Messenger",
+    "": 1,
+    "Claimed": ""
+  },
+  {
+    "Name": "The Militant",
+    "": 1,
+    "Claimed": ""
+  },
+  {
+    "Name": "The Mischievous",
+    "": 1,
+    "Claimed": ""
+  },
+  {
+    "Name": "The Mutant",
+    "": 1,
+    "Claimed": ""
+  },
+  {
+    "Name": "The Neuromancer",
+    "": 1,
+    "Claimed": "Y"
+  },
+  {
+    "Name": "The Nightstalke",
+    "": 1,
+    "Claimed": ""
+  },
+  {
+    "Name": "The Nomad",
+    "": 1,
+    "Claimed": ""
+  },
+  {
+    "Name": "The Oathkeeper",
+    "": 1,
+    "Claimed": ""
+  },
+  {
+    "Name": "The Officer",
+    "": 1,
+    "Claimed": ""
+  },
+  {
+    "Name": "The Offworlder",
+    "": 1,
+    "Claimed": ""
+  },
+  {
+    "Name": "The Omniscient",
+    "": 1,
+    "Claimed": ""
+  },
+  {
+    "Name": "The One Who Lurks In Shadow",
+    "": 1,
+    "Claimed": ""
+  },
+  {
+    "Name": "The One Who Rocks Hard",
+    "": 1,
+    "Claimed": ""
+  },
+  {
+    "Name": "The Operative",
+    "": 1,
+    "Claimed": ""
+  },
+  {
+    "Name": "The Ordained",
+    "": 1,
+    "Claimed": ""
+  },
+  {
+    "Name": "The Original",
+    "": 1,
+    "Claimed": "Y"
+  },
+  {
+    "Name": "The Ornamented",
+    "": 1,
+    "Claimed": ""
+  },
+  {
+    "Name": "The Otherwordly",
+    "": 1,
+    "Claimed": ""
+  },
+  {
+    "Name": "The Outrunner",
+    "": 1,
+    "Claimed": "Y"
+  },
+  {
+    "Name": "The Overflowing",
+    "": 1,
+    "Claimed": "Y"
+  },
+  {
+    "Name": "The Pack Leader",
+    "": 1,
+    "Claimed": ""
+  },
+  {
+    "Name": "The Painted",
+    "": 1,
+    "Claimed": ""
+  },
+  {
+    "Name": "The Painter",
+    "": 1,
+    "Claimed": ""
+  },
+  {
+    "Name": "The Paladin",
+    "": 1,
+    "Claimed": ""
+  },
+  {
+    "Name": "The Patient",
+    "": 1,
+    "Claimed": ""
+  },
+  {
+    "Name": "The Patrolman",
+    "": 1,
+    "Claimed": ""
+  },
+  {
+    "Name": "The Pensive",
+    "": 1,
+    "Claimed": "Y"
+  },
+  {
+    "Name": "The Perplexed",
+    "": 1,
+    "Claimed": ""
+  },
+  {
+    "Name": "The Pioneer",
+    "": 1,
+    "Claimed": ""
+  },
+  {
+    "Name": "The Plumber",
+    "": 1,
+    "Claimed": ""
+  },
+  {
+    "Name": "The Pocket Monkey",
+    "": 1,
+    "Claimed": ""
+  },
+  {
+    "Name": "The Powder Monkey",
+    "": 1,
+    "Claimed": ""
+  },
+  {
+    "Name": "The Preeminent",
+    "": 1,
+    "Claimed": ""
+  },
+  {
+    "Name": "The Professional",
+    "": 1,
+    "Claimed": ""
+  },
+  {
+    "Name": "The Programmed",
+    "": 1,
+    "Claimed": "Y"
+  },
+  {
+    "Name": "The Ptolemaic",
+    "": 1,
+    "Claimed": ""
+  },
+  {
+    "Name": "The Punk",
+    "": 1,
+    "Claimed": ""
+  },
+  {
+    "Name": "The Rancher",
+    "": 1,
+    "Claimed": ""
+  },
+  {
+    "Name": "The Rapscallion",
+    "": 1,
+    "Claimed": ""
+  },
+  {
+    "Name": "The Rebel",
+    "": 1,
+    "Claimed": ""
+  },
+  {
+    "Name": "The Regal",
+    "": 1,
+    "Claimed": ""
+  },
+  {
+    "Name": "The Reincarnated",
+    "": 1,
+    "Claimed": "Y"
+  },
+  {
+    "Name": "The Remnant",
+    "": 1,
+    "Claimed": ""
+  },
+  {
+    "Name": "The Reveren",
+    "": 1,
+    "Claimed": ""
+  },
+  {
+    "Name": "The Reversed",
+    "": 1,
+    "Claimed": ""
+  },
+  {
+    "Name": "The Right Hand",
+    "": 1,
+    "Claimed": ""
+  },
+  {
+    "Name": "The Rigid",
+    "": 1,
+    "Claimed": ""
+  },
+  {
+    "Name": "The Ritualist",
+    "": 1,
+    "Claimed": ""
+  },
+  {
+    "Name": "The Rocker",
+    "": 1,
+    "Claimed": ""
+  },
+  {
+    "Name": "The Royal",
+    "": 1,
+    "Claimed": "Y"
+  },
+  {
+    "Name": "The Scientist",
+    "": 1,
+    "Claimed": ""
+  },
+  {
+    "Name": "The Scorched",
+    "": 1,
+    "Claimed": ""
+  },
+  {
+    "Name": "The Scoundrel",
+    "": 1,
+    "Claimed": "Y"
+  },
+  {
+    "Name": "The Shield Bearer",
+    "": 1,
+    "Claimed": ""
+  },
+  {
+    "Name": "The Shogun",
+    "": 1,
+    "Claimed": "Y"
+  },
+  {
+    "Name": "The Singed",
+    "": 1,
+    "Claimed": ""
+  },
+  {
+    "Name": "The Social",
+    "": 1,
+    "Claimed": ""
+  },
+  {
+    "Name": "The Spectral",
+    "": 1,
+    "Claimed": ""
+  },
+  {
+    "Name": "The Spelunker",
+    "": 1,
+    "Claimed": ""
+  },
+  {
+    "Name": "The SpiritKeeper",
+    "": 1,
+    "Claimed": ""
+  },
+  {
+    "Name": "The Squire",
+    "": 1,
+    "Claimed": ""
+  },
+  {
+    "Name": "The Starbound",
+    "": 1,
+    "Claimed": "Y"
+  },
+  {
+    "Name": "The Static",
+    "": 1,
+    "Claimed": ""
+  },
+  {
+    "Name": "The StreetFighte",
+    "": 1,
+    "Claimed": ""
+  },
+  {
+    "Name": "The Stubborn",
+    "": 1,
+    "Claimed": ""
+  },
+  {
+    "Name": "The Studious",
+    "": 1,
+    "Claimed": ""
+  },
+  {
+    "Name": "The Sultan",
+    "": 1,
+    "Claimed": ""
+  },
+  {
+    "Name": "The Summoner",
+    "": 1,
+    "Claimed": ""
+  },
+  {
+    "Name": "The Survivor",
+    "": 1,
+    "Claimed": ""
+  },
+  {
+    "Name": "The Tattered",
+    "": 1,
+    "Claimed": ""
+  },
+  {
+    "Name": "The Technician",
+    "": 1,
+    "Claimed": ""
+  },
+  {
+    "Name": "The Technophile",
+    "": 1,
+    "Claimed": "Y"
+  },
+  {
+    "Name": "The Test Subject",
+    "": 1,
+    "Claimed": ""
+  },
+  {
+    "Name": "The Thug",
+    "": 1,
+    "Claimed": ""
+  },
+  {
+    "Name": "The Timeworn",
+    "": 1,
+    "Claimed": ""
+  },
+  {
+    "Name": "The Totemic",
+    "": 1,
+    "Claimed": ""
+  },
+  {
+    "Name": "The Traditional",
+    "": 1,
+    "Claimed": ""
+  },
+  {
+    "Name": "The Trained",
+    "": 1,
+    "Claimed": "Y"
+  },
+  {
+    "Name": "The Trickster",
+    "": 1,
+    "Claimed": ""
+  },
+  {
+    "Name": "The Uneasy",
+    "": 1,
+    "Claimed": ""
+  },
+  {
+    "Name": "The Unknowable",
+    "": 1,
+    "Claimed": ""
+  },
+  {
+    "Name": "The Vassal",
+    "": 1,
+    "Claimed": ""
+  },
+  {
+    "Name": "The Warlike",
+    "": 1,
+    "Claimed": ""
+  },
+  {
+    "Name": "The Wartorn",
+    "": 1,
+    "Claimed": ""
+  },
+  {
+    "Name": "The Wastelander",
+    "": 1,
+    "Claimed": "Y"
+  },
+  {
+    "Name": "The Watchman",
+    "": 1,
+    "Claimed": ""
+  },
+  {
+    "Name": "The Witch Doctor",
+    "": 1,
+    "Claimed": ""
+  },
+  {
+    "Name": "The Withered",
+    "": 1,
+    "Claimed": ""
+  },
+  {
+    "Name": "The Wondrous",
+    "": 1,
+    "Claimed": ""
+  },
+  {
+    "Name": "The Yeoman",
+    "": 1,
+    "Claimed": ""
+  },
+  {
+    "Name": "The Youthful",
+    "": 1,
+    "Claimed": ""
+  },
+  {
+    "Name": "The Zealous",
+    "": 1,
+    "Claimed": ""
+  }
+]
