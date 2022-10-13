@@ -577,7 +577,8 @@
   },
   {
     "index": 120,
-    "path": "TheLeftHand-Proletariat-Silver-None-Blindfold-Robe.png"
+    "path": "TheLeftHand-Proletariat-Silver-None-Blindfold-Robe.png",
+    "animationPath": "TheLeftHand-Proletariat-Silver-None-Blindfold-Robe.gif"
   },
   {
     "index": 121,
