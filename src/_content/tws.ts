@@ -179,14 +179,27 @@ export const drops: Drop[] = [
 		]
 	},
 	{
-		artist: 'unrevealed',
+		artist: 'The Knittables',
 		date: 'TBD',
+		discord: 'knittables',
+		twitter: '@theKnittables',
+		portfolio: 'https://www.knittables.io/',
+		artistPath: 'knittables',
 		piece: {
-			path: "",
-			teaserPath: "tws_banner_teaser.png",
-			title: "Edition 7",
+			path: "knittables/CrystalCompanions.png",
+			teaserPath: "knittables/CrystalCompanions_teaser.png",
+			title: "Crystal Companions",
 			revealed: false,
+			released: false,
 		},
+		copy: [
+			"<h1 class='text-xl text-gray-100'>Holder Benefits</h1><br/><ul class='list-disc ml-8'><li>Access to The Treehouse Discord channels</li><li>Allowlist for Knittables</li></ul>",
+			"<h1 class='text-xl text-gray-100 pt-4 md:pt-8'>About Knittables</h1>",
+			"Knittables is a collection of 10,000 3D-animated NFTs living on the Solana blockchain.",
+			"While maintaining the highest level of quality, we made sure that our NFTs are usable in real-time Game Engines as well as compatible with a variety of Metaverse standards, Web & AR applications, and much more.",
+			"Knittables is about giving everyone the chance to be part of an exclusive community. It is about forming meaningful bonds and connections with each other that last for years to come.",
+			"<div class='border-l-2 bg-pink-500 bg-opacity-10 p-2 pl-4 rounded'>Read more about Knittables <a href='https://www.knittables.io/' target='_blank' class='text-gray-100 underline'>here!</a></div>",
+		]
 	},
 	{
 		artist: 'unrevealed',
