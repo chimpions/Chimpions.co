@@ -248,7 +248,8 @@
   },
   {
     "index": 50,
-    "path": "TheDemon-OldWorldCult-IntoShadow-Oni-None-Samurai.png"
+    "path": "TheDemon-OldWorldCult-IntoShadow-Oni-None-Samurai.png",
+    "animationPath": "TheDemon-OldWorldCult-IntoShadow-Oni-None-Samurai.gif"
   },
   {
     "index": 51,
@@ -419,7 +420,8 @@
   },
   {
     "index": 86,
-    "path": "TheGhostHunter-Proletariat-Wobniar-Plumber-None-Plumber.png"
+    "path": "TheGhostHunter-Proletariat-Wobniar-Plumber-None-Plumber.png",
+    "animationPath": "TheGhostHunter-Proletariat-Wobniar-Plumber-None-Plumber.gif"
   },
   {
     "index": 87,
