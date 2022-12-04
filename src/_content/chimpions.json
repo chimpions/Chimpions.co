@@ -553,7 +553,8 @@
   },
   {
     "index": 113,
-    "path": "TheJockey-FutureWarPack-Overdrive-Biker-None-None.png"
+    "path": "TheJockey-FutureWarPack-Overdrive-Biker-None-None.png",
+    "animationPath": "TheJockey-FutureWarPack-Overdrive-Biker-None-None.gif"
   },
   {
     "index": 114,
@@ -1018,7 +1019,8 @@
   },
   {
     "index": 210,
-    "path": "TheUnknowable-OldWorldCult-DeepSeaSpace-None-Tribal-Tribal.png"
+    "path": "TheUnknowable-OldWorldCult-DeepSeaSpace-None-Tribal-Tribal.png",
+    "animationPath": "TheUnknowable-OldWorldCult-DeepSeaSpace-None-Tribal-Tribal.gif"
   },
   {
     "index": 211,
