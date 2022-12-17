@@ -180,7 +180,7 @@ export const drops: Drop[] = [
 	},
 	{
 		artist: 'The Knittables',
-		date: 'TBD',
+		date: '22/11/10',
 		discord: 'knittables',
 		twitter: '@theKnittables',
 		portfolio: 'https://www.knittables.io/',
@@ -189,8 +189,8 @@ export const drops: Drop[] = [
 			path: "knittables/CrystalCompanions.png",
 			teaserPath: "knittables/CrystalCompanions_teaser.png",
 			title: "Crystal Companions",
-			revealed: false,
-			released: false,
+			revealed: true,
+			released: true,
 		},
 		copy: [
 			"<h1 class='text-xl text-gray-100'>Holder Benefits</h1><br/><ul class='list-disc ml-8'><li>Access to The Treehouse Discord channels</li><li>Allowlist for Knittables</li></ul>",

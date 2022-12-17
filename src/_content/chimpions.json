@@ -243,11 +243,13 @@
   },
   {
     "index": 49,
-    "path": "TheDeepdweller-Proletariat-Acid-Spelunker-None-None.png"
+    "path": "TheDeepdweller-Proletariat-Acid-Spelunker-None-None.png",
+    "animationPath": "TheDeepdweller-Proletariat-Acid-Spelunker-None-None.gif"
   },
   {
     "index": 50,
-    "path": "TheDemon-OldWorldCult-IntoShadow-Oni-None-Samurai.png"
+    "path": "TheDemon-OldWorldCult-IntoShadow-Oni-None-Samurai.png",
+    "animationPath": "TheDemon-OldWorldCult-IntoShadow-Oni-None-Samurai.gif"
   },
   {
     "index": 51,
@@ -390,7 +392,8 @@
   },
   {
     "index": 80,
-    "path": "TheFreelancer-OldWorldCult-IntoShadow-Knight-None-Knight.png"
+    "path": "TheFreelancer-OldWorldCult-IntoShadow-Knight-None-Knight.png",
+    "animationPath": "TheFreelancer-OldWorldCult-IntoShadow-Knight-None-Knight.gif"
   },
   {
     "index": 81,
@@ -418,7 +421,8 @@
   },
   {
     "index": 86,
-    "path": "TheGhostHunter-Proletariat-Wobniar-Plumber-None-Plumber.png"
+    "path": "TheGhostHunter-Proletariat-Wobniar-Plumber-None-Plumber.png",
+    "animationPath": "TheGhostHunter-Proletariat-Wobniar-Plumber-None-Plumber.gif"
   },
   {
     "index": 87,
@@ -481,7 +485,8 @@
   },
   {
     "index": 99,
-    "path": "TheHip-Proletariat-Wobniar-Beanie-None-Scarf.png"
+    "path": "TheHip-Proletariat-Wobniar-Beanie-None-Scarf.png",
+    "animationPath": "TheHip-Proletariat-Wobniar-Beanie-None-Scarf.gif"
   },
   {
     "index": 100,
@@ -529,7 +534,8 @@
   },
   {
     "index": 109,
-    "path": "TheInstrument-FutureWarPack-Noir-None-None-None.png"
+    "path": "TheInstrument-FutureWarPack-Noir-None-None-None.png",
+    "animationPath": "TheInstrument-FutureWarPack-Noir-None-None-None.gif"
   },
   {
     "index": 110,
@@ -548,7 +554,8 @@
   },
   {
     "index": 113,
-    "path": "TheJockey-FutureWarPack-Overdrive-Biker-None-None.png"
+    "path": "TheJockey-FutureWarPack-Overdrive-Biker-None-None.png",
+    "animationPath": "TheJockey-FutureWarPack-Overdrive-Biker-None-None.gif"
   },
   {
     "index": 114,
@@ -619,7 +626,8 @@
   },
   {
     "index": 128,
-    "path": "TheMechanized-FutureWarPack-Twilight-None-Goggles-None.png"
+    "path": "TheMechanized-FutureWarPack-Twilight-None-Goggles-None.png",
+    "animationPath": "TheMechanized-FutureWarPack-Twilight-None-Goggles-None.gif"
   },
   {
     "index": 129,
@@ -697,7 +705,8 @@
   },
   {
     "index": 144,
-    "path": "TheOrdained-Proletariat-Tranquility-None-None-Robes.png"
+    "path": "TheOrdained-Proletariat-Tranquility-None-None-Robes.png",
+    "animationPath": "TheOrdained-Proletariat-Tranquility-None-None-Robes.gif"
   },
   {
     "index": 145,
@@ -770,7 +779,8 @@
   },
   {
     "index": 159,
-    "path": "ThePlumber-Proletariat-Rainbow-Plumber-None-Plumber.png"
+    "path": "ThePlumber-Proletariat-Rainbow-Plumber-None-Plumber.png",
+    "animationPath": "ThePlumber-Proletariat-Rainbow-Plumber-None-Plumber.gif"
   },
   {
     "index": 160,
@@ -798,11 +808,13 @@
   },
   {
     "index": 165,
-    "path": "ThePtolemaic-OldWorldCult-Gold-Pharoah-None-Loincloth.png"
+    "path": "ThePtolemaic-OldWorldCult-Gold-Pharoah-None-Loincloth.png",
+    "animationPath": "ThePtolemaic-OldWorldCult-Gold-Pharoah-None-Loincloth.gif"
   },
   {
     "index": 166,
-    "path": "ThePunk-Proletariat-NightCity-Punk-None-Chain.png"
+    "path": "ThePunk-Proletariat-NightCity-Punk-None-Chain.png",
+    "animationPath": "ThePunk-Proletariat-NightCity-Punk-None-Chain.gif"
   },
   {
     "index": 167,
@@ -852,7 +864,8 @@
   },
   {
     "index": 177,
-    "path": "TheRitualist-Proletariat-NightCity-Tribal-None-None.png"
+    "path": "TheRitualist-Proletariat-NightCity-Tribal-None-None.png",
+    "animationPath": "TheRitualist-Proletariat-NightCity-Tribal-None-None.gif"
   },
   {
     "index": 178,
@@ -942,7 +955,8 @@
   },
   {
     "index": 196,
-    "path": "TheSultan-OldWorldCult-EarlyRiser-Turban-None-None.png"
+    "path": "TheSultan-OldWorldCult-EarlyRiser-Turban-None-None.png",
+    "animationPath": "TheSultan-OldWorldCult-EarlyRiser-Turban-None-None.gif"
   },
   {
     "index": 197,
@@ -1006,7 +1020,8 @@
   },
   {
     "index": 210,
-    "path": "TheUnknowable-OldWorldCult-DeepSeaSpace-None-Tribal-Tribal.png"
+    "path": "TheUnknowable-OldWorldCult-DeepSeaSpace-None-Tribal-Tribal.png",
+    "animationPath": "TheUnknowable-OldWorldCult-DeepSeaSpace-None-Tribal-Tribal.gif"
   },
   {
     "index": 211,
