@@ -225,7 +225,8 @@
   },
   {
     "index": 45,
-    "path": "TheCybernetic-FutureWarPack-Twilight-None-Implant-None.png"
+    "path": "TheCybernetic-FutureWarPack-Twilight-None-Implant-None.png",
+    "animationPath": "TheCybernetic-FutureWarPack-Twilight-None-Implant-None.gif"
   },
   {
     "index": 46,
@@ -350,7 +351,8 @@
   },
   {
     "index": 71,
-    "path": "TheFaded-Proletariat-Faded-None-None-None.png"
+    "path": "TheFaded-Proletariat-Faded-None-None-None.png",
+    "animationPath": "TheFaded-Proletariat-Faded-None-None-None.gif"
   },
   {
     "index": 72,
@@ -388,7 +390,8 @@
   },
   {
     "index": 79,
-    "path": "TheFractured-Proletariat-NightCity-Skull-None-None.png"
+    "path": "TheFractured-Proletariat-NightCity-Skull-None-None.png",
+    "animationPath": "TheFractured-Proletariat-NightCity-Skull-None-None.gif"
   },
   {
     "index": 80,
@@ -903,7 +906,8 @@
   },
   {
     "index": 185,
-    "path": "TheSinged-Planeswalkers-EarlyRiser-Scorched-Scorched-Scorched.png"
+    "path": "TheSinged-Planeswalkers-EarlyRiser-Scorched-Scorched-Scorched.png",
+    "animationPath": "TheSinged-Planeswalkers-EarlyRiser-Scorched-Scorched-Scorched.gif"
   },
   {
     "index": 186,
