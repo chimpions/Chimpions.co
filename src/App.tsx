@@ -44,6 +44,7 @@ export default function ChimpionsWeb() {
         <Route path="/the-chiao" element={<TheChiao />} />
         <Route path="/treehouse" element={<TogetherWeStand />} />
         <Route path="/merchRedemption" element={<MerchRedemption />} />
+        <Route path="/directory" element={<Directory />} />
         {drops.map((Drop) => (
           <Route
             path={`/treehouse/${Drop.artistPath}`}

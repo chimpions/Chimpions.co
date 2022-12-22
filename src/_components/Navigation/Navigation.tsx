@@ -19,16 +19,16 @@ export default function Navigation() {
             TreeHouse
           </a>
           <a
+            href="/directory"
+            className="p-2 hover:rounded-md hover:text-pink-500 hover:bg-pink-500 hover:bg-opacity-10"
+          >
+            Artists
+          </a>
+          <a
             href="/compendium"
             className="p-2 hover:rounded-md hover:text-pink-500 hover:bg-pink-500 hover:bg-opacity-10"
           >
             Compendium
-          </a>
-          <a
-            href="/our-vision"
-            className="p-2 hover:rounded-md hover:text-pink-500 hover:bg-pink-500 hover:bg-opacity-10"
-          >
-            Our Vision
           </a>
           <a
             href="/the-chiao"
