@@ -12,11 +12,11 @@ const TogetherWeStand = () => {
 					<img className='rounded mb-4 md:mb-8' src='images/tws/tws_banner.png' />
 				</div>
 				<div>
-				<p className={styles.subsectionParagraph}>The Chimpions proudly present ‘Together We Stand’, a partnership with amazing artists to create small supply art editions that will elevate the artist community, empower collectors, and deepen the art / utility connection.</p>
-				<p className={styles.subsectionParagraph}>Each edition will be created by an iconic artist or project and will depict Chimpions standing together with allies against dark forces.</p>
-				<p className={styles.subsectionParagraph}><b className='text-gray-100 text-lg'>Artists</b> will be compensated for their work, receive secondary royalties, expand their reach to new audiences, be featured in promotional threads, gain support for future auctions, and gain a new community of supporters in The Treehouse, the Chimpions’ art-focused Discord channels.</p>
-				<p className={styles.subsectionParagraph}><b className='text-gray-100 text-lg'>Collectors </b> will have new opportunities to collect and enjoy art from their favorite artists. Each piece will also serve as an access card with multiple layers of utility which will welcome a wider range of NFT enthusiasts to explore each edition.</p>
-				<p className={styles.subsectionParagraph}>Read more about the vision for Together We Stand <a href='https://twitter.com/TheChimpions/status/1549412745719816197?s=20&t=FQ_D4JF10bTHVwFYWy5-Sg' target="_blank" className='text-gray-100 underline'>here</a> or explore each edition below. </p>
+					<p className={styles.subsectionParagraph}>The Chimpions proudly present ‘Together We Stand’, a partnership with amazing artists to create small supply art editions that will elevate the artist community, empower collectors, and deepen the art / utility connection.</p>
+					<p className={styles.subsectionParagraph}>Each edition will be created by an iconic artist or project and will depict Chimpions standing together with allies against dark forces.</p>
+					<p className={styles.subsectionParagraph}><b className='text-gray-100 text-lg'>Artists</b> will be compensated for their work, receive secondary royalties, expand their reach to new audiences, be featured in promotional threads, gain support for future auctions, and gain a new community of supporters in The Treehouse, the Chimpions’ art-focused Discord channels.</p>
+					<p className={styles.subsectionParagraph}><b className='text-gray-100 text-lg'>Collectors </b> will have new opportunities to collect and enjoy art from their favorite artists. Each piece will also serve as an access card with multiple layers of utility which will welcome a wider range of NFT enthusiasts to explore each edition.</p>
+					<p className={styles.subsectionParagraph}>Read more about the vision for Together We Stand <a href='https://twitter.com/TheChimpions/status/1549412745719816197?s=20&t=FQ_D4JF10bTHVwFYWy5-Sg' target="_blank" className='text-gray-100 underline'>here</a> or explore each edition below. </p>
 				</div>
 			</div>
 			<h2 className={styles.subsectionHeading}>Editions</h2>

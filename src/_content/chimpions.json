@@ -186,7 +186,8 @@
   },
   {
     "index": 37,
-    "path": "TheCommodore-Proletariat-NightCity-Sailor-None-Overcoat.png"
+    "path": "TheCommodore-Proletariat-NightCity-Sailor-None-Overcoat.png",
+    "animationPath": "TheCommodore-Proletariat-NightCity-Sailor-None-Overcoat.gif"
   },
   {
     "index": 38,
@@ -225,7 +226,8 @@
   },
   {
     "index": 45,
-    "path": "TheCybernetic-FutureWarPack-Twilight-None-Implant-None.png"
+    "path": "TheCybernetic-FutureWarPack-Twilight-None-Implant-None.png",
+    "animationPath": "TheCybernetic-FutureWarPack-Twilight-None-Implant-None.gif"
   },
   {
     "index": 46,
@@ -277,7 +279,8 @@
   },
   {
     "index": 56,
-    "path": "TheEdgy-Proletariat-Twilight-None-None-TieDye.png"
+    "path": "TheEdgy-Proletariat-Twilight-None-None-TieDye.png",
+    "animationPath": "TheEdgy-Proletariat-Twilight-None-None-TieDye.gif"
   },
   {
     "index": 57,
@@ -306,7 +309,8 @@
   },
   {
     "index": 62,
-    "path": "TheEnraged-Proletariat-Creamsicle-Thought-None-None.png"
+    "path": "TheEnraged-Proletariat-Creamsicle-Thought-None-None.png",
+    "animationPath": "TheEnraged-Proletariat-Creamsicle-Thought-None-None.gif"
   },
   {
     "index": 63,
@@ -350,7 +354,8 @@
   },
   {
     "index": 71,
-    "path": "TheFaded-Proletariat-Faded-None-None-None.png"
+    "path": "TheFaded-Proletariat-Faded-None-None-None.png",
+    "animationPath": "TheFaded-Proletariat-Faded-None-None-None.gif"
   },
   {
     "index": 72,
@@ -388,7 +393,8 @@
   },
   {
     "index": 79,
-    "path": "TheFractured-Proletariat-NightCity-Skull-None-None.png"
+    "path": "TheFractured-Proletariat-NightCity-Skull-None-None.png",
+    "animationPath": "TheFractured-Proletariat-NightCity-Skull-None-None.gif"
   },
   {
     "index": 80,
@@ -505,7 +511,8 @@
   },
   {
     "index": 103,
-    "path": "TheHuntress-OldWorldCult-JungleVines-None-None-Knight.png"
+    "path": "TheHuntress-OldWorldCult-JungleVines-None-None-Knight.png",
+    "animationPath": "TheHuntress-OldWorldCult-JungleVines-None-None-Knight.gif"
   },
   {
     "index": 104,
@@ -584,7 +591,8 @@
   },
   {
     "index": 119,
-    "path": "TheKnightCompanion-OldWorldCult-Silver-None-None-Knight.png"
+    "path": "TheKnightCompanion-OldWorldCult-Silver-None-None-Knight.png",
+    "animationPath": "TheKnightCompanion-OldWorldCult-Silver-None-None-Knight.gif"
   },
   {
     "index": 120,
@@ -671,7 +679,8 @@
   },
   {
     "index": 137,
-    "path": "TheOathkeeper-OldWorldCult-MellowSkies-None-None-None.png"
+    "path": "TheOathkeeper-OldWorldCult-MellowSkies-None-None-None.png",
+    "animationPath": "TheOathkeeper-OldWorldCult-MellowSkies-None-None-None.gif"
   },
   {
     "index": 138,
@@ -736,6 +745,7 @@
   {
     "index": 150,
     "path": "ThePackLeader-Proletariat-Twilight-Punk-None-LeatherJacket.png",
+    "animationPath": "ThePackLeader-Proletariat-Twilight-Punk-None-LeatherJacket.gif",
     "lore": true
   },
   {
@@ -755,7 +765,8 @@
   },
   {
     "index": 154,
-    "path": "ThePatient-Planeswalkers-JungleVines-None-None-None.png"
+    "path": "ThePatient-Planeswalkers-JungleVines-None-None-None.png",
+    "animationPath": "ThePatient-Planeswalkers-JungleVines-None-None-None.gif"
   },
   {
     "index": 155,
@@ -855,7 +866,8 @@
   },
   {
     "index": 175,
-    "path": "TheRightHand-Proletariat-Silver-None-None-Robe.png"
+    "path": "TheRightHand-Proletariat-Silver-None-None-Robe.png",
+    "animationPath": "TheRightHand-Proletariat-Silver-None-None-Robe.gif"
   },
   {
     "index": 176,
@@ -903,7 +915,8 @@
   },
   {
     "index": 185,
-    "path": "TheSinged-Planeswalkers-EarlyRiser-Scorched-Scorched-Scorched.png"
+    "path": "TheSinged-Planeswalkers-EarlyRiser-Scorched-Scorched-Scorched.png",
+    "animationPath": "TheSinged-Planeswalkers-EarlyRiser-Scorched-Scorched-Scorched.gif"
   },
   {
     "index": 186,
@@ -969,7 +982,8 @@
   },
   {
     "index": 199,
-    "path": "TheTattered-Proletariat-Retrofuturist-None-None-None.png"
+    "path": "TheTattered-Proletariat-Retrofuturist-None-None-None.png",
+    "animationPath": "TheTattered-Proletariat-Retrofuturist-None-None-None.gif"
   },
   {
     "index": 200,
@@ -1034,11 +1048,13 @@
   },
   {
     "index": 213,
-    "path": "TheWartorn-OldWorldCult-Twilight-None-None-Samurai.png"
+    "path": "TheWartorn-OldWorldCult-Twilight-None-None-Samurai.png",
+    "animationPath": "TheWartorn-OldWorldCult-Twilight-None-None-Samurai.gif"
   },
   {
     "index": 214,
-    "path": "TheWastelander-Proletariat-DesertHeat-Punk-Goggles-Bandana.png"
+    "path": "TheWastelander-Proletariat-DesertHeat-Punk-Goggles-Bandana.png",
+    "animationPath": "TheWastelander-Proletariat-DesertHeat-Punk-Goggles-Bandana.gif"
   },
   {
     "index": 215,
