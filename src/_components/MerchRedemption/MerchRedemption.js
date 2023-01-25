@@ -3,7 +3,6 @@ import merchRedemptionList from "./merchRedemptionList.json";
 
 const MerchRedemption = () => {
   const [searchInput, setSearchInput] = useState("");
-  console.log("list", merchRedemptionList);
   const handleChange = (e) => {
     setSearchInput(e.target.value);
   };

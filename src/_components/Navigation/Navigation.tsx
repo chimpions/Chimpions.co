@@ -42,6 +42,12 @@ export default function Navigation() {
           >
             Merch Redemption List
           </a>
+          <a
+            href="/merch"
+            className="p-2 hover:rounded-md hover:text-pink-500 hover:bg-pink-500 hover:bg-opacity-10"
+          >
+            Merch
+          </a>
         </div>
       </div>
     </nav>

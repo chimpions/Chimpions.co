@@ -7,6 +7,7 @@ import Compendium from "_components/Compendium/Compendium";
 import OurVision from "_components/OurVision/OurVision";
 import TheChiao from "_components/TheChiao/TheChiao";
 import MerchRedemption from "_components/MerchRedemption/MerchRedemption";
+import Merch from "_components/Merch/Merch";
 import { initializeApp } from "firebase/app";
 import { getAnalytics } from "firebase/analytics";
 // TODO: Add SDKs for Firebase products that you want to use
@@ -44,6 +45,7 @@ export default function ChimpionsWeb() {
         <Route path="/the-chiao" element={<TheChiao />} />
         <Route path="/treehouse" element={<TogetherWeStand />} />
         <Route path="/merchRedemption" element={<MerchRedemption />} />
+        <Route path="/merch" element={<Merch />} />
         <Route path="/directory" element={<Directory />} />
         {drops.map((Drop) => (
           <Route
