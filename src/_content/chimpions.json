@@ -241,7 +241,8 @@
   },
   {
     "index": 48,
-    "path": "TheDecorated-Proletariat-TranquilBeach-None-Tiki-None.png"
+    "path": "TheDecorated-Proletariat-TranquilBeach-None-Tiki-None.png",
+    "animationPath": "TheDecorated-Proletariat-TranquilBeach-None-Tiki-None.gif"
   },
   {
     "index": 49,
@@ -275,7 +276,8 @@
   },
   {
     "index": 55,
-    "path": "TheDrowsy-Proletariat-Faded-Thought-None-None.png"
+    "path": "TheDrowsy-Proletariat-Faded-Thought-None-None.png",
+    "animationPath": "TheDrowsy-Proletariat-Faded-Thought-None-None.gif"
   },
   {
     "index": 56,
@@ -364,7 +366,8 @@
   },
   {
     "index": 73,
-    "path": "TheFearless-Proletariat-Infernal-Cowboy-None-Vest.png"
+    "path": "TheFearless-Proletariat-Infernal-Cowboy-None-Vest.png",
+    "animationPath": "TheFearless-Proletariat-Infernal-Cowboy-None-Vest.gif"
   },
   {
     "index": 74,
@@ -473,7 +476,8 @@
   },
   {
     "index": 95,
-    "path": "TheHeretic-Planeswalkers-OriginOfPride-Horns-None-Armband.png"
+    "path": "TheHeretic-Planeswalkers-OriginOfPride-Horns-None-Armband.png",
+    "animationPath": "TheHeretic-Planeswalkers-OriginOfPride-Horns-None-Armband.gif"
   },
   {
     "index": 96,
@@ -607,7 +611,8 @@
   },
   {
     "index": 122,
-    "path": "TheLightInShadow-Planeswalkers-Darkness-Fire-None-None.png"
+    "path": "TheLightInShadow-Planeswalkers-Darkness-Fire-None-None.png",
+    "animationPath": "TheLightInShadow-Planeswalkers-Darkness-Fire-None-None.gif"
   },
   {
     "index": 123,
@@ -616,7 +621,8 @@
   },
   {
     "index": 124,
-    "path": "TheMainCharacter-Planeswalkers-CRT-None-None-None.png"
+    "path": "TheMainCharacter-Planeswalkers-CRT-None-None-None.png",
+    "animationPath": "TheMainCharacter-Planeswalkers-CRT-None-None-None.gif"
   },
   {
     "index": 125,
@@ -856,7 +862,8 @@
   },
   {
     "index": 172,
-    "path": "TheRemnant-Proletariat-NightCity-None-GasMask-Survivor.png"
+    "path": "TheRemnant-Proletariat-NightCity-None-GasMask-Survivor.png",
+    "animationPath": "TheRemnant-Proletariat-NightCity-None-GasMask-Survivor.gif"
   },
   {
     "index": 173,
@@ -945,7 +952,8 @@
   },
   {
     "index": 190,
-    "path": "TheSquire-OldWorldCult-EarlyRiser-None-None-Knight.png"
+    "path": "TheSquire-OldWorldCult-EarlyRiser-None-None-Knight.png",
+    "animationPath": "TheSquire-OldWorldCult-EarlyRiser-None-None-Knight.gif"
   },
   {
     "index": 191,
@@ -1049,7 +1057,8 @@
   },
   {
     "index": 211,
-    "path": "TheVassal-OldWorldCult-Noir-Knight-None-Knight.png"
+    "path": "TheVassal-OldWorldCult-Noir-Knight-None-Knight.png",
+    "animationPath": "TheVassal-OldWorldCult-Noir-Knight-None-Knight.gif"
   },
   {
     "index": 212,
