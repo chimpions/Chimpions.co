@@ -1,0 +1,89 @@
+{
+  "name": "The FirstBorn",
+  "symbol": "CHIMP",
+  "description": "",
+  "seller_fee_basis_points": 700,
+  "image": "https://shdw-drive.genesysgo.net/vYS344w9wkeJG4ag6Y9uBLYu1TfYC7TEAgHusKgUNN3/TheFirstBorn-katsudon_sol.gif",
+  "attributes": [
+    {
+      "trait_type": "Tribe",
+      "value": "Old World Cult"
+    },
+    {
+      "trait_type": "Artist 1",
+      "value": "@_rabbels_"
+    },
+    {
+      "trait_type": "Artist 2",
+      "value": "@katsudon_sol"
+    },
+    {
+      "trait_type": "Artist 3",
+      "value": "@ErikiSchotter"
+    },
+    {
+      "trait_type": "Artist 4",
+      "value": "@miksketched_"
+    },
+    {
+      "trait_type": "Artist 5",
+      "value": "@pathtoflow"
+    }
+  ],
+  "properties": {
+    "files": [
+      {
+        "type": "text/html",
+        "uri": "https://shdw-drive.genesysgo.net/vYS344w9wkeJG4ag6Y9uBLYu1TfYC7TEAgHusKgUNN3/TheElated.html"
+      },
+      {
+        "type": "image/png",
+        "uri": "https://shdw-drive.genesysgo.net/vYS344w9wkeJG4ag6Y9uBLYu1TfYC7TEAgHusKgUNN3/TheElated-_rabbels_.png"
+      },
+      {
+        "type": "image/gif",
+        "uri": "https://shdw-drive.genesysgo.net/vYS344w9wkeJG4ag6Y9uBLYu1TfYC7TEAgHusKgUNN3/TheElated-katsudon_sol.gif"
+      },
+      {
+        "type": "image/png",
+        "uri": "https://shdw-drive.genesysgo.net/vYS344w9wkeJG4ag6Y9uBLYu1TfYC7TEAgHusKgUNN3/TheElated-ErkiSchotter.png"
+      },
+      {
+        "type": "image/png",
+        "uri": "https://shdw-drive.genesysgo.net/vYS344w9wkeJG4ag6Y9uBLYu1TfYC7TEAgHusKgUNN3/TheElated-miksketched_.png"
+      },
+      {
+        "type": "image/mp4",
+        "uri": "https://shdw-drive.genesysgo.net/vYS344w9wkeJG4ag6Y9uBLYu1TfYC7TEAgHusKgUNN3/TheElated-pathtoflow.mp4"
+      }
+    ],
+    "category": "html",
+    "creators": [
+      {
+        "address": "D7hKRyCsdaaSGVGwSAgcEfkSofBb6gn68UPD3yWW59zW",
+        "share": 0
+      },
+      {
+        "address": "RRUMF9KYPcvNSmnicNMAFKx5wDYix3wjNa6bA7R6xqA",
+        "share": 10
+      },
+      {
+        "address": "FU9dq98B317KdVpamLJFFbkpSJFgXEVZnUn2Fu5tRaMY",
+        "share": 45
+      },
+      {
+        "address": "5r6qZu6hd3G2tquap4qywNF7E4hFNjtKtuwkK4Sa9igC",
+        "share": 15
+      },
+      {
+        "address": "78epJdh4SxcpXKDT86t9KdVk5u9uw2mcY6xsgReQ1y1T",
+        "share": 15
+      },
+      {
+        "address": "FJ7qcPXNCX9atyFU6xz78G8VMUyKUdyNkRU9ACgxpydK",
+        "share": 15
+      }
+    ]
+  },
+  "animation_url": "https://shdw-drive.genesysgo.net/vYS344w9wkeJG4ag6Y9uBLYu1TfYC7TEAgHusKgUNN3/TheElated.html"
+}

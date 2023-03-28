@@ -1,0 +1,34 @@
+<html>
+  <head>
+    <meta charset="utf-8" />
+    <meta
+      name="viewport"
+      content="width"
+      ="device-width,height"
+      ="device-height,initial-scale"
+      ="1,maximum-scale"
+      ="1"
+    />
+    <meta name="apple-mobile-web-app-capable" content="yes" />
+    <meta name="mobile-web-app-capable" content="yes" />
+    <link rel="stylesheet" href="chimpions.css" />
+  </head>
+  <body id="TheSultan" style="position: absolute">
+    <script type="module" src="carousel.js"></script>
+    <script type="module">
+      import { loadChimp } from "./carousel.js";
+      if (window.addEventListener) {
+        // Mozilla, Netscape, Firefox
+        window.addEventListener("load", WindowLoad, false);
+      } else if (window.attachEvent) {
+        // IE
+        window.attachEvent("onload", WindowLoad);
+      }
+
+      function WindowLoad(event) {
+        console.log("Another onload script1");
+        loadChimp("TheSultan");
+      }
+    </script>
+  </body>
+</html>

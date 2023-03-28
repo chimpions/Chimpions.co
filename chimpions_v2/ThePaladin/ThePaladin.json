@@ -1,0 +1,101 @@
+{
+  "name": "The Paladin",
+  "symbol": "CHIMP",
+  "description": "",
+  "seller_fee_basis_points": 700,
+  "image": "https://shdw-drive.genesysgo.net/vYS344w9wkeJG4ag6Y9uBLYu1TfYC7TEAgHusKgUNN3/ThePaladin-katsudon_sol.gif",
+  "attributes": [
+    {
+      "trait_type": "Tribe",
+      "value": "Old World Cult"
+    },
+    {
+      "trait_type": "Artist 1",
+      "value": "@_rabbels_"
+    },
+    {
+      "trait_type": "Artist 2",
+      "value": "@katsudon_sol"
+    },
+    {
+      "trait_type": "Artist 3",
+      "value": "@ArtFanNFT"
+    },
+    {
+      "trait_type": "Artist 4",
+      "value": "@Lahseminit"
+    },
+    {
+      "trait_type": "Artist 5",
+      "value": "@OkiyYiko"
+    },
+    {
+      "trait_type": "Artist 6",
+      "value": "@miksketched_"
+    }
+  ],
+  "properties": {
+    "files": [
+      {
+        "type": "text/html",
+        "uri": "https://shdw-drive.genesysgo.net/vYS344w9wkeJG4ag6Y9uBLYu1TfYC7TEAgHusKgUNN3/ThePaladin.html"
+      },
+      {
+        "type": "image/png",
+        "uri": "https://shdw-drive.genesysgo.net/vYS344w9wkeJG4ag6Y9uBLYu1TfYC7TEAgHusKgUNN3/ThePaladin-_rabbels_.png"
+      },
+      {
+        "type": "image/gif",
+        "uri": "https://shdw-drive.genesysgo.net/vYS344w9wkeJG4ag6Y9uBLYu1TfYC7TEAgHusKgUNN3/ThePaladin-katsudon_sol.gif"
+      },
+      {
+        "type": "image/jpeg",
+        "uri": "https://shdw-drive.genesysgo.net/vYS344w9wkeJG4ag6Y9uBLYu1TfYC7TEAgHusKgUNN3/ThePaladin-ArtFanNFT.jpeg"
+      },
+      {
+        "type": "image/jpeg",
+        "uri": "https://shdw-drive.genesysgo.net/vYS344w9wkeJG4ag6Y9uBLYu1TfYC7TEAgHusKgUNN3/ThePaladin-Lahseminit.jpeg"
+      },
+      {
+        "type": "image/png",
+        "uri": "https://shdw-drive.genesysgo.net/vYS344w9wkeJG4ag6Y9uBLYu1TfYC7TEAgHusKgUNN3/ThePaladin-OkiyYiko.png"
+      },
+      {
+        "type": "image/png",
+        "uri": "https://shdw-drive.genesysgo.net/vYS344w9wkeJG4ag6Y9uBLYu1TfYC7TEAgHusKgUNN3/ThePaladin-miksketched_.png"
+      }
+    ],
+    "category": "html",
+    "creators": [
+      {
+        "address": "D7hKRyCsdaaSGVGwSAgcEfkSofBb6gn68UPD3yWW59zW",
+        "share": 0
+      },
+      {
+        "address": "RRUMF9KYPcvNSmnicNMAFKx5wDYix3wjNa6bA7R6xqA",
+        "share": 10
+      },
+      {
+        "address": "FU9dq98B317KdVpamLJFFbkpSJFgXEVZnUn2Fu5tRaMY",
+        "share": 45
+      },
+      {
+        "address": "HTsZzp8zgVFCC7Y8Grbqndsx42EsPvTjC7KtYaMqppbb",
+        "share": 11.25
+      },
+      {
+        "address": "EpFbZxEXTcsxSFsrk3SJmYmEid47urqH2vNZrTzU4q5q",
+        "share": 11.25
+      },
+      {
+        "address": "8Zw5m18jBWSQPhgaXzxLHdAeYxkekKVTSx5pbA8FcHxp",
+        "share": 11.25
+      },
+      {
+        "address": "78epJdh4SxcpXKDT86t9KdVk5u9uw2mcY6xsgReQ1y1T",
+        "share": 11.25
+      }
+    ]
+  },
+  "animation_url": "https://shdw-drive.genesysgo.net/vYS344w9wkeJG4ag6Y9uBLYu1TfYC7TEAgHusKgUNN3/ThePaladin.html"
+}
