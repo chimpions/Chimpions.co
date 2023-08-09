@@ -30,7 +30,7 @@ export default function About() {
             keenest of mind.
           </p>
           <p className="font-body tracking-widest leading-loose mt-3 text-purple-200">
-            Together we stand.
+            Together we stand...
           </p>
         </div>
       </div>
