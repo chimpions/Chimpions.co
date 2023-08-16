@@ -1,0 +1,114 @@
+input[type="checkbox"] {
+    display: none;
+}
+
+.main-navigation-toggle {
+    position: fixed;
+    height: 1px; 
+    width: 1px;
+    overflow: hidden;
+    clip: rect(1px, 1px, 1px, 1px);
+    white-space: nowrap;
+}
+
+.wrapper {
+    position: fixed;
+    top: 0;
+    left: 0;
+    height: 10%;
+    width: 100%;
+    min-height: 90px;
+    opacity: 0;
+    background: linear-gradient(0deg, var(--darker-purple), #000);
+    box-shadow: 0px 5px 10px var(--darker-purple);
+    clip-path: circle(25px at 46px 45px);
+    transition: all 0.3s ease-in-out;
+    z-index: 99;
+}
+
+#active:checked ~ .wrapper {
+    clip-path: circle(100%);
+    opacity: 1;
+}
+
+.menu-btn {
+    position: fixed;
+    z-index: 100;
+    left: 20px;
+    top: 20px;
+    height: 50px;
+    width: 50px;
+    text-align: center;
+    line-height: 50px;
+    border-radius: 50%;
+    font-size: 20px;
+    color: #fff;
+    opacity: 1;
+    content: url("/images/logos/ChimpIconBlackonWhite-round-big.png");
+    cursor: pointer;
+}
+
+.menu-btn:hover {
+    content: url("/images/logos/ChimpIconBlackonWhite-round-big-smile.png");
+}
+
+.preload {
+    background-image: url("/images/logos/ChimpIconBlackonWhite-round-big-smile.png");
+    /* display: none; */
+    visibility: hidden;
+}
+
+#active:checked ~ .menu-btn {
+    content: url("/images/logos/white-cross-no-bg.png");
+}
+
+.wrapper ul {
+    z-index: 9;
+    display: flex;
+    flex-wrap: nowrap;
+    justify-content: space-around;
+    width: 90%;
+    position: absolute;
+    top: 32%;
+    left: calc(15px + 50%);
+    transform: translate(-50%, -50%);
+    list-style: none;
+    text-align: center;
+}
+
+@media (max-width: 768px) {
+    ::-webkit-scrollbar {
+        width: 0px;
+    }
+
+    .wrapper {
+        height: 100vh;
+        /* width: 100vw; */
+        background: black;
+    }
+
+    .wrapper ul {
+        height: 90%;
+        flex-direction: column;
+        font-size: xx-large;
+        margin: 0;
+        padding: 0;
+        top: 50%;
+        left: 50%;
+        flex-wrap: nowrap;
+    }
+
+    .wrapper ul li{
+        margin: 0.75rem;
+    }
+}
+
+@media (max-width: 500px) {
+    .wrapper {
+        transition: all 0s;
+    }
+    
+    .wrapper ul {
+        font-size: x-large;
+    }
+}
