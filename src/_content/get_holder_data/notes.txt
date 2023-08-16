@@ -1,0 +1,2882 @@
+            "png": "/images/chimpions/TheAberration/TheAberration-_rabbels_.png",
+            "gif": "/images/chimpions/TheAberration/TheAberration-katsudon_sol.gif"
+        },
+        "holder": {
+            "holder_name": "ThunderBear",
+            "matrica_name": "ThunderBear",
+            "discord_id": "867186625456504852"
+        }
+        "holder": "ThunderBear"
+    },
+    {
+        "name": "TheAchromatic",
+@@ -33,11 +29,7 @@
+            "png": "/images/chimpions/TheAchromatic/TheAchromatic-_rabbels_.png",
+            "gif": "/images/chimpions/TheAchromatic/TheAchromatic-katsudon_sol.gif"
+        },
+        "holder": {
+            "holder_name": "Doudou",
+            "matrica_name": "NotDoudou",
+            "discord_id": "304124024672223234"
+        }
+        "holder": "Doudou"
+    },
+    {
+        "name": "TheAdolescent",
+@@ -53,11 +45,7 @@
+            "png": "/images/chimpions/TheAdolescent/TheAdolescent-_rabbels_.png",
+            "gif": "/images/chimpions/TheAdolescent/TheAdolescent-katsudon_sol.gif"
+        },
+        "holder": {
+            "holder_name": "DEON",
+            "matrica_name": "NOED",
+            "discord_id": "399844565143519242"
+        }
+        "holder": "DEON"
+    },
+    {
+        "name": "TheAgitator",
+@@ -73,11 +61,7 @@
+            "png": "/images/chimpions/TheAgitator/TheAgitator-_rabbels_.png",
+            "gif": "/images/chimpions/TheAgitator/TheAgitator-katsudon_sol.gif"
+        },
+        "holder": {
+            "holder_name": "ArtFanNFT",
+            "matrica_name": "rafasvzla",
+            "discord_id": "893894790628921424"
+        }
+        "holder": "ArtFanNFT"
+    },
+    {
+        "name": "TheAmalgamation",
+@@ -93,11 +77,7 @@
+            "png": "/images/chimpions/TheAmalgamation/TheAmalgamation-badluckzulp.png",
+            "gif": "/images/chimpions/TheAmalgamation/TheAmalgamation-katsudon_sol.gif"
+        },
+        "holder": {
+            "holder_name": "RGB",
+            "matrica_name": "rgb",
+            "discord_id": "805901543080722473"
+        }
+        "holder": "RGB"
+    },
+    {
+        "name": "TheAnalyst",
+@@ -113,11 +93,7 @@
+            "png": "/images/chimpions/TheAnalyst/TheAnalyst-badluckzulp.png",
+            "gif": "/images/chimpions/TheAnalyst/TheAnalyst-katsudon_sol.gif"
+        },
+        "holder": {
+            "holder_name": "LFK",
+            "matrica_name": "lfk",
+            "discord_id": "388653562827374602"
+        }
+        "holder": "LFK"
+    },
+    {
+        "name": "TheAncestral",
+@@ -133,11 +109,7 @@
+            "png": "/images/chimpions/TheAncestral/TheAncestral-_rabbels_.png",
+            "gif": "/images/chimpions/TheAncestral/TheAncestral-katsudon_sol.gif"
+        },
+        "holder": {
+            "holder_name": "PNP",
+            "matrica_name": "PNP",
+            "discord_id": "793743503863578675"
+        }
+        "holder": "PNP"
+    },
+    {
+        "name": "TheAncient",
+@@ -153,11 +125,7 @@
+            "png": "/images/chimpions/TheAncient/TheAncient-_rabbels_.png",
+            "gif": "/images/chimpions/TheAncient/TheAncient-katsudon_sol.gif"
+        },
+        "holder": {
+            "holder_name": "",
+            "matrica_name": "",
+            "discord_id": ""
+        }
+        "holder": ""
+    },
+    {
+        "name": "TheAngsty",
+@@ -173,11 +141,7 @@
+            "png": "/images/chimpions/TheAngsty/TheAngsty-badluckzulp.png",
+            "gif": "/images/chimpions/TheAngsty/TheAngsty-katsudon_sol.gif"
+        },
+        "holder": {
+            "holder_name": "SomdotSol",
+            "matrica_name": "SomdotSol",
+            "discord_id": "232019243959320577"
+        }
+        "holder": "SomdotSol"
+    },
+    {
+        "name": "TheAntipaladin",
+@@ -193,11 +157,7 @@
+            "png": "/images/chimpions/TheAntipaladin/TheAntipaladin-_rabbels_.png",
+            "gif": "/images/chimpions/TheAntipaladin/TheAntipaladin-katsudon_sol.gif"
+        },
+        "holder": {
+            "holder_name": "Froggie",
+            "matrica_name": "Froggie",
+            "discord_id": "888046309746016306"
+        }
+        "holder": "Froggie"
+    },
+    {
+        "name": "TheApologetic",
+@@ -213,11 +173,7 @@
+            "png": "/images/chimpions/TheApologetic/TheApologetic-_rabbels_.png",
+            "gif": "/images/chimpions/TheApologetic/TheApologetic-katsudon_sol.gif"
+        },
+        "holder": {
+            "holder_name": "zeroSol",
+            "matrica_name": "Db8f51heQz4UxD1gdQLBJYf4tWnN5xtJs7smu2h9UAc2",
+            "discord_id": "807813212397240354"
+        }
+        "holder": "zeroSol"
+    },
+    {
+        "name": "TheArchon",
+@@ -233,11 +189,7 @@
+            "png": "/images/chimpions/TheArchon/TheArchon-Brink_Brinker.png",
+            "gif": "/images/chimpions/TheArchon/TheArchon-katsudon_sol.gif"
+        },
+        "holder": {
+            "holder_name": "Sebasterbator",
+            "matrica_name": "",
+            "discord_id": "184445100930105347"
+        }
+        "holder": "Sebasterbator"
+    },
+    {
+        "name": "TheArisen",
+@@ -253,11 +205,7 @@
+            "png": "/images/chimpions/TheArisen/TheArisen-zen0m.png",
+            "gif": "/images/chimpions/TheArisen/TheArisen-katsudon_sol.gif"
+        },
+        "holder": {
+            "holder_name": "Nights",
+            "matrica_name": "Nightsx",
+            "discord_id": "272869614785134611"
+        }
+        "holder": "Nights"
+    },
+    {
+        "name": "TheArmsman",
+@@ -273,11 +221,7 @@
+            "png": "/images/chimpions/TheArmsman/TheArmsman-_rabbels_.png",
+            "gif": "/images/chimpions/TheArmsman/TheArmsman-katsudon_sol.gif"
+        },
+        "holder": {
+            "holder_name": "Nepenthe",
+            "matrica_name": "Nepenthe",
+            "discord_id": "307500488029634562"
+        }
+        "holder": "Nepenthe"
+    },
+    {
+        "name": "TheAttendant",
+@@ -293,11 +237,7 @@
+            "png": "/images/chimpions/TheAttendant/TheAttendant-badluckzulp.png",
+            "gif": "/images/chimpions/TheAttendant/TheAttendant-katsudon_sol.gif"
+        },
+        "holder": {
+            "holder_name": "trucker.sol",
+            "matrica_name": "trucker.sol",
+            "discord_id": "920111592455168071"
+        }
+        "holder": "trucker.sol"
+    },
+    {
+        "name": "TheAureate",
+@@ -313,11 +253,7 @@
+            "png": "/images/chimpions/TheAureate/TheAureate-badluckzulp.png",
+            "gif": "/images/chimpions/TheAureate/TheAureate-katsudon_sol.gif"
+        },
+        "holder": {
+            "holder_name": "ThunderBear",
+            "matrica_name": "ThunderBear",
+            "discord_id": "867186625456504852"
+        }
+        "holder": "ThunderBear"
+    },
+    {
+        "name": "TheAutomaton",
+@@ -333,11 +269,7 @@
+            "png": "/images/chimpions/TheAutomaton/TheAutomaton-_rabbels_.png",
+            "gif": "/images/chimpions/TheAutomaton/TheAutomaton-katsudon_sol.gif"
+        },
+        "holder": {
+            "holder_name": "OneEngineer",
+            "matrica_name": "OneEngineer",
+            "discord_id": "329264435656916993"
+        }
+        "holder": "OneEngineer"
+    },
+    {
+        "name": "TheAviator",
+@@ -353,11 +285,7 @@
+            "png": "/images/chimpions/TheAviator/TheAviator-badluckzulp.png",
+            "gif": "/images/chimpions/TheAviator/TheAviator-katsudon_sol.gif"
+        },
+        "holder": {
+            "holder_name": "Puggl3",
+            "matrica_name": "3Afw3cCxHkhngihdeAxu4rFHMkTLGT1GgD9dx5uSW8Y6",
+            "discord_id": "145648034829565952"
+        }
+        "holder": "Puggl3"
+    },
+    {
+        "name": "TheBeacon",
+@@ -373,11 +301,7 @@
+            "png": "/images/chimpions/TheBeacon/TheBeacon-_rabbels_.png",
+            "gif": "/images/chimpions/TheBeacon/TheBeacon-katsudon_sol.gif"
+        },
+        "holder": {
+            "holder_name": "Doudou",
+            "matrica_name": "NotDoudou",
+            "discord_id": "304124024672223234"
+        }
+        "holder": "Doudou"
+    },
+    {
+        "name": "TheBeholder",
+@@ -393,11 +317,7 @@
+            "png": "/images/chimpions/TheBeholder/TheBeholder-meltytanti.png",
+            "gif": "/images/chimpions/TheBeholder/TheBeholder-katsudon_sol.gif"
+        },
+        "holder": {
+            "holder_name": "CryptoDriller",
+            "matrica_name": "CryptoDriller",
+            "discord_id": "597921661785735199"
+        }
+        "holder": "CryptoDriller"
+    },
+    {
+        "name": "TheBinary",
+@@ -413,11 +333,7 @@
+            "png": "/images/chimpions/TheBinary/TheBinary-_rabbels_.png",
+            "gif": "/images/chimpions/TheBinary/TheBinary-katsudon_sol.gif"
+        },
+        "holder": {
+            "holder_name": "Ninozimo",
+            "matrica_name": "ninozimosos",
+            "discord_id": "357909532334096395"
+        }
+        "holder": "Ninozimo"
+    },
+    {
+        "name": "TheBionic",
+@@ -433,11 +349,7 @@
+            "png": "/images/chimpions/TheBionic/TheBionic-_rabbels_.png",
+            "gif": "/images/chimpions/TheBionic/TheBionic-katsudon_sol.gif"
+        },
+        "holder": {
+            "holder_name": "tuxr",
+            "matrica_name": "tuxr",
+            "discord_id": "436310639640576021"
+        }
+        "holder": "tuxr"
+    },
+    {
+        "name": "TheBlazing",
+@@ -453,11 +365,7 @@
+            "png": "/images/chimpions/TheBlazing/TheBlazing-zen0m.png",
+            "gif": "/images/chimpions/TheBlazing/TheBlazing-katsudon_sol.gif"
+        },
+        "holder": {
+            "holder_name": "Soledge",
+            "matrica_name": "Soledge",
+            "discord_id": "150023955745472514"
+        }
+        "holder": "Soledge"
+    },
+    {
+        "name": "TheBonesmith",
+@@ -473,11 +381,7 @@
+            "png": "/images/chimpions/TheBonesmith/TheBonesmith-badluckzulp.png",
+            "gif": "/images/chimpions/TheBonesmith/TheBonesmith-katsudon_sol.gif"
+        },
+        "holder": {
+            "holder_name": "",
+            "matrica_name": "",
+            "discord_id": ""
+        }
+        "holder": ""
+    },
+    {
+        "name": "TheBored",
+@@ -493,11 +397,7 @@
+            "png": "/images/chimpions/TheBored/TheBored-_rabbels_.png",
+            "gif": "/images/chimpions/TheBored/TheBored-katsudon_sol.gif"
+        },
+        "holder": {
+            "holder_name": "FakerIsDead",
+            "matrica_name": "FakerIsDead",
+            "discord_id": "278676331758223362"
+        }
+        "holder": "FakerIsDead"
+    },
+    {
+        "name": "TheBosun",
+@@ -513,11 +413,7 @@
+            "png": "/images/chimpions/TheBosun/TheBosun-zen0m.png",
+            "gif": "/images/chimpions/TheBosun/TheBosun-katsudon_sol.gif"
+        },
+        "holder": {
+            "holder_name": "Becca",
+            "matrica_name": "hmph",
+            "discord_id": "860522484015956038"
+        }
+        "holder": "Becca"
+    },
+    {
+        "name": "TheBranded",
+@@ -533,11 +429,7 @@
+            "png": "/images/chimpions/TheBranded/TheBranded-zen0m.png",
+            "gif": "/images/chimpions/TheBranded/TheBranded-katsudon_sol.gif"
+        },
+        "holder": {
+            "holder_name": "DMX",
+            "matrica_name": "2rXm46giBNKAR7itut91G1C9sk5n3AF16SPnxJ8wyvgi",
+            "discord_id": "156191111692419074"
+        }
+        "holder": "DMX"
+    },
+    {
+        "name": "TheBubbly",
+@@ -553,11 +445,7 @@
+            "png": "/images/chimpions/TheBubbly/TheBubbly-_rabbels_.png",
+            "gif": "/images/chimpions/TheBubbly/TheBubbly-katsudon_sol.gif"
+        },
+        "holder": {
+            "holder_name": "palmora",
+            "matrica_name": "palmora",
+            "discord_id": "594811677896081417"
+        }
+        "holder": "palmora"
+    },
+    {
+        "name": "TheCaptain",
+@@ -573,11 +461,7 @@
+            "png": "/images/chimpions/TheCaptain/TheCaptain-zen0m.png",
+            "gif": "/images/chimpions/TheCaptain/TheCaptain-katsudon_sol.gif"
+        },
+        "holder": {
+            "holder_name": "Sterrling",
+            "matrica_name": "Max Sterrling",
+            "discord_id": "372580834227781633"
+        }
+        "holder": "Sterrling"
+    },
+    {
+        "name": "TheCelestial",
+@@ -593,11 +477,7 @@
+            "png": "/images/chimpions/TheCelestial/TheCelestial-badluckzulp.png",
+            "gif": "/images/chimpions/TheCelestial/TheCelestial-katsudon_sol.gif"
+        },
+        "holder": {
+            "holder_name": "SKUX",
+            "matrica_name": "SKUX",
+            "discord_id": "909808227024261140"
+        }
+        "holder": "SKUX"
+    },
+    {
+        "name": "TheCeremonial",
+@@ -613,11 +493,7 @@
+            "png": "/images/chimpions/TheCeremonial/TheCeremonial-_rabbels_.png",
+            "gif": "/images/chimpions/TheCeremonial/TheCeremonial-katsudon_sol.gif"
+        },
+        "holder": {
+            "holder_name": "Grooovy",
+            "matrica_name": "Grooovy",
+            "discord_id": "105451106590564352"
+        }
+        "holder": "Grooovy"
+    },
+    {
+        "name": "TheChemist",
+@@ -633,11 +509,7 @@
+            "png": "/images/chimpions/TheChemist/TheChemist-badluckzulp.png",
+            "gif": "/images/chimpions/TheChemist/TheChemist-katsudon_sol.gif"
+        },
+        "holder": {
+            "holder_name": "",
+            "matrica_name": "",
+            "discord_id": ""
+        }
+        "holder": ""
+    },
+    {
+        "name": "TheChevalier",
+@@ -653,11 +525,7 @@
+            "png": "/images/chimpions/TheChevalier/TheChevalier-_rabbels_.png",
+            "gif": "/images/chimpions/TheChevalier/TheChevalier-katsudon_sol.gif"
+        },
+        "holder": {
+            "holder_name": "WallStreet",
+            "matrica_name": "WallStreet",
+            "discord_id": "399022823143899136"
+        }
+        "holder": "WallStreet"
+    },
+    {
+        "name": "TheChief",
+@@ -673,11 +541,7 @@
+            "png": "/images/chimpions/TheChief/TheChief-_rabbels_.png",
+            "gif": "/images/chimpions/TheChief/TheChief-katsudon_sol.gif"
+        },
+        "holder": {
+            "holder_name": "b0k",
+            "matrica_name": "bokieV",
+            "discord_id": "882152974317649920"
+        }
+        "holder": "b0k"
+    },
+    {
+        "name": "TheChromatic",
+@@ -693,11 +557,7 @@
+            "png": "/images/chimpions/TheChromatic/TheChromatic-_rabbels_.png",
+            "gif": "/images/chimpions/TheChromatic/TheChromatic-katsudon_sol.gif"
+        },
+        "holder": {
+            "holder_name": "Plexoo",
+            "matrica_name": "Plexoo",
+            "discord_id": "215543767938236417"
+        }
+        "holder": "Plexoo"
+    },
+    {
+        "name": "TheColorful",
+@@ -713,11 +573,7 @@
+            "png": "/images/chimpions/TheColorful/TheColorful-_rabbels_.png",
+            "gif": "/images/chimpions/TheColorful/TheColorful-katsudon_sol.gif"
+        },
+        "holder": {
+            "holder_name": "Doudou",
+            "matrica_name": "NotDoudou",
+            "discord_id": "304124024672223234"
+        }
+        "holder": "Doudou"
+    },
+    {
+        "name": "TheComedian",
+@@ -733,11 +589,7 @@
+            "png": "/images/chimpions/TheComedian/TheComedian-_rabbels_.png",
+            "gif": "/images/chimpions/TheComedian/TheComedian-katsudon_sol.gif"
+        },
+        "holder": {
+            "holder_name": "Thesis",
+            "matrica_name": "Thesis",
+            "discord_id": "275630935339433986"
+        }
+        "holder": "Thesis"
+    },
+    {
+        "name": "TheCommodore",
+@@ -753,11 +605,7 @@
+            "png": "/images/chimpions/TheCommodore/TheCommodore-_rabbels_.png",
+            "gif": "/images/chimpions/TheCommodore/TheCommodore-katsudon_sol.gif"
+        },
+        "holder": {
+            "holder_name": "ThunderBear",
+            "matrica_name": "ThunderBear",
+            "discord_id": "867186625456504852"
+        }
+        "holder": "ThunderBear"
+    },
+    {
+        "name": "TheComrade",
+@@ -773,11 +621,7 @@
+            "png": "/images/chimpions/TheComrade/TheComrade-_rabbels_.png",
+            "gif": "/images/chimpions/TheComrade/TheComrade-katsudon_sol.gif"
+        },
+        "holder": {
+            "holder_name": "Gentlemonke",
+            "matrica_name": "The Gentlemonke",
+            "discord_id": "871715895905509437"
+        }
+        "holder": "Gentlemonke"
+    },
+    {
+        "name": "TheConcealed",
+@@ -793,11 +637,7 @@
+            "png": "/images/chimpions/TheConcealed/TheConcealed-_rabbels_.png",
+            "gif": "/images/chimpions/TheConcealed/TheConcealed-katsudon_sol.gif"
+        },
+        "holder": {
+            "holder_name": "meddler",
+            "matrica_name": "meddler",
+            "discord_id": "615878607700754462"
+        }
+        "holder": "meddler"
+    },
+    {
+        "name": "TheConstantCompanion",
+@@ -813,11 +653,7 @@
+            "png": "/images/chimpions/TheConstantCompanion/TheConstantCompanion-_rabbels_.png",
+            "gif": "/images/chimpions/TheConstantCompanion/TheConstantCompanion-katsudon_sol.gif"
+        },
+        "holder": {
+            "holder_name": "",
+            "matrica_name": "F2LKKz4oq8TFaA1zYqJVWcj9n3ZFKAocDqwgaW6Wgps9",
+            "discord_id": ""
+        }
+        "holder": ""
+    },
+    {
+        "name": "TheCoordinator",
+@@ -833,11 +669,7 @@
+            "png": "/images/chimpions/TheCoordinator/TheCoordinator-badluckzulp.png",
+            "gif": "/images/chimpions/TheCoordinator/TheCoordinator-katsudon_sol.gif"
+        },
+        "holder": {
+            "holder_name": "",
+            "matrica_name": "",
+            "discord_id": ""
+        }
+        "holder": ""
+    },
+    {
+        "name": "TheCountryman",
+@@ -853,11 +685,7 @@
+            "png": "/images/chimpions/TheCountryman/TheCountryman-_rabbels_.png",
+            "gif": "/images/chimpions/TheCountryman/TheCountryman-katsudon_sol.gif"
+        },
+        "holder": {
+            "holder_name": "MPRTI",
+            "matrica_name": "MPRTI44",
+            "discord_id": "910542912595558460"
+        }
+        "holder": "MPRTI"
+    },
+    {
+        "name": "TheCultist",
+@@ -873,11 +701,7 @@
+            "png": "/images/chimpions/TheCultist/TheCultist-_rabbels_.png",
+            "gif": "/images/chimpions/TheCultist/TheCultist-katsudon_sol.gif"
+        },
+        "holder": {
+            "holder_name": "Marculino",
+            "matrica_name": "Marculinopng",
+            "discord_id": "432183629485965312"
+        }
+        "holder": "Marculino"
+    },
+    {
+        "name": "TheCursed",
+@@ -893,11 +717,7 @@
+            "png": "/images/chimpions/TheCursed/TheCursed-_rabbels_.png",
+            "gif": "/images/chimpions/TheCursed/TheCursed-katsudon_sol.gif"
+        },
+        "holder": {
+            "holder_name": "ThunderBear",
+            "matrica_name": "ThunderBear",
+            "discord_id": "867186625456504852"
+        }
+        "holder": "ThunderBear"
+    },
+    {
+        "name": "TheCybernetic",
+@@ -913,11 +733,7 @@
+            "png": "/images/chimpions/TheCybernetic/TheCybernetic-_rabbels_.png",
+            "gif": "/images/chimpions/TheCybernetic/TheCybernetic-katsudon_sol.gif"
+        },
+        "holder": {
+            "holder_name": "ThunderBear",
+            "matrica_name": "ThunderBear",
+            "discord_id": "867186625456504852"
+        }
+        "holder": "ThunderBear"
+    },
+    {
+        "name": "TheCyborg",
+@@ -933,11 +749,7 @@
+            "png": "/images/chimpions/TheCyborg/TheCyborg-_rabbels_.png",
+            "gif": "/images/chimpions/TheCyborg/TheCyborg-katsudon_sol.gif"
+        },
+        "holder": {
+            "holder_name": "xmancxd",
+            "matrica_name": "8GjgPdkJAzupvk4azPY7BhaA9sL1BqTdVUTsbKk2YAF7",
+            "discord_id": "295358658286714881"
+        }
+        "holder": "xmancxd"
+    },
+    {
+        "name": "TheDeckhand",
+@@ -953,11 +765,7 @@
+            "png": "/images/chimpions/TheDeckhand/TheDeckhand-zen0m.png",
+            "gif": "/images/chimpions/TheDeckhand/TheDeckhand-katsudon_sol.gif"
+        },
+        "holder": {
+            "holder_name": "shades",
+            "matrica_name": "shades",
+            "discord_id": "461031295640928256"
+        }
+        "holder": "shades"
+    },
+    {
+        "name": "TheDecorated",
+@@ -973,11 +781,7 @@
+            "png": "/images/chimpions/TheDecorated/TheDecorated-_rabbels_.png",
+            "gif": "/images/chimpions/TheDecorated/TheDecorated-katsudon_sol.gif"
+        },
+        "holder": {
+            "holder_name": "Doudou",
+            "matrica_name": "NotDoudou",
+            "discord_id": "304124024672223234"
+        }
+        "holder": "Doudou"
+    },
+    {
+        "name": "TheDeepdweller",
+@@ -993,11 +797,7 @@
+            "png": "/images/chimpions/TheDeepdweller/TheDeepdweller-_rabbels_.png",
+            "gif": "/images/chimpions/TheDeepdweller/TheDeepdweller-katsudon_sol.gif"
+        },
+        "holder": {
+            "holder_name": "Tainaker",
+            "matrica_name": "Tainaker",
+            "discord_id": "464906353971036163"
+        }
+        "holder": "Tainaker"
+    },
+    {
+        "name": "TheDemon",
+@@ -1013,11 +813,7 @@
+            "png": "/images/chimpions/TheDemon/TheDemon-_rabbels_.png",
+            "gif": "/images/chimpions/TheDemon/TheDemon-katsudon_sol.gif"
+        },
+        "holder": {
+            "holder_name": "0x4P3",
+            "matrica_name": "Hp3uHMFi2NvLkwHpq6fFhKgiEjLMTBiHN3F7PTNjHXwE",
+            "discord_id": "209394359475372032"
+        }
+        "holder": "0x4P3"
+    },
+    {
+        "name": "TheDigital",
+@@ -1033,11 +829,7 @@
+            "png": "/images/chimpions/TheDigital/TheDigital-badluckzulp.png",
+            "gif": "/images/chimpions/TheDigital/TheDigital-katsudon_sol.gif"
+        },
+        "holder": {
+            "holder_name": "Raves",
+            "matrica_name": "Raves",
+            "discord_id": "103306856465731584"
+        }
+        "holder": "Raves"
+    },
+    {
+        "name": "TheDoctor",
+@@ -1053,11 +845,7 @@
+            "png": "/images/chimpions/TheDoctor/TheDoctor-badluckzulp.png",
+            "gif": "/images/chimpions/TheDoctor/TheDoctor-katsudon_sol.gif"
+        },
+        "holder": {
+            "holder_name": "SolBigBrain",
+            "matrica_name": "SolBigBrain",
+            "discord_id": "785722075942879243"
+        }
+        "holder": "SolBigBrain"
+    },
+    {
+        "name": "TheDormant",
+@@ -1073,11 +861,7 @@
+            "png": "/images/chimpions/TheDormant/TheDormant-badluckzulp.png",
+            "gif": "/images/chimpions/TheDormant/TheDormant-katsudon_sol.gif"
+        },
+        "holder": {
+            "holder_name": "SOLNoob",
+            "matrica_name": "SOLNoob",
+            "discord_id": "777600613282218014"
+        }
+        "holder": "SOLNoob"
+    },
+    {
+        "name": "TheDreamer",
+@@ -1093,11 +877,7 @@
+            "png": "/images/chimpions/TheDreamer/TheDreamer-_rabbels_.png",
+            "gif": "/images/chimpions/TheDreamer/TheDreamer-katsudon_sol.gif"
+        },
+        "holder": {
+            "holder_name": "wronguser",
+            "matrica_name": "wu",
+            "discord_id": "527601406727815181"
+        }
+        "holder": "wronguser"
+    },
+    {
+        "name": "TheDrowsy",
+@@ -1113,11 +893,7 @@
+            "png": "/images/chimpions/TheDrowsy/TheDrowsy-_rabbels_.png",
+            "gif": "/images/chimpions/TheDrowsy/TheDrowsy-katsudon_sol.gif"
+        },
+        "holder": {
+            "holder_name": "Kuse",
+            "matrica_name": "kuse",
+            "discord_id": "546855918264909834"
+        }
+        "holder": "Kuse"
+    },
+    {
+        "name": "TheEdgy",
+@@ -1133,11 +909,7 @@
+            "png": "/images/chimpions/TheEdgy/TheEdgy-_rabbels_.png",
+            "gif": "/images/chimpions/TheEdgy/TheEdgy-katsudon_sol.gif"
+        },
+        "holder": {
+            "holder_name": "Doudou",
+            "matrica_name": "NotDoudou",
+            "discord_id": "304124024672223234"
+        }
+        "holder": "Doudou"
+    },
+    {
+        "name": "TheElated",
+@@ -1153,11 +925,7 @@
+            "png": "/images/chimpions/TheElated/TheElated-_rabbels_.png",
+            "gif": "/images/chimpions/TheElated/TheElated-katsudon_sol.gif"
+        },
+        "holder": {
+            "holder_name": "\ud835\udd66\ud835\udd5f\ud835\udd64\ud835\udd5c\ud835\udd5a\ud835\udd5d\ud835\udd5d\ud835\udd56\ud835\udd55\ud835\udd57\ud835\udd52\ud835\udd65\ud835\udd59\ud835\udd56\ud835\udd63",
+            "matrica_name": "\ud835\udd66\ud835\udd5f\ud835\udd64\ud835\udd5c\ud835\udd5a\ud835\udd5d\ud835\udd5d\ud835\udd56\ud835\udd55\ud835\udd57\ud835\udd52\ud835\udd65\ud835\udd59\ud835\udd56\ud835\udd63",
+            "discord_id": "904826894665515028"
+        }
+        "holder": "\ud835\udd66\ud835\udd5f\ud835\udd64\ud835\udd5c\ud835\udd5a\ud835\udd5d\ud835\udd5d\ud835\udd56\ud835\udd55\ud835\udd57\ud835\udd52\ud835\udd65\ud835\udd59\ud835\udd56\ud835\udd63"
+    },
+    {
+        "name": "TheEmaciated",
+@@ -1173,11 +941,7 @@
+            "png": "/images/chimpions/TheEmaciated/TheEmaciated-badluckzulp.png",
+            "gif": "/images/chimpions/TheEmaciated/TheEmaciated-katsudon_sol.gif"
+        },
+        "holder": {
+            "holder_name": "ThunderBear",
+            "matrica_name": "ThunderBear",
+            "discord_id": "867186625456504852"
+        }
+        "holder": "ThunderBear"
+    },
+    {
+        "name": "TheEnameled",
+@@ -1193,11 +957,7 @@
+            "png": "/images/chimpions/TheEnameled/TheEnameled-_rabbels_.png",
+            "gif": "/images/chimpions/TheEnameled/TheEnameled-katsudon_sol.gif"
+        },
+        "holder": {
+            "holder_name": "CryptoSazerac",
+            "matrica_name": "liquidgold",
+            "discord_id": "384731134682071041"
+        }
+        "holder": "CryptoSazerac"
+    },
+    {
+        "name": "TheEncased",
+@@ -1213,11 +973,7 @@
+            "png": "/images/chimpions/TheEncased/TheEncased-_rabbels_.png",
+            "gif": "/images/chimpions/TheEncased/TheEncased-katsudon_sol.gif"
+        },
+        "holder": {
+            "holder_name": "Jelly beans",
+            "matrica_name": "ED8qVQFtrHWVb7625mCqcTrJGFJ5HFqZF86F2FsbF3BH",
+            "discord_id": "404180172288425985"
+        }
+        "holder": "Jelly beans"
+    },
+    {
+        "name": "TheEnforcer",
+@@ -1233,11 +989,7 @@
+            "png": "/images/chimpions/TheEnforcer/TheEnforcer-_rabbels_.png",
+            "gif": "/images/chimpions/TheEnforcer/TheEnforcer-katsudon_sol.gif"
+        },
+        "holder": {
+            "holder_name": "Mamon",
+            "matrica_name": "mccapital",
+            "discord_id": "316905146770522113"
+        }
+        "holder": "Mamon"
+    },
+    {
+        "name": "TheEnraged",
+@@ -1253,11 +1005,7 @@
+            "png": "/images/chimpions/TheEnraged/TheEnraged-_rabbels_.png",
+            "gif": "/images/chimpions/TheEnraged/TheEnraged-katsudon_sol.gif"
+        },
+        "holder": {
+            "holder_name": "Polkjia",
+            "matrica_name": "Polkjia",
+            "discord_id": "687780309710012438"
+        }
+        "holder": "Polkjia"
+    },
+    {
+        "name": "TheEnvoy",
+@@ -1273,11 +1021,7 @@
+            "png": "/images/chimpions/TheEnvoy/TheEnvoy-badluckzulp.png",
+            "gif": "/images/chimpions/TheEnvoy/TheEnvoy-katsudon_sol.gif"
+        },
+        "holder": {
+            "holder_name": "gl00m",
+            "matrica_name": "gl00m",
+            "discord_id": "825219927384391691"
+        }
+        "holder": "gl00m"
+    },
+    {
+        "name": "TheEphemeral",
+@@ -1293,11 +1037,7 @@
+            "png": "/images/chimpions/TheEphemeral/TheEphemeral-_rabbels_.png",
+            "gif": "/images/chimpions/TheEphemeral/TheEphemeral-katsudon_sol.gif"
+        },
+        "holder": {
+            "holder_name": "konstantina",
+            "matrica_name": "konstantina",
+            "discord_id": "373168260188733460"
+        }
+        "holder": "konstantina"
+    },
+    {
+        "name": "TheEradicator",
+@@ -1313,11 +1053,7 @@
+            "png": "/images/chimpions/TheEradicator/TheEradicator-_rabbels_.png",
+            "gif": "/images/chimpions/TheEradicator/TheEradicator-katsudon_sol.gif"
+        },
+        "holder": {
+            "holder_name": "CMC81",
+            "matrica_name": "CMC81",
+            "discord_id": "886961750392586251"
+        }
+        "holder": "CMC81"
+    },
+    {
+        "name": "TheErroneous",
+@@ -1333,11 +1069,7 @@
+            "png": "/images/chimpions/TheErroneous/TheErroneous-_rabbels_.png",
+            "gif": "/images/chimpions/TheErroneous/TheErroneous-katsudon_sol.gif"
+        },
+        "holder": {
+            "holder_name": "RAZR",
+            "matrica_name": "razr",
+            "discord_id": "222365429371371521"
+        }
+        "holder": "RAZR"
+    },
+    {
+        "name": "TheEvaluator",
+@@ -1353,11 +1085,7 @@
+            "png": "/images/chimpions/TheEvaluator/TheEvaluator-_rabbels_.png",
+            "gif": "/images/chimpions/TheEvaluator/TheEvaluator-katsudon_sol.gif"
+        },
+        "holder": {
+            "holder_name": "Doudou",
+            "matrica_name": "NotDoudou",
+            "discord_id": "304124024672223234"
+        }
+        "holder": "Doudou"
+    },
+    {
+        "name": "TheExecutioner",
+@@ -1373,11 +1101,7 @@
+            "png": "/images/chimpions/TheExecutioner/TheExecutioner-_rabbels_.png",
+            "gif": "/images/chimpions/TheExecutioner/TheExecutioner-katsudon_sol.gif"
+        },
+        "holder": {
+            "holder_name": "MoonLights",
+            "matrica_name": "Moonlights",
+            "discord_id": "356295414669901825"
+        }
+        "holder": "MoonLights"
+    },
+    {
+        "name": "TheExperiment",
+@@ -1393,11 +1117,7 @@
+            "png": "/images/chimpions/TheExperiment/TheExperiment-badluckzulp.png",
+            "gif": "/images/chimpions/TheExperiment/TheExperiment-katsudon_sol.gif"
+        },
+        "holder": {
+            "holder_name": "Shark",
+            "matrica_name": "GA9ZBqncLUcoXunBjWkydi1XBPRQ49oGCSfem8zu6mET",
+            "discord_id": "202248168681897987"
+        }
+        "holder": "Shark"
+    },
+    {
+        "name": "TheExpressive",
+@@ -1413,11 +1133,7 @@
+            "png": "/images/chimpions/TheExpressive/TheExpressive-meltytanti.png",
+            "gif": "/images/chimpions/TheExpressive/TheExpressive-katsudon_sol.gif"
+        },
+        "holder": {
+            "holder_name": "Whydee",
+            "matrica_name": "Whyde2",
+            "discord_id": "846757705010905149"
+        }
+        "holder": "Whydee"
+    },
+    {
+        "name": "TheFaded",
+@@ -1433,11 +1149,7 @@
+            "png": "/images/chimpions/TheFaded/TheFaded-_rabbels_.png",
+            "gif": "/images/chimpions/TheFaded/TheFaded-katsudon_sol.gif"
+        },
+        "holder": {
+            "holder_name": "Uranium",
+            "matrica_name": "Uranium",
+            "discord_id": "839418904958468098"
+        }
+        "holder": "Uranium"
+    },
+    {
+        "name": "TheFaulty",
+@@ -1453,11 +1165,7 @@
+            "png": "/images/chimpions/TheFaulty/TheFaulty-_rabbels_.png",
+            "gif": "/images/chimpions/TheFaulty/TheFaulty-katsudon_sol.gif"
+        },
+        "holder": {
+            "holder_name": "Zionatlas",
+            "matrica_name": "Zionatlas",
+            "discord_id": "343985217452900352"
+        }
+        "holder": "Zionatlas"
+    },
+    {
+        "name": "TheFearless",
+@@ -1473,11 +1181,7 @@
+            "png": "/images/chimpions/TheFearless/TheFearless-badluckzulp.png",
+            "gif": "/images/chimpions/TheFearless/TheFearless-katsudon_sol.gif"
+        },
+        "holder": {
+            "holder_name": "",
+            "matrica_name": "",
+            "discord_id": ""
+        }
+        "holder": ""
+    },
+    {
+        "name": "TheFirestarter",
+@@ -1493,11 +1197,7 @@
+            "png": "/images/chimpions/TheFirestarter/TheFirestarter-badluckzulp.png",
+            "gif": "/images/chimpions/TheFirestarter/TheFirestarter-katsudon_sol.gif"
+        },
+        "holder": {
+            "holder_name": "papits",
+            "matrica_name": "papits",
+            "discord_id": "270468690514804739"
+        }
+        "holder": "papits"
+    },
+    {
+        "name": "TheFirethrower",
+@@ -1513,11 +1213,7 @@
+            "png": "/images/chimpions/TheFirethrower/TheFirethrower-_rabbels_.png",
+            "gif": "/images/chimpions/TheFirethrower/TheFirethrower-katsudon_sol.gif"
+        },
+        "holder": {
+            "holder_name": "dreilord",
+            "matrica_name": "5kzNMQoPDcfSy1eBbHokyapKHe3hgBLBZ26FZdqm4Ers",
+            "discord_id": "544790436452237314"
+        }
+        "holder": "dreilord"
+    },
+    {
+        "name": "TheFirewatch",
+@@ -1533,11 +1229,7 @@
+            "png": "/images/chimpions/TheFirewatch/TheFirewatch-_rabbels_.png",
+            "gif": "/images/chimpions/TheFirewatch/TheFirewatch-katsudon_sol.gif"
+        },
+        "holder": {
+            "holder_name": "Doudou",
+            "matrica_name": "NotDoudou",
+            "discord_id": "304124024672223234"
+        }
+        "holder": "Doudou"
+    },
+    {
+        "name": "TheFirstBorn",
+@@ -1553,11 +1245,7 @@
+            "png": "/images/chimpions/TheFirstBorn/TheFirstBorn-_rabbels_.png",
+            "gif": "/images/chimpions/TheFirstBorn/TheFirstBorn-katsudon_sol.gif"
+        },
+        "holder": {
+            "holder_name": "Utopia",
+            "matrica_name": "Matrica User",
+            "discord_id": "314686698716004353"
+        }
+        "holder": "Utopia"
+    },
+    {
+        "name": "TheFlamescarred",
+@@ -1573,11 +1261,7 @@
+            "png": "/images/chimpions/TheFlamescarred/TheFlamescarred-badluckzulp.png",
+            "gif": "/images/chimpions/TheFlamescarred/TheFlamescarred-katsudon_sol.gif"
+        },
+        "holder": {
+            "holder_name": "genwei",
+            "matrica_name": "gwi",
+            "discord_id": "285560956946219010"
+        }
+        "holder": "genwei"
+    },
+    {
+        "name": "TheFractured",
+@@ -1593,11 +1277,7 @@
+            "png": "/images/chimpions/TheFractured/TheFractured-_rabbels_.png",
+            "gif": "/images/chimpions/TheFractured/TheFractured-katsudon_sol.gif"
+        },
+        "holder": {
+            "holder_name": "Confusername",
+            "matrica_name": "Confusername",
+            "discord_id": "483779106606153764"
+        }
+        "holder": "Confusername"
+    },
+    {
+        "name": "TheFreelancer",
+@@ -1613,11 +1293,7 @@
+            "png": "/images/chimpions/TheFreelancer/TheFreelancer-_rabbels_.png",
+            "gif": "/images/chimpions/TheFreelancer/TheFreelancer-katsudon_sol.gif"
+        },
+        "holder": {
+            "holder_name": "sidvicious843",
+            "matrica_name": "sidvicious843",
+            "discord_id": "690046283091935239"
+        }
+        "holder": "sidvicious843"
+    },
+    {
+        "name": "TheFriendly",
+@@ -1633,11 +1309,7 @@
+            "png": "/images/chimpions/TheFriendly/TheFriendly-smallfroggi.png",
+            "gif": "/images/chimpions/TheFriendly/TheFriendly-katsudon_sol.gif"
+        },
+        "holder": {
+            "holder_name": "Jota",
+            "matrica_name": "Jotatavo",
+            "discord_id": "283569743711961089"
+        }
+        "holder": "Jota"
+    },
+    {
+        "name": "TheFrozen",
+@@ -1653,11 +1325,7 @@
+            "png": "/images/chimpions/TheFrozen/TheFrozen-_rabbels_.png",
+            "gif": "/images/chimpions/TheFrozen/TheFrozen-katsudon_sol.gif"
+        },
+        "holder": {
+            "holder_name": "SolBigBrain",
+            "matrica_name": "SolBigBrain",
+            "discord_id": "785722075942879243"
+        }
+        "holder": "SolBigBrain"
+    },
+    {
+        "name": "TheFuturist",
+@@ -1673,11 +1341,7 @@
+            "png": "/images/chimpions/TheFuturist/TheFuturist-_rabbels_.png",
+            "gif": "/images/chimpions/TheFuturist/TheFuturist-katsudon_sol.gif"
+        },
+        "holder": {
+            "holder_name": "An0rak7",
+            "matrica_name": "an0rak07",
+            "discord_id": "419798818239021059"
+        }
+        "holder": "An0rak7"
+    },
+    {
+        "name": "TheGangster",
+@@ -1693,11 +1357,7 @@
+            "png": "/images/chimpions/TheGangster/TheGangster-_rabbels_.png",
+            "gif": "/images/chimpions/TheGangster/TheGangster-katsudon_sol.gif"
+        },
+        "holder": {
+            "holder_name": "HeisenThug",
+            "matrica_name": "HJrYczWnCWYRdvTEzHhrvNB7foHSjG58WEcHgPLBn4TT",
+            "discord_id": "639471981934280714"
+        }
+        "holder": "HeisenThug"
+    },
+    {
+        "name": "TheGhastly",
+@@ -1713,11 +1373,7 @@
+            "png": "/images/chimpions/TheGhastly/TheGhastly-zen0m.png",
+            "gif": "/images/chimpions/TheGhastly/TheGhastly-katsudon_sol.gif"
+        },
+        "holder": {
+            "holder_name": "Doudou",
+            "matrica_name": "NotDoudou",
+            "discord_id": "304124024672223234"
+        }
+        "holder": "Doudou"
+    },
+    {
+        "name": "TheGhostHunter",
+@@ -1733,11 +1389,7 @@
+            "png": "/images/chimpions/TheGhostHunter/TheGhostHunter-_rabbels_.png",
+            "gif": "/images/chimpions/TheGhostHunter/TheGhostHunter-katsudon_sol.gif"
+        },
+        "holder": {
+            "holder_name": "Meattyy",
+            "matrica_name": "Meattyy",
+            "discord_id": "257807581735682049"
+        }
+        "holder": "Meattyy"
+    },
+    {
+        "name": "TheGilded",
+@@ -1753,11 +1405,7 @@
+            "png": "/images/chimpions/TheGilded/TheGilded-badluckzulp.png",
+            "gif": "/images/chimpions/TheGilded/TheGilded-katsudon_sol.gif"
+        },
+        "holder": {
+            "holder_name": "iamlaurael",
+            "matrica_name": "iamlaurael",
+            "discord_id": "929162432088256573"
+        }
+        "holder": "iamlaurael"
+    },
+    {
+        "name": "TheGolem",
+@@ -1773,11 +1421,7 @@
+            "png": "/images/chimpions/TheGolem/TheGolem-zen0m.png",
+            "gif": "/images/chimpions/TheGolem/TheGolem-katsudon_sol.gif"
+        },
+        "holder": {
+            "holder_name": "ThunderBear",
+            "matrica_name": "ThunderBear",
+            "discord_id": "867186625456504852"
+        }
+        "holder": "ThunderBear"
+    },
+    {
+        "name": "TheGreeter",
+@@ -1793,11 +1437,7 @@
+            "png": "/images/chimpions/TheGreeter/TheGreeter-_rabbels_.png",
+            "gif": "/images/chimpions/TheGreeter/TheGreeter-katsudon_sol.gif"
+        },
+        "holder": {
+            "holder_name": "Gwei Stefani",
+            "matrica_name": "599Pzfg4GPgGbb5BZvT9CJQHp7ptEEjT5wApVr7qv7Rq",
+            "discord_id": "760792786802573313"
+        }
+        "holder": "Gwei Stefani"
+    },
+    {
+        "name": "TheGrunt",
+@@ -1813,11 +1453,7 @@
+            "png": "/images/chimpions/TheGrunt/TheGrunt-badluckzulp.png",
+            "gif": "/images/chimpions/TheGrunt/TheGrunt-katsudon_sol.gif"
+        },
+        "holder": {
+            "holder_name": "SirBertoli",
+            "matrica_name": "SirBertol",
+            "discord_id": "897031594404102155"
+        }
+        "holder": "SirBertoli"
+    },
+    {
+        "name": "TheHardwired",
+@@ -1833,11 +1469,7 @@
+            "png": "/images/chimpions/TheHardwired/TheHardwired-badluckzulp.png",
+            "gif": "/images/chimpions/TheHardwired/TheHardwired-katsudon_sol.gif"
+        },
+        "holder": {
+            "holder_name": "ThunderBear",
+            "matrica_name": "ThunderBear",
+            "discord_id": "867186625456504852"
+        }
+        "holder": "ThunderBear"
+    },
+    {
+        "name": "TheHealer",
+@@ -1853,11 +1485,7 @@
+            "png": "/images/chimpions/TheHealer/TheHealer-_rabbels_.png",
+            "gif": "/images/chimpions/TheHealer/TheHealer-katsudon_sol.gif"
+        },
+        "holder": {
+            "holder_name": "",
+            "matrica_name": "",
+            "discord_id": ""
+        }
+        "holder": ""
+    },
+    {
+        "name": "TheHellion",
+@@ -1873,11 +1501,7 @@
+            "png": "/images/chimpions/TheHellion/TheHellion-badluckzulp.png",
+            "gif": "/images/chimpions/TheHellion/TheHellion-katsudon_sol.gif"
+        },
+        "holder": {
+            "holder_name": "Visery",
+            "matrica_name": "Visery",
+            "discord_id": "237628434145083392"
+        }
+        "holder": "Visery"
+    },
+    {
+        "name": "TheHerdsman",
+@@ -1893,11 +1517,7 @@
+            "png": "/images/chimpions/TheHerdsman/TheHerdsman-_rabbels_.png",
+            "gif": "/images/chimpions/TheHerdsman/TheHerdsman-katsudon_sol.gif"
+        },
+        "holder": {
+            "holder_name": "",
+            "matrica_name": "",
+            "discord_id": ""
+        }
+        "holder": ""
+    },
+    {
+        "name": "TheHeretic",
+@@ -1913,11 +1533,7 @@
+            "png": "/images/chimpions/TheHeretic/TheHeretic-badluckzulp.png",
+            "gif": "/images/chimpions/TheHeretic/TheHeretic-katsudon_sol.gif"
+        },
+        "holder": {
+            "holder_name": "Torab",
+            "matrica_name": "Ap3s6w9zkKSyTvt3Gpc2kubEwYGo4veiRADgqqdW3767",
+            "discord_id": "796263136268517407"
+        }
+        "holder": "Torab"
+    },
+    {
+        "name": "TheHeroic",
+@@ -1933,11 +1549,7 @@
+            "png": "/images/chimpions/TheHeroic/TheHeroic-_rabbels_.png",
+            "gif": "/images/chimpions/TheHeroic/TheHeroic-katsudon_sol.gif"
+        },
+        "holder": {
+            "holder_name": "Akaba",
+            "matrica_name": "Akaba",
+            "discord_id": "679994255913254927"
+        }
+        "holder": "Akaba"
+    },
+    {
+        "name": "TheHidden",
+@@ -1953,11 +1565,7 @@
+            "png": "/images/chimpions/TheHidden/TheHidden-_rabbels_.png",
+            "gif": "/images/chimpions/TheHidden/TheHidden-katsudon_sol.gif"
+        },
+        "holder": {
+            "holder_name": "Kyufei",
+            "matrica_name": "24A94GwWo2U3WjbvcGxmwA1E97gqE5KFE9hUJ5wLjCeR",
+            "discord_id": "773317868463849492"
+        }
+        "holder": "Kyufei"
+    },
+    {
+        "name": "TheHighPriest",
+@@ -1973,11 +1581,7 @@
+            "png": "/images/chimpions/TheHighPriest/TheHighPriest-_rabbels_.png",
+            "gif": "/images/chimpions/TheHighPriest/TheHighPriest-katsudon_sol.gif"
+        },
+        "holder": {
+            "holder_name": "Ken Goh",
+            "matrica_name": "KenGoh",
+            "discord_id": "807535973842944030"
+        }
+        "holder": "Ken Goh"
+    },
+    {
+        "name": "TheHip",
+@@ -1993,11 +1597,7 @@
+            "png": "/images/chimpions/TheHip/TheHip-badluckzulp.png",
+            "gif": "/images/chimpions/TheHip/TheHip-katsudon_sol.gif"
+        },
+        "holder": {
+            "holder_name": "Eddie Rebel",
+            "matrica_name": "eddierebel",
+            "discord_id": "945815476116815963"
+        }
+        "holder": "Eddie Rebel"
+    },
+    {
+        "name": "TheHollow",
+@@ -2013,11 +1613,7 @@
+            "png": "/images/chimpions/TheHollow/TheHollow-_rabbels_.png",
+            "gif": "/images/chimpions/TheHollow/TheHollow-katsudon_sol.gif"
+        },
+        "holder": {
+            "holder_name": "HFP",
+            "matrica_name": "HFP",
+            "discord_id": "872987712251134013"
+        }
+        "holder": "HFP"
+    },
+    {
+        "name": "TheHost",
+@@ -2033,11 +1629,7 @@
+            "png": "/images/chimpions/TheHost/TheHost-badluckzulp.png",
+            "gif": "/images/chimpions/TheHost/TheHost-katsudon_sol.gif"
+        },
+        "holder": {
+            "holder_name": "",
+            "matrica_name": "F2LKKz4oq8TFaA1zYqJVWcj9n3ZFKAocDqwgaW6Wgps9",
+            "discord_id": ""
+        }
+        "holder": ""
+    },
+    {
+        "name": "TheHunter",
+@@ -2053,11 +1645,7 @@
+            "png": "/images/chimpions/TheHunter/TheHunter-_rabbels_.png",
+            "gif": "/images/chimpions/TheHunter/TheHunter-katsudon_sol.gif"
+        },
+        "holder": {
+            "holder_name": "Doudou",
+            "matrica_name": "NotDoudou",
+            "discord_id": "304124024672223234"
+        }
+        "holder": "Doudou"
+    },
+    {
+        "name": "TheHuntress",
+@@ -2073,11 +1661,7 @@
+            "png": "/images/chimpions/TheHuntress/TheHuntress-badluckzulp.png",
+            "gif": "/images/chimpions/TheHuntress/TheHuntress-katsudon_sol.gif"
+        },
+        "holder": {
+            "holder_name": "vinc3nt.eth",
+            "matrica_name": "",
+            "discord_id": "319484101444894722"
+        }
+        "holder": "vinc3nt.eth"
+    },
+    {
+        "name": "TheIllustrator",
+@@ -2093,11 +1677,7 @@
+            "png": "/images/chimpions/TheIllustrator/TheIllustrator-_rabbels_.png",
+            "gif": "/images/chimpions/TheIllustrator/TheIllustrator-katsudon_sol.gif"
+        },
+        "holder": {
+            "holder_name": "Jreff",
+            "matrica_name": "EWweH6VE7ifGwb7ocuQCrNK3PbqhDwdZ4TJrbpfARvBL",
+            "discord_id": "246590325257273344"
+        }
+        "holder": "Jreff"
+    },
+    {
+        "name": "TheImperial",
+@@ -2113,11 +1693,7 @@
+            "png": "/images/chimpions/TheImperial/TheImperial-badluckzulp.png",
+            "gif": "/images/chimpions/TheImperial/TheImperial-katsudon_sol.gif"
+        },
+        "holder": {
+            "holder_name": "Case",
+            "matrica_name": "GPKBo1rEhz5SafcAw3k6PUHeYcjXpwxeFwuQhTZJ6YsP",
+            "discord_id": "450008770458812418"
+        }
+        "holder": "Case"
+    },
+    {
+        "name": "TheIndecisive",
+@@ -2133,11 +1709,7 @@
+            "png": "/images/chimpions/TheIndecisive/TheIndecisive-_rabbels_.png",
+            "gif": "/images/chimpions/TheIndecisive/TheIndecisive-katsudon_sol.gif"
+        },
+        "holder": {
+            "holder_name": "Outcast",
+            "matrica_name": "koreancatdog",
+            "discord_id": "864528887131013140"
+        }
+        "holder": "Outcast"
+    },
+    {
+        "name": "TheInquisitive",
+@@ -2153,11 +1725,7 @@
+            "png": "/images/chimpions/TheInquisitive/TheInquisitive-badluckzulp.png",
+            "gif": "/images/chimpions/TheInquisitive/TheInquisitive-katsudon_sol.gif"
+        },
+        "holder": {
+            "holder_name": "",
+            "matrica_name": "",
+            "discord_id": ""
+        }
+        "holder": ""
+    },
+    {
+        "name": "TheInsomniac",
+@@ -2173,11 +1741,7 @@
+            "png": "/images/chimpions/TheInsomniac/TheInsomniac-badluckzulp.png",
+            "gif": "/images/chimpions/TheInsomniac/TheInsomniac-katsudon_sol.gif"
+        },
+        "holder": {
+            "holder_name": "purp",
+            "matrica_name": "DEGENAPES",
+            "discord_id": "450295239232454666"
+        }
+        "holder": "purp"
+    },
+    {
+        "name": "TheInstrument",
+@@ -2193,11 +1757,7 @@
+            "png": "/images/chimpions/TheInstrument/TheInstrument-_rabbels_.png",
+            "gif": "/images/chimpions/TheInstrument/TheInstrument-katsudon_sol.gif"
+        },
+        "holder": {
+            "holder_name": "TeddyRuxpin",
+            "matrica_name": "",
+            "discord_id": "321433140327350273"
+        }
+        "holder": "TeddyRuxpin"
+    },
+    {
+        "name": "TheInverted",
+@@ -2213,11 +1773,7 @@
+            "png": "/images/chimpions/TheInverted/TheInverted-_rabbels_.png",
+            "gif": "/images/chimpions/TheInverted/TheInverted-katsudon_sol.gif"
+        },
+        "holder": {
+            "holder_name": "oxo",
+            "matrica_name": "oxonomye",
+            "discord_id": "905124402683842610"
+        }
+        "holder": "oxo"
+    },
+    {
+        "name": "TheIrate",
+@@ -2233,11 +1789,7 @@
+            "png": "/images/chimpions/TheIrate/TheIrate-_rabbels_.png",
+            "gif": "/images/chimpions/TheIrate/TheIrate-katsudon_sol.gif"
+        },
+        "holder": {
+            "holder_name": "",
+            "matrica_name": "",
+            "discord_id": ""
+        }
+        "holder": ""
+    },
+    {
+        "name": "TheIrradiated",
+@@ -2253,11 +1805,7 @@
+            "png": "/images/chimpions/TheIrradiated/TheIrradiated-_rabbels_.png",
+            "gif": "/images/chimpions/TheIrradiated/TheIrradiated-katsudon_sol.gif"
+        },
+        "holder": {
+            "holder_name": "",
+            "matrica_name": "",
+            "discord_id": ""
+        }
+        "holder": ""
+    },
+    {
+        "name": "TheJockey",
+@@ -2273,11 +1821,7 @@
+            "png": "/images/chimpions/TheJockey/TheJockey-_rabbels_.png",
+            "gif": "/images/chimpions/TheJockey/TheJockey-katsudon_sol.gif"
+        },
+        "holder": {
+            "holder_name": "endy.sol",
+            "matrica_name": "endy.sol",
+            "discord_id": "342670605037862913"
+        }
+        "holder": "endy.sol"
+    },
+    {
+        "name": "TheJovian",
+@@ -2293,11 +1837,7 @@
+            "png": "/images/chimpions/TheJovian/TheJovian-badluckzulp.png",
+            "gif": "/images/chimpions/TheJovian/TheJovian-katsudon_sol.gif"
+        },
+        "holder": {
+            "holder_name": "Doudou",
+            "matrica_name": "NotDoudou",
+            "discord_id": "304124024672223234"
+        }
+        "holder": "Doudou"
+    },
+    {
+        "name": "TheJoyful",
+@@ -2313,11 +1853,7 @@
+            "png": "/images/chimpions/TheJoyful/TheJoyful-_rabbels_.png",
+            "gif": "/images/chimpions/TheJoyful/TheJoyful-katsudon_sol.gif"
+        },
+        "holder": {
+            "holder_name": "NickSayWhat",
+            "matrica_name": "nicksaywhat",
+            "discord_id": "853739185595613194"
+        }
+        "holder": "NickSayWhat"
+    },
+    {
+        "name": "TheJudge",
+@@ -2333,11 +1869,7 @@
+            "png": "/images/chimpions/TheJudge/TheJudge-_rabbels_.png",
+            "gif": "/images/chimpions/TheJudge/TheJudge-katsudon_sol.gif"
+        },
+        "holder": {
+            "holder_name": "Doudou",
+            "matrica_name": "NotDoudou",
+            "discord_id": "304124024672223234"
+        }
+        "holder": "Doudou"
+    },
+    {
+        "name": "TheJuror",
+@@ -2353,11 +1885,7 @@
+            "png": "/images/chimpions/TheJuror/TheJuror-_rabbels_.png",
+            "gif": "/images/chimpions/TheJuror/TheJuror-katsudon_sol.gif"
+        },
+        "holder": {
+            "holder_name": "bip",
+            "matrica_name": "bipkoyn",
+            "discord_id": "625230933569699866"
+        }
+        "holder": "bip"
+    },
+    {
+        "name": "TheKnightCommander",
+@@ -2373,11 +1901,7 @@
+            "png": "/images/chimpions/TheKnightCommander/TheKnightCommander-_rabbels_.png",
+            "gif": "/images/chimpions/TheKnightCommander/TheKnightCommander-katsudon_sol.gif"
+        },
+        "holder": {
+            "holder_name": "futuristic",
+            "matrica_name": "futuristics0l",
+            "discord_id": "295984223569969152"
+        }
+        "holder": "futuristic"
+    },
+    {
+        "name": "TheKnightCompanion",
+@@ -2393,11 +1917,7 @@
+            "png": "/images/chimpions/TheKnightCompanion/TheKnightCompanion-_rabbels_.png",
+            "gif": "/images/chimpions/TheKnightCompanion/TheKnightCompanion-katsudon_sol.gif"
+        },
+        "holder": {
+            "holder_name": "Doudou",
+            "matrica_name": "NotDoudou",
+            "discord_id": "304124024672223234"
+        }
+        "holder": "Doudou"
+    },
+    {
+        "name": "TheLeftHand",
+@@ -2413,11 +1933,7 @@
+            "png": "/images/chimpions/TheLeftHand/TheLeftHand-_rabbels_.png",
+            "gif": "/images/chimpions/TheLeftHand/TheLeftHand-katsudon_sol.gif"
+        },
+        "holder": {
+            "holder_name": "",
+            "matrica_name": "",
+            "discord_id": ""
+        }
+        "holder": ""
+    },
+    {
+        "name": "TheLeisurely",
+@@ -2433,11 +1949,7 @@
+            "png": "/images/chimpions/TheLeisurely/TheLeisurely-badluckzulp.png",
+            "gif": "/images/chimpions/TheLeisurely/TheLeisurely-katsudon_sol.gif"
+        },
+        "holder": {
+            "holder_name": "DanielB",
+            "matrica_name": "DanielB",
+            "discord_id": "219389399396253696"
+        }
+        "holder": "DanielB"
+    },
+    {
+        "name": "TheLightInShadow",
+@@ -2453,11 +1965,7 @@
+            "png": "/images/chimpions/TheLightInShadow/TheLightInShadow-badluckzulp.png",
+            "gif": "/images/chimpions/TheLightInShadow/TheLightInShadow-katsudon_sol.gif"
+        },
+        "holder": {
+            "holder_name": "ThunderBear",
+            "matrica_name": "ThunderBear",
+            "discord_id": "867186625456504852"
+        }
+        "holder": "ThunderBear"
+    },
+    {
+        "name": "TheLover",
+@@ -2473,11 +1981,7 @@
+            "png": "/images/chimpions/TheLover/TheLover-_rabbels_.png",
+            "gif": "/images/chimpions/TheLover/TheLover-katsudon_sol.gif"
+        },
+        "holder": {
+            "holder_name": "Aspen",
+            "matrica_name": "FokcyAi3xEeJXxmKNuy7Smg4J2VK8uHFvsnnK7PUMw8X",
+            "discord_id": "222204690404868096"
+        }
+        "holder": "Aspen"
+    },
+    {
+        "name": "TheMainCharacter",
+@@ -2493,11 +1997,7 @@
+            "png": "/images/chimpions/TheMainCharacter/TheMainCharacter-_rabbels_.png",
+            "gif": "/images/chimpions/TheMainCharacter/TheMainCharacter-katsudon_sol.gif"
+        },
+        "holder": {
+            "holder_name": "Hyblinxx",
+            "matrica_name": "Hyblinxxx",
+            "discord_id": "176545456845750272"
+        }
+        "holder": "Hyblinxx"
+    },
+    {
+        "name": "TheMartialArtist",
+@@ -2513,11 +2013,7 @@
+            "png": "/images/chimpions/TheMartialArtist/TheMartialArtist-_rabbels_.png",
+            "gif": "/images/chimpions/TheMartialArtist/TheMartialArtist-katsudon_sol.gif"
+        },
+        "holder": {
+            "holder_name": "Raves",
+            "matrica_name": "Raves",
+            "discord_id": "103306856465731584"
+        }
+        "holder": "Raves"
+    },
+    {
+        "name": "TheMasked",
+@@ -2533,11 +2029,7 @@
+            "png": "/images/chimpions/TheMasked/TheMasked-_rabbels_.png",
+            "gif": "/images/chimpions/TheMasked/TheMasked-katsudon_sol.gif"
+        },
+        "holder": {
+            "holder_name": "Tom B.",
+            "matrica_name": "HyJ4vc9wUfVrnojdqRetVA6ktrpVQRsUgry4C6Hc5uSg",
+            "discord_id": "263669007570305025"
+        }
+        "holder": "Tom B."
+    },
+    {
+        "name": "TheMeathead",
+@@ -2553,11 +2045,7 @@
+            "png": "/images/chimpions/TheMeathead/TheMeathead-_rabbels_.png",
+            "gif": "/images/chimpions/TheMeathead/TheMeathead-katsudon_sol.gif"
+        },
+        "holder": {
+            "holder_name": "PNP",
+            "matrica_name": "PNP",
+            "discord_id": "793743503863578675"
+        }
+        "holder": "PNP"
+    },
+    {
+        "name": "TheMechanized",
+@@ -2573,11 +2061,7 @@
+            "png": "/images/chimpions/TheMechanized/TheMechanized-_rabbels_.png",
+            "gif": "/images/chimpions/TheMechanized/TheMechanized-katsudon_sol.gif"
+        },
+        "holder": {
+            "holder_name": "",
+            "matrica_name": "BAfSP8fqeeyGeewgdq6C8rQHVvjoFjSUUfPfooCSWZFr",
+            "discord_id": ""
+        }
+        "holder": ""
+    },
+    {
+        "name": "TheMercenary",
+@@ -2593,11 +2077,7 @@
+            "png": "/images/chimpions/TheMercenary/TheMercenary-_rabbels_.png",
+            "gif": "/images/chimpions/TheMercenary/TheMercenary-katsudon_sol.gif"
+        },
+        "holder": {
+            "holder_name": "Faddy",
+            "matrica_name": "6wjLnSy5XxWfEm3xBMbt6o3UXkcMFRuV19r1rpR49dWK",
+            "discord_id": "905268446386876437"
+        }
+        "holder": "Faddy"
+    },
+    {
+        "name": "TheMessenger",
+@@ -2613,11 +2093,7 @@
+            "png": "/images/chimpions/TheMessenger/TheMessenger-_rabbels_.png",
+            "gif": "/images/chimpions/TheMessenger/TheMessenger-katsudon_sol.gif"
+        },
+        "holder": {
+            "holder_name": "zachary",
+            "matrica_name": "zachary",
+            "discord_id": "896337062393958400"
+        }
+        "holder": "zachary"
+    },
+    {
+        "name": "TheMilitant",
+@@ -2633,11 +2109,7 @@
+            "png": "/images/chimpions/TheMilitant/TheMilitant-_rabbels_.png",
+            "gif": "/images/chimpions/TheMilitant/TheMilitant-katsudon_sol.gif"
+        },
+        "holder": {
+            "holder_name": "ThunderBear",
+            "matrica_name": "ThunderBear",
+            "discord_id": "867186625456504852"
+        }
+        "holder": "ThunderBear"
+    },
+    {
+        "name": "TheMischievous",
+@@ -2653,11 +2125,7 @@
+            "png": "/images/chimpions/TheMischievous/TheMischievous-badluckzulp.png",
+            "gif": "/images/chimpions/TheMischievous/TheMischievous-katsudon_sol.gif"
+        },
+        "holder": {
+            "holder_name": "Nargar",
+            "matrica_name": "Nargar",
+            "discord_id": "294592430127185921"
+        }
+        "holder": "Nargar"
+    },
+    {
+        "name": "TheMutant",
+@@ -2673,11 +2141,7 @@
+            "png": "/images/chimpions/TheMutant/TheMutant-_rabbels_.png",
+            "gif": "/images/chimpions/TheMutant/TheMutant-katsudon_sol.gif"
+        },
+        "holder": {
+            "holder_name": "",
+            "matrica_name": "Checco",
+            "discord_id": ""
+        }
+        "holder": ""
+    },
+    {
+        "name": "TheNeuromancer",
+@@ -2693,11 +2157,7 @@
+            "png": "/images/chimpions/TheNeuromancer/TheNeuromancer-zen0m.png",
+            "gif": "/images/chimpions/TheNeuromancer/TheNeuromancer-katsudon_sol.gif"
+        },
+        "holder": {
+            "holder_name": "Brink",
+            "matrica_name": "Brink",
+            "discord_id": "176183220688125952"
+        }
+        "holder": "Brink"
+    },
+    {
+        "name": "TheNightstalker",
+@@ -2713,11 +2173,7 @@
+            "png": "/images/chimpions/TheNightstalker/TheNightstalker-zen0m.png",
+            "gif": "/images/chimpions/TheNightstalker/TheNightstalker-katsudon_sol.gif"
+        },
+        "holder": {
+            "holder_name": "Damasta",
+            "matrica_name": "Damasta",
+            "discord_id": "143733325499072512"
+        }
+        "holder": "Damasta"
+    },
+    {
+        "name": "TheNomad",
+@@ -2733,11 +2189,7 @@
+            "png": "/images/chimpions/TheNomad/TheNomad-_rabbels_.png",
+            "gif": "/images/chimpions/TheNomad/TheNomad-katsudon_sol.gif"
+        },
+        "holder": {
+            "holder_name": "",
+            "matrica_name": "7dUj9sypMMfTgs4nNRuj4upKrVE6agnEhBDNoKFfEdwu",
+            "discord_id": ""
+        }
+        "holder": ""
+    },
+    {
+        "name": "TheOathkeeper",
+@@ -2753,11 +2205,7 @@
+            "png": "/images/chimpions/TheOathkeeper/TheOathkeeper-_rabbels_.png",
+            "gif": "/images/chimpions/TheOathkeeper/TheOathkeeper-katsudon_sol.gif"
+        },
+        "holder": {
+            "holder_name": "SolBigBrain",
+            "matrica_name": "SolBigBrain",
+            "discord_id": "785722075942879243"
+        }
+        "holder": "SolBigBrain"
+    },
+    {
+        "name": "TheOfficer",
+@@ -2773,11 +2221,7 @@
+            "png": "/images/chimpions/TheOfficer/TheOfficer-badluckzulp.png",
+            "gif": "/images/chimpions/TheOfficer/TheOfficer-katsudon_sol.gif"
+        },
+        "holder": {
+            "holder_name": "Rheld",
+            "matrica_name": "Rheld",
+            "discord_id": "160599849304064001"
+        }
+        "holder": "Rheld"
+    },
+    {
+        "name": "TheOffworlder",
+@@ -2793,11 +2237,7 @@
+            "png": "/images/chimpions/TheOffworlder/TheOffworlder-_rabbels_.png",
+            "gif": "/images/chimpions/TheOffworlder/TheOffworlder-katsudon_sol.gif"
+        },
+        "holder": {
+            "holder_name": "birb",
+            "matrica_name": "mulletmusketeer",
+            "discord_id": "329380399362998283"
+        }
+        "holder": "birb"
+    },
+    {
+        "name": "TheOmniscient",
+@@ -2813,11 +2253,7 @@
+            "png": "/images/chimpions/TheOmniscient/TheOmniscient-badluckzulp.png",
+            "gif": "/images/chimpions/TheOmniscient/TheOmniscient-katsudon_sol.gif"
+        },
+        "holder": {
+            "holder_name": "Wald",
+            "matrica_name": "Wald",
+            "discord_id": "415336779017617408"
+        }
+        "holder": "Wald"
+    },
+    {
+        "name": "TheOneWhoLurksInShadow",
+@@ -2833,11 +2269,7 @@
+            "png": "/images/chimpions/TheOneWhoLurksInShadow/TheOneWhoLurksInShadow-_rabbels_.png",
+            "gif": "/images/chimpions/TheOneWhoLurksInShadow/TheOneWhoLurksInShadow-katsudon_sol.gif"
+        },
+        "holder": {
+            "holder_name": "",
+            "matrica_name": "",
+            "discord_id": ""
+        }
+        "holder": ""
+    },
+    {
+        "name": "TheOneWhoRocksHard",
+@@ -2853,11 +2285,7 @@
+            "png": "/images/chimpions/TheOneWhoRocksHard/TheOneWhoRocksHard-_rabbels_.png",
+            "gif": "/images/chimpions/TheOneWhoRocksHard/TheOneWhoRocksHard-katsudon_sol.gif"
+        },
+        "holder": {
+            "holder_name": "huatrabbit",
+            "matrica_name": "huatrabbit",
+            "discord_id": "349889849353830404"
+        }
+        "holder": "huatrabbit"
+    },
+    {
+        "name": "TheOperative",
+@@ -2873,11 +2301,7 @@
+            "png": "/images/chimpions/TheOperative/TheOperative-badluckzulp.png",
+            "gif": "/images/chimpions/TheOperative/TheOperative-katsudon_sol.gif"
+        },
+        "holder": {
+            "holder_name": "",
+            "matrica_name": "3341xpm9ovPwrDsxhVxrKxT3u5aVSyb5VJEjFLQx87vG",
+            "discord_id": ""
+        }
+        "holder": ""
+    },
+    {
+        "name": "TheOrdained",
+@@ -2893,11 +2317,7 @@
+            "png": "/images/chimpions/TheOrdained/TheOrdained-_rabbels_.png",
+            "gif": "/images/chimpions/TheOrdained/TheOrdained-katsudon_sol.gif"
+        },
+        "holder": {
+            "holder_name": "ThunderBear",
+            "matrica_name": "ThunderBear",
+            "discord_id": "867186625456504852"
+        }
+        "holder": "ThunderBear"
+    },
+    {
+        "name": "TheOriginal",
+@@ -2913,11 +2333,7 @@
+            "png": "/images/chimpions/TheOriginal/TheOriginal-_rabbels_.png",
+            "gif": "/images/chimpions/TheOriginal/TheOriginal-katsudon_sol.gif"
+        },
+        "holder": {
+            "holder_name": "Maxbrs",
+            "matrica_name": "maxbrs.sol",
+            "discord_id": "806446353420517397"
+        }
+        "holder": "Maxbrs"
+    },
+    {
+        "name": "TheOrnamented",
+@@ -2933,11 +2349,7 @@
+            "png": "/images/chimpions/TheOrnamented/TheOrnamented-_rabbels_.png",
+            "gif": "/images/chimpions/TheOrnamented/TheOrnamented-katsudon_sol.gif"
+        },
+        "holder": {
+            "holder_name": "J0hanna",
+            "matrica_name": "9QNjD2hxzLpkRQx9zR9mAcqH3aqGEYCmTbYKyFmbYtRx",
+            "discord_id": "833692218563887164"
+        }
+        "holder": "J0hanna"
+    },
+    {
+        "name": "TheOtherworldly",
+@@ -2953,11 +2365,7 @@
+            "png": "/images/chimpions/TheOtherworldly/TheOtherworldly-zen0m.png",
+            "gif": "/images/chimpions/TheOtherworldly/TheOtherworldly-katsudon_sol.gif"
+        },
+        "holder": {
+            "holder_name": "DreLaSol",
+            "matrica_name": "",
+            "discord_id": "562434959080554527"
+        }
+        "holder": "DreLaSol"
+    },
+    {
+        "name": "TheOutrunner",
+@@ -2973,11 +2381,7 @@
+            "png": "/images/chimpions/TheOutrunner/TheOutrunner-_rabbels_.png",
+            "gif": "/images/chimpions/TheOutrunner/TheOutrunner-katsudon_sol.gif"
+        },
+        "holder": {
+            "holder_name": "",
+            "matrica_name": "",
+            "discord_id": ""
+        }
+        "holder": ""
+    },
+    {
+        "name": "TheOverflowing",
+@@ -2993,11 +2397,7 @@
+            "png": "/images/chimpions/TheOverflowing/TheOverflowing-_rabbels_.png",
+            "gif": "/images/chimpions/TheOverflowing/TheOverflowing-katsudon_sol.gif"
+        },
+        "holder": {
+            "holder_name": "Alkine",
+            "matrica_name": "Alkine",
+            "discord_id": "266989823879806978"
+        }
+        "holder": "Alkine"
+    },
+    {
+        "name": "ThePackLeader",
+@@ -3013,11 +2413,7 @@
+            "png": "/images/chimpions/ThePackLeader/ThePackLeader-_rabbels_.png",
+            "gif": "/images/chimpions/ThePackLeader/ThePackLeader-katsudon_sol.gif"
+        },
+        "holder": {
+            "holder_name": "Doudou",
+            "matrica_name": "NotDoudou",
+            "discord_id": "304124024672223234"
+        }
+        "holder": "Doudou"
+    },
+    {
+        "name": "ThePainted",
+@@ -3033,11 +2429,7 @@
+            "png": "/images/chimpions/ThePainted/ThePainted-_rabbels_.png",
+            "gif": "/images/chimpions/ThePainted/ThePainted-katsudon_sol.gif"
+        },
+        "holder": {
+            "holder_name": "0xnasa",
+            "matrica_name": "0xnasa",
+            "discord_id": ""
+        }
+        "holder": "0xnasa"
+    },
+    {
+        "name": "ThePainter",
+@@ -3053,11 +2445,7 @@
+            "png": "/images/chimpions/ThePainter/ThePainter-_rabbels_.png",
+            "gif": "/images/chimpions/ThePainter/ThePainter-katsudon_sol.gif"
+        },
+        "holder": {
+            "holder_name": "zuzuzuzuzuzuzu",
+            "matrica_name": "5LDdaHcE1tzcwtfBzor6xbYB9k57hwz8z7Edq7NBVhRj",
+            "discord_id": "645315104958709762"
+        }
+        "holder": "zuzuzuzuzuzuzu"
+    },
+    {
+        "name": "ThePaladin",
+@@ -3073,11 +2461,7 @@
+            "png": "/images/chimpions/ThePaladin/ThePaladin-_rabbels_.png",
+            "gif": "/images/chimpions/ThePaladin/ThePaladin-katsudon_sol.gif"
+        },
+        "holder": {
+            "holder_name": "Doudou",
+            "matrica_name": "NotDoudou",
+            "discord_id": "304124024672223234"
+        }
+        "holder": "Doudou"
+    },
+    {
+        "name": "ThePatient",
+@@ -3093,11 +2477,7 @@
+            "png": "/images/chimpions/ThePatient/ThePatient-badluckzulp.png",
+            "gif": "/images/chimpions/ThePatient/ThePatient-katsudon_sol.gif"
+        },
+        "holder": {
+            "holder_name": "",
+            "matrica_name": "",
+            "discord_id": ""
+        }
+        "holder": ""
+    },
+    {
+        "name": "ThePatrolman",
+@@ -3113,11 +2493,7 @@
+            "png": "/images/chimpions/ThePatrolman/ThePatrolman-_rabbels_.png",
+            "gif": "/images/chimpions/ThePatrolman/ThePatrolman-katsudon_sol.gif"
+        },
+        "holder": {
+            "holder_name": "CMC81",
+            "matrica_name": "CMC81",
+            "discord_id": "886961750392586251"
+        }
+        "holder": "CMC81"
+    },
+    {
+        "name": "ThePensive",
+@@ -3133,11 +2509,7 @@
+            "png": "/images/chimpions/ThePensive/ThePensive-_rabbels_.png",
+            "gif": "/images/chimpions/ThePensive/ThePensive-katsudon_sol.gif"
+        },
+        "holder": {
+            "holder_name": "minne_ape_olis",
+            "matrica_name": "3Fv9YppPQ8Z1p3j3vDT8TGhVqmdNnREmQsW94Wvhg8nh",
+            "discord_id": "308629865744302101"
+        }
+        "holder": "minne_ape_olis"
+    },
+    {
+        "name": "ThePerplexed",
+@@ -3153,11 +2525,7 @@
+            "png": "/images/chimpions/ThePerplexed/ThePerplexed-_rabbels_.png",
+            "gif": "/images/chimpions/ThePerplexed/ThePerplexed-katsudon_sol.gif"
+        },
+        "holder": {
+            "holder_name": "",
+            "matrica_name": "Bngy94jDLTH4xUGSdLte63RGEDUgap6zCj1xSR7ovY5A",
+            "discord_id": ""
+        }
+        "holder": ""
+    },
+    {
+        "name": "ThePioneer",
+@@ -3173,11 +2541,7 @@
+            "png": "/images/chimpions/ThePioneer/ThePioneer-_rabbels_.png",
+            "gif": "/images/chimpions/ThePioneer/ThePioneer-katsudon_sol.gif"
+        },
+        "holder": {
+            "holder_name": "",
+            "matrica_name": "76GmNz82LjfeNetiK1KGwhTqvMuQGzsHJ8cWsUewJfcQ",
+            "discord_id": ""
+        }
+        "holder": ""
+    },
+    {
+        "name": "ThePlumber",
+@@ -3193,11 +2557,7 @@
+            "png": "/images/chimpions/ThePlumber/ThePlumber-_rabbels_.png",
+            "gif": "/images/chimpions/ThePlumber/ThePlumber-katsudon_sol.gif"
+        },
+        "holder": {
+            "holder_name": "ThunderBear",
+            "matrica_name": "ThunderBear",
+            "discord_id": "867186625456504852"
+        }
+        "holder": "ThunderBear"
+    },
+    {
+        "name": "ThePocketMonkey",
+@@ -3213,11 +2573,7 @@
+            "png": "/images/chimpions/ThePocketMonkey/ThePocketMonkey-_rabbels_.png",
+            "gif": "/images/chimpions/ThePocketMonkey/ThePocketMonkey-katsudon_sol.gif"
+        },
+        "holder": {
+            "holder_name": "mork",
+            "matrica_name": "mork",
+            "discord_id": "765029847629824001"
+        }
+        "holder": "mork"
+    },
+    {
+        "name": "ThePowderMonkey",
+@@ -3233,11 +2589,7 @@
+            "png": "/images/chimpions/ThePowderMonkey/ThePowderMonkey-zen0m.png",
+            "gif": "/images/chimpions/ThePowderMonkey/ThePowderMonkey-katsudon_sol.gif"
+        },
+        "holder": {
+            "holder_name": "minz",
+            "matrica_name": "swzzi",
+            "discord_id": "439912094834360321"
+        }
+        "holder": "minz"
+    },
+    {
+        "name": "ThePreeminent",
+@@ -3253,11 +2605,7 @@
+            "png": "/images/chimpions/ThePreeminent/ThePreeminent-badluckzulp.png",
+            "gif": "/images/chimpions/ThePreeminent/ThePreeminent-katsudon_sol.gif"
+        },
+        "holder": {
+            "holder_name": "R!ck",
+            "matrica_name": "Rick009",
+            "discord_id": "457814187276632065"
+        }
+        "holder": "R!ck"
+    },
+    {
+        "name": "TheProfessional",
+@@ -3273,11 +2621,7 @@
+            "png": "/images/chimpions/TheProfessional/TheProfessional-badluckzulp.png",
+            "gif": "/images/chimpions/TheProfessional/TheProfessional-katsudon_sol.gif"
+        },
+        "holder": {
+            "holder_name": "Tellias",
+            "matrica_name": "EaeMcN6KWaVTa2iu2MVGC6uVAxes7xJVnSoEjbQ5MyAL",
+            "discord_id": "446267337964912650"
+        }
+        "holder": "Tellias"
+    },
+    {
+        "name": "TheProgrammed",
+@@ -3293,11 +2637,7 @@
+            "png": "/images/chimpions/TheProgrammed/TheProgrammed-_rabbels_.png",
+            "gif": "/images/chimpions/TheProgrammed/TheProgrammed-katsudon_sol.gif"
+        },
+        "holder": {
+            "holder_name": "SCUM",
+            "matrica_name": "AXA8gaik3ckUTjK1hLDBC7quVGgvgjKPZFai3d8zceTA",
+            "discord_id": "585519703221338126"
+        }
+        "holder": "SCUM"
+    },
+    {
+        "name": "ThePtolemaic",
+@@ -3313,11 +2653,7 @@
+            "png": "/images/chimpions/ThePtolemaic/ThePtolemaic-badluckzulp.png",
+            "gif": "/images/chimpions/ThePtolemaic/ThePtolemaic-katsudon_sol.gif"
+        },
+        "holder": {
+            "holder_name": "SKUX",
+            "matrica_name": "SKUX",
+            "discord_id": "909808227024261140"
+        }
+        "holder": "SKUX"
+    },
+    {
+        "name": "ThePunk",
+@@ -3333,11 +2669,7 @@
+            "png": "/images/chimpions/ThePunk/ThePunk-_rabbels_.png",
+            "gif": "/images/chimpions/ThePunk/ThePunk-katsudon_sol.gif"
+        },
+        "holder": {
+            "holder_name": "Punk Monke",
+            "matrica_name": "PunkMonke",
+            "discord_id": "819007619690922025"
+        }
+        "holder": "Punk Monke"
+    },
+    {
+        "name": "TheRancher",
+@@ -3353,11 +2685,7 @@
+            "png": "/images/chimpions/TheRancher/TheRancher-_rabbels_.png",
+            "gif": "/images/chimpions/TheRancher/TheRancher-katsudon_sol.gif"
+        },
+        "holder": {
+            "holder_name": "Pwenguin",
+            "matrica_name": "Pwenguin",
+            "discord_id": "704327714298921050"
+        }
+        "holder": "Pwenguin"
+    },
+    {
+        "name": "TheRapscallion",
+@@ -3373,11 +2701,7 @@
+            "png": "/images/chimpions/TheRapscallion/TheRapscallion-_rabbels_.png",
+            "gif": "/images/chimpions/TheRapscallion/TheRapscallion-katsudon_sol.gif"
+        },
+        "holder": {
+            "holder_name": "Lex",
+            "matrica_name": "Lex",
+            "discord_id": "235804343176003586"
+        }
+        "holder": "Lex"
+    },
+    {
+        "name": "TheRebel",
+@@ -3393,11 +2717,7 @@
+            "png": "/images/chimpions/TheRebel/TheRebel-_rabbels_.png",
+            "gif": "/images/chimpions/TheRebel/TheRebel-katsudon_sol.gif"
+        },
+        "holder": {
+            "holder_name": "unskilledfather",
+            "matrica_name": "\ud835\udd66\ud835\udd5f\ud835\udd64\ud835\udd5c\ud835\udd5a\ud835\udd5d\ud835\udd5d\ud835\udd56\ud835\udd55\ud835\udd57\ud835\udd52\ud835\udd65\ud835\udd59\ud835\udd56\ud835\udd63",
+            "discord_id": "904826894665515028"
+        }
+        "holder": "unskilledfather"
+    },
+    {
+        "name": "TheRegal",
+@@ -3413,11 +2733,7 @@
+            "png": "/images/chimpions/TheRegal/TheRegal-_rabbels_.png",
+            "gif": "/images/chimpions/TheRegal/TheRegal-katsudon_sol.gif"
+        },
+        "holder": {
+            "holder_name": "counter",
+            "matrica_name": "counter",
+            "discord_id": "307942307091578890"
+        }
+        "holder": "counter"
+    },
+    {
+        "name": "TheReincarnated",
+@@ -3433,11 +2749,7 @@
+            "png": "/images/chimpions/TheReincarnated/TheReincarnated-_rabbels_.png",
+            "gif": "/images/chimpions/TheReincarnated/TheReincarnated-katsudon_sol.gif"
+        },
+        "holder": {
+            "holder_name": "Odd Skull",
+            "matrica_name": "Odd Skull",
+            "discord_id": "915127375073783818"
+        }
+        "holder": "Odd Skull"
+    },
+    {
+        "name": "TheRemnant",
+@@ -3453,11 +2765,7 @@
+            "png": "/images/chimpions/TheRemnant/TheRemnant-zen0m.png",
+            "gif": "/images/chimpions/TheRemnant/TheRemnant-katsudon_sol.gif"
+        },
+        "holder": {
+            "holder_name": "ThunderBear",
+            "matrica_name": "ThunderBear",
+            "discord_id": "867186625456504852"
+        }
+        "holder": "ThunderBear"
+    },
+    {
+        "name": "TheReverent",
+@@ -3473,11 +2781,7 @@
+            "png": "/images/chimpions/TheReverent/TheReverent-_rabbels_.png",
+            "gif": "/images/chimpions/TheReverent/TheReverent-katsudon_sol.gif"
+        },
+        "holder": {
+            "holder_name": "",
+            "matrica_name": "",
+            "discord_id": ""
+        }
+        "holder": ""
+    },
+    {
+        "name": "TheReversed",
+@@ -3493,11 +2797,7 @@
+            "png": "/images/chimpions/TheReversed/TheReversed-_rabbels_.png",
+            "gif": "/images/chimpions/TheReversed/TheReversed-katsudon_sol.gif"
+        },
+        "holder": {
+            "holder_name": "SKUX",
+            "matrica_name": "SKUX",
+            "discord_id": "909808227024261140"
+        }
+        "holder": "SKUX"
+    },
+    {
+        "name": "TheRightHand",
+@@ -3513,11 +2813,7 @@
+            "png": "/images/chimpions/TheRightHand/TheRightHand-_rabbels_.png",
+            "gif": "/images/chimpions/TheRightHand/TheRightHand-katsudon_sol.gif"
+        },
+        "holder": {
+            "holder_name": "EarlthePearl",
+            "matrica_name": "Dappearl",
+            "discord_id": "711189328457498675"
+        }
+        "holder": "EarlthePearl"
+    },
+    {
+        "name": "TheRigid",
+@@ -3533,11 +2829,7 @@
+            "png": "/images/chimpions/TheRigid/TheRigid-_rabbels_.png",
+            "gif": "/images/chimpions/TheRigid/TheRigid-katsudon_sol.gif"
+        },
+        "holder": {
+            "holder_name": "0xbustos",
+            "matrica_name": "",
+            "discord_id": ""
+        }
+        "holder": "0xbustos"
+    },
+    {
+        "name": "TheRitualist",
+@@ -3553,11 +2845,7 @@
+            "png": "/images/chimpions/TheRitualist/TheRitualist-_rabbels_.png",
+            "gif": "/images/chimpions/TheRitualist/TheRitualist-katsudon_sol.gif"
+        },
+        "holder": {
+            "holder_name": "Simba",
+            "matrica_name": "zekarodzer",
+            "discord_id": "383019686465372162"
+        }
+        "holder": "Simba"
+    },
+    {
+        "name": "TheRocker",
+@@ -3573,11 +2861,7 @@
+            "png": "/images/chimpions/TheRocker/TheRocker-zen0m.png",
+            "gif": "/images/chimpions/TheRocker/TheRocker-katsudon_sol.gif"
+        },
+        "holder": {
+            "holder_name": "Katsu",
+            "matrica_name": "donkatsu",
+            "discord_id": "381248536810881024"
+        }
+        "holder": "Katsu"
+    },
+    {
+        "name": "TheRoyal",
+@@ -3593,11 +2877,7 @@
+            "png": "/images/chimpions/TheRoyal/TheRoyal-_rabbels_.png",
+            "gif": "/images/chimpions/TheRoyal/TheRoyal-katsudon_sol.gif"
+        },
+        "holder": {
+            "holder_name": "Johners",
+            "matrica_name": "EE9PmcDQ3aGNxJ8iP6jqKRf95DdaU7dJwEQ8m3DBUo1p",
+            "discord_id": "828052192124076083"
+        }
+        "holder": "Johners"
+    },
+    {
+        "name": "TheScientist",
+@@ -3613,11 +2893,7 @@
+            "png": "/images/chimpions/TheScientist/TheScientist-badluckzulp.png",
+            "gif": "/images/chimpions/TheScientist/TheScientist-katsudon_sol.gif"
+        },
+        "holder": {
+            "holder_name": "Faint",
+            "matrica_name": "93wqaPBJ1N5F4sDzVyCLvHrGNsx6cedWu2qNEcQQYzLM",
+            "discord_id": "386371975095910400"
+        }
+        "holder": "Faint"
+    },
+    {
+        "name": "TheScorched",
+@@ -3633,11 +2909,7 @@
+            "png": "/images/chimpions/TheScorched/TheScorched-zen0m.png",
+            "gif": "/images/chimpions/TheScorched/TheScorched-katsudon_sol.gif"
+        },
+        "holder": {
+            "holder_name": "Dutch",
+            "matrica_name": "Dutch",
+            "discord_id": "926670219827626074"
+        }
+        "holder": "Dutch"
+    },
+    {
+        "name": "TheScoundrel",
+@@ -3653,11 +2925,7 @@
+            "png": "/images/chimpions/TheScoundrel/TheScoundrel-_rabbels_.png",
+            "gif": "/images/chimpions/TheScoundrel/TheScoundrel-katsudon_sol.gif"
+        },
+        "holder": {
+            "holder_name": "",
+            "matrica_name": "",
+            "discord_id": ""
+        }
+        "holder": ""
+    },
+    {
+        "name": "TheShieldBearer",
+@@ -3673,11 +2941,7 @@
+            "png": "/images/chimpions/TheShieldBearer/TheShieldBearer-_rabbels_.png",
+            "gif": "/images/chimpions/TheShieldBearer/TheShieldBearer-katsudon_sol.gif"
+        },
+        "holder": {
+            "holder_name": "ThunderBear",
+            "matrica_name": "ThunderBear",
+            "discord_id": "867186625456504852"
+        }
+        "holder": "ThunderBear"
+    },
+    {
+        "name": "TheShogun",
+@@ -3693,11 +2957,7 @@
+            "png": "/images/chimpions/TheShogun/TheShogun-badluckzulp.png",
+            "gif": "/images/chimpions/TheShogun/TheShogun-katsudon_sol.gif"
+        },
+        "holder": {
+            "holder_name": "Terrora",
+            "matrica_name": "Terrorra",
+            "discord_id": "300960990890295309"
+        }
+        "holder": "Terrora"
+    },
+    {
+        "name": "TheSinged",
+@@ -3713,11 +2973,7 @@
+            "png": "/images/chimpions/TheSinged/TheSinged-zen0m.png",
+            "gif": "/images/chimpions/TheSinged/TheSinged-katsudon_sol.gif"
+        },
+        "holder": {
+            "holder_name": "Utopia",
+            "matrica_name": "Matrica User",
+            "discord_id": "314686698716004353"
+        }
+        "holder": "Utopia"
+    },
+    {
+        "name": "TheSocial",
+@@ -3733,11 +2989,7 @@
+            "png": "/images/chimpions/TheSocial/TheSocial-_rabbels_.png",
+            "gif": "/images/chimpions/TheSocial/TheSocial-katsudon_sol.gif"
+        },
+        "holder": {
+            "holder_name": "MrCamel",
+            "matrica_name": "H71yxeDHUd8A1HhNpHtcnQYmvBmdimSo87sjwau4wy3A",
+            "discord_id": "926198013028884562"
+        }
+        "holder": "MrCamel"
+    },
+    {
+        "name": "TheSpectral",
+@@ -3753,11 +3005,7 @@
+            "png": "/images/chimpions/TheSpectral/TheSpectral-meltytanti.png",
+            "gif": "/images/chimpions/TheSpectral/TheSpectral-katsudon_sol.gif"
+        },
+        "holder": {
+            "holder_name": "Mo Betta",
+            "matrica_name": "J8oUugnkKZYBuN3j9Fy4C3Lo6WEtFF98uXu7czu4F8EB",
+            "discord_id": ""
+        }
+        "holder": "Mo Betta"
+    },
+    {
+        "name": "TheSpelunker",
+@@ -3773,11 +3021,7 @@
+            "png": "/images/chimpions/TheSpelunker/TheSpelunker-_rabbels_.png",
+            "gif": "/images/chimpions/TheSpelunker/TheSpelunker-katsudon_sol.gif"
+        },
+        "holder": {
+            "holder_name": "mebbs",
+            "matrica_name": "mebbs",
+            "discord_id": "461991057337352232"
+        }
+        "holder": "mebbs"
+    },
+    {
+        "name": "TheSpiritKeeper",
+@@ -3793,11 +3037,7 @@
+            "png": "/images/chimpions/TheSpiritKeeper/TheSpiritKeeper-_rabbels_.png",
+            "gif": "/images/chimpions/TheSpiritKeeper/TheSpiritKeeper-katsudon_sol.gif"
+        },
+        "holder": {
+            "holder_name": "",
+            "matrica_name": "",
+            "discord_id": ""
+        }
+        "holder": ""
+    },
+    {
+        "name": "TheSquire",
+@@ -3813,11 +3053,7 @@
+            "png": "/images/chimpions/TheSquire/TheSquire-_rabbels_.png",
+            "gif": "/images/chimpions/TheSquire/TheSquire-katsudon_sol.gif"
+        },
+        "holder": {
+            "holder_name": "ThunderBear",
+            "matrica_name": "ThunderBear",
+            "discord_id": "867186625456504852"
+        }
+        "holder": "ThunderBear"
+    },
+    {
+        "name": "TheStarbound",
+@@ -3833,11 +3069,7 @@
+            "png": "/images/chimpions/TheStarbound/TheStarbound-zen0m.png",
+            "gif": "/images/chimpions/TheStarbound/TheStarbound-katsudon_sol.gif"
+        },
+        "holder": {
+            "holder_name": "cripped",
+            "matrica_name": "cripped_0",
+            "discord_id": "502326628060495901"
+        }
+        "holder": "cripped"
+    },
+    {
+        "name": "TheStatic",
+@@ -3853,11 +3085,7 @@
+            "png": "/images/chimpions/TheStatic/TheStatic-_rabbels_.png",
+            "gif": "/images/chimpions/TheStatic/TheStatic-katsudon_sol.gif"
+        },
+        "holder": {
+            "holder_name": "Dasein",
+            "matrica_name": "dasein2249",
+            "discord_id": "830941636720197652"
+        }
+        "holder": "Dasein"
+    },
+    {
+        "name": "TheStreetFighter",
+@@ -3873,11 +3101,7 @@
+            "png": "/images/chimpions/TheStreetFighter/TheStreetFighter-badluckzulp.png",
+            "gif": "/images/chimpions/TheStreetFighter/TheStreetFighter-katsudon_sol.gif"
+        },
+        "holder": {
+            "holder_name": "HeisenThug",
+            "matrica_name": "HJrYczWnCWYRdvTEzHhrvNB7foHSjG58WEcHgPLBn4TT",
+            "discord_id": "639471981934280714"
+        }
+        "holder": "HeisenThug"
+    },
+    {
+        "name": "TheStubborn",
+@@ -3893,11 +3117,7 @@
+            "png": "/images/chimpions/TheStubborn/TheStubborn-badluckzulp.png",
+            "gif": "/images/chimpions/TheStubborn/TheStubborn-katsudon_sol.gif"
+        },
+        "holder": {
+            "holder_name": "rene",
+            "matrica_name": "9mooXoqKP7bXCrXFKAVmqxLPLE4UA3VbHhuodhDdakqd",
+            "discord_id": "931412410030518294"
+        }
+        "holder": "rene"
+    },
+    {
+        "name": "TheStudious",
+@@ -3913,11 +3133,7 @@
+            "png": "/images/chimpions/TheStudious/TheStudious-badluckzulp.png",
+            "gif": "/images/chimpions/TheStudious/TheStudious-katsudon_sol.gif"
+        },
+        "holder": {
+            "holder_name": "citineuqua",
+            "matrica_name": "kqek2ij4RLgcm9fYQ855zn9AL5ND75zkwFteujCvcHc",
+            "discord_id": "888590718061412352"
+        }
+        "holder": "citineuqua"
+    },
+    {
+        "name": "TheSultan",
+@@ -3933,11 +3149,7 @@
+            "png": "/images/chimpions/TheSultan/TheSultan-_rabbels_.png",
+            "gif": "/images/chimpions/TheSultan/TheSultan-katsudon_sol.gif"
+        },
+        "holder": {
+            "holder_name": "ExpliciT",
+            "matrica_name": "ExpliciT",
+            "discord_id": "535861769248178176"
+        }
+        "holder": "ExpliciT"
+    },
+    {
+        "name": "TheSummoner",
+@@ -3953,11 +3165,7 @@
+            "png": "/images/chimpions/TheSummoner/TheSummoner-badluckzulp.png",
+            "gif": "/images/chimpions/TheSummoner/TheSummoner-katsudon_sol.gif"
+        },
+        "holder": {
+            "holder_name": "ThunderBear",
+            "matrica_name": "ThunderBear",
+            "discord_id": "867186625456504852"
+        }
+        "holder": "ThunderBear"
+    },
+    {
+        "name": "TheSurvivor",
+@@ -3973,11 +3181,7 @@
+            "png": "/images/chimpions/TheSurvivor/TheSurvivor-zen0m.png",
+            "gif": "/images/chimpions/TheSurvivor/TheSurvivor-katsudon_sol.gif"
+        },
+        "holder": {
+            "holder_name": "",
+            "matrica_name": "Ap3s6w9zkKSyTvt3Gpc2kubEwYGo4veiRADgqqdW3767",
+            "discord_id": ""
+        }
+        "holder": ""
+    },
+    {
+        "name": "TheTattered",
+@@ -3993,11 +3197,7 @@
+            "png": "/images/chimpions/TheTattered/TheTattered-_rabbels_.png",
+            "gif": "/images/chimpions/TheTattered/TheTattered-katsudon_sol.gif"
+        },
+        "holder": {
+            "holder_name": "Vell",
+            "matrica_name": "Vell",
+            "discord_id": "255686519426121728"
+        }
+        "holder": "Vell"
+    },
+    {
+        "name": "TheTechnician",
+@@ -4013,11 +3213,7 @@
+            "png": "/images/chimpions/TheTechnician/TheTechnician-_rabbels_.png",
+            "gif": "/images/chimpions/TheTechnician/TheTechnician-katsudon_sol.gif"
+        },
+        "holder": {
+            "holder_name": "Mundz",
+            "matrica_name": "mundz",
+            "discord_id": "817838163799965716"
+        }
+        "holder": "Mundz"
+    },
+    {
+        "name": "TheTechnophile",
+@@ -4033,11 +3229,7 @@
+            "png": "/images/chimpions/TheTechnophile/TheTechnophile-_rabbels_.png",
+            "gif": "/images/chimpions/TheTechnophile/TheTechnophile-katsudon_sol.gif"
+        },
+        "holder": {
+            "holder_name": "Aure64",
+            "matrica_name": "Aure64",
+            "discord_id": "844874021706792962"
+        }
+        "holder": "Aure64"
+    },
+    {
+        "name": "TheTestSubject",
+@@ -4053,11 +3245,7 @@
+            "png": "/images/chimpions/TheTestSubject/TheTestSubject-_rabbels_.png",
+            "gif": "/images/chimpions/TheTestSubject/TheTestSubject-katsudon_sol.gif"
+        },
+        "holder": {
+            "holder_name": "ThunderBear",
+            "matrica_name": "ThunderBear",
+            "discord_id": "867186625456504852"
+        }
+        "holder": "ThunderBear"
+    },
+    {
+        "name": "TheThug",
+@@ -4073,11 +3261,7 @@
+            "png": "/images/chimpions/TheThug/TheThug-_rabbels_.png",
+            "gif": "/images/chimpions/TheThug/TheThug-katsudon_sol.gif"
+        },
+        "holder": {
+            "holder_name": "",
+            "matrica_name": "",
+            "discord_id": ""
+        }
+        "holder": ""
+    },
+    {
+        "name": "TheTimeworn",
+@@ -4093,11 +3277,7 @@
+            "png": "/images/chimpions/TheTimeworn/TheTimeworn-badluckzulp.png",
+            "gif": "/images/chimpions/TheTimeworn/TheTimeworn-katsudon_sol.gif"
+        },
+        "holder": {
+            "holder_name": "ThunderBear",
+            "matrica_name": "ThunderBear",
+            "discord_id": "867186625456504852"
+        }
+        "holder": "ThunderBear"
+    },
+    {
+        "name": "TheTotemic",
+@@ -4113,11 +3293,7 @@
+            "png": "/images/chimpions/TheTotemic/TheTotemic-_rabbels_.png",
+            "gif": "/images/chimpions/TheTotemic/TheTotemic-katsudon_sol.gif"
+        },
+        "holder": {
+            "holder_name": "Thomass",
+            "matrica_name": "AXn72v6GSNuozvPchh5Ry3sfMww5WfyLvLEtMVn5AZEY",
+            "discord_id": "274942175257690112"
+        }
+        "holder": "Thomass"
+    },
+    {
+        "name": "TheTraditional",
+@@ -4133,11 +3309,7 @@
+            "png": "/images/chimpions/TheTraditional/TheTraditional-_rabbels_.png",
+            "gif": "/images/chimpions/TheTraditional/TheTraditional-katsudon_sol.gif"
+        },
+        "holder": {
+            "holder_name": "",
+            "matrica_name": "",
+            "discord_id": ""
+        }
+        "holder": ""
+    },
+    {
+        "name": "TheTrained",
+@@ -4153,11 +3325,7 @@
+            "png": "/images/chimpions/TheTrained/TheTrained-_rabbels_.png",
+            "gif": "/images/chimpions/TheTrained/TheTrained-katsudon_sol.gif"
+        },
+        "holder": {
+            "holder_name": "An0rak7",
+            "matrica_name": "an0rak07",
+            "discord_id": "419798818239021059"
+        }
+        "holder": "An0rak7"
+    },
+    {
+        "name": "TheTrickster",
+@@ -4173,11 +3341,7 @@
+            "png": "/images/chimpions/TheTrickster/TheTrickster-zen0m.png",
+            "gif": "/images/chimpions/TheTrickster/TheTrickster-katsudon_sol.gif"
+        },
+        "holder": {
+            "holder_name": "sidvicious843",
+            "matrica_name": "sidvicious843",
+            "discord_id": "690046283091935239"
+        }
+        "holder": "sidvicious843"
+    },
+    {
+        "name": "TheUneasy",
+@@ -4193,11 +3357,7 @@
+            "png": "/images/chimpions/TheUneasy/TheUneasy-badluckzulp.png",
+            "gif": "/images/chimpions/TheUneasy/TheUneasy-katsudon_sol.gif"
+        },
+        "holder": {
+            "holder_name": "",
+            "matrica_name": "GTjvKMWHMVkCdgTq7H2A6ntXjB4ueB9wyYVqRa8JsDKR",
+            "discord_id": ""
+        }
+        "holder": ""
+    },
+    {
+        "name": "TheUnknowable",
+@@ -4213,11 +3373,7 @@
+            "png": "/images/chimpions/TheUnknowable/TheUnknowable-Brink_Brinker.png",
+            "gif": "/images/chimpions/TheUnknowable/TheUnknowable-katsudon_sol.gif"
+        },
+        "holder": {
+            "holder_name": "heleemelon",
+            "matrica_name": "heleemelon",
+            "discord_id": "705096053283881030"
+        }
+        "holder": "heleemelon"
+    },
+    {
+        "name": "TheVassal",
+@@ -4233,11 +3389,7 @@
+            "png": "/images/chimpions/TheVassal/TheVassal-_rabbels_.png",
+            "gif": "/images/chimpions/TheVassal/TheVassal-katsudon_sol.gif"
+        },
+        "holder": {
+            "holder_name": "murath",
+            "matrica_name": "murath",
+            "discord_id": "399626989750976514"
+        }
+        "holder": "murath"
+    },
+    {
+        "name": "TheWarlike",
+@@ -4253,11 +3405,7 @@
+            "png": "/images/chimpions/TheWarlike/TheWarlike-_rabbels_.png",
+            "gif": "/images/chimpions/TheWarlike/TheWarlike-katsudon_sol.gif"
+        },
+        "holder": {
+            "holder_name": "hamster",
+            "matrica_name": "hamster",
+            "discord_id": "747420576250855445"
+        }
+        "holder": "hamster"
+    },
+    {
+        "name": "TheWartorn",
+@@ -4273,11 +3421,7 @@
+            "png": "/images/chimpions/TheWartorn/TheWartorn-_rabbels_.png",
+            "gif": "/images/chimpions/TheWartorn/TheWartorn-katsudon_sol.gif"
+        },
+        "holder": {
+            "holder_name": "Draco",
+            "matrica_name": "mikethompson",
+            "discord_id": "802093937346215976"
+        }
+        "holder": "Draco"
+    },
+    {
+        "name": "TheWastelander",
+@@ -4293,11 +3437,7 @@
+            "png": "/images/chimpions/TheWastelander/TheWastelander-zen0m.png",
+            "gif": "/images/chimpions/TheWastelander/TheWastelander-katsudon_sol.gif"
+        },
+        "holder": {
+            "holder_name": "Hatse",
+            "matrica_name": "hatse",
+            "discord_id": "772080590282293288"
+        }
+        "holder": "Hatse"
+    },
+    {
+        "name": "TheWatchman",
+@@ -4313,11 +3453,7 @@
+            "png": "/images/chimpions/TheWatchman/TheWatchman-_rabbels_.png",
+            "gif": "/images/chimpions/TheWatchman/TheWatchman-katsudon_sol.gif"
+        },
+        "holder": {
+            "holder_name": "dabums",
+            "matrica_name": "dabums3",
+            "discord_id": "511623487622873088"
+        }
+        "holder": "dabums"
+    },
+    {
+        "name": "TheWitchDoctor",
+@@ -4333,11 +3469,7 @@
+            "png": "/images/chimpions/TheWitchDoctor/TheWitchDoctor-badluckzulp.png",
+            "gif": "/images/chimpions/TheWitchDoctor/TheWitchDoctor-katsudon_sol.gif"
+        },
+        "holder": {
+            "holder_name": "phant0m",
+            "matrica_name": "phant0m",
+            "discord_id": "548858030784249857"
+        }
+        "holder": "phant0m"
+    },
+    {
+        "name": "TheWithered",
+@@ -4353,11 +3485,7 @@
+            "png": "/images/chimpions/TheWithered/TheWithered-_rabbels_.png",
+            "gif": "/images/chimpions/TheWithered/TheWithered-katsudon_sol.gif"
+        },
+        "holder": {
+            "holder_name": "SolBigBrain",
+            "matrica_name": "SolBigBrain",
+            "discord_id": "785722075942879243"
+        }
+        "holder": "SolBigBrain"
+    },
+    {
+        "name": "TheWondrous",
+@@ -4373,11 +3501,7 @@
+            "png": "/images/chimpions/TheWondrous/TheWondrous-meltytanti.png",
+            "gif": "/images/chimpions/TheWondrous/TheWondrous-katsudon_sol.gif"
+        },
+        "holder": {
+            "holder_name": "genuinearticles",
+            "matrica_name": "genuinearticles",
+            "discord_id": "561035955822133259"
+        }
+        "holder": "genuinearticles"
+    },
+    {
+        "name": "TheYeoman",
+@@ -4393,11 +3517,7 @@
+            "png": "/images/chimpions/TheYeoman/TheYeoman-_rabbels_.png",
+            "gif": "/images/chimpions/TheYeoman/TheYeoman-katsudon_sol.gif"
+        },
+        "holder": {
+            "holder_name": "thirty",
+            "matrica_name": "thirty",
+            "discord_id": "138425184666386433"
+        }
+        "holder": "thirty"
+    },
+    {
+        "name": "TheYouthful",
+@@ -4413,11 +3533,7 @@
+            "png": "/images/chimpions/TheYouthful/TheYouthful-_rabbels_.png",
+            "gif": "/images/chimpions/TheYouthful/TheYouthful-katsudon_sol.gif"
+        },
+        "holder": {
+            "holder_name": "ThunderBear",
+            "matrica_name": "ThunderBear",
+            "discord_id": "867186625456504852"
+        }
+        "holder": "ThunderBear"
+    },
+    {
+        "name": "TheZealous",
+@@ -4433,10 +3549,6 @@
+            "png": "/images/chimpions/TheZealous/TheZealous-_rabbels_.png",
+            "gif": "/images/chimpions/TheZealous/TheZealous-katsudon_sol.gif"
+        },
+        "holder": {
+            "holder_name": "",
+            "matrica_name": "E7g55gpKKRmWNJstkWV4EAJJ6VZYJsSgVVBpX5RPRtLR",
+            "discord_id": ""
+        }
+        "holder": ""
