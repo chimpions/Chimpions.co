@@ -106,7 +106,9 @@
 <section class="sectionContainer">
     <h2 class="subsectionHeading">The Tree Hollow</h2>
 	<div class="subsectionParagraph">
-		Here is what the chimpions hold collectively:
+        <p>The Chimpions are the silent force behind the Solana ecosystem, providing essential support to many of the projects that make it up.
+		</p>
+        <p>Below are some assets of The Chimpions.</p>
 		<br/>
     </div>
     <div class="collections">

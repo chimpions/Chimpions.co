@@ -10,7 +10,7 @@
 	<h2 class="subsectionHeading">Structure</h2>
     <div class="subsectionParagraph">
         <p>
-            Chimpions have adapted to the ecosystem in which they live. Whereas a model where 10 Leads representing the Chimpions served them for just over a year, the Chimpions have decided to pivot to a governance model with a CEO.
+            The Chimpions have adapted to the ecosystem in which they live. Whereas a model where 10 Leads representing the Chimpions served them for just over a year, the Chimpions have decided to pivot to a governance model with a CEO.
         </p>
         <p>
             The new model operates as follows:

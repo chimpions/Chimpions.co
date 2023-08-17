@@ -1,4 +1,6 @@
 <script>
+// @ts-nocheck
+
     import { onMount } from 'svelte';
     import Navigation from "../Navigation/Navigation.svelte";
     import chimpions from "../_content/chimpions.json";
@@ -118,7 +120,7 @@
 </div>
 
 
-<div class="full-window" tabindex="-1" on:keydown={handleKeyDown}>
+<div class="full-window" tabindex="-1" role="presentation" on:keydown={handleKeyDown}>
     <div class="chimp-line">
         <span class="chimp-name">{name}</span>        
         <div class="chimp-info">
@@ -133,7 +135,7 @@
                 {/if}
                 <ul class="control-dots">
                 {#each images as image, i}
-                    <li class={i === currentIndex ? "dot selected" : "dot"} value={i} role="button" tabindex="0" aria-label="slide item {i+1}"/>
+                    <li class={i === currentIndex ? "dot selected" : "dot"} value={i} aria-label="slide item {i+1}"/>
                 {/each}
                 </ul>
                 <button type="button" tabindex="0" aria-label="previous slide / item" class="control-arrow-prev" on:click={getPrevious}/>

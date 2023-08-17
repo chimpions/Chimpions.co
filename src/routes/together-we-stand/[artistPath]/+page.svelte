@@ -2,20 +2,6 @@
 // @ts-nocheck
     import Artist from "$lib/TogetherWeStand/Artist.svelte";
     import { drops } from "$lib/_content/tws.svelte";
-
-    // export let artist = "";
-    // export let twitter ="";
-    // export let portfolio ="";
-    // export let discord = "";
-    // export let piecePath = "";
-    // export let pieceTeaserPath = "";
-    // export let pieceTitle = "";
-    // export let pieceReleased = false;
-    // export let copy = [];
-    // export let qa = [];
-
-
-
     import { page } from '$app/stores';
 	import NotFound from "$lib/NotFound.svelte";
     
@@ -44,17 +30,3 @@
 {:else}
     <NotFound />
 {/if}
-
-
-<!-- <Artist
-    artist={artist}
-    twitter={twitter}
-    portfolio={portfolio}
-    discord={discord}
-    piecePath={piecePath}
-    pieceTeaserPath={pieceTeaserPath}
-    pieceTitle={pieceTitle}
-    pieceReleased={pieceReleased}
-    copy={copy}
-    qa={qa}
-/> -->
