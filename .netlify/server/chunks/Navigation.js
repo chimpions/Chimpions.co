@@ -1,6 +1,5 @@
 import { c as create_ssr_component, b as add_attribute, e as escape, v as validate_component } from "./ssr.js";
 const global = "";
-const navigation = "";
 const button_svelte_svelte_type_style_lang = "";
 const css = {
   code: ':root{--originX:0%;--originY:0%;--size:0%;--bg-color:rgb(8, 1, 15);--opacity:0}li.svelte-1cqhr46.svelte-1cqhr46{padding:0px}li.svelte-1cqhr46 a.svelte-1cqhr46{text-decoration:none;padding:10px;color:#fff;background-color:var(--bg-color);position:relative;white-space:nowrap}li.svelte-1cqhr46 a.svelte-1cqhr46:after{position:absolute;content:"";width:calc(100% + 6px);height:calc(100% + 6px);left:-3px;top:-3px;z-index:-1;transition:color 0.2s ease;border-radius:0.25rem;background:radial-gradient(\r\n            farthest-corner circle at var(--originX) var(--originY),\r\n            rgb(255 255 255 / var(--opacity)) calc(5 * var(--size)),\r\n            var(--bg-color) calc(5 * var(--size) + 50%));;;transition:color 0.2s ease}li.svelte-1cqhr46 a.svelte-1cqhr46:hover:after{color:var(--bg-color);transition:color 0.2s ease}@media(max-width: 768px){:root{--bg-color:black}}',
@@ -32,6 +31,7 @@ const Button = create_ssr_component(($$result, $$props, $$bindings, slots) => {
             --opacity: ${opacity}`;
   return `<li${add_attribute("style", styles, 0)} class="svelte-1cqhr46"> <a${add_attribute("id", button_id, 0)} href="${"/" + escape(button_id, true)}" class="svelte-1cqhr46">${escape(button_name)}</a> </li>`;
 });
+const navigation = "";
 const Navigation = create_ssr_component(($$result, $$props, $$bindings, slots) => {
   let mouseX = 0;
   let mouseY = 0;

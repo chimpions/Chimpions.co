@@ -3,6 +3,6 @@
 export const index = 2;
 let component_cache;
 export const component = async () => component_cache ??= (await import('../entries/pages/_page.svelte.js')).default;
-export const imports = ["_app/immutable/nodes/2.343f2844.js","_app/immutable/chunks/scheduler.abb7d34b.js","_app/immutable/chunks/index.ed998943.js","_app/immutable/chunks/Math.9e08ec05.js","_app/immutable/chunks/index.f07fb0ee.js","_app/immutable/chunks/Navigation.04cfdd59.js"];
-export const stylesheets = ["_app/immutable/assets/2.15dab207.css","_app/immutable/assets/Navigation.9ea3bcef.css"];
+export const imports = ["_app/immutable/nodes/2.6834003f.js","_app/immutable/chunks/scheduler.73d4235d.js","_app/immutable/chunks/index.2f37fbdf.js","_app/immutable/chunks/Math.0ae48eb6.js","_app/immutable/chunks/index.382c8255.js","_app/immutable/chunks/Navigation.0a52b34e.js"];
+export const stylesheets = ["_app/immutable/assets/2.15dab207.css","_app/immutable/assets/Navigation.d73f42bd.css"];
 export const fonts = [];

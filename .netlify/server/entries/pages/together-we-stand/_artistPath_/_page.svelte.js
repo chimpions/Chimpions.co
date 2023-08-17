@@ -6,6 +6,7 @@ import { faTwitter, faDiscord } from "@fortawesome/free-brands-svg-icons/index.j
 import { B as BackToTop } from "../../../../chunks/BackToTop.js";
 import { d as drops } from "../../../../chunks/tws.js";
 import { p as page } from "../../../../chunks/stores.js";
+import { N as NotFound } from "../../../../chunks/NotFound.js";
 const Artist_svelte_svelte_type_style_lang = "";
 const css = {
   code: "a.svelte-bbw7k4{color:inherit}.infos.svelte-bbw7k4{margin-top:3rem}.tws-info.svelte-bbw7k4{display:flex;align-items:center;justify-content:space-around;color:var(--purple-white)}.subsectionParagraph.svelte-bbw7k4{text-align:justify;line-height:1.5rem;letter-spacing:0.05rem;width:100%;opacity:0.8;margin-top:0.5rem;color:var(--purple-white)}.title.svelte-bbw7k4{color:var(--white-purple)}.readMore.svelte-bbw7k4{border-left:2px var(--whiter-purple) solid;background-color:rgb(31 6 56 / 1);padding:0.5rem;padding-left:1rem;border-radius:0.25rem;margin-bottom:4rem;color:var(--whiter-purple)}.subsectionQuestion.svelte-bbw7k4{width:100%;margin-top:0rem;letter-spacing:0.05em;color:var(--whiter-purple)}.subsectionAnswer.svelte-bbw7k4{width:100%;margin-top:1rem;margin-bottom:1rem;letter-spacing:0.05rem;color:var(--purple-white);padding-left:1rem;border-left:2px currentColor solid}.qa.svelte-bbw7k4{border-radius:0.25rem;background-color:rgb(31 6 56 / 1);padding:1rem;margin-top:1rem;margin-bottom:1rem}@media(max-width: 500px){.tws-info.svelte-bbw7k4{font-size:0.5rem}}",
@@ -49,9 +50,6 @@ const Artist = create_ssr_component(($$result, $$props, $$bindings, slots) => {
     return `<div><div class="qa svelte-bbw7k4"><p class="subsectionQuestion svelte-bbw7k4">${escape(qaElem[0])}</p> <p class="subsectionAnswer svelte-bbw7k4" style="margin-bottom: 0px;">${escape(qaElem[1])}</p></div> </div>`;
   })}` : ``}</div></section> ${validate_component(BackToTop, "BackToTop").$$render($$result, {}, {}, {})}`;
 });
-const NotFound = create_ssr_component(($$result, $$props, $$bindings, slots) => {
-  return `The page you requested does not exist.`;
-});
 const Page = create_ssr_component(($$result, $$props, $$bindings, slots) => {
   let $page, $$unsubscribe_page;
   $$unsubscribe_page = subscribe(page, (value) => $page = value);
@@ -77,7 +75,7 @@ const Page = create_ssr_component(($$result, $$props, $$bindings, slots) => {
     },
     {},
     {}
-  )}` : `${validate_component(NotFound, "NotFound").$$render($$result, {}, {}, {})}`} `;
+  )}` : `${validate_component(NotFound, "NotFound").$$render($$result, {}, {}, {})}`}`;
 });
 export {
   Page as default
