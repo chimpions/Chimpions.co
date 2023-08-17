@@ -28,7 +28,7 @@
         <p class="subsectionParagraph">We want to create a centralized hub to allow artists and collectors alike to join a community with similar values. We want to develop unique utility for their collections and to bring 1/1 art to the masses.</p>
         <h2 class="subsectionHeading">How to join The Treehouse?</h2>
         <p class="subsectionParagraph">Collect any of the Together We Stand editions to automatically receive the role to join The Treehouse! These are found primarily on Magic Eden under the Chimpions Creator page.</p>
-        <h2 class="subsectionHeading">How are the TreeHouse artists?</h2>
+        <h2 class="subsectionHeading">Who are the TreeHouse artists?</h2>
         <p class="subsectionParagraph">Below is the list of the artists of the Treehouse:</p>
     </div>
     <div class="columns">

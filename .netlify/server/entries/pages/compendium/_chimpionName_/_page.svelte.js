@@ -1,4 +1,4 @@
-import { c as create_ssr_component, v as validate_component, e as escape, b as add_attribute, d as each, g as null_to_empty, a as subscribe } from "../../../../chunks/ssr.js";
+import { c as create_ssr_component, v as validate_component, e as escape, g as null_to_empty, b as add_attribute, d as each, a as subscribe } from "../../../../chunks/ssr.js";
 import { c as chimpions } from "../../../../chunks/chimpions.js";
 import { p as page } from "../../../../chunks/stores.js";
 import { N as NotFound } from "../../../../chunks/NotFound.js";
@@ -23,12 +23,26 @@ const Chimpion = create_ssr_component(($$result, $$props, $$bindings, slots) => 
   let { lore = "" } = $$props;
   let { type = "" } = $$props;
   let { level = 1 } = $$props;
+  function getImages(art_files2) {
+    searchTerm = "";
+    filteredChimpions = [];
+    console.log("inGetImages");
+    displayed_image = art_files2["png"];
+    artist = displayed_image.split(".")[0].split("-")[1];
+    let imagesArray = [art_files2["png"]];
+    imagesArray = [...imagesArray, art_files2["gif"]];
+    for (let alternative_art of art_files2["alternative_art"]) {
+      imagesArray = [...imagesArray, alternative_art];
+    }
+    console.log(imagesArray);
+    return images = imagesArray;
+  }
   const linkNextChimpion = (index2) => {
     let nextChimpionsName;
     if (index2 < 221) {
-      nextChimpionsName = chimpions[Number(index2) + 1].name;
+      nextChimpionsName = chimpions[Number(index2) + 1].name.split(/(?=[A-Z])/).join("-").toLowerCase();
     } else {
-      nextChimpionsName = chimpions[0].name;
+      nextChimpionsName = chimpions[0].name.split(/(?=[A-Z])/).join("-").toLowerCase();
     }
     return `./${nextChimpionsName}`;
   };
@@ -49,30 +63,36 @@ const Chimpion = create_ssr_component(($$result, $$props, $$bindings, slots) => 
   if ($$props.level === void 0 && $$bindings.level && level !== void 0)
     $$bindings.level(level);
   $$result.css.add(css);
+  images = getImages(art_files);
   return `${validate_component(Navigation, "Navigation").$$render($$result, {}, {}, {})} <div class="menu-cont svelte-aa1cr2"><div id="query-section" class="svelte-aa1cr2"><div id="search-input-cont" class="svelte-aa1cr2"><input type="text" class="${escape(
     null_to_empty(filteredChimpions.length > 0 ? "search-field no-border-radius" : "search-field"),
     true
   ) + " svelte-aa1cr2"}" placeholder="Search for a Chimpion" autocomplete="on"${add_attribute("value", searchTerm, 0)}></div> <div class="results svelte-aa1cr2">${filteredChimpions.length > 0 ? `<ul class="svelte-aa1cr2">${each(filteredChimpions, (chimpion) => {
     return `<a${add_attribute("href", `/compendium/${chimpion.name.split(/(?=[A-Z])/).join("-").toLowerCase()}`, 0)} class="svelte-aa1cr2"><li class="svelte-aa1cr2">${escape(chimpion.name.split(/(?=[A-Z])/).join(" "))}</li></a>`;
-  })}</ul>` : ``}</div></div> <div id="box-for-next-chimp" class="svelte-aa1cr2"><a${add_attribute("href", linkNextChimpion(index), 0)} class="svelte-aa1cr2"><div class="nextChimpion svelte-aa1cr2" data-svelte-h="svelte-sgish1">See Next Chimpion<span class="svelte-aa1cr2"><img class="arrow-right svelte-aa1cr2" src="/images/arrow-right-white.png" alt="arrow to the right"></span></div></a></div> </div> <div class="full-window svelte-aa1cr2" tabindex="-1" role="presentation"><div class="chimp-line svelte-aa1cr2"><span class="chimp-name svelte-aa1cr2">${escape(name)}</span> <div class="chimp-info svelte-aa1cr2"><div class="image-container svelte-aa1cr2">${displayed_image.slice(-3) == "mp4" || displayed_image.slice(-3) == "mov" ? ` <video autoplay width="400" class="svelte-aa1cr2"><source${add_attribute("src", displayed_image, 0)} type="video/mp4" class="svelte-aa1cr2"></video>` : `<img${add_attribute("src", displayed_image, 0)} alt="${"Art " + escape(currentIndex + 1, true) + " of " + escape(name, true)}" class="svelte-aa1cr2">`} <ul class="control-dots svelte-aa1cr2">${each(images, (image, i) => {
+  })}</ul>` : ``}</div></div> <div id="box-for-next-chimp" class="svelte-aa1cr2"><a${add_attribute("href", linkNextChimpion(index), 0)} class="svelte-aa1cr2"><div class="nextChimpion svelte-aa1cr2" data-svelte-h="svelte-sgish1">See Next Chimpion<span class="svelte-aa1cr2"><img class="arrow-right svelte-aa1cr2" src="/images/arrow-right-white.png" alt="arrow to the right"></span></div></a></div></div> <div class="full-window svelte-aa1cr2" tabindex="-1" role="presentation"><div class="chimp-line svelte-aa1cr2"><span class="chimp-name svelte-aa1cr2">${escape(name)}</span> <div class="chimp-info svelte-aa1cr2"><div class="image-container svelte-aa1cr2">${displayed_image.slice(-3) == "mp4" || displayed_image.slice(-3) == "mov" ? ` <video autoplay width="400" class="svelte-aa1cr2"><source${add_attribute("src", displayed_image, 0)} type="video/mp4" class="svelte-aa1cr2"></video>` : `<img${add_attribute("src", displayed_image, 0)} alt="${"Art " + escape(currentIndex + 1, true) + " of " + escape(name, true)}" class="svelte-aa1cr2">`} <ul class="control-dots svelte-aa1cr2">${each(images, (image, i) => {
     return `<li class="${escape(null_to_empty(i === currentIndex ? "dot selected" : "dot"), true) + " svelte-aa1cr2"}"${add_attribute("value", i, 0)} aria-label="${"slide item " + escape(i + 1, true)}"></li>`;
   })}</ul> <button type="button" tabindex="0" aria-label="previous slide / item" class="control-arrow-prev svelte-aa1cr2"></button> <button type="button" tabindex="0" aria-label="next slide / item" class="control-arrow-next svelte-aa1cr2"></button></div> <div class="description svelte-aa1cr2"><p class="svelte-aa1cr2">Tribe: <span class="svelte-aa1cr2">${escape(tribe)}</span></p> <p class="svelte-aa1cr2">Type: <span class="svelte-aa1cr2">${escape(type)}</span></p> ${lore == "" ? `<p class="svelte-aa1cr2" data-svelte-h="svelte-bmbu0z">Lore: <span class="svelte-aa1cr2">No lore for this Chimpion yet...</span></p>` : `<p class="svelte-aa1cr2">Lore: <span class="svelte-aa1cr2">${escape(lore)}</span></p>`} <p class="svelte-aa1cr2">Artist: <span class="svelte-aa1cr2">${escape(artist)}</span></p> <p class="svelte-aa1cr2">Holder: <span class="svelte-aa1cr2"><a${add_attribute("href", `/holders/${holderName.split(" ").join("")}`, 0)} class="svelte-aa1cr2">${escape(holderName)}</a></span></p> <p class="svelte-aa1cr2">Level: <span class="svelte-aa1cr2">${escape(level)}</span></p></div></div></div> </div>`;
 });
 const Page = create_ssr_component(($$result, $$props, $$bindings, slots) => {
+  let chimpion_data;
   let $page, $$unsubscribe_page;
   $$unsubscribe_page = subscribe(page, (value) => $page = value);
   let chimpionName = "";
-  let chimpion_data = null;
-  try {
-    let chimpionNameArray = $page.params.chimpionName.split("-");
-    chimpionName = chimpionNameArray.map((word) => word.charAt(0).toUpperCase() + word.slice(1)).join("");
-    if (chimpions.some((chimpion) => chimpion.name === chimpionName)) {
-      chimpion_data = chimpions.find((chimpion) => chimpion.name === chimpionName);
+  function getChimpData(params) {
+    try {
+      let chimpionNameArray = params.split("-");
+      chimpionName = chimpionNameArray.map((word) => word.charAt(0).toUpperCase() + word.slice(1)).join("");
+      if (chimpions.some((chimpion) => chimpion.name === chimpionName)) {
+        let xchimpion_data = chimpions.find((chimpion) => chimpion.name === chimpionName);
+        console.log(xchimpion_data);
+        return chimpion_data = chimpions.find((chimpion) => chimpion.name === chimpionName);
+      }
+    } catch (error) {
+      console.log("ChimpionNotFoundError");
+      return chimpion_data = null;
     }
-  } catch (error) {
-    chimpionName = "ChimpionNotFoundError";
-    console.log("ChimpionNotFoundError");
   }
+  chimpion_data = getChimpData($page.params.chimpionName);
   $$unsubscribe_page();
   return `${chimpion_data ? `${validate_component(Chimpion, "Chimpion").$$render(
     $$result,

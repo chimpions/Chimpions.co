@@ -404,7 +404,7 @@ const unskilledfather = {
   }
 };
 const Utopia = {
-  pfp: "https://www.arweave.net/sRRRnGFgF9f_g7KV49ai08xCp94g-XPKQVqZ81hGMec?ext=png",
+  pfp: "/images/chimpions/TheSinged/TheSinged-zen0m.png",
   twitter: "utopia_artist",
   level: 14,
   chimpions: [

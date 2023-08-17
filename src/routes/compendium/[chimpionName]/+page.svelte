@@ -4,27 +4,29 @@
     import { page } from '$app/stores';
     import NotFound from "$lib/NotFound.svelte";
 	import Chimpion from "$lib/Compendium/Chimpion.svelte";
+	import { get } from "svelte/store";
     
 
     let chimpionName = ""
-    let chimpion_data = null;
+    $: chimpion_data = getChimpData($page.params.chimpionName);
 
-
-    try {
-        let chimpionNameArray = $page.params.chimpionName.split('-');
-        chimpionName = chimpionNameArray
-  .map(word => word.charAt(0).toUpperCase() + word.slice(1))
-  .join('');
-        if (chimpions.some(chimpion => chimpion.name === chimpionName)) {
-            chimpion_data = chimpions.find(chimpion => chimpion.name === chimpionName)
+    function getChimpData(params) {
+        try {
+            let chimpionNameArray = params.split('-');
+            chimpionName = chimpionNameArray
+                .map(word => word.charAt(0).toUpperCase() + word.slice(1))
+                .join('');
+            if (chimpions.some(chimpion => chimpion.name === chimpionName)) {
+                let xchimpion_data = chimpions.find(chimpion => chimpion.name === chimpionName)
+                console.log(xchimpion_data);
+                return chimpion_data = chimpions.find(chimpion => chimpion.name === chimpionName)
+            }
+        } catch (error) {
+            console.log('ChimpionNotFoundError');
+            return chimpion_data = null;
         }
-    } catch (error) {
-        chimpionName = "ChimpionNotFoundError";
-        console.log('ChimpionNotFoundError');
     }
-
-
-
+    
 </script>
 
 

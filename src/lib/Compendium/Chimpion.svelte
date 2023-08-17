@@ -11,6 +11,7 @@
     let artist = "";
     let searchTerm = "";
     let filteredChimpions = [];
+    $: images = getImages(art_files);
 
     export let name = "";
     export let index = 0;
@@ -21,18 +22,38 @@
     export let type = "";
     export let level = 1;
 
+    function getImages(art_files) {
+        searchTerm = "";
+        filteredChimpions = [];
+        console.log('inGetImages');
+        displayed_image = art_files["png"];
+        artist = displayed_image.split(".")[0].split("-")[1];
+        let imagesArray = [art_files["png"]];
+        imagesArray = [...imagesArray, art_files["gif"]];
+        for (let alternative_art of art_files["alternative_art"]) {
+            imagesArray = [...imagesArray, alternative_art];
+        }
+        console.log(imagesArray);
+        return images = imagesArray;
+    };
 
     onMount(() => {
         console.log('in');
         displayed_image = art_files["png"];
         artist = displayed_image.split(".")[0].split("-")[1];
-        images = [...images, art_files["png"]];
-        images = [...images, art_files["gif"]];
-        for (let alternative_art of art_files["alternative_art"]) {
-            images = [...images, alternative_art];
-        }
-        console.log(images);
     });
+
+    // onMount(() => {
+    //     console.log('in');
+    //     displayed_image = art_files["png"];
+    //     artist = displayed_image.split(".")[0].split("-")[1];
+    //     images = [...images, art_files["png"]];
+    //     images = [...images, art_files["gif"]];
+    //     for (let alternative_art of art_files["alternative_art"]) {
+    //         images = [...images, alternative_art];
+    //     }
+    //     console.log(images);
+    // });
 
 
     const getPrevious = () => {
@@ -53,9 +74,9 @@
     const linkNextChimpion = (index) => {
         let nextChimpionsName;
         if (index < 221) {
-            nextChimpionsName = chimpions[Number(index) + 1].name;
+            nextChimpionsName = chimpions[Number(index) + 1].name.split(/(?=[A-Z])/).join('-').toLowerCase();
         } else {
-            nextChimpionsName = chimpions[0].name;
+            nextChimpionsName = chimpions[0].name.split(/(?=[A-Z])/).join('-').toLowerCase();
         }
         return(`./${nextChimpionsName}`);
     }
@@ -112,11 +133,6 @@
     </div>
 </a>
 </div>
-    <!-- <div class="nextChimpion">
-        <a href={linkNextChimpion(index)}>
-        See Next Chimpion<span><img class="arrow-right" src="/images/arrow-right-white.png" alt="arrow to the right" /></span>
-        </a>
-    </div> -->
 </div>
 
 
