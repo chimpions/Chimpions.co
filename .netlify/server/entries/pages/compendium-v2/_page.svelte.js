@@ -5,8 +5,6 @@ import { w as writable, r as readable } from "../../../chunks/index.js";
 import { h as holders } from "../../../chunks/holders.js";
 import { c as chimpions } from "../../../chunks/chimpions.js";
 import { B as BackToTop } from "../../../chunks/BackToTop.js";
-const round = (num, fix = 3) => parseFloat(num.toFixed(fix));
-const clamp = (num, min = -20, max = 20) => Math.min(Math.max(num, min), max);
 const activeCard = writable(void 0);
 const getRawOrientation = function(e) {
   if (!e) {
@@ -44,27 +42,27 @@ readable(getOrientationObject(), function start(set) {
 });
 const cardGlare_svelte_svelte_type_style_lang = "";
 const css$4 = {
-  code: ".card__glare.svelte-hkjatj{transform:translateZ(1.4px);background:radial-gradient(\n			farthest-corner circle at var(--mx) var(--my),\n			rgba(255, 255, 255, 0.4) 10%,\n			rgba(255, 255, 255, 0.35) 20%,\n			rgba(0, 0, 0, 0.5) 90%\n		);mix-blend-mode:overlay;opacity:var(--o)}",
+  code: ".card__glare.svelte-1hvmhlp{transform:translateZ(1.4px);background:radial-gradient(\n			farthest-corner circle at var(--mx) var(--my),\n			rgba(255, 255, 255, 0.4) 10%,\n			rgba(255, 255, 255, 0.35) 20%,\n			rgba(0, 0, 0, 0.5) 90%\n		);mix-blend-mode:overlay;opacity:var(--o);cursor:pointer}",
   map: null
 };
 const Card_glare = create_ssr_component(($$result, $$props, $$bindings, slots) => {
   $$result.css.add(css$4);
-  return `<div class="card__glare svelte-hkjatj"></div>`;
+  return `<div class="card__glare svelte-1hvmhlp"></div>`;
 });
 const card_svelte_svelte_type_style_lang = "";
 const css$3 = {
-  code: ':root{--mx:50%;--my:50%;--s:1;--z:1;--o:0;--tx:0px;--ty:0px;--rx:0deg;--ry:0deg;--pos:50% 50%;--posx:50%;--posy:50%;--hyp:0;--bd-color:#ffffff}.card.svelte-88st3.svelte-88st3{height:420px;width:300px;margin-bottom:2vh;--radius:0.75rem;z-index:var(--z);transform:translate3d(0, 0, 0.1px);-webkit-transform:translate3d(0, 0, 0.1px);will-change:transform, visibility;transform-style:preserve-3d;-webkit-transform-style:preserve-3d}.dynamic__card.svelte-88st3.svelte-88st3{height:420px;width:300px}.card.interacting.svelte-88st3.svelte-88st3{z-index:var(--z)}.card.active.svelte-88st3 .card__translater.svelte-88st3,.card.active.svelte-88st3 .card__rotator.svelte-88st3{touch-action:none}.card__translater.svelte-88st3.svelte-88st3,.card__rotator.svelte-88st3.svelte-88st3{display:grid;perspective:600px;transform-origin:center;-webkit-transform-origin:center;will-change:transform}.card__translater.svelte-88st3.svelte-88st3{width:auto;position:relative;transform:translate3d(var(--tx), var(--ty), 0) scale(var(--s));-webkit-transform:translate3d(var(--tx), var(--ty), 0) scale(var(--s));image-rendering:pixelated;display:flex;flex-direction:row;flex-flow:row nowrap}.card__rotator.svelte-88st3.svelte-88st3{transform:rotateY(var(--rx)) rotateX(var(--ry));transform-style:preserve-3d;-webkit-transform:rotateY(var(--rx)) rotateX(var(--ry));-webkit-transform-style:preserve-3d;box-shadow:0px 10px 20px -5px black;border-radius:var(--radius);outline:none;transition:box-shadow 0.4s ease, outline 0.2s ease}button.card__rotator.svelte-88st3.svelte-88st3{appearance:none;-webkit-appearance:none;border:none;background:top;padding:0}.card.active.svelte-88st3 .card__rotator.svelte-88st3:focus{box-shadow:0px 0px 20px var(--bd-color)}.card__rotator.svelte-88st3 *{width:100%;display:grid;grid-area:1/1;border-radius:var(--radius);image-rendering:optimizeQuality;transform-style:preserve-3d;-webkit-transform-style:preserve-3d}.card__rotator.svelte-88st3 img.svelte-88st3{position:absolute;top:53px;border-radius:0px;height:226px;width:226px}.card__back.svelte-88st3.svelte-88st3{transform:rotateY(180deg) translateZ(1px);-webkit-transform:rotateY(180deg) translateZ(1px);backface-visibility:visible}.card__front.svelte-88st3.svelte-88st3,.card__front.svelte-88st3 .svelte-88st3{backface-visibility:hidden}.card__front.svelte-88st3.svelte-88st3{display:flex;flex-direction:column;justify-content:center;align-items:center;border:4px white solid;background:no-repeat url("/images/chimp-front-card.png");background-size:cover;opacity:1;text-shadow:1px 2px 5px black}.card__back.svelte-88st3.svelte-88st3{border:4px white solid;background:no-repeat url("/images/Chimp-back-card.png");background-size:cover}.loading.svelte-88st3 .card__front.svelte-88st3{opacity:0}.loading.svelte-88st3 .card__back.svelte-88st3{transform:rotateY(0deg);-webkit-transform:rotateY(0deg)}a.svelte-88st3.svelte-88st3{text-decoration:none;cursor:pointer;color:white}.chimpion__name.svelte-88st3.svelte-88st3{position:absolute;top:16px;left:25px;text-align:left;font-style:italic;font-size:1.5rem;text-shadow:1px 2px 5px black;opacity:1}.level_box.svelte-88st3.svelte-88st3{display:flex;justify-content:end;align-items:baseline;position:absolute;top:22px;right:26px;text-align:right;color:white;font-size:0.75rem}.level.svelte-88st3.svelte-88st3{width:fit-content;margin-left:2px;font-size:1rem}.description__card.svelte-88st3.svelte-88st3{position:absolute;top:283px;text-align:left;width:240px;padding:8px;border-radius:0rem;color:white;font-style:italic}.top__description.svelte-88st3.svelte-88st3{padding-left:3px}.lore.svelte-88st3.svelte-88st3{position:absolute;width:97%;top:44px;padding-top:0.125rem;padding-left:0.125rem;border-top:1px white solid;border-radius:0px;font-size:0.625rem}.artist.svelte-88st3.svelte-88st3{position:absolute;padding:0.125rem;padding-left:0.5rem;width:40%;top:101px;left:-25px;background:rgb(0 0 0 / 0.4);border-top-right-radius:0.375rem;border-bottom-left-radius:0.375rem;font-size:0.5rem}.number.svelte-88st3.svelte-88st3{position:absolute;bottom:10px;right:12px;color:white;font-size:0.5rem;text-align:right}',
+  code: ':root{--mx:50%;--my:50%;--s:1;--z:1;--o:0;--tx:0px;--ty:0px;--rx:0deg;--ry:0deg;--pos:50% 50%;--posx:50%;--posy:50%;--bd-color:#ffffff}.card.svelte-1mskf0j.svelte-1mskf0j{height:394px;width:302px;margin-bottom:2vh;--radius:0.75rem;z-index:var(--z);transform:translate3d(0, 0, 0.1px);-webkit-transform:translate3d(0, 0, 0.1px);will-change:transform, visibility;transform-style:preserve-3d;-webkit-transform-style:preserve-3d}.dynamic__card.svelte-1mskf0j.svelte-1mskf0j{height:394px;width:302px}.card.interacting.svelte-1mskf0j.svelte-1mskf0j{z-index:var(--z)}.card.actived.svelte-1mskf0j .card__translater.svelte-1mskf0j,.card.actived.svelte-1mskf0j .card__rotator.svelte-1mskf0j{touch-action:none}.card__translater.svelte-1mskf0j.svelte-1mskf0j,.card__rotator.svelte-1mskf0j.svelte-1mskf0j{display:grid;perspective:600px;transform-origin:center;-webkit-transform-origin:center;will-change:transform}.card__translater.svelte-1mskf0j.svelte-1mskf0j{width:auto;position:relative;transform:translate3d(var(--tx), var(--ty), 0) scale(var(--s));-webkit-transform:translate3d(var(--tx), var(--ty), 0) scale(var(--s));image-rendering:pixelated;display:flex;flex-direction:row;flex-flow:row nowrap}.card__rotator.svelte-1mskf0j.svelte-1mskf0j{transform:rotateY(var(--rx)) rotateX(var(--ry));transform-style:preserve-3d;-webkit-transform:rotateY(var(--rx)) rotateX(var(--ry));-webkit-transform-style:preserve-3d;box-shadow:0px 10px 20px -5px black;border-radius:var(--radius);outline:none;transition:box-shadow 0.4s ease, outline 0.2s ease}button.card__rotator.svelte-1mskf0j.svelte-1mskf0j{appearance:none;-webkit-appearance:none;border:none;background:top;padding:0}.card.actived.svelte-1mskf0j .card__rotator.svelte-1mskf0j:focus{box-shadow:0px 0px 20px var(--bd-color)}.card__rotator.svelte-1mskf0j *{width:100%;display:grid;grid-area:1/1;border-radius:var(--radius);image-rendering:optimizeQuality;transform-style:preserve-3d;-webkit-transform-style:preserve-3d}.card__rotator.svelte-1mskf0j img.svelte-1mskf0j{position:absolute;top:50px;border-radius:0px;height:238px;width:238px}.card__back.svelte-1mskf0j.svelte-1mskf0j{transform:rotateY(0deg) translateZ(1px);-webkit-transform:rotateY(0deg) translateZ(1px);backface-visibility:hidden}.card__front.svelte-1mskf0j.svelte-1mskf0j,.card__front.svelte-1mskf0j .svelte-1mskf0j{backface-visibility:visible}.card__front.svelte-1mskf0j.svelte-1mskf0j{transform:rotateY(180deg) translateZ(1px);-webkit-transform:rotateY(180deg);display:flex;flex-direction:column;justify-content:center;align-items:center;background:no-repeat url("/images/chimp-front-card-v2.png");background-size:cover;opacity:1;text-shadow:1px 2px 5px black}.card__back.svelte-1mskf0j.svelte-1mskf0j{background:no-repeat url("/images/chimp-back-card-v2.png");background-size:cover;display:flex;flex-direction:column;justify-content:center;color:white;text-align:center;height:100%;width:100%}.card__back.svelte-1mskf0j .name.svelte-1mskf0j{position:absolute;top:60px;width:100%;font-size:1.5rem;text-align:center}.lore.svelte-1mskf0j.svelte-1mskf0j{position:absolute;top:100px;width:100%;padding:2rem;font-size:0.75rem;font-style:italic;line-height:1.25rem}.loading.svelte-1mskf0j .card__front.svelte-1mskf0j{opacity:0}.loading.svelte-1mskf0j .card__back.svelte-1mskf0j{transform:rotateY(0deg);-webkit-transform:rotateY(0deg)}.chimpion__name.svelte-1mskf0j.svelte-1mskf0j{position:absolute;top:19px;left:25px;text-align:left;font-style:italic;font-size:1.5rem;color:white;text-shadow:1px 2px 5px black;opacity:1}.level_box.svelte-1mskf0j.svelte-1mskf0j{display:flex;justify-content:end;align-items:baseline;position:absolute;top:25px;right:26px;text-align:right;color:white;font-size:0.75rem}.level.svelte-1mskf0j.svelte-1mskf0j{width:fit-content;margin-left:2px;font-size:1rem}.description__card.svelte-1mskf0j.svelte-1mskf0j{position:absolute;top:287px;text-align:left;width:240px;padding:8px;border-radius:0rem;color:white;font-style:italic}.top__description.svelte-1mskf0j.svelte-1mskf0j{line-height:1.125rem;padding-left:3px}',
   map: null
 };
 const Card = create_ssr_component(($$result, $$props, $$bindings, slots) => {
+  let loreToDisplay;
   let front_img;
-  let displayed_artist;
   let styles;
   let $activeCard, $$unsubscribe_activeCard;
-  let $springGlare, $$unsubscribe_springGlare;
   let $springBackground, $$unsubscribe_springBackground;
   let $springRotateDelta, $$unsubscribe_springRotateDelta;
   let $springRotate, $$unsubscribe_springRotate;
+  let $springGlare, $$unsubscribe_springGlare;
   let $springScale, $$unsubscribe_springScale;
   let $springTranslate, $$unsubscribe_springTranslate;
   $$unsubscribe_activeCard = subscribe(activeCard, (value) => $activeCard = value);
@@ -85,17 +83,22 @@ const Card = create_ssr_component(($$result, $$props, $$bindings, slots) => {
   let { level = 1 } = $$props;
   const getFrontCardBg = (bg_color2) => {
     try {
-      return `background: no-repeat url('/images/chimp-front-card-${bg_color2}.png'); background-size: cover;`;
+      bd_color = "white";
+      return `background: no-repeat url('/images/chimp-front-card-v2.png'); background-size: cover;`;
     } catch (error) {
       return "";
     }
   };
   let thisCard;
   let rotator;
-  let active = false;
   let interacting = false;
-  const springR = { stiffness: 0.066, damping: 0.25 };
+  const springR = { stiffness: 0.066, damping: 0.45 };
   const springD = { stiffness: 0.033, damping: 0.45 };
+  const springS = {
+    stiffness: 0.066,
+    damping: 0.45,
+    precision: 1e-3
+  };
   let springRotate = spring({ x: 0, y: 0 }, springR);
   $$unsubscribe_springRotate = subscribe(springRotate, (value) => $springRotate = value);
   let springGlare = spring({ x: 50, y: 50, o: 0 }, springR);
@@ -106,49 +109,9 @@ const Card = create_ssr_component(($$result, $$props, $$bindings, slots) => {
   $$unsubscribe_springRotateDelta = subscribe(springRotateDelta, (value) => $springRotateDelta = value);
   let springTranslate = spring({ x: 0, y: 0 }, springD);
   $$unsubscribe_springTranslate = subscribe(springTranslate, (value) => $springTranslate = value);
-  let springScale = spring(1, springD);
+  let springScale = spring(1, springS);
   $$unsubscribe_springScale = subscribe(springScale, (value) => $springScale = value);
   let zIndex = 1;
-  const interactEnd = (e, delay = 0) => {
-    setTimeout(
-      function() {
-        const snapStiff = 0.01;
-        const snapDamp = 0.06;
-        interacting = false;
-        springRotate.stiffness = snapStiff;
-        springRotate.damping = snapDamp;
-        springRotate.set({ x: 0, y: 0 }, { soft: 1 });
-        springGlare.stiffness = snapStiff;
-        springGlare.damping = snapDamp;
-        springGlare.set({ x: 50, y: 50, o: 0 }, { soft: 1 });
-        springBackground.stiffness = snapStiff;
-        springBackground.damping = snapDamp;
-        springBackground.set({ x: 50, y: 50 }, { soft: 1 });
-      },
-      delay
-    );
-  };
-  const setCenter = () => {
-    const rect = thisCard.getBoundingClientRect();
-    const view = document.documentElement;
-    const delta = {
-      x: round(view.clientWidth / 2 - rect.x - rect.width / 2),
-      y: round(view.clientHeight / 2 - rect.y - rect.height / 2)
-    };
-    springTranslate.set({ x: delta.x, y: delta.y });
-  };
-  const popover = () => {
-    setCenter();
-    springRotateDelta.set({ x: 360, y: 0 });
-    springScale.set(1.1);
-    zIndex = 50;
-  };
-  const retreat = () => {
-    springScale.set(1, { soft: true });
-    springTranslate.set({ x: 0, y: 0 }, { soft: true });
-    springRotateDelta.set({ x: 0, y: 0 }, { soft: true });
-    interactEnd();
-  };
   if ($$props.dynamic === void 0 && $$bindings.dynamic && dynamic !== void 0)
     $$bindings.dynamic(dynamic);
   if ($$props.png_by_default === void 0 && $$bindings.png_by_default && png_by_default !== void 0)
@@ -180,19 +143,8 @@ const Card = create_ssr_component(($$result, $$props, $$bindings, slots) => {
   if ($$props.level === void 0 && $$bindings.level && level !== void 0)
     $$bindings.level(level);
   $$result.css.add(css$3);
+  loreToDisplay = lore.replace(/\n/g, "<br>");
   front_img = png;
-  displayed_artist = png_artist;
-  {
-    {
-      if ($activeCard && $activeCard === thisCard) {
-        popover();
-        active = true;
-      } else {
-        retreat();
-        active = false;
-      }
-    }
-  }
   styles = `
             --mx: ${$springGlare.x}%;
             --my: ${$springGlare.y}%;
@@ -206,7 +158,6 @@ const Card = create_ssr_component(($$result, $$props, $$bindings, slots) => {
             --pos: ${$springBackground.x}% ${$springBackground.y}%;
             --posx: ${$springBackground.x}%;
             --posy: ${$springBackground.y}%;
-            --hyp: ${clamp(Math.sqrt(($springGlare.y - 50) * ($springGlare.y - 50) + ($springGlare.x - 50) * ($springGlare.x - 50)) / 50, 0, 1)};
             --bd-color: ${bd_color};
         `;
   {
@@ -217,17 +168,18 @@ const Card = create_ssr_component(($$result, $$props, $$bindings, slots) => {
     }
   }
   $$unsubscribe_activeCard();
-  $$unsubscribe_springGlare();
   $$unsubscribe_springBackground();
   $$unsubscribe_springRotateDelta();
   $$unsubscribe_springRotate();
+  $$unsubscribe_springGlare();
   $$unsubscribe_springScale();
   $$unsubscribe_springTranslate();
-  return ` <div class="${[
-    "card svelte-88st3",
-    (active ? "active" : "") + " " + (interacting ? "interacting" : "") + " loading"
-  ].join(" ").trim()}"${add_attribute("style", styles, 0)}${add_attribute("this", thisCard, 0)}><div class="card__translater svelte-88st3"><button class="card__rotator svelte-88st3"${add_attribute("id", index.toString(), 0)} aria-label="${"Expand the Card of " + escape(name, true) + "."}" tabindex="0"${add_attribute("this", rotator, 0)}><div class="dynamic__card svelte-88st3"><div><div class="card__front svelte-88st3"${add_attribute("style", getFrontCardBg(bg_color), 0)}>${name.length > 21 ? `<div class="chimpion__name svelte-88st3" style="font-size: 0.875rem; top:23px"><a${add_attribute("href", `/compendium/${name.split(" ").join("")}`, 0)} class="svelte-88st3">${escape(name)}</a></div>` : `${name.length > 15 ? `<div class="chimpion__name svelte-88st3" style="font-size:1.25rem; top:18px"><a${add_attribute("href", `/compendium/${name.split(" ").join("")}`, 0)} class="svelte-88st3">${escape(name)}</a></div>` : `<div class="chimpion__name svelte-88st3"><a${add_attribute("href", `/compendium/${name.split(" ").join("")}`, 0)} class="svelte-88st3">${escape(name)}</a></div>`}`} <div class="level_box svelte-88st3">lvl.<span class="level svelte-88st3">${escape(level)}</span></div> ${png_by_default ? `<img${add_attribute("src", front_img, 0)} alt="${"Front design of " + escape(name, true) + " Card"}" loading="lazy" class="svelte-88st3">` : `<img${add_attribute("src", gif, 0)} alt="${"Front design of " + escape(name, true) + " Card"}" loading="lazy" class="svelte-88st3">`} <div class="description__card svelte-88st3"><div class="top__description svelte-88st3">Tribe: ${escape(tribe.split(/(?=[A-Z])/).join(" "))}<br class="svelte-88st3">
-                                Type: ${escape(type)}<br class="svelte-88st3"> ${holder_name != "" ? `Holder: ${escape(holder_name)}<br class="svelte-88st3">` : `Holder: Unknown`}</div> ${png_by_default ? `<div class="artist svelte-88st3">By ${escape(displayed_artist)}</div>` : `<div class="artist svelte-88st3">By ${escape(gif_artist)}</div>`} <div class="lore svelte-88st3">${lore != "" ? `${escape(lore)}` : `No lore for this chimpion yet...`}</div></div> <div class="number svelte-88st3">${escape(Number(index) + 1)}/222</div></div> ${validate_component(Card_glare, "Glare").$$render($$result, {}, {}, {})}</div> <div class="card__back svelte-88st3"></div></div></button></div> </div>`;
+  return `<div class="${[
+    "card svelte-1mskf0j",
+    " " + (interacting ? "interacting" : "") + " loading"
+  ].join(" ").trim()}"${add_attribute("style", styles, 0)}${add_attribute("this", thisCard, 0)}><div class="card__translater svelte-1mskf0j"><button class="card__rotator svelte-1mskf0j"${add_attribute("id", index.toString(), 0)} aria-label="${"Expand the Card of " + escape(name, true) + "."}" tabindex="0"${add_attribute("this", rotator, 0)}><div class="dynamic__card svelte-1mskf0j"><div><div class="card__front svelte-1mskf0j"${add_attribute("style", getFrontCardBg(), 0)}>${name.length > 21 ? `<div class="chimpion__name svelte-1mskf0j" style="font-size: 0.875rem; top:23px">${escape(name)}</div>` : `${name.length > 15 ? `<div class="chimpion__name svelte-1mskf0j" style="font-size:1.25rem; top:18px">${escape(name)}</div>` : `<div class="chimpion__name svelte-1mskf0j">${escape(name)}</div>`}`} <div class="level_box svelte-1mskf0j">lvl.<span class="level svelte-1mskf0j">${escape(level)}</span></div> ${png_by_default ? `<img${add_attribute("src", front_img, 0)} alt="${"Front design of " + escape(name, true) + " Card"}" loading="lazy" class="svelte-1mskf0j">` : `<img${add_attribute("src", gif, 0)} alt="${"Front design of " + escape(name, true) + " Card"}" loading="lazy" class="svelte-1mskf0j">`} <div class="description__card svelte-1mskf0j"><div class="top__description svelte-1mskf0j">Tribe: ${escape(tribe.split(/(?=[A-Z])/).join(" "))}<br class="svelte-1mskf0j">
+                                Type: ${escape(type)}<br class="svelte-1mskf0j"> ${holder_name != "" ? `Holder: ${escape(holder_name)}<br class="svelte-1mskf0j">` : `Holder: Unknown<br class="svelte-1mskf0j">`}
+                                Artist: ${escape(png_artist)}</div></div></div> ${validate_component(Card_glare, "Glare").$$render($$result, {}, {}, {})}</div> <div class="card__back svelte-1mskf0j"><div class="name svelte-1mskf0j">${escape(name)}</div> <div class="lore svelte-1mskf0j">${lore != "" ? `<p><!-- HTML_TAG_START -->${loreToDisplay}<!-- HTML_TAG_END --></p>` : `No lore for this chimpion yet...`}</div></div></div></button></div> </div>`;
 });
 const Switch_svelte_svelte_type_style_lang = "";
 const css$2 = {
@@ -375,7 +327,7 @@ const css = {
 };
 const Compendium = create_ssr_component(($$result, $$props, $$bindings, slots) => {
   $$result.css.add(css);
-  return `${validate_component(Navigation, "Navigation").$$render($$result, {}, {}, {})} <section><div class="introduction svelte-x2a8cv" data-svelte-h="svelte-hh59t7"><h1 class="heading">Compendium</h1> <p class="subsectionParagraph" style="margin-bottom: 0">You&#39;ve enter the hallowed halls of Chimpianity. Here before you lies the collective history of Chimpions past, present, and future. Tread with care.</p> <p class="subsectionParagraph">You can submit lore for any chimp by filling <a href="https://forms.gle/SZ38C4jKhvY6vP366" style="color: inherit" target="blank_">this form.</a></p></div> <div class="Cards svelte-x2a8cv">${validate_component(Cards, "Cards").$$render($$result, {}, {}, {})}</div> ${validate_component(BackToTop, "BackToTop").$$render($$result, {}, {}, {})} </section>`;
+  return `${validate_component(Navigation, "Navigation").$$render($$result, {}, {}, {})} <section><div class="introduction svelte-x2a8cv" data-svelte-h="svelte-5001fq"><h1 class="heading">Compendium_v2</h1> <p class="subsectionParagraph" style="margin-bottom: 0">You&#39;ve enter the hallowed halls of Chimpianity. Here before you lies the collective history of Chimpions past, present, and future. Tread with care.</p> <p class="subsectionParagraph">You can submit lore for any chimp by filling <a href="https://forms.gle/SZ38C4jKhvY6vP366" style="color: inherit" target="blank_">this form.</a></p></div> <div class="Cards svelte-x2a8cv">${validate_component(Cards, "Cards").$$render($$result, {}, {}, {})}</div> ${validate_component(BackToTop, "BackToTop").$$render($$result, {}, {}, {})} </section>`;
 });
 const Page = create_ssr_component(($$result, $$props, $$bindings, slots) => {
   return `${validate_component(Compendium, "Compendium").$$render($$result, {}, {}, {})}`;

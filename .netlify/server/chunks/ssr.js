@@ -130,11 +130,11 @@ export {
   create_ssr_component as c,
   each as d,
   escape as e,
-  safe_not_equal as f,
-  null_to_empty as g,
+  noop as f,
+  safe_not_equal as g,
   getContext as h,
   missing_component as m,
-  noop as n,
+  null_to_empty as n,
   setContext as s,
   validate_component as v
 };
