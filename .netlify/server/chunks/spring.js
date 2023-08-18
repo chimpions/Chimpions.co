@@ -1,5 +1,5 @@
 import { w as writable } from "./index.js";
-import { f as noop } from "./ssr.js";
+import { g as noop } from "./ssr.js";
 const is_client = typeof window !== "undefined";
 let now = is_client ? () => window.performance.now() : () => Date.now();
 let raf = is_client ? (cb) => requestAnimationFrame(cb) : noop;
