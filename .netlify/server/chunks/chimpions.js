@@ -23,7 +23,7 @@ const chimpions = [
     type: "Naked",
     bg_color: "blue",
     bd_color: "#1756a3",
-    lore: "His inability to see colors makes him bitter.",
+    lore: "Cursed by a goddess he fell in love with, he travels the seas on his ship in search of lonely souls to add to his army.\n\nHe tore his heart out in rage and sadness and became heartless ever since.",
     png_artist: "_rabbels_",
     gif_artist: "katsudon_sol",
     paths: {
@@ -192,7 +192,7 @@ const chimpions = [
     name: "TheArchon",
     index: 11,
     tribe: "OldWorldCult",
-    type: "Power filled",
+    type: "PowerFilled",
     bg_color: "twilight",
     bd_color: "pink",
     lore: "",
@@ -1263,7 +1263,7 @@ const chimpions = [
     gif_artist: "katsudon_sol",
     paths: {
       png: "/images/chimpions/TheFaulty/TheFaulty-_rabbels_.png",
-      gif: "/images/chimpions/TheFaulty/TheFaulty-katsudon_sol.gifredo",
+      gif: "/images/chimpions/TheFaulty/TheFaulty-katsudon_sol.gif",
       alternative_art: []
     },
     holder: "Zionatlas"
@@ -2199,7 +2199,7 @@ const chimpions = [
     name: "TheMasked",
     index: 126,
     tribe: "Proletariat",
-    type: "Power filled",
+    type: "PowerFilled",
     bg_color: "purple",
     bd_color: "purple",
     lore: "",

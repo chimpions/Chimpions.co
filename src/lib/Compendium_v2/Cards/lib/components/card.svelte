@@ -4,10 +4,8 @@
     import { spring } from "svelte/motion";
     import { activeCard } from "../stores/activeCard.js"; 
     import { resetBaseOrientation } from "../stores/orientation.js";
-    import { clamp, round } from "../helpers/Math.js";
-
+    import { round } from "../helpers/Math.js";
     import Glare from "./card-glare.svelte";
-	import { onMount } from "svelte";
 
     export let dynamic = true;
     export let png_by_default = true;
@@ -26,13 +24,15 @@
     export let level = 1;
 
 
-
+    $: loreToDisplay = lore.replace(/\n/g, '<br>');
     $: front_img = png;
     $: displayed_artist = png_artist;
 
     const getFrontCardBg = (bg_color) => {
         try {
-            return( `background: no-repeat url('/images/chimp-front-card-${bg_color}.png'); background-size: cover;` );
+            bd_color = "white";
+            // return( `background: no-repeat url('/images/chimp-front-card-${bg_color}.png'); background-size: cover;` );
+            return( `background: no-repeat url('/images/chimp-front-card-v2.png'); background-size: cover;` );
         } catch (error) {
             return("");
         }
@@ -40,35 +40,29 @@
 
     let thisCard;
     let rotator;
-    let debounce;
-    let active = false;
+    let actived = false;
     let interacting = false;
     let loading = true;
     let isVisible = true;
 
-    onMount(() => {
-        isVisible = document.visibilityState === "visible";
-        document.addEventListener("visibilitychange", (e) => {
-            isVisible = document.visibilityState === "visible";
-            if (!isVisible) {
-                reset();
-            }
-        });
-    });
 
-    const springR = { stiffness: 0.066, damping: 0.25 };
+
+
+    const springR = { stiffness: 0.066, damping: 0.45 };
     const springD = { stiffness: 0.033, damping: 0.45 };
+    const springS = { stiffness: 0.066, damping: 0.45, precision: 0.001 };
     let springRotate = spring({ x: 0, y: 0 }, springR);
     let springGlare = spring({ x: 50, y: 50, o: 0 }, springR);
     let springBackground = spring({ x: 50, y: 50 }, springR);
     let springRotateDelta = spring({ x: 0, y: 0 }, springD);
     let springTranslate = spring({ x: 0, y: 0 }, springD);
-    let springScale = spring(1, springD);
+    let springScale = spring(1, springS);
     let showcaseRunning = true;
     let zIndex = 1;
 
     const interact = (e) => {
-        if (dynamic) {
+        console.log($springScale);
+        if (actived) {
             if (showcaseRunning) {
                 showcaseRunning = false;
             }
@@ -111,12 +105,12 @@
             springRotate.damping = springR.damping;
             springRotate.set({
                 x: round(-(center.x / 7)),
-                y: round(center.y / 4),
+                y: round(-(center.y / 4)),
             });
             springGlare.stiffness = springR.stiffness;
             springGlare.damping = springR.damping;
             springGlare.set({
-                x: percent.x,
+                x: 100 - percent.x,
                 y: percent.y,
                 o: 1,
             });
@@ -143,91 +137,24 @@
         }, delay);
     };
 
-    const activate = (e) => {
-        if (dynamic) {
-            if ($activeCard && $activeCard === thisCard) {
-            deactivate();
-            } else {
-            $activeCard = thisCard;
-            setTimeout(() => {
-                front_img = gif;
-                displayed_artist = gif_artist;
-            }, 350);
-            resetBaseOrientation();
-            }
-        }
-    };
-
-    const deactivate = (e) => {
-        interactEnd();
-        setTimeout(() => {
-            front_img = png;
-            displayed_artist = png_artist;
-        }, 200);
-        setTimeout(() => {
-            zIndex = 1;
-        }, 400);
-        $activeCard = undefined;
-    };
-
-    const reposition = (e) => {
-        clearTimeout(debounce);
-        debounce = setTimeout(() => {
-        if ($activeCard && $activeCard === thisCard) {
-            setCenter();
-        }
-        }, 500);
-    };
-
-    const setCenter = () => {
-        const rect = thisCard.getBoundingClientRect(); // get element's size/position
-        const view = document.documentElement; // get window/viewport size
-
-        const delta = {
-        x: round(view.clientWidth / 2 - rect.x - rect.width / 2),
-        y: round(view.clientHeight / 2 - rect.y - rect.height / 2),
-        };
-        springTranslate.set({
-        x: delta.x,
-        y: delta.y,
-        });
-    };
-
-    const popover = () => {
-        setCenter();
-
+    const popover = (e) => {
+        actived = true;
         springRotateDelta.set({
-        x: 360,
+        x: 180,
         y: 0,
         });
-        springScale.set(1.1);
+        springScale.set(1.2);
         zIndex = 50;
+        $activeCard = thisCard;
+        setTimeout(() => {
+            springScale.set(1 , { soft: true });
+        }, 150);
+        setTimeout(() => {
+            front_img = gif;
+            displayed_artist = gif_artist;
+        }, 350);
+        resetBaseOrientation();
     };
-
-    const retreat = () => {
-        springScale.set(1, { soft: true });
-        springTranslate.set({ x: 0, y: 0 }, { soft: true });
-        springRotateDelta.set({ x: 0, y: 0 }, { soft: true });
-        interactEnd();
-    };
-
-    const reset = () => {
-        interactEnd();
-        springScale.set(1, { hard: true });
-        springTranslate.set({ x: 0, y: 0 }, { hard: true });
-        springRotateDelta.set({ x: 0, y: 0 }, { hard: true });
-        springRotate.set({ x: 0, y: 0 }, { hard: true });
-    };
-
-    $: {
-        if ($activeCard && $activeCard === thisCard) {
-            popover();
-            active = true;
-        } else {
-            retreat();
-            active = false;
-        }
-    }
 
     $: styles = `
             --mx: ${$springGlare.x}%;
@@ -242,12 +169,6 @@
             --pos: ${$springBackground.x}% ${$springBackground.y}%;
             --posx: ${$springBackground.x}%;
             --posy: ${$springBackground.y}%;
-            --hyp: ${
-        clamp( Math.sqrt(
-            ($springGlare.y - 50) * ($springGlare.y - 50) +
-            ($springGlare.x - 50) * ($springGlare.x - 50)
-        ) / 50, 0, 1)
-        };
             --bd-color: ${bd_color};
         `;
 
@@ -266,10 +187,9 @@
 
 
 
-<svelte:window on:scroll={reposition} />
 <div
     class="card"
-    class:active
+    class:actived
     class:interacting
     class:loading
     style={styles}
@@ -280,10 +200,10 @@
             class="card__rotator"
             id={index.toString()}
             bind:this={rotator}
-            on:click={activate}
+            on:click={popover}
             on:pointermove={interact}
             on:mouseout={interactEnd}
-            on:blur={deactivate}
+            on:blur={interactEnd}
             aria-label="Expand the Card of {name}."
             tabindex="0"
         >
@@ -292,21 +212,15 @@
                     <div class="card__front" style={getFrontCardBg(bg_color)}>
                         {#if name.length > 21}
                             <div class="chimpion__name" style="font-size: 0.875rem; top:23px">
-                                <a href={`/compendium/${name.   split(' ').join('')}`}>
-                                    {name}
-                                </a>
+                                {name}
                             </div>
                         {:else if name.length > 15}
                             <div class="chimpion__name" style="font-size:1.25rem; top:18px">
-                                <a href={`/compendium/${name.split(' ').join('')}`}>
-                                    {name}
-                                </a>
+                                {name}
                             </div>
                         {:else}
                             <div class="chimpion__name">
-                                <a href={`/compendium/${name.split(' ').join('')}`}>
-                                    {name}
-                                </a>
+                                {name}
                             </div>
                         {/if}
                         <div class="level_box">
@@ -334,33 +248,26 @@
                                 {#if holder_name != ""}
                                     Holder: {holder_name}<br/>
                                 {:else}
-                                    Holder: Unknown
+                                    Holder: Unknown<br/>
                                 {/if}
+                                Artist: {png_artist}
                             </div>
-                            {#if (png_by_default)}
-                                <div class="artist">
-                                        By {displayed_artist}
-                                </div>
-                            {:else}
-                                <div class="artist">
-                                    By {gif_artist}
-                                </div>
-                            {/if}
-                            <div class="lore">
-                                {#if (lore != "")}
-                                    {lore}
-                                {:else}
-                                    No lore for this chimpion yet...
-                                {/if}
-                            </div>
-                        </div>
-                        <div class="number">
-                            {Number(index)+1}/222
                         </div>
                     </div>
                     <Glare/>
                 </div>
-                <div class="card__back" />
+                <div class="card__back">
+                    <div class="name">
+                        {name}
+                    </div>
+                    <div class="lore">
+                        {#if (lore != "")}
+                            <p>{@html loreToDisplay}</p>
+                        {:else}
+                            No lore for this chimpion yet...
+                        {/if}
+                    </div>
+                </div>
             </div>
         </button>
     </div>
@@ -380,13 +287,12 @@
         --pos: 50% 50%;
         --posx: 50%;
         --posy: 50%;
-        --hyp: 0;
         --bd-color: #ffffff;
     }
 
     .card {
-        height: 420px;
-        width: 300px;
+        height: 394px;
+        width: 302px;
         margin-bottom: 2vh;
         --radius: 0.75rem;
         z-index: var(--z);
@@ -398,16 +304,16 @@
     }
 
     .dynamic__card {
-        height: 420px;
-        width: 300px;
+        height: 394px;
+        width: 302px;
     }
 
     .card.interacting {
         z-index: var(--z);
     }
 
-    .card.active .card__translater,
-    .card.active .card__rotator {
+    .card.actived .card__translater,
+    .card.actived .card__rotator {
         touch-action: none;
     }
 
@@ -450,7 +356,7 @@
         padding: 0;
     }
 
-    .card.active .card__rotator:focus {
+    .card.actived .card__rotator:focus {
         box-shadow: 0px 0px 20px var(--bd-color);
     }
 
@@ -466,39 +372,64 @@
 
     .card__rotator img {
         position: absolute;
-        top: 53px;
+        top: 50px;
         border-radius: 0px;
-        height: 226px;
-        width: 226px;
+        height: 238px;
+        width: 238px;
     }
 
     .card__back {
-        transform: rotateY(180deg) translateZ(1px);
-        -webkit-transform: rotateY(180deg) translateZ(1px);
-        backface-visibility: visible;
+        transform: rotateY(0deg) translateZ(1px);
+        -webkit-transform: rotateY(0deg) translateZ(1px);
+        backface-visibility: hidden;
     }
 
     .card__front,
     .card__front * {
-        backface-visibility: hidden;
+        backface-visibility: visible;
     }
 
     .card__front {
+        transform: rotateY(180deg) translateZ(1px);
+        -webkit-transform: rotateY(180deg); 
         display: flex;
         flex-direction: column;
         justify-content: center;
         align-items: center;
-        border: 4px white solid;
-        background: no-repeat url("/images/chimp-front-card.png");
+        background: no-repeat url("/images/chimp-front-card-v2.png");
         background-size: cover;
         opacity: 1;
         text-shadow: 1px 2px 5px black;
     }
 
     .card__back {
-        border: 4px white solid;
-        background: no-repeat url("/images/Chimp-back-card.png");
+        background: no-repeat url("/images/chimp-back-card-v2.png");
         background-size: cover;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        color: white;
+        text-align: center;
+        height: 100%;
+        width: 100%;
+    }
+
+    .card__back .name {
+        position: absolute;
+        top: 60px;
+        width: 100%;
+        font-size: 1.5rem;
+        text-align: center;
+    }
+
+    .lore {
+        position: absolute;
+        top: 100px;
+        width: 100%;
+        padding: 2rem;
+        font-size: 0.75rem;
+        font-style: italic;
+        line-height: 1.25rem;
     }
 
     .loading .card__front {
@@ -518,11 +449,12 @@
 
     .chimpion__name {
         position: absolute;
-        top: 16px;
+        top: 19px;
         left: 25px;
         text-align: left;
         font-style: italic;
         font-size: 1.5rem;
+        color: white;
         text-shadow: 1px 2px 5px black;
         opacity: 1;
     }
@@ -532,7 +464,7 @@
         justify-content: end;
         align-items: baseline;
         position: absolute;
-        top: 22px;
+        top: 25px;
         right: 26px;
         text-align: right;
         color: white;
@@ -547,7 +479,7 @@
 
     .description__card {
         position: absolute;
-        top: 283px;
+        top: 287px;
         text-align: left;
         width: 240px;
         padding: 8px;
@@ -557,18 +489,8 @@
     }
 
     .top__description {
+        line-height: 1.125rem;
         padding-left: 3px;
-    }
-
-    .lore {
-        position: absolute;
-        width: 97%;
-        top: 44px;
-        padding-top: 0.125rem;
-        padding-left: 0.125rem;
-        border-top: 1px white solid;
-        border-radius: 0px;
-        font-size: 0.625rem;
     }
 
     .artist {
