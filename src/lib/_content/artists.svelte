@@ -183,7 +183,7 @@
         name: "muimooi"
     },
     {
-        piece: "IMG_0343 - Picopops NFT.PNG",
+        piece: "IMG_0343 - Picopops NFT.jpg",
         bio: "Hello! I'm Pipopops, a digital artist from Indonesia, I draw characters & sci-fi stuff wrapped in vibrant colors.",
         twitter: "https://twitter.com/Picopops",
         marmelade: "https://famousfoxes.com/marmalade/2DN6ZDYTfrsvrShCGEB1kfGXwZNWCwSD4Fw6eNNRDAre",
@@ -225,7 +225,7 @@
         name: "Vincenzo"
     },
     {
-        piece: "7F8A3521-F24E-4CBD-AA7C-44B892FBB071 - Lord Art_tech.jpeg",
+        piece: "7F8A3521-F24E-4CBD-AA7C-44B892FBB071 - Lord Art_tech.jpg",
         bio: "A cyber religion digital fine artist. Inspired by the past, creating for the future. A member of Ministry of Art & The URS.",
         twitter: "https://twitter.com/arttech_nft",
         misc: "https://linktr.ee/art_tech",

@@ -9,11 +9,22 @@
     import { onMount } from "svelte";
     
 
-    let screenWidth = window.innerWidth;
-    let lastScreenWidth = window.innerWidth;
+    let screenWidth = 1000;
+    let lastScreenWidth = 1000;
     let holderLines = [];
 
-    onMount(() => {getHolderLines()})
+
+    function updateWindowSize() {
+        screenWidth = window.innerWidth;
+    }
+
+    onMount(() => {})
+
+    onMount(() => {
+        screenWidth = window.innerWidth;
+        window.addEventListener('resize', updateWindowSize);
+        getHolderLines();
+    });
 
     function handleResize() {
         screenWidth = window.innerWidth;

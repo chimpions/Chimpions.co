@@ -1,6 +1,6 @@
 <script>
     import { onMount } from "svelte";
-    import SingleCard from "../Compendium/Cards/lib/components/SingleCard.svelte";
+    import SingleCard from "../Compendium_old/Cards/lib/components/SingleCard.svelte";
     // import Chimpion from "../Compendium/Chimpion.svelte";
     import chimpions from "../_content/chimpions.json"
 

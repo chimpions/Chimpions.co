@@ -23,7 +23,7 @@
         "type": "Naked",
         "bg_color": "blue",
         "bd_color": "#1756a3",
-        "lore": "Cursed by a goddess he fell in love with, he travels the seas on his ship in search of lonely souls to add to his army.\n\nHe tore his heart out in rage and sadness and became heartless ever since.",
+        "lore": "His inability to see colors makes him bitter.\n\nSome say you can only see his smile through a lens...",
         "png_artist": "_rabbels_",
         "gif_artist": "katsudon_sol",
         "paths": {
@@ -428,9 +428,8 @@
             "gif": "/images/chimpions/TheBored/TheBored-katsudon_sol.gif",
             "alternative_art": [
                 "/images/chimpions/TheBored/TheBored-Lahseminit.jpg",
-                "/images/chimpions/TheBored/TheBored-Lukexdod-plightxd.mp4",
-                "/images/chimpions/TheBored/TheBored-michaelmicasso-plightxd.mp4",
-                "/images/chimpions/TheBored/TheBored-michaelmicasso.gif",
+                "/images/chimpions/TheBored/TheBored-Lukexdod.mp4",
+                "/images/chimpions/TheBored/TheBored-michaelmicasso.mp4",
                 "/images/chimpions/TheBored/TheBored-tevoeatacid.gif"
             ]
         },
@@ -3239,7 +3238,7 @@
         "type": "Cursed",
         "bg_color": "dark",
         "bd_color": "white",
-        "lore": "A soul bound to a demon, Burning within, Until it escapes, And he is free.\nBut only for a moment, The demon returns, They are locked together, Cursed for eternity",
+        "lore": "A soul bound to a demon,\nBurning within,\nUntil it escapes,\nAnd he is free.\n\nBut only for a moment,\nThe demon returns,\nThey are locked together,\nCursed for eternity.",
         "png_artist": "zen0m",
         "gif_artist": "katsudon_sol",
         "paths": {
