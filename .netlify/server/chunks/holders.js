@@ -860,7 +860,7 @@ const Puggl3 = {
   }
 };
 const HFP = {
-  pfp: "https://pbs.twimg.com/profile_images/1654838683646713856/NH4Pkc_b_400x400.jpg",
+  pfp: "https://pbs.twimg.com/profile_images/1693223837742026752/2txqIVvr_400x400.jpg",
   twitter: "degenHFP",
   level: 1,
   chimpions: [
@@ -1202,7 +1202,7 @@ const Hyblinxx = {
   }
 };
 const gl00m = {
-  pfp: "https://pbs.twimg.com/profile_images/1626096224330821633/MJtI7tnO_400x400.jpg",
+  pfp: "https://pbs.twimg.com/profile_images/1693137424954826752/auIf_KU3_400x400.jpg",
   twitter: "gloom_sol",
   level: 1,
   chimpions: [
@@ -1221,7 +1221,7 @@ const gl00m = {
   }
 };
 const SCUM = {
-  pfp: "https://pbs.twimg.com/profile_images/1652464345681637376/WJ7-o4JM_400x400.jpg",
+  pfp: "https://pbs.twimg.com/profile_images/1694459502261850112/vYoTMEqJ_400x400.jpg",
   twitter: "SCUMSOL",
   level: 1,
   chimpions: [

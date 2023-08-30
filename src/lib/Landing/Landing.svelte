@@ -2,7 +2,7 @@
 // @ts-nocheck
 
     import { spring } from "svelte/motion";
-    import { round } from "$lib/Compendium/Cards/lib/helpers/Math.js";
+    import { round } from "$lib/Compendium_old/Cards/lib/helpers/Math.js";
     import '$lib/css/global.css';
     import '$lib/css/navigation.css';
     import Navigation from "$lib/Navigation/Navigation.svelte";

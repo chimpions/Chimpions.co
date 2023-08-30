@@ -25,10 +25,6 @@ function subscribe(store, ...callbacks) {
 function null_to_empty(value) {
   return value == null ? "" : value;
 }
-function set_store_value(store, ret, value) {
-  store.set(value);
-  return ret;
-}
 let current_component;
 function set_current_component(component) {
   current_component = component;
@@ -134,10 +130,9 @@ export {
   create_ssr_component as c,
   each as d,
   escape as e,
-  set_store_value as f,
-  noop as g,
-  safe_not_equal as h,
-  getContext as i,
+  noop as f,
+  safe_not_equal as g,
+  getContext as h,
   missing_component as m,
   null_to_empty as n,
   setContext as s,

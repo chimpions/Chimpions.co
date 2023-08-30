@@ -4,7 +4,6 @@
     import { page } from '$app/stores';
     import NotFound from "$lib/NotFound.svelte";
 	import Chimpion from "$lib/Compendium/Chimpion.svelte";
-	import { get } from "svelte/store";
     
 
     let chimpionName = ""
