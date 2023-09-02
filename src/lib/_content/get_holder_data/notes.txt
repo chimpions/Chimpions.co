@@ -262,11 +262,11 @@
             "gif": "/images/chimpions/TheBinary/TheBinary-katsudon_sol.gif"
         },
         "holder": {
-            "holder_name": "Ninozimo",
-            "matrica_name": "ninozimosos",
-            "discord_id": "357909532334096395"
+            "holder_name": "Rikishi",
+            "matrica_name": "",
+            "discord_id": "317279968595804163"
         }
-        "holder": "Ninozimo"
+        "holder": "Rikishi"
     },
     {
         "name": "TheBionic",

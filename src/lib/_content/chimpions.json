@@ -360,7 +360,7 @@
             "gif": "/images/chimpions/TheBinary/TheBinary-katsudon_sol.gif",
             "alternative_art": []
         },
-        "holder": "Ninozimo"
+        "holder": "Rikishi"
     },
     {
         "name": "TheBionic",
@@ -369,7 +369,7 @@
         "type": "Cyborg",
         "bg_color": "synth",
         "bd_color": "white",
-        "lore": "",
+        "lore": "The Bionic is a tall, master of technology whose bionic eye gives insight to prevent future catastrophes.\n\nHis history is shrouded in mystery, but it is clear his goal is to protect his fellow chimps.",
         "png_artist": "_rabbels_",
         "gif_artist": "katsudon_sol",
         "paths": {
@@ -433,7 +433,7 @@
                 "/images/chimpions/TheBored/TheBored-tevoeatacid.gif"
             ]
         },
-        "holder": "FakerIsDead"
+        "holder": "Maxbrs"
     },
     {
         "name": "TheBosun",
@@ -629,7 +629,7 @@
         "type": "Gangster",
         "bg_color": "twilight",
         "bd_color": "pink",
-        "lore": "",
+        "lore": "I'm not funny. I can't make you laugh. I won't entertain you. You want a show? Just sit back and relax. Let the absurdity of life wash over you. It's all a joke, and you're always at the center.",
         "png_artist": "_rabbels_",
         "gif_artist": "katsudon_sol",
         "paths": {

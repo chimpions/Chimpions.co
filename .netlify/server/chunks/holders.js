@@ -39,7 +39,7 @@ const ThunderBear = {
 const Doudou = {
   pfp: "https://nft.matrica.io/nft/FUoc5Nvgp6A8Ava2dyzf2q24NVK8HJ44ivhFTBQGWDP4.png",
   twitter: "notdoudou_sol",
-  level: 9,
+  level: 12,
   chimpions: [
     "TheGhastly",
     "TheEvaluator",
@@ -88,6 +88,28 @@ const SolBigBrain = {
     "The Crystal of Unity": false,
     "Grave Danger": false,
     "An Unlikely Friendship": true
+  }
+};
+const huatrabbit = {
+  pfp: "https://www.arweave.net/3RIsvstu8iU9SPLVuTDn3mb1l1YsN4OGS5FW_CLrFbo?ext=png",
+  twitter: "huatrabbit",
+  level: 4,
+  chimpions: [
+    "TheOneWhoRocksHard",
+    "TheZealous",
+    "TheAgitator",
+    "TheInstrument"
+  ],
+  TWS: {
+    "Forest Fellowship": false,
+    "Dusk Till Dawn": false,
+    "The Fall of the Eradicator": false,
+    "Last Bastion": false,
+    "The Uprising": false,
+    LaurenceAntonyXChimpions: false,
+    "The Crystal of Unity": false,
+    "Grave Danger": false,
+    "An Unlikely Friendship": false
   }
 };
 const SKUX = {
@@ -152,9 +174,9 @@ const unskilledfather = {
   }
 };
 const Utopia = {
-  pfp: "/images/chimpions/TheSinged/TheSinged-zen0m.png",
+  pfp: "https://nft.matrica.io/nft/5ZtnfVMj9Lc3j6ivTpbXPd34bj9FR3UQCQsr2nWndTAo.png",
   twitter: "utopia_artist",
-  level: 14,
+  level: 16,
   chimpions: [
     "TheSinged",
     "TheFirstborn"
@@ -189,6 +211,26 @@ const CMC81 = {
     "The Crystal of Unity": false,
     "Grave Danger": false,
     "An Unlikely Friendship": false
+  }
+};
+const Terrora = {
+  pfp: "https://nft.matrica.io/nft/7y1y5WJxietWfvYfmvZwMWsDu2dFjwe1qr9si4Nuys5p.png",
+  twitter: "terroraonsol",
+  level: 1,
+  chimpions: [
+    "TheShogun",
+    "TheWitchDoctor"
+  ],
+  TWS: {
+    "Forest Fellowship": true,
+    "Dusk Till Dawn": true,
+    "The Fall of the Eradicator": true,
+    "Last Bastion": true,
+    "The Uprising": true,
+    LaurenceAntonyXChimpions: true,
+    "The Crystal of Unity": false,
+    "Grave Danger": true,
+    "An Unlikely Friendship": true
   }
 };
 const HeisenThug = {
@@ -234,7 +276,7 @@ const Raves = {
 const sidvicious843 = {
   pfp: "https://nft.matrica.io/nft/8jHZGee6bBYqX51r5rVgpqyFsmBCPn15h7X16y7g7qFw.png",
   twitter: "Sidvicious843",
-  level: 7,
+  level: 9,
   chimpions: [
     "TheTrickster",
     "TheFreelancer"
@@ -482,7 +524,7 @@ const Simba = {
 const futuristic = {
   pfp: "/images/chimpions/TheKnightCommander/TheKnightCommander-_rabbels_.png",
   twitter: "futuristicS0L",
-  level: 1,
+  level: 4,
   chimpions: [
     "TheKnightCommander"
   ],
@@ -556,9 +598,9 @@ const Aspen = {
   }
 };
 const Dasein = {
-  pfp: "https://nft.matrica.io/nft/5x9dj2ynju9zq5iBPZhvBxbAKgjJBT7dPDs5ABsYb2Kg.png",
+  pfp: "https://nft.matrica.io/nft/4YjyXSzMGQGhWYKwqLCQAhA22f1qqcB7ibncbaFfEDBn.png",
   twitter: "daseinillusion",
-  level: 12,
+  level: 16,
   chimpions: [
     "TheStatic"
   ],
@@ -634,7 +676,7 @@ const Akaba = {
 const Katsu = {
   pfp: "https://nft.matrica.io/nft/5GbTChPtHL16oJzrJAjqg29GGTmeFrRJifYzLeUNyvkU.png",
   twitter: "katsudon_sol",
-  level: 6,
+  level: 7,
   chimpions: [
     "TheRocker"
   ],
@@ -672,7 +714,7 @@ const Johners = {
 const mebbs = {
   pfp: "https://nft.matrica.io/nft/6vgSXedvo4vaJbkkEsHYKmp6t66cuYRQfRSK68JVL2pb.png",
   twitter: "xmebbs",
-  level: 1,
+  level: 2,
   chimpions: [
     "TheSpelunker"
   ],
@@ -748,7 +790,7 @@ const Rheld = {
 const Tellias = {
   pfp: "/images/chimpions/TheProfessional/TheProfessional-badluckzulp.png",
   twitter: "TelNFT",
-  level: 2,
+  level: 4,
   chimpions: [
     "TheProfessional"
   ],
@@ -778,25 +820,6 @@ const EarlthePearl = {
     "Last Bastion": true,
     "The Uprising": true,
     LaurenceAntonyXChimpions: true,
-    "The Crystal of Unity": false,
-    "Grave Danger": true,
-    "An Unlikely Friendship": true
-  }
-};
-const Terrora = {
-  pfp: "/images/chimpions/TheShogun/TheShogun-badluckzulp.png",
-  twitter: "terroraonsol",
-  level: 1,
-  chimpions: [
-    "TheShogun"
-  ],
-  TWS: {
-    "Forest Fellowship": false,
-    "Dusk Till Dawn": false,
-    "The Fall of the Eradicator": false,
-    "Last Bastion": false,
-    "The Uprising": false,
-    LaurenceAntonyXChimpions: false,
     "The Crystal of Unity": false,
     "Grave Danger": true,
     "An Unlikely Friendship": true
@@ -905,15 +928,15 @@ const Jota = {
     "TheFriendly"
   ],
   TWS: {
-    "Forest Fellowship": true,
-    "Dusk Till Dawn": true,
+    "Forest Fellowship": false,
+    "Dusk Till Dawn": false,
     "The Fall of the Eradicator": false,
-    "Last Bastion": false,
+    "Last Bastion": true,
     "The Uprising": false,
     LaurenceAntonyXChimpions: false,
     "The Crystal of Unity": false,
     "Grave Danger": false,
-    "An Unlikely Friendship": false
+    "An Unlikely Friendship": true
   }
 };
 const heleemelon = {
@@ -1011,29 +1034,10 @@ const Draco = {
     "An Unlikely Friendship": true
   }
 };
-const phant0m = {
-  pfp: "https://nft.matrica.io/nft/7y1y5WJxietWfvYfmvZwMWsDu2dFjwe1qr9si4Nuys5p.png",
-  twitter: "sad_phant0m",
-  level: 3,
-  chimpions: [
-    "TheWitchDoctor"
-  ],
-  TWS: {
-    "Forest Fellowship": true,
-    "Dusk Till Dawn": true,
-    "The Fall of the Eradicator": true,
-    "Last Bastion": true,
-    "The Uprising": true,
-    LaurenceAntonyXChimpions: true,
-    "The Crystal of Unity": false,
-    "Grave Danger": true,
-    "An Unlikely Friendship": true
-  }
-};
 const birb = {
   pfp: "https://nft.matrica.io/nft/4FNxKQt3aAeV8bgW5iz6FM8zJPkx42RAkZDVi1HAzTkj.png",
   twitter: "mulletmusketeer",
-  level: 14,
+  level: 15,
   chimpions: [
     "TheOffworlder"
   ],
@@ -1052,7 +1056,7 @@ const birb = {
 const Mamon = {
   pfp: "https://www.arweave.net/1X0f8rLvzpc_jHHXiomY9ARSUD_Hzdb7spB-IZnpz7o?ext=png",
   twitter: "mamonbtc",
-  level: 7,
+  level: 11,
   chimpions: [
     "TheEnforcer"
   ],
@@ -1071,7 +1075,7 @@ const Mamon = {
 const Alkine = {
   pfp: "https://ipfs.io/ipfs/QmNXGqqJnGuXLsaKbqxWQ3GMdpJWDRifdBxb4tqqZUPe5x",
   twitter: "alkineee",
-  level: 6,
+  level: 10,
   chimpions: [
     "TheOverflowing"
   ],
@@ -1088,7 +1092,7 @@ const Alkine = {
   }
 };
 const DEON = {
-  pfp: "/images/chimpions/TheAdolescent/TheAdolescent-_rabbels_.png",
+  pfp: "https://nft.matrica.io/nft/BrbmfjMUPsvtpENurqddM53ohrg9AGwrPuLFYuYwVCCF.png",
   twitter: "0x_deon",
   level: 1,
   chimpions: [
@@ -1109,7 +1113,7 @@ const DEON = {
 const wronguser = {
   pfp: "https://pbs.twimg.com/profile_images/1611364759340720132/Vpn9l_SD_400x400.jpg",
   twitter: "wronguser000",
-  level: 5,
+  level: 6,
   chimpions: [
     "TheDreamer"
   ],
@@ -1144,23 +1148,23 @@ const SOLNoob = {
     "An Unlikely Friendship": true
   }
 };
-const FakerIsDead = {
-  pfp: "https://arweave.net/cs43ijunzx0uiQxZ3lGIENfK5wUoGBoqggjzXKBEP2k?ext=gif",
-  twitter: "FakerIsDad",
-  level: 1,
+const PNP = {
+  pfp: "/images/chimpions/TheMeathead/TheMeathead-_rabbels_.png",
+  twitter: "papernprotein",
+  level: 6,
   chimpions: [
-    "TheBored"
+    "TheMeathead"
   ],
   TWS: {
     "Forest Fellowship": false,
-    "Dusk Till Dawn": true,
+    "Dusk Till Dawn": false,
     "The Fall of the Eradicator": false,
     "Last Bastion": false,
-    "The Uprising": true,
+    "The Uprising": false,
     LaurenceAntonyXChimpions: false,
     "The Crystal of Unity": false,
     "Grave Danger": false,
-    "An Unlikely Friendship": true
+    "An Unlikely Friendship": false
   }
 };
 const CryptoDriller = {
@@ -1280,7 +1284,7 @@ const Case = {
 const genuinearticles = {
   pfp: "https://www.arweave.net/5JsWCSqgSLP9-tpAypZui6BoC_YkJs5MLc5H_9APZ9Q?ext=jpeg",
   twitter: "genuinearticles",
-  level: 2,
+  level: 5,
   chimpions: [
     "TheWondrous"
   ],
@@ -1356,7 +1360,7 @@ const Gentlemonke = {
 const DreLaSol = {
   pfp: "https://famousfoxes.com/hd/2761.png",
   twitter: "DreLaSOL",
-  level: 1,
+  level: 2,
   chimpions: [
     "TheOtherworldly"
   ],
@@ -1394,7 +1398,7 @@ const ExpliciT = {
 const minne_ape_olis = {
   pfp: "/images/chimpions/ThePensive/ThePensive-_rabbels_.png",
   twitter: "minne_ape_olis",
-  level: 5,
+  level: 7,
   chimpions: [
     "ThePensive"
   ],
@@ -1408,44 +1412,6 @@ const minne_ape_olis = {
     "The Crystal of Unity": false,
     "Grave Danger": true,
     "An Unlikely Friendship": true
-  }
-};
-const huatrabbit = {
-  pfp: "https://www.arweave.net/3RIsvstu8iU9SPLVuTDn3mb1l1YsN4OGS5FW_CLrFbo?ext=png",
-  twitter: "huatrabbit",
-  level: 2,
-  chimpions: [
-    "TheOneWhoRocksHard"
-  ],
-  TWS: {
-    "Forest Fellowship": false,
-    "Dusk Till Dawn": false,
-    "The Fall of the Eradicator": false,
-    "Last Bastion": false,
-    "The Uprising": false,
-    LaurenceAntonyXChimpions: false,
-    "The Crystal of Unity": false,
-    "Grave Danger": false,
-    "An Unlikely Friendship": false
-  }
-};
-const PNP = {
-  pfp: "/images/chimpions/TheAncestral/TheAncestral-_rabbels_.png",
-  twitter: "papernprotein",
-  level: 5,
-  chimpions: [
-    "TheAncestral"
-  ],
-  TWS: {
-    "Forest Fellowship": false,
-    "Dusk Till Dawn": false,
-    "The Fall of the Eradicator": false,
-    "Last Bastion": false,
-    "The Uprising": false,
-    LaurenceAntonyXChimpions: false,
-    "The Crystal of Unity": false,
-    "Grave Danger": false,
-    "An Unlikely Friendship": false
   }
 };
 const citineuqua = {
@@ -1470,7 +1436,7 @@ const citineuqua = {
 const J0hanna = {
   pfp: "/images/chimpions/TheOrnamented/TheOrnamented-_rabbels_.png",
   twitter: "WeStillEarly",
-  level: 3,
+  level: 4,
   chimpions: [
     "TheOrnamented"
   ],
@@ -1489,7 +1455,7 @@ const J0hanna = {
 const hamster = {
   pfp: "/images/chimpions/TheWarlike/TheWarlike-_rabbels_.png",
   twitter: "hamster_labs",
-  level: 6,
+  level: 9,
   chimpions: [
     "TheWarlike"
   ],
@@ -1584,7 +1550,7 @@ const Whydee = {
 const Thesis = {
   pfp: "/images/chimpions/TheComedian/TheComedian-_rabbels_.png",
   twitter: "ThesisInvestor",
-  level: 8,
+  level: 13,
   chimpions: [
     "TheComedian"
   ],
@@ -1717,7 +1683,7 @@ const RAZR = {
 const Mundz = {
   pfp: "https://arweave.net/AShwA3x177WQ5TccLBV5W-BYZDrDBYrwMnyXnys_n10?ext=png",
   twitter: "fox_mundz",
-  level: 2,
+  level: 3,
   chimpions: [
     "TheTechnician"
   ],
@@ -1736,7 +1702,7 @@ const Mundz = {
 const counter = {
   pfp: "/images/chimpions/TheRegal/TheRegal-_rabbels_.png",
   twitter: "0xcounter",
-  level: 5,
+  level: 7,
   chimpions: [
     "TheRegal"
   ],
@@ -1907,7 +1873,7 @@ const papits = {
 const SirBertoli = {
   pfp: "/images/chimpions/TheGrunt/TheGrunt-badluckzulp.png",
   twitter: "SirBertoli",
-  level: 6,
+  level: 8,
   chimpions: [
     "TheGrunt"
   ],
@@ -1964,7 +1930,7 @@ const minz = {
 const Maxbrs = {
   pfp: "https://arweave.net/Mk6dC3IVoz5HA-Hg4-CJzdAd575DgTBvMk98sBAUR9E?ext=png",
   twitter: "MaxBrsNFT",
-  level: 9,
+  level: 13,
   chimpions: [
     "TheOriginal"
   ],
@@ -2016,25 +1982,6 @@ const genwei = {
     "The Crystal of Unity": false,
     "Grave Danger": false,
     "An Unlikely Friendship": true
-  }
-};
-const ArtFanNFT = {
-  pfp: "https://arweave.net/bX-bzyXtfUQT2If2OC-ODlexoVXv0ik02Pjyl9R9gg4",
-  twitter: "ArtFanNFT",
-  level: 2,
-  chimpions: [
-    "TheAgitator"
-  ],
-  TWS: {
-    "Forest Fellowship": false,
-    "Dusk Till Dawn": false,
-    "The Fall of the Eradicator": false,
-    "Last Bastion": false,
-    "The Uprising": false,
-    LaurenceAntonyXChimpions: false,
-    "The Crystal of Unity": false,
-    "Grave Danger": false,
-    "An Unlikely Friendship": false
   }
 };
 const Damasta = {
@@ -2211,7 +2158,7 @@ const Tainaker = {
 const Zionatlas = {
   pfp: "https://arweave.net/tEcStZqJRq2BAzNknNkQ3UMPjR3fupHBDumk15XW7Vo?ext=png",
   twitter: "zionatlas",
-  level: 4,
+  level: 7,
   chimpions: [
     "TheFaulty"
   ],
@@ -2246,9 +2193,9 @@ const DanielB = {
     "An Unlikely Friendship": true
   }
 };
-const Ninozimo = {
-  pfp: "https://arweave.net/dHB-KZLFBqKST0sus5C3IKFrn-35MU6-EdCG8K9WdZg?ext=png",
-  twitter: "ninozimo",
+const Rikishi = {
+  pfp: "https://nft.matrica.io/nft/BZntk5RcqXeJA2D697XsC6jFk9tm3KtU8ZvuhgFXPZmy.png",
+  twitter: "CryptoRikishi",
   level: 1,
   chimpions: [
     "TheBinary"
@@ -2259,7 +2206,7 @@ const Ninozimo = {
     "The Fall of the Eradicator": false,
     "Last Bastion": false,
     "The Uprising": false,
-    LaurenceAntonyXChimpions: false,
+    LaurenceAntonyXChimpions: true,
     "The Crystal of Unity": false,
     "Grave Danger": false,
     "An Unlikely Friendship": false
@@ -2363,7 +2310,7 @@ const b0k = {
 const shades = {
   pfp: "https://nft.matrica.io/nft/RytCw4Wbo1htcif15ZkvgNgY6cUz8o7e2yEHGgjpibX.png",
   twitter: "shades_sol",
-  level: 5,
+  level: 6,
   chimpions: [
     "TheDeckhand"
   ],
@@ -2420,7 +2367,7 @@ const LFK = {
 const Brink = {
   pfp: "https://www.arweave.net/rINOXYzKE1mjO9pO_L-ExzYnMqzGUSwsU7Cjtb-B0Gw?ext=PNG",
   twitter: "Brink_Brinker",
-  level: 7,
+  level: 10,
   chimpions: [
     "TheNeuromancer"
   ],
@@ -2437,9 +2384,9 @@ const Brink = {
   }
 };
 const tuxr = {
-  pfp: "https://nft.matrica.io/nft/BQhwLWns9aDKW8P6sVyP8wpRYWg41CodABYFioY9xbZ.png",
+  pfp: "https://nft.matrica.io/nft/Hu2MqACi2QctmNpFCxXkxsroUoYvaC9ZTxrDbVLfTD3.png",
   twitter: "tuxr228",
-  level: 7,
+  level: 12,
   chimpions: [
     "TheBionic"
   ],
@@ -2516,11 +2463,13 @@ const holders = {
   ThunderBear,
   Doudou,
   SolBigBrain,
+  huatrabbit,
   SKUX,
   An0rak7,
   unskilledfather,
   Utopia,
   CMC81,
+  Terrora,
   HeisenThug,
   Raves,
   sidvicious843,
@@ -2569,7 +2518,7 @@ const holders = {
   "Punk Monke": {
     pfp: "/images/chimpions/ThePunk/ThePunk-_rabbels_.png",
     twitter: "Punk_Monke",
-    level: 10,
+    level: 13,
     chimpions: [
       "ThePunk"
     ],
@@ -2590,7 +2539,6 @@ const holders = {
   Rheld,
   Tellias,
   EarlthePearl,
-  Terrora,
   Outcast,
   meddler,
   Puggl3,
@@ -2616,7 +2564,7 @@ const holders = {
   "Ken Goh": {
     pfp: "https://nft.matrica.io/nft/FTikYeiaghi9ds2NUFv499zZyKfHPbNs7rFn7u2TWxe9.png",
     twitter: "Ken_Goh_",
-    level: 8,
+    level: 11,
     chimpions: [
       "TheHighPriest"
     ],
@@ -2640,7 +2588,6 @@ const holders = {
   Jreff,
   konstantina,
   Draco,
-  phant0m,
   birb,
   Mamon,
   Alkine,
@@ -2666,7 +2613,7 @@ const holders = {
   DEON,
   wronguser,
   SOLNoob,
-  FakerIsDead,
+  PNP,
   CryptoDriller,
   Hyblinxx,
   gl00m,
@@ -2718,8 +2665,6 @@ const holders = {
   DreLaSol,
   ExpliciT,
   minne_ape_olis,
-  huatrabbit,
-  PNP,
   citineuqua,
   J0hanna,
   hamster,
@@ -2787,7 +2732,7 @@ const holders = {
   minz,
   Maxbrs,
   "Odd Skull": {
-    pfp: "https://arweave.net/g6XZywzIZgfwzt2yO-ngV6Y5OyoH1VYNWZQU-DVHHs4?ext=gif",
+    pfp: "https://arweave.net/Y3GhSr2J6b8OFUQFOIx91l494t-tibq3vFn9vuP94x0?ext=png",
     twitter: "OddSkull_",
     level: 1,
     chimpions: [
@@ -2807,12 +2752,11 @@ const holders = {
   },
   Kyufei,
   genwei,
-  ArtFanNFT,
   Damasta,
   "0x4P3": {
     pfp: "/images/chimpions/TheDemon/TheDemon-_rabbels_.png",
     twitter: "cryptoretard69",
-    level: 3,
+    level: 4,
     chimpions: [
       "TheDemon"
     ],
@@ -2838,7 +2782,7 @@ const holders = {
   Tainaker,
   Zionatlas,
   DanielB,
-  Ninozimo,
+  Rikishi,
   "endy.sol": {
     pfp: "/images/chimpions/TheJockey/TheJockey-_rabbels_.png",
     twitter: "",

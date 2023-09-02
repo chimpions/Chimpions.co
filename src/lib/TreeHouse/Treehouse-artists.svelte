@@ -6,7 +6,10 @@
     import { faLink, faIdCard } from '@fortawesome/free-solid-svg-icons/index.js';
     import { faInstagram, faTwitter } from '@fortawesome/free-brands-svg-icons/index.js';
     import "$lib/css/global.css";
+    import { onMount } from 'svelte';
 
+    let active = false;
+    let thisBox;
     export let piece = "";
     export let name = "";
     export let bio = "";
@@ -16,11 +19,27 @@
     export let marmelade = "";
     export let exchangeart = "";
     export let misc = "";
+
+
+
+    function handleScroll() {
+        const rect = thisBox.getBoundingClientRect();
+        if (!active) {
+            if (rect.top <= window.innerHeight) {
+                active = true;
+            }
+        }
+    }
+
+    onMount(() => {
+        handleScroll();
+    });
+
 </script>
 
 
-
-<div class="artistBox">
+<svelte:window on:scroll={handleScroll} />
+<div class="artistBox" class:active bind:this={thisBox}>
     <div class="artist">
         <div>
             <img
@@ -98,6 +117,19 @@
         --bg-artist: var(--light-purple);
     }
 
+    .artistBox {
+        transform: translateY(300px);
+        -webkit-transform: translateY(300px);
+        opacity: 0;
+        transition: opacity 0.5s ease, transform 0.5s ease-out;
+    }
+
+    .artistBox.active {
+        transform: translateY(0px);
+        -webkit-transform: translateY(0px);
+        opacity: 1;
+    }
+    
     .artist {
         text-align: center;
         border-radius: 0.25rem;

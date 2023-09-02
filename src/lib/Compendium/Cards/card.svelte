@@ -6,6 +6,7 @@
     import { resetBaseOrientation } from "./stores/orientation.js";
     import { onMount } from 'svelte';
 
+    export let active = false;
     export let dynamic = true;
     export let name = "";
     export let index = 0;
@@ -42,12 +43,6 @@
         }
         return images = imagesArray;
     };
-
-    onMount(() => {
-        displayed_image = art_files["png"];
-        artist = displayed_image.split(".")[0].split("-")[1];
-    });
-
 
     const getPrevious = () => {
         buttonClicked = previous;
@@ -90,9 +85,21 @@
     let previous;
     let next;
     let buttonClicked;
-    let active = false;
     let rotate = false;
     let loading = true;
+    let loaded = false;
+
+    
+
+    function handleScroll() {
+        const rect = thisCard.getBoundingClientRect();
+        if (!active) {
+            if (rect.top <= window.innerHeight) {
+                active = true;
+            }
+        }
+    }
+
 
 
     const springD = { stiffness: 0.033, damping: 0.45 };
@@ -103,10 +110,21 @@
 
     const mouseover = (e) => {
         bd_color = "white";
+        preloadImages();
     }
 
     const mouseout = (e) => {
         bd_color = "transparent"
+    }
+
+    function preloadImages() {
+        if (!loaded) {
+            for (const imageUrl of images) {
+                const img = new Image();
+                img.src = imageUrl;
+            }
+            loaded = true
+        }
     }
 
     const activate = (e) => {
@@ -170,7 +188,11 @@
         }
     };
 
-
+    onMount(() => {
+        displayed_image = art_files["png"];
+        artist = displayed_image.split(".")[0].split("-")[1];
+        handleScroll();
+    });
 
     $: styles = `
             --s: ${$springScale};
@@ -187,7 +209,7 @@
 </script>
 
 
-
+<svelte:window on:scroll={handleScroll} />
 <div
     class="card"
     class:active
@@ -308,14 +330,22 @@
         -webkit-transform-style: preserve-3d;
     }
 
+    .card {
+        transform: translateY(20px);
+        -webkit-transform: translateY(20px);
+        opacity: 0;
+        transition: opacity 0.5s ease, transform 0.5s ease-out;
+    }
+
     .dynamic__card {
         height: 394px;
         width: 302px;
     }
 
-    .card.active .card__translater,
-    .card.active .card__rotator {
-        touch-action: none;
+    .card.active {
+        transform: translateY(0px);
+        -webkit-transform: translateY(0px);
+        opacity: 1;
     }
 
     .card__translater,
