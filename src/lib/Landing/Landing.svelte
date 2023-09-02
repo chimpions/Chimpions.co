@@ -216,7 +216,7 @@
         opacity: var(--lore-opacity);
         transition: opacity 1s ease;
         color: var(--whiter-purple);
-        background-color: rgb(20 20 20 / 0.6);
+        background-color: rgb(20 20 20 / 0.8);
         border-radius: 2%;
         font-family: 'Alagard';
         letter-spacing: 0.1em;

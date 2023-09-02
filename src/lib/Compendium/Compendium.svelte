@@ -16,8 +16,6 @@
     let selectedTribe = "Proletariat";
     let lastSelectedTribe = "";
     let lastSelectedType = "";
-
-
     let windowWidth = 1000;
 
 
@@ -173,6 +171,7 @@
         <div class="card-grid" style={styles}>
             {#each filteredChimpions as chimpion}
                 <Card 
+                    active={false}
                     dynamic={cardMobility}
                     name={chimpion.name.split(/(?=[A-Z])/).join(' ')}
                     index={chimpion.index}

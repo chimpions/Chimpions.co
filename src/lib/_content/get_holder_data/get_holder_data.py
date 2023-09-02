@@ -1,15 +1,15 @@
 import json
 
-with open('../chimpions.json', 'r', encoding="utf-8") as f:
+with open('./src/lib/_content/chimpions.json', 'r', encoding="utf-8") as f:
     chimpions = json.load(f)
 
-with open('../discord-twitter_data.json', 'r', encoding="utf-8") as f:
+with open('./src/lib/_content/discord-twitter_data.json', 'r', encoding="utf-8") as f:
     discord_twitter_data = json.load(f)
 
-with open('../matrica_data.json', 'r', encoding="utf-8") as f:
+with open('./src/lib/_content/matrica_data.json', 'r', encoding="utf-8") as f:
     matrica_data = json.load(f)
 
-file = open("notes.txt", 'r')
+file = open("./src/lib/_content/get_holder_data/notes.txt", 'r')
 names = []
 discord_ids = []
 for line in file.readlines():
@@ -74,5 +74,5 @@ for holder in holders:
 
 
 
-with open("holders.json", "w") as f:
+with open("./src/lib/_content/holders2.json", "w") as f:
     json.dump(holders_final, f, indent = 4)
