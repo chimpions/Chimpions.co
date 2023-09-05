@@ -6,19 +6,70 @@
     import chimpions from '../../_content/chimpions.json';
 </script>
 
-<section>
-	<h2 class="subsectionHeading">Structure</h2>
-    <div class="subsectionParagraph">
-        <p>
-            The Chimpions have adapted to the ecosystem in which they live. Whereas a model where 10 Leads representing the Chimpions served them for just over a year, the Chimpions have decided to pivot to a governance model with a CEO.
-        </p>
-        <p>
-            The new model operates as follows:
-            The chimpions elect a CEO from among the members of the previous board for a 6-month term.
-            A new board is created from 10 volunteers chosen in order of the most active members of the community.
-        </p>
-    </div>
-
+<section class="sectionContainer">
+    <h2 class="subsectionHeading">FAQ</h2>
+        <div class="qa">
+            <p class="subsectionQuestion">
+                When was the launch?
+            </p>
+            <p class="subsectionAnswer">
+                The Chimpions minted on January 31st, 2022 for 0.22 SOL.<br/>The project utilized a 100% whitelist, 1-per-wallet approach.<br/>Whitelists were offered via Discord/Twitter giveaways as well as through art and lore submissions.
+            </p>
+        </div>
+        <div class="qa">
+            <p class="subsectionQuestion">
+                Where can I buy a Chimpion?
+            </p>
+            <p class="subsectionAnswer">
+                You can buy a Chimpion on <a href="https://www.tensor.trade/trade/the_chimpions">Tensor</a>.
+            </p>
+        </div>
+        <div class="qa">
+            <p class="subsectionQuestion">
+                Why should I buy a Chimpion?
+            </p>
+            <p class="subsectionAnswer">
+                There are so many reasons to buy a Chimpion. We think some of the most compelling are detailed in these two threads by our leads (TLDR: art + alpha + community):<br/>
+                <li><a href="https://twitter.com/ThesisInvestor/status/1523642327419432961" target="_blank">ThesisInvestor's Tweet</a>.</li>
+                <li><a href="https://twitter.com/max___brs/status/1508154075405193217" target="_blank">MaxBrs' Tweet</a>.</li>
+            </p>
+        </div>
+        <div class="qa">
+            <p class="subsectionQuestion">
+                Who leads the Chimpions?
+            </p>
+            <p class="subsectionAnswer">
+                The Chimpions have adapted to the ecosystem in which they live. Whereas a model where 10 Leads representing the Chimpions served them for just over a year, the Chimpions have decided to pivot to a governance model with a CEO.
+                <br/><br/>
+                The new model operates as follows:
+                The chimpions elect a CEO from among the members of the previous board for a 6-month term.
+                A new board is created from 10 volunteers chosen in order of the most active members of the community.
+            </p>
+        </div>
+        <div class="qa">
+            <p class="subsectionQuestion">
+                Is there an official Twitter account?
+            </p>
+            <p class="subsectionAnswer">
+                Here is our account: <a href="https://twitter.com/TheChimpions/">https://twitter.com/TheChimpions/</a>.<br/>You can follow us to keep up to date with our latest news.
+            </p>
+        </div>
+        <div class="qa">
+            <p class="subsectionQuestion">
+                Is there an official ranking?
+            </p>
+            <p class="subsectionAnswer">
+                No. Each Chimpion is a 1/1 NFT, so rarity is purely in the eyes of the beholder.
+            </p>
+        </div>
+        <div class="qa">
+            <p class="subsectionQuestion">
+                What else should I know?
+            </p>
+            <p class="subsectionAnswer">
+                The Chimpions are a tight knit community. If you have a question, don’t hesitate to ask on <a href="https://twitter.com/TheChimpions/">Twitter</a> or on <a href="https://discord.gg/thechimpions">Discord</a>.
+            </p>
+        </div>
     <h2 class="subsectionHeading">
         The CEO
     </h2>
@@ -129,8 +180,9 @@
 
 
 <style>
-    .subsectionHeading {
-        margin-top: 5rem;
+    .sectionContainer {
+        width: 100%;
+        margin-bottom: 6rem;
     }
 
     ul {
@@ -240,5 +292,48 @@
         .leadTwitterAndDiscord {
             font-size: 0.625rem;
         }
+    }
+
+    a {
+        color: inherit;
+    }
+
+
+
+    .subsectionParagraph {
+        text-align: justify;
+        line-height: 1.5rem;
+        letter-spacing: 0.05rem;
+        width: 100%;
+        opacity: 0.8;
+        margin-top: 0.5rem;
+        color: var(--purple-white);
+    }
+
+    .subsectionQuestion {
+        font-size: 1.125rem;
+        width: 100%;
+        margin-top: 0rem;
+        letter-spacing: 0.05em;
+        color: var(--whiter-purple);
+    }
+
+    .subsectionAnswer {
+        width: 100%;
+        margin-top: 1rem;
+        margin-bottom: 0rem;
+        line-height: 1.5rem;
+        letter-spacing: 0.05rem;
+        color: var(--purple-white);
+        padding-left: 1rem;
+        border-left: 2px currentColor solid;
+    }
+
+    .qa {
+        border-radius: 0.25rem;
+        background-color: rgb(31 6 56 / 1);
+        padding: 1rem;
+        margin-top: 1rem;
+        margin-bottom: 3rem;
     }
 </style>
