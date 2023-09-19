@@ -377,7 +377,7 @@
     .TWS {
         height: 20px;
         width: 20px;
-        border-radius: 50%;
+        border-radius: 3rem;
     }
 
     .inactive {
