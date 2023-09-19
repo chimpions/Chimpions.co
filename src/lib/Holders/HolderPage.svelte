@@ -1,25 +1,47 @@
 <script>
-// @ts-nocheck
-
+    import Fa from 'svelte-fa/src/fa.svelte';
+    import { faDiscord } from "@fortawesome/free-brands-svg-icons";
+    import { faTwitter } from "@fortawesome/free-brands-svg-icons";
     import { onMount } from "svelte";
     import chimpions from "../_content/chimpions.json"
     import Navigation from "../Navigation/Navigation.svelte";
     import holders from "../_content/holders.json"
+    import discord_data from "../_content/discord_data.json"
+	import HolderSearch from "./Holder-search.svelte";
+	import Card from '$lib/Compendium/Cards/card.svelte';
 
     export let holderName = "";
     export let pfp = "";
     export let twitter = "";
+    export let discord = "";
+    export let points = 0;
     export let level = 1;
     export let chimpions_held = [];
     export let TWS = {};
+    export let experience = "";
+    export let skills = "";
+    $: experienceToDisplay = experience.replace(/\n/g, '<br/>');
+    $: skillsToDisplay = skills.replace(/\n/g, '<br/>');
 
-    // $: pfp = holder_data["pfp"];
-    // $: twitter = holder_data["twitter"];
-    // let chimpions_held = holder_data["chimpions"];
+
+
     let chimpions_held_data = [];
+    let windowWidth = 1000;
+    let cardMobility = true
 
-    onMount(() => getChimpionsData());
+    $: if (windowWidth < 500) {cardMobility = false} else {cardMobility = true};
 
+    function updateWindowSize() {
+        windowWidth = window.innerWidth;
+    }
+
+    onMount(() => {
+        getChimpionsData();
+        loadPfps();
+        windowWidth = window.innerWidth;
+        window.addEventListener('resize', updateWindowSize);
+        console.log(windowWidth);
+    });
 
     const getChimpionsData = () => {
         for (let chimpion of chimpions) {
@@ -27,6 +49,28 @@
                 chimpions_held_data = [...chimpions_held_data, chimpion]
             }
         }
+        console.log(chimpions_held_data)
+    }
+
+    const loadPfps = () => {
+        for (let holder_name in holders) {
+            const img = new Image();
+            img.src = holders[holder_name].pfp;
+            img.onload;
+        }
+    }
+
+    const getProgressBar = (level, points) => {
+        let increment = 1000;
+        let sum_experience = 0;
+        let test_level = 1;
+        while (test_level < level) {
+            sum_experience += increment;
+            increment += 1000;
+            test_level += 1;
+        }
+        let progression = (points - sum_experience) / increment * 100;
+        return progression;
     }
 
 
@@ -35,11 +79,6 @@
     let filteredHolders = [];
 
 
-
-    onMount(() => {
-        console.log('in');
-
-    });
 
     const linkNextHolder = (holderName) => {
         let keysArray = Object.keys(holders);
@@ -56,7 +95,7 @@
         filteredHolders = []
         if (searchTerm != "") {
             for (let name in holders) {
-                if (name.includes(searchTerm)) {
+                if (name.includes(searchTerm) || name.toLowerCase().includes(searchTerm)) {
                     filteredHolders.push({
                         name: name,
                         pfp: holders[name]["pfp"]
@@ -69,40 +108,29 @@
     }
 
 
+    let isCopied = false; 
+    
+    function copyToClipboard(textToCopy) {
+        const textArea = document.createElement("textarea");
+        textArea.value = textToCopy;
+        document.body.appendChild(textArea);
+        textArea.select();
+        try {
+            document.execCommand("copy");
+            isCopied = true;
+        } catch (err) {
+            console.error("Unable to copy text: ", err);
+            isCopied = false;
+        }
+        document.body.removeChild(textArea);
+    }
 
-
-
-
+    $: styles = `--width: ${windowWidth}px`;
 </script>
 
-tototototot
-{#each chimpions_held_data as chimpion}
 
-    <p>{chimpion.name}</p>
-    <img src={chimpion.paths.gif} alt={chimpion.name} />
-    <br/><br/><br/><br/><br/>
-{/each}
-
-<div class="holder-box">
-    <a href="/holders/{name}" class="circle">
-        <img class="pfp" src={pfp} alt="Profile picture of {name}"/>
-    </a>
-    <span class="name">
-        {#if (twitter != "")}
-            <a href="https://twitter.com/{twitter}" target="_blank" rel="noreferrer">{name}</a>
-        {:else}
-            {name}
-        {/if}
-    </span>
-</div>
-
-
-
-
-    
     
 <Navigation />
-    
 <div class="menu-cont">
     <div id="query-section">
         <div id="search-input-cont">
@@ -119,53 +147,372 @@ tototototot
         {#if filteredHolders.length > 0}
             <ul>
             {#each filteredHolders as holder}
-            <a href={`/compendium/${holder.name}`}><li><img class="search-pfp" src={holder.pfp} alt="pfp of {holder.name}"/>{holder.name}</li></a>
+                <HolderSearch
+                    holderName={holder.name}
+                    holderPfp={holder.pfp}
+                />
             {/each}
             </ul>
         {/if}
         </div>
     </div>
     <div id="box-for-next-chimp">
-    <a href={linkNextHolder(holderName)}>
-    <div class="nextChimpion">
-        
-        See Next Holder<span><img class="arrow-right" src="/images/arrow-right-white.png" alt="arrow to the right" /></span>
-        
+        <a href={linkNextHolder(holderName)}>
+            <div class="nextChimpion">
+                See Next Holder<span><img class="arrow-right" src="/images/arrow-right-white.png" alt="arrow to the right" /></span>
+            </div>
+        </a>
     </div>
-</a>
-</div>
 </div>
 
+<div class="holder-misc">
+    <img class="pfp" src={pfp} alt="PFP" />
+    <span class="name">{holderName}</span>
+    <div class="socials">
+        {#if (twitter != "")}
+            <div class="icon"><Fa icon={faTwitter} size="sm" /></div>
+            <a href="https://twitter.com/{twitter}" target="_blank" rel="noreferrer">{twitter}</a>
+        {:else}
+            <div class="icon"><Fa icon={faTwitter} size="sm" /></div>
+            {twitter}
+        {/if}
+        <div class="icon"><Fa icon={faDiscord} size="sm" /></div>
+        <div class="tooltip">
+            <button on:click={copyToClipboard(discord)}>{discord}</button>
+        
+            {#if isCopied}
+                <span class="tooltiptext bottom">Copied to clipboard</span>
+            {:else}
+                <span class="tooltiptext bottom">Copy to clipboard</span>
+            {/if}
+        </div>
+    </div>
+    <div class="TWS-section">
+        <div class="tooltip">
+            <a href="https://www.tensor.trade/trade/tws1" target="_blank">
+                <img class="TWS {TWS["Forest Fellowship"] ? "" : "inactive"}" src="/images/tws/matabolong/forest_fellowship_square.png" />
+            </a>
+            <span class="tooltiptext top">TWS1: Forest Fellowship</span>
+        </div>
+        <div class="tooltip">
+            <a href="https://www.tensor.trade/trade/tws2" target="_blank">
+                <img class="TWS {TWS["Dusk Till Dawn"] ? "" : "inactive"}" src="/images/tws/nyaumon/dusk_till_dawn_square.png" />
+            </a>
+            <span class="tooltiptext top">TWS2: Dusk Till Dawn</span>
+        </div>
+        <div class="tooltip">
+            <a href="https://www.tensor.trade/trade/tws3" target="_blank">
+                <img class="TWS {TWS["The Fall of the Eradicator"] ? "" : "inactive"}" src="/images/tws/rgb/ChimpionXCritters_square.png" />
+            </a>
+            <span class="tooltiptext top">TWS3: The Fall of the Eradicator</span>
+        </div>
+        <div class="tooltip">
+            <a href="https://www.tensor.trade/trade/tws4" target="_blank">
+                <img class="TWS {TWS["Last Bastion"] ? "" : "inactive"}" src="/images/tws/neilvilppu/LastBastion_square.png" />
+            </a>
+            <span class="tooltiptext top">TWS4: Last Bastion</span>
+        </div>
+        <div class="tooltip">
+            <a href="https://magiceden.io/marketplace/tws5" target="_blank">
+                <img class="TWS {TWS["The Uprising"] ? "" : "inactive"}" src="/images/tws/ugslabs/TheUprising_square.png" />
+            </a>
+            <span class="tooltiptext top">TWS5: The Uprising</span>
+        </div>
+        <div class="tooltip">
+            <a href="https://www.tensor.trade/trade/tws6" target="_blank">
+                <img class="TWS {TWS["LaurenceAntonyXChimpions"] ? "" : "inactive"}" src="/images/tws/laurenceantony/Finale_square.png" />
+            </a>
+            <span class="tooltiptext top">TWS6: LaurenceAntony X Chimpions</span>
+        </div>
+        <div class="tooltip">
+            <a href="https://www.tensor.trade/trade/tws7" target="_blank">
+                <img class="TWS {TWS["The Crystal of Unity"] ? "" : "inactive"}" src="/images/tws/knittables/CrystalCompanions_square.png" />
+            </a>
+            <span class="tooltiptext top">TWS7: The Crystal of Unity</span>
+        </div>
+        <div class="tooltip">
+            <a href="https://www.tensor.trade/trade/tws8" target="_blank">
+                <img class="TWS {TWS["Grave Danger"] ? "" : "inactive"}" src="/images/tws/artbynafay/GraveDanger_square.png" />
+            </a>
+            <span class="tooltiptext top">TWS8: Grave Danger</span>
+        </div>
+        <div class="tooltip">
+            <a href="https://magiceden.io/marketplace/tws9" target="_blank">
+                <img class="TWS {TWS["An Unlikely Friendship"] ? "" : "inactive"}" src="/images/tws/tainaker/AnUnlikelyFriendship_square.png" />
+            </a>
+            <span class="tooltiptext top">TWS9: An Unlikely Friendship</span>
+        </div>
+    </div>
+    <div class="Experience">
+        <div>Level {level}</div>
+        <div class="progress-bar">
+            <div class="progress" style="width: {getProgressBar(level, points)}%;"></div>
+        </div>
+    </div>
+</div>
+
+<div class="main-content">
+    <div class="left-side">
+        <div class="ama-section">
+            <span class="title">Web3 Experience</span>
+            <div class="answer">
+                {@html experienceToDisplay}
+            </div>
+        </div>
+        <div class="ama-section">
+            <span class="title">Occupation / Professional skills</span>
+            <div class="answer">
+                {@html skillsToDisplay}
+            </div>
+        </div>
+    </div>
+    <div class="right-side">
+        <span class="title">Favorite artwork</span>
+        <div class="favorite-art">
+            <img src="/images/chimpions/TheOriginal/TheOriginal-_rabbels_.png" alt="1" />
+            <span style="font-size: 1.25rem; text-decoration: underline">The Original</span> <i>by Rabbels</i>
+        </div>
+    </div>
+</div>
+<div class="chimpions-held">
+    <span class="title">Chimpions hodled</span>
+    
+    {#if chimpions_held_data.length == 1}
+    <div class="center-grid">
+        {#each chimpions_held_data as chimpion}
+            <Card
+                active={false}
+                dynamic={cardMobility}
+                name={chimpion.name.split(/(?=[A-Z])/).join(' ')}
+                index={chimpion.index}
+                tribe={chimpion.tribe}
+                type={chimpion.type.split(/(?=[A-Z])/).join(' ')}
+                art_files={chimpion.paths}
+                lore={chimpion.lore}
+                holder_name={chimpion.holder}
+            />
+        {/each}
+    </div>
+    {:else}
+    <div class="card-grid" style={styles}>
+        {#each chimpions_held_data as chimpion}
+            <Card
+                active={false}
+                dynamic={cardMobility}
+                name={chimpion.name.split(/(?=[A-Z])/).join(' ')}
+                index={chimpion.index}
+                tribe={chimpion.tribe}
+                type={chimpion.type.split(/(?=[A-Z])/).join(' ')}
+                art_files={chimpion.paths}
+                lore={chimpion.lore}
+                holder_name={chimpion.holder}
+            />
+        {/each}
+    </div>
+    {/if}
+
+</div>
 
 
 
 
 <style>
-    .holder-box {
-        display: flex;
-        align-items: center;
-        height: 70px;
-        width: 200px;
-        border: 1px solid var(--purple);
-        border-radius: 0.25rem;
-        background-color: var(--dark-purple);
-        vertical-align: bottom;
+    :root {
+        --width: 1000px;
     }
 
-    .circle {
-        height: 50px;
-        width: 50px;
-        border-radius: 5rem;
-        margin: 10px;
+    .holder-misc {
+        width: 50%;
+        margin-top: 100px;
+        margin-left: 10%;
+        margin-bottom: 1rem;
+        margin-right: auto;
+        display: flex;
+        width: fit-content;
+        align-items: center;
+        border: 1px var(--white-purple) solid;
+        border-radius: 0.25rem;
+        background-color: var(--dark-purple);
+        padding: 1rem;
+        gap: 2rem;
+    }
+
+    .holder-misc .name {
+        font-size: 1.5rem;
+        color: var(--whiter-purple);
+    }
+
+    .socials {
+        display: grid;
+        grid-template-columns: 20px 1fr;
+        column-gap: 5px;
+        row-gap: 0.5rem;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .icon {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+
+    .TWS-section {
+        display: grid;
+        grid-template-columns: repeat(5, 1fr);
+        gap: 0.5rem;
+    }
+
+    .tooltip button {
+        margin: 0;
+        padding: 0;
+        border: none;
+        background: none;
+        font: inherit;
+        color: inherit;
+        cursor: pointer;
+        outline: none;
+    }
+
+    .TWS {
+        height: 20px;
+        width: 20px;
+        border-radius: 3rem;
+    }
+
+    .inactive {
+        filter: grayscale(1);
+    }
+
+    .tooltip {
+        position: relative;
+    }
+
+    .tooltip .tooltiptext {
+        visibility: hidden;
+        width: 120px;
+        background-color: black;
+        color: #fff;
+        text-align: center;
+        border-radius: 6px;
+        padding: 5px 0;
+        position: absolute;
+        font-size: 0.875rem;
+        z-index: 1;
+        left: 50%;
+        margin-left: -60px;
+    }
+
+    .tooltip .tooltiptext.top {
+        bottom: 150%;
+    }
+
+    .tooltip .tooltiptext.bottom {
+        top: 150%;
+    }
+
+    .tooltip .tooltiptext::after {
+        content: "";
+        position: absolute;
+        left: 50%;
+        margin-left: -5px;
+        border-width: 5px;
+        border-style: solid;
+        border-color: black transparent transparent transparent;
+    }
+
+    .tooltip .tooltiptext.top::after {
+        top: 100%;
+    }
+
+    .tooltip .tooltiptext.bottom::after {
+        bottom: 100%;
+    }
+
+    .tooltip:hover .tooltiptext {
+        visibility: visible;
+    }
+
+    .Experience {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        gap: 0.25rem;
+    }
+
+    .progress-bar {
+        width: 100px;
+        background-color: var(--white-purple);
+        height: 14px;
+        border: 2px var(--white-purple) solid;
+        border-radius: 1rem;
+        overflow: hidden;
+    }
+
+    .progress {
+        height: 10px;
+        background-color: var(--purple);
+        border-top-left-radius: 1rem;
+        border-bottom-left-radius: 1rem;
+    }
+
+    .main-content {
+        display: flex;
+        margin: 50px auto;
+    }
+
+    .left-side {
+        width: 50%;
+        margin-left: 10%;
+    }
+
+    .right-side {
+        width: 50%;
+        margin-left: 10%;
+        margin-right: 5%;
+    }
+
+    .favorite-art {
+        width: 100%;
+        text-align: center;
+    }
+
+    .favorite-art img {
+        width: 100%;
+        padding: 1rem;
+    }
+
+    .ama-section {
+        /* width: 50%; */
+        /* margin-left: 10%; */
+    }
+
+    span.title {
+        font-size: 2rem;
+    }
+
+    .answer {
+        margin: 2rem;
+        margin-top: 1rem;
+        text-align: justify;
+    }
+
+    .chimpions-held {
+        margin-left: 10%;
+        margin-right: 10%;
+    }
+
+    .center-grid {
+        width: 50%;
+        margin-top: 50px;
+        margin-bottom: 100px;
+        display: flex;
+        justify-content: center;
     }
 
     .pfp {
-        height: 50px;
-        border-radius: 5rem;
-    }
-
-    .name {
-        color: var(--whiter-purple);
+        height: 100px;
+        border-radius: 0.25rem;
     }
 
     a {
@@ -178,26 +525,9 @@ tototototot
         text-decoration: underline;
     }
 
-
-    .search-pfp {
-        width: 30px;
-        margin-right: 5px;
-        vertical-align: bottom;
-    }
-
-
-
-    .full-window {
-        padding-top: 100px;
-        width: 100vw;
-        height: 100vh;
-        outline: none;
-    }
-
     .menu-cont {
         display: flex;
-        position: fixed;
-        z-index: 5;
+        position: absolute;
         top: 0px;
         right: 0px;
         margin: 0;
@@ -231,8 +561,6 @@ tototototot
     }
 
     .results {
-        /* position: absolute; */
-        /* top: 55px; */
         max-height: 200px;
         width: 200px;
         overflow: auto;
@@ -246,20 +574,6 @@ tototototot
         padding: 0;
         border: 1px solid var(--purple);
         border-top: 0px;
-    }
-    
-    .results ul li {
-        display: flex;
-        align-items: center;
-        cursor: pointer;
-        padding: 0px;
-        border-top: 1px solid var(--purple);
-        background-color: var(--darker-purple);
-        transition: background-color 0.2s ease;
-    }
-    
-    .results ul li:hover {
-        background-color: var(--purple);
     }
 
     #box-for-next-chimp {
@@ -285,134 +599,12 @@ tototototot
         height: 0.75rem;
     }
 
-    .image-container {
-        position: relative;
-        width: 400px;
-        height: 400px;
-        margin-right: 1rem;
-    }
 
-    .image-container img {
-        width: 400px;
-        object-fit: contain;
-        border-radius: 0.25rem;
-    }
-
-    .control-dots {
-        text-align: center;
-        width: 100%;
-        margin: 0px;
-        padding: 0;
-        position: absolute;
-        bottom: 10px;
-    }
-
-    .dot {
-        opacity: .3;
-        width: 8px;
-        height: 8px;
-        cursor: pointer;
-        background: #fff;
-        border-radius: 50%;
-        margin: 0 8px;
-        transition: opacity .2s ease;
-        display: inline-block;
-        box-shadow: 1px 1px 2px rgba(0,0,0,.9);
-    }
-
-    .dot.selected, .dot:hover {
-        opacity: 1;
-    }
-
-    .control-arrow-prev {
-        position: absolute;
-        top: 0;
-        left: 0;
-        bottom: 0;
-        padding: 5px;
-        background: 0 0;
-        color: #fff;
-        opacity: .4;
-        text-align: left;
-        cursor: pointer;
-        width: 50%;
-        border: 0;
-        transition: all .3s ease;
-    }
-
-    .control-arrow-next {
-        position: absolute;
-        top: 0;
-        right: 0;
-        bottom: 0;
-        padding: 5px;
-        background: 0 0;
-        color: #fff;
-        opacity: .4;
-        text-align: right;
-        cursor: pointer;
-        width: 50%;
-        border: 0;
-        transition: all .3s ease;
-    }
-
-    /* .control-arrow-prev:hover {
-        opacity: 1;
-    }
-
-    .control-arrow-next:hover {
-        opacity: 1;
-    } */
-
-    .control-arrow-prev:before {
-        content: "";
-        border-top: 10px solid transparent;
-        border-right: 10px solid #fff;
-        border-bottom: 10px solid transparent;
-        margin: 0 5px;
-        display: inline-block;
-    }
-
-    .control-arrow-next:before {
-        content: "";
-        border-top: 10px solid transparent;
-        border-left: 10px solid #fff;
-        border-bottom: 10px solid transparent;
-        margin: 0 5px;
-        display: inline-block;
-    }
-
-    .chimp-line {
-        width: 80%;
-        max-width: 850px;
-        margin: 1rem auto;
-        padding: 1rem;
-        border-radius: 0.25rem;
-    }
-
-    .chimp-name {
-        font-size: 1.5rem;
-    }
-
-    .chimp-info {
-        display: flex;
-        margin-top: 0.5rem;
-    }
-
-    .description {
-        width: 300px;
-    }
-
-    p span {
-        color: var(--whiter-purple);
-    }
 
     a {
         text-decoration: none;
         color: inherit;
     }
-
-
 
     ::-webkit-scrollbar {
         width: 8px;
@@ -439,5 +631,37 @@ tototototot
     .chimp-info p {
         margin: 0.25rem 0;
     }
+}
+
+
+    .card-grid {
+		display: grid;
+		margin:  50px auto;
+		grid-template-columns: 305px;
+        row-gap: 50px;
+        justify-items: center;
+        align-items: center;
+        justify-content: center;
+	}
+
+@media screen and (min-width: 700px) {
+	.card-grid {
+		grid-template-columns: 305px 305px;
+        column-gap: max(30px, calc((var(--width) - 710px)/4));
+	}
+}
+
+@media screen and (min-width: 1100px) {
+	.card-grid {
+		grid-template-columns: 305px 305px 305px;
+        column-gap: max(30px, calc((var(--width) - 1015px)/4));
+	}
+}
+
+@media screen and (min-width: 1500px) {
+	.card-grid {
+		grid-template-columns: 305px 305px 305px 305px;
+        column-gap: max(30px, calc((var(--width) - 1410px)/4));
+	}
 }
 </style>

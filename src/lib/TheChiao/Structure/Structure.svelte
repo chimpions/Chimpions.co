@@ -28,11 +28,12 @@
             <p class="subsectionQuestion">
                 Why should I buy a Chimpion?
             </p>
-            <p class="subsectionAnswer">
-                There are so many reasons to buy a Chimpion. We think some of the most compelling are detailed in these two threads by our leads (TLDR: art + alpha + community):<br/>
+            <div class="subsectionAnswer">
+                <p>
+                There are so many reasons to buy a Chimpion. We think some of the most compelling are detailed in these two threads by our leads (TLDR: art + alpha + community):</p>
                 <li><a href="https://twitter.com/ThesisInvestor/status/1523642327419432961" target="_blank">ThesisInvestor's Tweet</a>.</li>
                 <li><a href="https://twitter.com/max___brs/status/1508154075405193217" target="_blank">MaxBrs' Tweet</a>.</li>
-            </p>
+            </div>
         </div>
         <div class="qa">
             <p class="subsectionQuestion">

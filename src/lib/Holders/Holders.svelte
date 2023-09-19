@@ -4,6 +4,7 @@
     import Navigation from "$lib/Navigation/Navigation.svelte";
     import BackToTop from "$lib/BackToTop.svelte";
     import holders from "$lib/_content/holders.json";
+    import discord_data from "$lib/_content/discord_data.json";
     import "$lib/css/global.css"
     import HolderBox from "./Holder-box.svelte";
     import { onMount } from "svelte";
@@ -17,8 +18,6 @@
     function updateWindowSize() {
         screenWidth = window.innerWidth;
     }
-
-    onMount(() => {})
 
     onMount(() => {
         screenWidth = window.innerWidth;
@@ -93,6 +92,7 @@
                     <HolderBox
                         name={holderName}
                         holder_data={holderLine[holderName]}
+                        discord_data={discord_data[holderLine[holderName]["discordId"]]}
                     />
                 {/each}
             </div>
