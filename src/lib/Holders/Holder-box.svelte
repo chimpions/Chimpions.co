@@ -5,6 +5,16 @@
     $: pfp = holder_data["pfp"];
     $: twitter = holder_data["twitter"];
     
+
+
+
+    function handleImageError() {
+        pfp = '/images/unrevealed.png';
+    }
+
+
+
+
 </script>
 
 
@@ -24,7 +34,7 @@
 <div class="holder-box">
     {#if (twitter != "")}
         <a class="align-items" href="https://twitter.com/{twitter}" target="_blank" rel="noreferrer">
-            <img class="pfp" src={pfp} alt="Profile picture of {name}"/>
+            <img class="pfp" src={pfp} alt="" on:error={handleImageError} />
             <span class="name">
                 {#each name.split(" ") as namepart, i}
                 {#if (i < name.split(" ").length-1)}

@@ -1,10 +1,10 @@
 <script>
 // @ts-nocheck
     import holders from "$lib/_content/holders.json";
+    import discord_data from "$lib/_content/discord_data.json";
     import { page } from '$app/stores';
     import NotFound from "$lib/NotFound.svelte";
 	import HolderPage from "$lib/Holders/HolderPage.svelte";
-    // import Chimpion from "$lib/Compendium/Chimpion.svelte";
     
 
     let holderName = ""
@@ -14,19 +14,12 @@
         try {
             let holderNameArray = params.toLowerCase();
             holderName = holderNameArray;
-            // holderName = holderNameArray
-            //     .map(word => word.charAt(0).toUpperCase() + word.slice(1))
-            //     .join('');
-            console.log(holderName)
             for (let key in holders) {
                 if (key.toLowerCase() == holderName) {
-                    console.log("found");
-                    let xholder_data = holders[key];
-                    console.log(xholder_data);
+                    holderName = key;
                     return holder_data = holders[key];
                 }
             }
-            
         } catch (error) {
             console.log('HolderNotFoundError');
             return holder_data = null;
@@ -41,10 +34,14 @@
     <HolderPage
         holderName={holderName}
         pfp={holder_data.pfp}
-        twitter={holder_data.twitter}
-        level={holder_data.level}
-        chimpions={holder_data.chimpions}
+        twitter={discord_data[holder_data["discordId"]]["twitterHandle"]}
+        discord={discord_data[holder_data["discordId"]]["discordHandle"]}
+        points={discord_data[holder_data["discordId"]]["points"]}
+        level={discord_data[holder_data["discordId"]]["level"]}
+        chimpions_held={holder_data.chimpions}
         TWS={holder_data.TWS}
+        experience={holder_data.experience}
+        skills={holder_data.skills}
     />
 {:else}
     <NotFound />

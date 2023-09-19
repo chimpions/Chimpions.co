@@ -1,8 +1,7 @@
 {
     "ThunderBear": {
         "pfp": "https://pbs.twimg.com/profile_images/1597446929520132096/r69DxNCA_400x400.jpg",
-        "twitter": "NFT_TB_Crypto",
-        "level": 1,
+        "discordId": "867186625456504852",
         "chimpions": [
             "TheLightInShadow",
             "TheTimeworn",
@@ -39,8 +38,7 @@
     },
     "Doudou": {
         "pfp": "https://nft.matrica.io/nft/FUoc5Nvgp6A8Ava2dyzf2q24NVK8HJ44ivhFTBQGWDP4.png",
-        "twitter": "notdoudou_sol",
-        "level": 12,
+        "discordId": "304124024672223234",
         "chimpions": [
             "TheGhastly",
             "TheEvaluator",
@@ -71,8 +69,7 @@
     },
     "SolBigBrain": {
         "pfp": "https://pbs.twimg.com/profile_images/1653077175287914496/qESpHuGx_400x400.jpg",
-        "twitter": "SOLBigBrain",
-        "level": 1,
+        "discordId": "785722075942879243",
         "chimpions": [
             "TheFrozen",
             "TheOathkeeper",
@@ -93,8 +90,7 @@
     },
     "huatrabbit": {
         "pfp": "https://www.arweave.net/3RIsvstu8iU9SPLVuTDn3mb1l1YsN4OGS5FW_CLrFbo?ext=png",
-        "twitter": "huatrabbit",
-        "level": 4,
+        "discordId": "349889849353830404",
         "chimpions": [
             "TheOneWhoRocksHard",
             "TheZealous",
@@ -115,8 +111,7 @@
     },
     "SKUX": {
         "pfp": "/images/chimpions/ThePtolemaic/ThePtolemaic-badluckzulp.png",
-        "twitter": "_SKUX_",
-        "level": 1,
+        "discordId": "909808227024261140",
         "chimpions": [
             "ThePtolemaic",
             "TheReversed",
@@ -136,8 +131,7 @@
     },
     "An0rak7": {
         "pfp": "/images/chimpions/TheFuturist/TheFuturist-_rabbels_.png",
-        "twitter": "an0rak7",
-        "level": 1,
+        "discordId": "419798818239021059",
         "chimpions": [
             "TheFuturist",
             "TheTrained"
@@ -156,8 +150,7 @@
     },
     "unskilledfather": {
         "pfp": "https://www.arweave.net/NRSwbTvbMZIPL0NIrW2P5DqwPDxYqkNAE1aucDaSjrw?ext=jpg",
-        "twitter": "unskilledfather",
-        "level": 1,
+        "discordId": "904826894665515028",
         "chimpions": [
             "TheRebel",
             "TheElated"
@@ -176,8 +169,7 @@
     },
     "Utopia": {
         "pfp": "https://nft.matrica.io/nft/5ZtnfVMj9Lc3j6ivTpbXPd34bj9FR3UQCQsr2nWndTAo.png",
-        "twitter": "utopia_artist",
-        "level": 16,
+        "discordId": "314686698716004353",
         "chimpions": [
             "TheSinged",
             "TheFirstborn"
@@ -196,8 +188,7 @@
     },
     "CMC81": {
         "pfp": "/images/chimpions/ThePatrolman/ThePatrolman-_rabbels_.png",
-        "twitter": "cmc816",
-        "level": 3,
+        "discordId": "886961750392586251",
         "chimpions": [
             "ThePatrolman",
             "TheEradicator"
@@ -216,8 +207,7 @@
     },
     "Terrora": {
         "pfp": "https://nft.matrica.io/nft/7y1y5WJxietWfvYfmvZwMWsDu2dFjwe1qr9si4Nuys5p.png",
-        "twitter": "terroraonsol",
-        "level": 1,
+        "discordId": "300960990890295309",
         "chimpions": [
             "TheShogun",
             "TheWitchDoctor"
@@ -236,8 +226,7 @@
     },
     "HeisenThug": {
         "pfp": "/images/chimpions/TheGangster/TheGangster-_rabbels_.png",
-        "twitter": "",
-        "level": 2,
+        "discordId": "639471981934280714",
         "chimpions": [
             "TheGangster",
             "TheStreetFighter"
@@ -256,8 +245,7 @@
     },
     "Raves": {
         "pfp": "https://pbs.twimg.com/profile_images/1659520035835072516/3QUnbWCw_400x400.jpg",
-        "twitter": "Ravers",
-        "level": 1,
+        "discordId": "103306856465731584",
         "chimpions": [
             "TheMartialArtist",
             "TheDigital"
@@ -276,8 +264,7 @@
     },
     "sidvicious843": {
         "pfp": "https://nft.matrica.io/nft/8jHZGee6bBYqX51r5rVgpqyFsmBCPn15h7X16y7g7qFw.png",
-        "twitter": "Sidvicious843",
-        "level": 9,
+        "discordId": "690046283091935239",
         "chimpions": [
             "TheTrickster",
             "TheFreelancer"
@@ -296,8 +283,7 @@
     },
     "palmora": {
         "pfp": "/images/chimpions/TheBubbly/TheBubbly-_rabbels_.png",
-        "twitter": "palmora09",
-        "level": 1,
+        "discordId": "594811677896081417",
         "chimpions": [
             "TheBubbly"
         ],
@@ -315,8 +301,7 @@
     },
     "Visery": {
         "pfp": "/images/chimpions/TheHellion/TheHellion-badluckzulp.png",
-        "twitter": "VizeryNFTs",
-        "level": 1,
+        "discordId": "237628434145083392",
         "chimpions": [
             "TheHellion"
         ],
@@ -334,8 +319,7 @@
     },
     "Pwenguin": {
         "pfp": "/images/chimpions/TheRancher/TheRancher-_rabbels_.png",
-        "twitter": "Pwenguin_16",
-        "level": 1,
+        "discordId": "704327714298921050",
         "chimpions": [
             "TheRancher"
         ],
@@ -353,8 +337,7 @@
     },
     "rene": {
         "pfp": "/images/chimpions/TheStubborn/TheStubborn-badluckzulp.png",
-        "twitter": "",
-        "level": 1,
+        "discordId": "931412410030518294",
         "chimpions": [
             "TheStubborn"
         ],
@@ -372,8 +355,7 @@
     },
     "Soledge": {
         "pfp": "/images/chimpions/TheBlazing/TheBlazing-zen0m.png",
-        "twitter": "Themultipool",
-        "level": 1,
+        "discordId": "150023955745472514",
         "chimpions": [
             "TheBlazing"
         ],
@@ -391,8 +373,7 @@
     },
     "zachary": {
         "pfp": "/images/chimpions/TheMessenger/TheMessenger-_rabbels_.png",
-        "twitter": "",
-        "level": 1,
+        "discordId": "896337062393958400",
         "chimpions": [
             "TheMessenger"
         ],
@@ -410,8 +391,7 @@
     },
     "Gwei Stefani": {
         "pfp": "/images/chimpions/TheGreeter/TheGreeter-_rabbels_.png",
-        "twitter": "gweistefani_",
-        "level": 1,
+        "discordId": "760792786802573313",
         "chimpions": [
             "TheGreeter"
         ],
@@ -429,8 +409,7 @@
     },
     "murath": {
         "pfp": "https://nft.matrica.io/nft/CzbSTMx3CJbp6wHfpQc91uHuRfz3rfmYrQke6aCPFMGT.png",
-        "twitter": "murathsol",
-        "level": 1,
+        "discordId": "399626989750976514",
         "chimpions": [
             "TheVassal"
         ],
@@ -448,8 +427,7 @@
     },
     "dabums": {
         "pfp": "/images/chimpions/TheWatchman/TheWatchman-_rabbels_.png",
-        "twitter": "dabums1",
-        "level": 2,
+        "discordId": "511623487622873088",
         "chimpions": [
             "TheWatchman"
         ],
@@ -467,8 +445,7 @@
     },
     "Vell": {
         "pfp": "https://ipfs.io/ipfs/QmPmbQdAsDccz6GYFtyGdg7CuTa44KkJUN8LdZ6T92Uwhz",
-        "twitter": "vell_sol",
-        "level": 1,
+        "discordId": "255686519426121728",
         "chimpions": [
             "TheTattered"
         ],
@@ -486,8 +463,7 @@
     },
     "bip": {
         "pfp": "/images/chimpions/TheJuror/TheJuror-_rabbels_.png",
-        "twitter": "bipkoyn",
-        "level": 1,
+        "discordId": "625230933569699866",
         "chimpions": [
             "TheJuror"
         ],
@@ -505,8 +481,7 @@
     },
     "Grooovy": {
         "pfp": "https://pbs.twimg.com/profile_images/1561547292431228929/orzVdkma_400x400.jpg",
-        "twitter": "GroovyNFTs",
-        "level": 1,
+        "discordId": "105451106590564352",
         "chimpions": [
             "TheCeremonial"
         ],
@@ -524,8 +499,7 @@
     },
     "Simba": {
         "pfp": "https://pbs.twimg.com/profile_images/1676904981859893248/YXUIR7lo_400x400.jpg",
-        "twitter": "simba_sol",
-        "level": 2,
+        "discordId": "383019686465372162",
         "chimpions": [
             "TheRitualist"
         ],
@@ -543,8 +517,7 @@
     },
     "futuristic": {
         "pfp": "/images/chimpions/TheKnightCommander/TheKnightCommander-_rabbels_.png",
-        "twitter": "futuristicS0L",
-        "level": 4,
+        "discordId": "295984223569969152",
         "chimpions": [
             "TheKnightCommander"
         ],
@@ -562,8 +535,7 @@
     },
     "MrCamel": {
         "pfp": "/images/chimpions/TheSocial/TheSocial-_rabbels_.png",
-        "twitter": "MrCamel__",
-        "level": 3,
+        "discordId": "926198013028884562",
         "chimpions": [
             "TheSocial"
         ],
@@ -581,8 +553,7 @@
     },
     "Dutch": {
         "pfp": "https://pbs.twimg.com/profile_images/1684031699481681921/RlUGKzHv_400x400.jpg",
-        "twitter": "0xDutch",
-        "level": 1,
+        "discordId": "926670219827626074",
         "chimpions": [
             "TheScorched"
         ],
@@ -600,8 +571,7 @@
     },
     "Aspen": {
         "pfp": "/images/chimpions/TheLover/TheLover-_rabbels_.png",
-        "twitter": "aspen_ow",
-        "level": 1,
+        "discordId": "222204690404868096",
         "chimpions": [
             "TheLover"
         ],
@@ -619,8 +589,7 @@
     },
     "Dasein": {
         "pfp": "https://nft.matrica.io/nft/4YjyXSzMGQGhWYKwqLCQAhA22f1qqcB7ibncbaFfEDBn.png",
-        "twitter": "daseinillusion",
-        "level": 16,
+        "discordId": "830941636720197652",
         "chimpions": [
             "TheStatic"
         ],
@@ -638,8 +607,7 @@
     },
     "Marculino": {
         "pfp": "https://arweave.net/taaE-YW9nUpy7rnOaBl54c8nJ6tW1jZiIxG-ra4iaXE?ext=png",
-        "twitter": "marculinopng",
-        "level": 1,
+        "discordId": "432183629485965312",
         "chimpions": [
             "TheCultist"
         ],
@@ -657,8 +625,7 @@
     },
     "NickSayWhat": {
         "pfp": "https://nft.matrica.io/nft/5bKZmaav5uX8Hs3c2DFs7o198bhpytF35cqUVYz2BTdV.png",
-        "twitter": "",
-        "level": 2,
+        "discordId": "853739185595613194",
         "chimpions": [
             "TheJoyful"
         ],
@@ -676,8 +643,7 @@
     },
     "Akaba": {
         "pfp": "/images/chimpions/TheHeroic/TheHeroic-_rabbels_.png",
-        "twitter": "",
-        "level": 1,
+        "discordId": "679994255913254927",
         "chimpions": [
             "TheHeroic"
         ],
@@ -695,8 +661,7 @@
     },
     "Katsu": {
         "pfp": "https://nft.matrica.io/nft/5GbTChPtHL16oJzrJAjqg29GGTmeFrRJifYzLeUNyvkU.png",
-        "twitter": "katsudon_sol",
-        "level": 7,
+        "discordId": "381248536810881024",
         "chimpions": [
             "TheRocker"
         ],
@@ -714,8 +679,7 @@
     },
     "Johners": {
         "pfp": "/images/chimpions/TheRoyal/TheRoyal-_rabbels_.png",
-        "twitter": "j0hners",
-        "level": 1,
+        "discordId": "828052192124076083",
         "chimpions": [
             "TheRoyal"
         ],
@@ -733,8 +697,7 @@
     },
     "mebbs": {
         "pfp": "https://nft.matrica.io/nft/6vgSXedvo4vaJbkkEsHYKmp6t66cuYRQfRSK68JVL2pb.png",
-        "twitter": "xmebbs",
-        "level": 2,
+        "discordId": "461991057337352232",
         "chimpions": [
             "TheSpelunker"
         ],
@@ -752,8 +715,7 @@
     },
     "Punk Monke": {
         "pfp": "/images/chimpions/ThePunk/ThePunk-_rabbels_.png",
-        "twitter": "Punk_Monke",
-        "level": 13,
+        "discordId": "819007619690922025",
         "chimpions": [
             "ThePunk"
         ],
@@ -771,8 +733,7 @@
     },
     "DMX": {
         "pfp": "/images/chimpions/TheBranded/TheBranded-zen0m.png",
-        "twitter": "",
-        "level": 1,
+        "discordId": "156191111692419074",
         "chimpions": [
             "TheBranded"
         ],
@@ -790,8 +751,7 @@
     },
     "Wald": {
         "pfp": "https://www.arweave.net/wlFrAOb0sOLnU9MEZrPPo7s5hjWv0wk3BecR7fM1xWE?ext=jpeg",
-        "twitter": "YoSoyWald",
-        "level": 1,
+        "discordId": "415336779017617408",
         "chimpions": [
             "TheOmniscient"
         ],
@@ -809,8 +769,7 @@
     },
     "Rheld": {
         "pfp": "/images/chimpions/TheOfficer/TheOfficer-badluckzulp.png",
-        "twitter": "",
-        "level": 1,
+        "discordId": "160599849304064001",
         "chimpions": [
             "TheOfficer"
         ],
@@ -828,8 +787,7 @@
     },
     "Tellias": {
         "pfp": "/images/chimpions/TheProfessional/TheProfessional-badluckzulp.png",
-        "twitter": "TelNFT",
-        "level": 4,
+        "discordId": "446267337964912650",
         "chimpions": [
             "TheProfessional"
         ],
@@ -847,8 +805,7 @@
     },
     "EarlthePearl": {
         "pfp": "/images/chimpions/TheRightHand/TheRightHand-_rabbels_.png",
-        "twitter": "_EARL_the_pEARL",
-        "level": 4,
+        "discordId": "711189328457498675",
         "chimpions": [
             "TheRightHand"
         ],
@@ -866,8 +823,7 @@
     },
     "Outcast": {
         "pfp": "https://nft.matrica.io/nft/9kuEixvzfP4Ei7v5X6wMuf2b3TBwd5g7j4qYQr1Nj7qt.png",
-        "twitter": "OutkastNFTs",
-        "level": 1,
+        "discordId": "864528887131013140",
         "chimpions": [
             "TheIndecisive"
         ],
@@ -885,8 +841,7 @@
     },
     "meddler": {
         "pfp": "/images/chimpions/TheConcealed/TheConcealed-_rabbels_.png",
-        "twitter": "0x_meddler",
-        "level": 1,
+        "discordId": "615878607700754462",
         "chimpions": [
             "TheConcealed"
         ],
@@ -904,8 +859,7 @@
     },
     "Puggl3": {
         "pfp": "https://pbs.twimg.com/profile_images/1511896770585890819/VDXsVRTf_400x400.jpg",
-        "twitter": "puggl3",
-        "level": 2,
+        "discordId": "145648034829565952",
         "chimpions": [
             "TheAviator"
         ],
@@ -923,8 +877,7 @@
     },
     "Eddie Rebel": {
         "pfp": "/images/chimpions/TheHip/TheHip-badluckzulp.png",
-        "twitter": "0xEddieRebel",
-        "level": 1,
+        "discordId": "945815476116815963",
         "chimpions": [
             "TheHip"
         ],
@@ -942,8 +895,7 @@
     },
     "Ken Goh": {
         "pfp": "https://nft.matrica.io/nft/FTikYeiaghi9ds2NUFv499zZyKfHPbNs7rFn7u2TWxe9.png",
-        "twitter": "Ken_Goh_",
-        "level": 11,
+        "discordId": "807535973842944030",
         "chimpions": [
             "TheHighPriest"
         ],
@@ -961,8 +913,7 @@
     },
     "HFP": {
         "pfp": "https://pbs.twimg.com/profile_images/1693223837742026752/2txqIVvr_400x400.jpg",
-        "twitter": "degenHFP",
-        "level": 1,
+        "discordId": "872987712251134013",
         "chimpions": [
             "TheHollow"
         ],
@@ -980,8 +931,7 @@
     },
     "Faddy": {
         "pfp": "/images/chimpions/TheMercenary/TheMercenary-_rabbels_.png",
-        "twitter": "faddybaton",
-        "level": 1,
+        "discordId": "905268446386876437",
         "chimpions": [
             "TheMercenary"
         ],
@@ -999,8 +949,7 @@
     },
     "Jota": {
         "pfp": "/images/chimpions/TheFriendly/TheFriendly-smallfroggi.png",
-        "twitter": "Jotadotsol",
-        "level": 6,
+        "discordId": "283569743711961089",
         "chimpions": [
             "TheFriendly"
         ],
@@ -1018,8 +967,7 @@
     },
     "heleemelon": {
         "pfp": "/images/chimpions/TheUnknowable/TheUnknowable-Brink_Brinker.png",
-        "twitter": "heleemelon",
-        "level": 1,
+        "discordId": "705096053283881030",
         "chimpions": [
             "TheUnknowable"
         ],
@@ -1037,8 +985,7 @@
     },
     "iamlaurael": {
         "pfp": "https://pbs.twimg.com/profile_images/1625855847619502081/FdTPOTSW_400x400.jpg",
-        "twitter": "iamlaurael",
-        "level": 1,
+        "discordId": "929162432088256573",
         "chimpions": [
             "TheGilded"
         ],
@@ -1056,8 +1003,7 @@
     },
     "Jreff": {
         "pfp": "https://www.arweave.net/P3f6FpynxbtyrmPFcaF_2-S95222VQMOLxC6MyzjVFI?ext=png",
-        "twitter": "MyNamesJreff",
-        "level": 3,
+        "discordId": "246590325257273344",
         "chimpions": [
             "TheIllustrator"
         ],
@@ -1075,8 +1021,7 @@
     },
     "konstantina": {
         "pfp": "https://arweave.net/oe0bDRlJd0ZCYRD3zy1VakCPng8hWtsxcTJa1tGjuhs",
-        "twitter": "0xkonstantina",
-        "level": 3,
+        "discordId": "373168260188733460",
         "chimpions": [
             "TheEphemeral"
         ],
@@ -1094,8 +1039,7 @@
     },
     "Draco": {
         "pfp": "/images/chimpions/TheWartorn/TheWartorn-_rabbels_.png",
-        "twitter": "",
-        "level": 1,
+        "discordId": "802093937346215976",
         "chimpions": [
             "TheWartorn"
         ],
@@ -1113,8 +1057,7 @@
     },
     "birb": {
         "pfp": "https://nft.matrica.io/nft/4FNxKQt3aAeV8bgW5iz6FM8zJPkx42RAkZDVi1HAzTkj.png",
-        "twitter": "mulletmusketeer",
-        "level": 15,
+        "discordId": "329380399362998283",
         "chimpions": [
             "TheOffworlder"
         ],
@@ -1132,8 +1075,7 @@
     },
     "Mamon": {
         "pfp": "https://www.arweave.net/1X0f8rLvzpc_jHHXiomY9ARSUD_Hzdb7spB-IZnpz7o?ext=png",
-        "twitter": "mamonbtc",
-        "level": 11,
+        "discordId": "316905146770522113",
         "chimpions": [
             "TheEnforcer"
         ],
@@ -1151,8 +1093,7 @@
     },
     "Alkine": {
         "pfp": "https://ipfs.io/ipfs/QmNXGqqJnGuXLsaKbqxWQ3GMdpJWDRifdBxb4tqqZUPe5x",
-        "twitter": "alkineee",
-        "level": 10,
+        "discordId": "266989823879806978",
         "chimpions": [
             "TheOverflowing"
         ],
@@ -1170,8 +1111,7 @@
     },
     "Jelly beans": {
         "pfp": "/images/chimpions/TheEncased/TheEncased-_rabbels_.png",
-        "twitter": "Jeshness",
-        "level": 1,
+        "discordId": "404180172288425985",
         "chimpions": [
             "TheEncased"
         ],
@@ -1189,8 +1129,7 @@
     },
     "DEON": {
         "pfp": "https://nft.matrica.io/nft/BrbmfjMUPsvtpENurqddM53ohrg9AGwrPuLFYuYwVCCF.png",
-        "twitter": "0x_deon",
-        "level": 1,
+        "discordId": "399844565143519242",
         "chimpions": [
             "TheAdolescent"
         ],
@@ -1208,8 +1147,7 @@
     },
     "wronguser": {
         "pfp": "https://pbs.twimg.com/profile_images/1611364759340720132/Vpn9l_SD_400x400.jpg",
-        "twitter": "wronguser000",
-        "level": 6,
+        "discordId": "527601406727815181",
         "chimpions": [
             "TheDreamer"
         ],
@@ -1227,8 +1165,7 @@
     },
     "SOLNoob": {
         "pfp": "https://pbs.twimg.com/profile_images/1635437803042492416/MYA01QFW_400x400.jpg",
-        "twitter": "SolanaNoob",
-        "level": 1,
+        "discordId": "777600613282218014",
         "chimpions": [
             "TheDormant"
         ],
@@ -1246,8 +1183,7 @@
     },
     "PNP": {
         "pfp": "/images/chimpions/TheMeathead/TheMeathead-_rabbels_.png",
-        "twitter": "papernprotein",
-        "level": 6,
+        "discordId": "793743503863578675",
         "chimpions": [
             "TheMeathead"
         ],
@@ -1265,8 +1201,7 @@
     },
     "CryptoDriller": {
         "pfp": "https://bafybeifrvg3yvo4uehfgaoryh36dt5nm4blwgz4h3ivjxhpv7xlyd7lyma.ipfs.nftstorage.link/13.png",
-        "twitter": "CryptoDriller",
-        "level": 1,
+        "discordId": "597921661785735199",
         "chimpions": [
             "TheBeholder"
         ],
@@ -1284,8 +1219,7 @@
     },
     "Hyblinxx": {
         "pfp": "/images/chimpions/TheMainCharacter/TheMainCharacter-_rabbels_.png",
-        "twitter": "hyblinxx",
-        "level": 1,
+        "discordId": "176545456845750272",
         "chimpions": [
             "TheMainCharacter"
         ],
@@ -1303,8 +1237,7 @@
     },
     "gl00m": {
         "pfp": "https://pbs.twimg.com/profile_images/1693137424954826752/auIf_KU3_400x400.jpg",
-        "twitter": "gloom_sol",
-        "level": 1,
+        "discordId": "825219927384391691",
         "chimpions": [
             "TheEnvoy"
         ],
@@ -1322,8 +1255,7 @@
     },
     "trucker.sol": {
         "pfp": "/images/chimpions/TheAttendant/TheAttendant-badluckzulp.png",
-        "twitter": "",
-        "level": 2,
+        "discordId": "920111592455168071",
         "chimpions": [
             "TheAttendant"
         ],
@@ -1341,8 +1273,7 @@
     },
     "SCUM": {
         "pfp": "https://pbs.twimg.com/profile_images/1694459502261850112/vYoTMEqJ_400x400.jpg",
-        "twitter": "SCUMSOL",
-        "level": 1,
+        "discordId": "585519703221338126",
         "chimpions": [
             "TheProgrammed"
         ],
@@ -1360,8 +1291,7 @@
     },
     "Polkjia": {
         "pfp": "/images/chimpions/TheEnraged/TheEnraged-_rabbels_.png",
-        "twitter": "",
-        "level": 1,
+        "discordId": "687780309710012438",
         "chimpions": [
             "TheEnraged"
         ],
@@ -1379,8 +1309,7 @@
     },
     "Case": {
         "pfp": "/images/chimpions/TheImperial/TheImperial-badluckzulp.png",
-        "twitter": "case_fud",
-        "level": 4,
+        "discordId": "450008770458812418",
         "chimpions": [
             "TheImperial"
         ],
@@ -1398,8 +1327,7 @@
     },
     "genuinearticles": {
         "pfp": "https://www.arweave.net/5JsWCSqgSLP9-tpAypZui6BoC_YkJs5MLc5H_9APZ9Q?ext=jpeg",
-        "twitter": "genuinearticles",
-        "level": 5,
+        "discordId": "561035955822133259",
         "chimpions": [
             "TheWondrous"
         ],
@@ -1417,8 +1345,7 @@
     },
     "R!ck": {
         "pfp": "/images/chimpions/ThePreeminent/ThePreeminent-badluckzulp.png",
-        "twitter": "",
-        "level": 5,
+        "discordId": "457814187276632065",
         "chimpions": [
             "ThePreeminent"
         ],
@@ -1436,8 +1363,7 @@
     },
     "purp": {
         "pfp": "/images/chimpions/TheInsomniac/TheInsomniac-badluckzulp.png",
-        "twitter": "purpgorillaglue",
-        "level": 1,
+        "discordId": "450295239232454666",
         "chimpions": [
             "TheInsomniac"
         ],
@@ -1455,8 +1381,7 @@
     },
     "OneEngineer": {
         "pfp": "https://arweave.net/Qxnd0HxBbU2LlTqD84R9JBd_AfosjuDFi9HzZfw-O8c?ext=png",
-        "twitter": "chart_garden",
-        "level": 1,
+        "discordId": "329264435656916993",
         "chimpions": [
             "TheAutomaton"
         ],
@@ -1474,8 +1399,7 @@
     },
     "Gentlemonke": {
         "pfp": "/images/chimpions/TheComrade/TheComrade-_rabbels_.png",
-        "twitter": "TheGentlemonke",
-        "level": 1,
+        "discordId": "871715895905509437",
         "chimpions": [
             "TheComrade"
         ],
@@ -1493,8 +1417,7 @@
     },
     "DreLaSol": {
         "pfp": "https://famousfoxes.com/hd/2761.png",
-        "twitter": "DreLaSOL",
-        "level": 2,
+        "discordId": "562434959080554527",
         "chimpions": [
             "TheOtherworldly"
         ],
@@ -1512,8 +1435,7 @@
     },
     "ExpliciT": {
         "pfp": "/images/chimpions/TheSultan/TheSultan-_rabbels_.png",
-        "twitter": "",
-        "level": 2,
+        "discordId": "535861769248178176",
         "chimpions": [
             "TheSultan"
         ],
@@ -1531,8 +1453,7 @@
     },
     "minne_ape_olis": {
         "pfp": "/images/chimpions/ThePensive/ThePensive-_rabbels_.png",
-        "twitter": "minne_ape_olis",
-        "level": 7,
+        "discordId": "308629865744302101",
         "chimpions": [
             "ThePensive"
         ],
@@ -1550,8 +1471,7 @@
     },
     "citineuqua": {
         "pfp": "/images/chimpions/TheStudious/TheStudious-badluckzulp.png",
-        "twitter": "InfinityDeFi",
-        "level": 1,
+        "discordId": "888590718061412352",
         "chimpions": [
             "TheStudious"
         ],
@@ -1569,8 +1489,7 @@
     },
     "J0hanna": {
         "pfp": "/images/chimpions/TheOrnamented/TheOrnamented-_rabbels_.png",
-        "twitter": "WeStillEarly",
-        "level": 4,
+        "discordId": "833692218563887164",
         "chimpions": [
             "TheOrnamented"
         ],
@@ -1588,8 +1507,7 @@
     },
     "hamster": {
         "pfp": "/images/chimpions/TheWarlike/TheWarlike-_rabbels_.png",
-        "twitter": "hamster_labs",
-        "level": 9,
+        "discordId": "747420576250855445",
         "chimpions": [
             "TheWarlike"
         ],
@@ -1607,8 +1525,7 @@
     },
     "dreilord": {
         "pfp": "/images/chimpions/TheFirethrower/TheFirethrower-_rabbels_.png",
-        "twitter": "dreilord_sol",
-        "level": 1,
+        "discordId": "544790436452237314",
         "chimpions": [
             "TheFirethrower"
         ],
@@ -1626,8 +1543,7 @@
     },
     "Faint": {
         "pfp": "/images/chimpions/TheScientist/TheScientist-badluckzulp.png",
-        "twitter": "faintdotwav",
-        "level": 2,
+        "discordId": "386371975095910400",
         "chimpions": [
             "TheScientist"
         ],
@@ -1645,8 +1561,7 @@
     },
     "MoonLights": {
         "pfp": "/images/chimpions/TheExecutioner/TheExecutioner-_rabbels_.png",
-        "twitter": "",
-        "level": 1,
+        "discordId": "356295414669901825",
         "chimpions": [
             "TheExecutioner"
         ],
@@ -1664,8 +1579,7 @@
     },
     "Whydee": {
         "pfp": "https://pbs.twimg.com/profile_images/1628832458547372037/qM0xKLRa_400x400.jpg",
-        "twitter": "Why_De2",
-        "level": 2,
+        "discordId": "846757705010905149",
         "chimpions": [
             "TheExpressive"
         ],
@@ -1683,8 +1597,7 @@
     },
     "Thesis": {
         "pfp": "/images/chimpions/TheComedian/TheComedian-_rabbels_.png",
-        "twitter": "ThesisInvestor",
-        "level": 13,
+        "discordId": "275630935339433986",
         "chimpions": [
             "TheComedian"
         ],
@@ -1702,8 +1615,7 @@
     },
     "Aure64": {
         "pfp": "https://arweave.net/lZbCZA3g_UfsT1IzTDkvodEIbvV0DYrKV9mkWeRbclw?ext=png",
-        "twitter": "Aure_0405",
-        "level": 2,
+        "discordId": "844874021706792962",
         "chimpions": [
             "TheTechnophile"
         ],
@@ -1721,8 +1633,7 @@
     },
     "WallStreet": {
         "pfp": "https://arweave.net/SBiplbGlZk057Ej-cUCQ-0f2siNqZxrvn3NIOMLAJHM?ext=png",
-        "twitter": "WallStreetCorp",
-        "level": 1,
+        "discordId": "399022823143899136",
         "chimpions": [
             "TheChevalier"
         ],
@@ -1740,8 +1651,7 @@
     },
     "Froggie": {
         "pfp": "https://www.arweave.net/3HUWhbcjRRnQf879XheOF6UkWfQeZFJKRY4u9MXB6os?ext=png",
-        "twitter": "smallfroggi",
-        "level": 1,
+        "discordId": "888046309746016306",
         "chimpions": [
             "TheAntipaladin"
         ],
@@ -1759,8 +1669,7 @@
     },
     "Tom B.": {
         "pfp": "/images/chimpions/TheMasked/TheMasked-_rabbels_.png",
-        "twitter": "tomboutin_",
-        "level": 1,
+        "discordId": "263669007570305025",
         "chimpions": [
             "TheMasked"
         ],
@@ -1778,8 +1687,7 @@
     },
     "cripped": {
         "pfp": "https://arweave.net/3rPiUsCf0fVcXCunbufKPuP05vvJVT56GFKMZfT4jI8",
-        "twitter": "cripped_0",
-        "level": 1,
+        "discordId": "502326628060495901",
         "chimpions": [
             "TheStarbound"
         ],
@@ -1797,8 +1705,7 @@
     },
     "Confusername": {
         "pfp": "/images/chimpions/TheFractured/TheFractured-_rabbels_.png",
-        "twitter": "Confusername1",
-        "level": 1,
+        "discordId": "483779106606153764",
         "chimpions": [
             "TheFractured"
         ],
@@ -1816,8 +1723,7 @@
     },
     "RAZR": {
         "pfp": "/images/chimpions/TheErroneous/TheErroneous-_rabbels_.png",
-        "twitter": "",
-        "level": 1,
+        "discordId": "222365429371371521",
         "chimpions": [
             "TheErroneous"
         ],
@@ -1835,8 +1741,7 @@
     },
     "Mundz": {
         "pfp": "https://arweave.net/AShwA3x177WQ5TccLBV5W-BYZDrDBYrwMnyXnys_n10?ext=png",
-        "twitter": "fox_mundz",
-        "level": 3,
+        "discordId": "817838163799965716",
         "chimpions": [
             "TheTechnician"
         ],
@@ -1854,8 +1759,7 @@
     },
     "counter": {
         "pfp": "/images/chimpions/TheRegal/TheRegal-_rabbels_.png",
-        "twitter": "0xcounter",
-        "level": 7,
+        "discordId": "307942307091578890",
         "chimpions": [
             "TheRegal"
         ],
@@ -1873,8 +1777,7 @@
     },
     "oxo": {
         "pfp": "/images/chimpions/TheInverted/TheInverted-_rabbels_.png",
-        "twitter": "oxonomye",
-        "level": 1,
+        "discordId": "905124402683842610",
         "chimpions": [
             "TheInverted"
         ],
@@ -1892,8 +1795,7 @@
     },
     "Mo Betta": {
         "pfp": "/images/chimpions/TheSpectral/TheSpectral-meltytanti.png",
-        "twitter": "",
-        "level": 1,
+        "discordId": "",
         "chimpions": [
             "TheSpectral"
         ],
@@ -1911,8 +1813,7 @@
     },
     "zeroSol": {
         "pfp": "/images/chimpions/TheApologetic/TheApologetic-_rabbels_.png",
-        "twitter": "zeroatasehir",
-        "level": 1,
+        "discordId": "807813212397240354",
         "chimpions": [
             "TheApologetic"
         ],
@@ -1930,8 +1831,7 @@
     },
     "Plexoo": {
         "pfp": "https://arweave.net/KIt3wxjr7W5-hLY77-hhhBUOWEogbnV4DKAKo8zgwvg",
-        "twitter": "Plexoooo",
-        "level": 1,
+        "discordId": "215543767938236417",
         "chimpions": [
             "TheChromatic"
         ],
@@ -1949,8 +1849,7 @@
     },
     "Nargar": {
         "pfp": "/images/chimpions/TheMischievous/TheMischievous-badluckzulp.png",
-        "twitter": "Nargar6",
-        "level": 1,
+        "discordId": "294592430127185921",
         "chimpions": [
             "TheMischievous"
         ],
@@ -1968,8 +1867,7 @@
     },
     "xmancxd": {
         "pfp": "/images/chimpions/TheCyborg/TheCyborg-_rabbels_.png",
-        "twitter": "",
-        "level": 1,
+        "discordId": "295358658286714881",
         "chimpions": [
             "TheCyborg"
         ],
@@ -1987,8 +1885,7 @@
     },
     "MPRTI": {
         "pfp": "/images/chimpions/TheCountryman/TheCountryman-_rabbels_.png",
-        "twitter": "MPRTI",
-        "level": 1,
+        "discordId": "910542912595558460",
         "chimpions": [
             "TheCountryman"
         ],
@@ -2006,8 +1903,7 @@
     },
     "Shark": {
         "pfp": "https://nft.matrica.io/nft/B9EJtuxPb63FqAdBhUgTL6N7EGFJMpfRvJWHbHpnBPJv.png",
-        "twitter": "0xShark_",
-        "level": 1,
+        "discordId": "202248168681897987",
         "chimpions": [
             "TheExperiment"
         ],
@@ -2025,8 +1921,7 @@
     },
     "papits": {
         "pfp": "/images/chimpions/TheFirestarter/TheFirestarter-badluckzulp.png",
-        "twitter": "papits_sol",
-        "level": 1,
+        "discordId": "270468690514804739",
         "chimpions": [
             "TheFirestarter"
         ],
@@ -2044,8 +1939,7 @@
     },
     "SirBertoli": {
         "pfp": "/images/chimpions/TheGrunt/TheGrunt-badluckzulp.png",
-        "twitter": "SirBertoli",
-        "level": 8,
+        "discordId": "897031594404102155",
         "chimpions": [
             "TheGrunt"
         ],
@@ -2063,8 +1957,7 @@
     },
     "Hatse": {
         "pfp": "/images/chimpions/TheWastelander/TheWastelander-zen0m.png",
-        "twitter": "HatseHatse",
-        "level": 3,
+        "discordId": "772080590282293288",
         "chimpions": [
             "TheWastelander"
         ],
@@ -2082,8 +1975,7 @@
     },
     "minz": {
         "pfp": "https://nft.matrica.io/nft/7s3XXscm2QaSthfMeSDCSeyvEmhw4iriuuSX5uW97Usu.png",
-        "twitter": "minnieZ23",
-        "level": 1,
+        "discordId": "439912094834360321",
         "chimpions": [
             "ThePowderMonkey"
         ],
@@ -2101,8 +1993,7 @@
     },
     "Maxbrs": {
         "pfp": "https://arweave.net/Mk6dC3IVoz5HA-Hg4-CJzdAd575DgTBvMk98sBAUR9E?ext=png",
-        "twitter": "MaxBrsNFT",
-        "level": 13,
+        "discordId": "806446353420517397",
         "chimpions": [
             "TheOriginal"
         ],
@@ -2116,12 +2007,13 @@
             "The Crystal of Unity": false,
             "Grave Danger": false,
             "An Unlikely Friendship": true
-        }
+        },
+        "experience": "My NFT journey started in Aug 21 on Solana (with a low bid on Boogles...) and this is where I've spent most of my time even if I'm diversified on other chains as well.\n\nCurrently part of The Chimpions leadership since we moved to 100% DAO owned a year ago. Specifically focusing on Opportunities, WL/presales and other investment deals.\n\nI've also been COO for Simmple Labs, created a French cross-chain DAO and I've been involved in some alpha teams like Cets and Pesky Penguins.\n\nI'm a strong believer of web3 with higher values so I'm trying to do my part by sharing knowledge for free on my Twitter and my NFT Educational platform (100+ articles).",
+        "skills": "Web2 is still my main world and I invest through real estate, stocks, seed investments, etc.\n\nI used to be a strategy consultant for 5+ years and I'm now Chief Product & Strategy Officer for a scale-up company in luxury audio where I was involved in raising around 250M$. And my next journey will probably be entrepreneurial in web3 !\n\nI've also worked on creating the web3 roadmap for my web2 company so I've been quite connected with the French ecosystem and with Aura. I've also encountered all the struggle for traditional business to enter this space, lot to talk about !"
     },
     "Odd Skull": {
         "pfp": "https://arweave.net/Y3GhSr2J6b8OFUQFOIx91l494t-tibq3vFn9vuP94x0?ext=png",
-        "twitter": "OddSkull_",
-        "level": 1,
+        "discordId": "915127375073783818",
         "chimpions": [
             "TheReincarnated"
         ],
@@ -2139,8 +2031,7 @@
     },
     "Kyufei": {
         "pfp": "/images/chimpions/TheHidden/TheHidden-_rabbels_.png",
-        "twitter": "NFTKid2",
-        "level": 1,
+        "discordId": "773317868463849492",
         "chimpions": [
             "TheHidden"
         ],
@@ -2158,8 +2049,7 @@
     },
     "genwei": {
         "pfp": "/images/chimpions/TheFlamescarred/TheFlamescarred-badluckzulp.png",
-        "twitter": "genweii",
-        "level": 1,
+        "discordId": "285560956946219010",
         "chimpions": [
             "TheFlamescarred"
         ],
@@ -2177,8 +2067,7 @@
     },
     "Damasta": {
         "pfp": "/images/chimpions/TheNightstalker/TheNightstalker-zen0m.png",
-        "twitter": "Damasta_",
-        "level": 1,
+        "discordId": "143733325499072512",
         "chimpions": [
             "TheNightstalker"
         ],
@@ -2196,8 +2085,7 @@
     },
     "0x4P3": {
         "pfp": "/images/chimpions/TheDemon/TheDemon-_rabbels_.png",
-        "twitter": "cryptoretard69",
-        "level": 4,
+        "discordId": "209394359475372032",
         "chimpions": [
             "TheDemon"
         ],
@@ -2215,8 +2103,7 @@
     },
     "Uranium": {
         "pfp": "https://pbs.twimg.com/profile_images/1570550023615651847/Z9p-UDK0_400x400.jpg",
-        "twitter": "uraniumSOL",
-        "level": 1,
+        "discordId": "839418904958468098",
         "chimpions": [
             "TheFaded"
         ],
@@ -2234,8 +2121,7 @@
     },
     "Meattyy": {
         "pfp": "/images/chimpions/TheGhostHunter/TheGhostHunter-_rabbels_.png",
-        "twitter": "Meattyyy",
-        "level": 1,
+        "discordId": "257807581735682049",
         "chimpions": [
             "TheGhostHunter"
         ],
@@ -2253,8 +2139,7 @@
     },
     "Nepenthe": {
         "pfp": "https://nft.matrica.io/nft/3sB186FseuG5Uurq41kUjD7gPpZrxnBUakCiYmg4jAmK.png",
-        "twitter": "nepenthe_sol",
-        "level": 1,
+        "discordId": "307500488029634562",
         "chimpions": [
             "TheArmsman"
         ],
@@ -2272,8 +2157,7 @@
     },
     "Becca": {
         "pfp": "https://pbs.twimg.com/profile_images/1447355806970785793/b7tHSo6I_400x400.jpg",
-        "twitter": "rebeccagund",
-        "level": 1,
+        "discordId": "860522484015956038",
         "chimpions": [
             "TheBosun"
         ],
@@ -2291,8 +2175,7 @@
     },
     "mork": {
         "pfp": "/images/chimpions/ThePocketMonkey/ThePocketMonkey-_rabbels_.png",
-        "twitter": "0xMork",
-        "level": 1,
+        "discordId": "765029847629824001",
         "chimpions": [
             "ThePocketMonkey"
         ],
@@ -2310,8 +2193,7 @@
     },
     "Kuse": {
         "pfp": "/images/chimpions/TheDrowsy/TheDrowsy-_rabbels_.png",
-        "twitter": "",
-        "level": 1,
+        "discordId": "546855918264909834",
         "chimpions": [
             "TheDrowsy"
         ],
@@ -2329,8 +2211,7 @@
     },
     "Thomass": {
         "pfp": "/images/chimpions/TheTotemic/TheTotemic-_rabbels_.png",
-        "twitter": "",
-        "level": 1,
+        "discordId": "274942175257690112",
         "chimpions": [
             "TheTotemic"
         ],
@@ -2348,8 +2229,7 @@
     },
     "Tainaker": {
         "pfp": "https://nft.matrica.io/nft/Et2rtRD9pKwzFWdtkMqNFH74DJqVpUkB86aFHHyEmYVC.png",
-        "twitter": "tainaker",
-        "level": 1,
+        "discordId": "464906353971036163",
         "chimpions": [
             "TheDeepdweller"
         ],
@@ -2367,8 +2247,7 @@
     },
     "Zionatlas": {
         "pfp": "https://arweave.net/tEcStZqJRq2BAzNknNkQ3UMPjR3fupHBDumk15XW7Vo?ext=png",
-        "twitter": "zionatlas",
-        "level": 7,
+        "discordId": "343985217452900352",
         "chimpions": [
             "TheFaulty"
         ],
@@ -2386,8 +2265,7 @@
     },
     "DanielB": {
         "pfp": "/images/chimpions/TheLeisurely/TheLeisurely-badluckzulp.png",
-        "twitter": "0xDanielB",
-        "level": 2,
+        "discordId": "219389399396253696",
         "chimpions": [
             "TheLeisurely"
         ],
@@ -2405,8 +2283,7 @@
     },
     "Rikishi": {
         "pfp": "https://nft.matrica.io/nft/BZntk5RcqXeJA2D697XsC6jFk9tm3KtU8ZvuhgFXPZmy.png",
-        "twitter": "CryptoRikishi",
-        "level": 1,
+        "discordId": "317279968595804163",
         "chimpions": [
             "TheBinary"
         ],
@@ -2424,8 +2301,7 @@
     },
     "endy.sol": {
         "pfp": "/images/chimpions/TheJockey/TheJockey-_rabbels_.png",
-        "twitter": "",
-        "level": 1,
+        "discordId": "342670605037862913",
         "chimpions": [
             "TheJockey"
         ],
@@ -2443,8 +2319,7 @@
     },
     "CryptoSazerac": {
         "pfp": "/images/chimpions/TheEnameled/TheEnameled-_rabbels_.png",
-        "twitter": "Cryptosazerac81",
-        "level": 1,
+        "discordId": "384731134682071041",
         "chimpions": [
             "TheEnameled"
         ],
@@ -2462,8 +2337,7 @@
     },
     "SomdotSol": {
         "pfp": "https://arweave.net/Wn5OWRCLkv5CbhAec9Q9f764LarFUaN77wShW-Sm3hU",
-        "twitter": "SomdotSol",
-        "level": 1,
+        "discordId": "232019243959320577",
         "chimpions": [
             "TheAngsty"
         ],
@@ -2481,8 +2355,7 @@
     },
     "RGB": {
         "pfp": "https://pbs.twimg.com/profile_images/1576568371453231104/ULguoO6b_400x400.jpg",
-        "twitter": "rgb0x00",
-        "level": 1,
+        "discordId": "805901543080722473",
         "chimpions": [
             "TheAmalgamation"
         ],
@@ -2500,8 +2373,7 @@
     },
     "Nights": {
         "pfp": "https://nft.matrica.io/nft/Gw5hjhuLx8UfSXu6w9FxnAzX6o7aRbC5QCg5EJiJ5WNA.png",
-        "twitter": "",
-        "level": 1,
+        "discordId": "272869614785134611",
         "chimpions": [
             "TheArisen"
         ],
@@ -2519,8 +2391,7 @@
     },
     "b0k": {
         "pfp": "https://nft.matrica.io/nft/HFDMEVrh8PP7xmw36t2jJ59qEaJAdSLkf2SpAsWA4wYE.png",
-        "twitter": "",
-        "level": 1,
+        "discordId": "882152974317649920",
         "chimpions": [
             "TheChief"
         ],
@@ -2538,8 +2409,7 @@
     },
     "shades": {
         "pfp": "https://nft.matrica.io/nft/RytCw4Wbo1htcif15ZkvgNgY6cUz8o7e2yEHGgjpibX.png",
-        "twitter": "shades_sol",
-        "level": 6,
+        "discordId": "461031295640928256",
         "chimpions": [
             "TheDeckhand"
         ],
@@ -2557,8 +2427,7 @@
     },
     "thirty": {
         "pfp": "https://pbs.twimg.com/media/FDeNIrxUUAQStXz?format=png&name=small",
-        "twitter": "thirtyNFT",
-        "level": 1,
+        "discordId": "138425184666386433",
         "chimpions": [
             "TheYeoman"
         ],
@@ -2576,8 +2445,7 @@
     },
     "LFK": {
         "pfp": "/images/chimpions/TheAnalyst/TheAnalyst-badluckzulp.png",
-        "twitter": "LFKOnChain",
-        "level": 1,
+        "discordId": "388653562827374602",
         "chimpions": [
             "TheAnalyst"
         ],
@@ -2595,8 +2463,7 @@
     },
     "Brink": {
         "pfp": "https://www.arweave.net/rINOXYzKE1mjO9pO_L-ExzYnMqzGUSwsU7Cjtb-B0Gw?ext=PNG",
-        "twitter": "Brink_Brinker",
-        "level": 10,
+        "discordId": "176183220688125952",
         "chimpions": [
             "TheNeuromancer"
         ],
@@ -2614,8 +2481,7 @@
     },
     "tuxr": {
         "pfp": "https://nft.matrica.io/nft/Hu2MqACi2QctmNpFCxXkxsroUoYvaC9ZTxrDbVLfTD3.png",
-        "twitter": "tuxr228",
-        "level": 12,
+        "discordId": "436310639640576021",
         "chimpions": [
             "TheBionic"
         ],
@@ -2633,8 +2499,7 @@
     },
     "zuzuzuzuzuzuzu": {
         "pfp": "/images/chimpions/ThePainter/ThePainter-_rabbels_.png",
-        "twitter": "Zuzu_ww",
-        "level": 1,
+        "discordId": "645315104958709762",
         "chimpions": [
             "ThePainter"
         ],
@@ -2652,8 +2517,7 @@
     },
     "Sterrling": {
         "pfp": "https://www.arweave.net/EdC2utS2ULGvrNP6ibriH8TKn5kevZQ4CmMxSuusImg?ext=jpeg",
-        "twitter": "MSterrling",
-        "level": 1,
+        "discordId": "372580834227781633",
         "chimpions": [
             "TheCaptain"
         ],
@@ -2671,8 +2535,7 @@
     },
     "0xnasa": {
         "pfp": "/images/chimpions/ThePainted/ThePainted-_rabbels_.png",
-        "twitter": "",
-        "level": 1,
+        "discordId": "",
         "chimpions": [
             "ThePainted"
         ],
@@ -2690,8 +2553,7 @@
     },
     "Lex": {
         "pfp": "/images/chimpions/TheRapscallion/TheRapscallion-_rabbels_.png",
-        "twitter": "Alex_R_J_Swann",
-        "level": 2,
+        "discordId": "235804343176003586",
         "chimpions": [
             "TheRapscallion"
         ],

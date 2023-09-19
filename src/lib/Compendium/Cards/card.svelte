@@ -15,7 +15,6 @@
     export let art_files = {};
     export let lore = "";
     export let holder_name = "";
-    export let level = 1;
     export let twitter = "";
 
 
@@ -247,9 +246,6 @@
                                 {name}
                             </div>
                         {/if}
-                        <div class="level_box">
-                            lvl.<span class="level">{level}</span>
-                        </div>
                         <div class="image-container">
                             <button type="button" bind:this={previous} tabindex="0" aria-label="previous slide / item" class="control-arrow-prev" on:click={getPrevious}/>
                             <div class="image">
@@ -282,8 +278,10 @@
                         <div class="description__card">
                             <span>Tribe: {tribe.split(/(?=[A-Z])/).join(' ')}</span>
                             <span>Type: {type}</span>
-                            {#if holder_name != ""}
+                            {#if holder_name != "" && twitter != ""}
                                 <span class="holder">Holder:&nbsp;<a href="https://twitter.com/{twitter}" target="_blank">{holder_name}</a></span>
+                            {:else if twitter == ""}
+                                <span class="holder">Holder:&nbsp;{holder_name}</span>
                             {:else}
                                 <span>Holder: Unknown</span>
                             {/if}
@@ -458,24 +456,6 @@
         color: white;
         text-shadow: 1px 2px 5px black;
         opacity: 1;
-    }
-
-    .level_box {
-        display: flex;
-        justify-content: end;
-        align-items: baseline;
-        position: absolute;
-        top: 25px;
-        right: 26px;
-        text-align: right;
-        color: white;
-        font-size: 0.75rem;
-    }
-
-    .level {
-        width: fit-content;
-        margin-left: 2px;
-        font-size: 1rem;
     }
 
     .description__card {

@@ -26,14 +26,6 @@
         windowWidth = window.innerWidth;
     }
 
-    const getLevel = (holder_name) => {
-        if (holders[holder_name])
-            return holders[holder_name]["level"];
-        else {
-            return 1;
-        }
-	}
-
     const getTwitter = (holder_name) => {
         if (holders[holder_name])
             return holders[holder_name]["twitter"];
@@ -180,7 +172,6 @@
                     art_files={chimpion.paths}
                     lore={chimpion.lore}
                     holder_name={chimpion.holder}
-                    level={getLevel(chimpion.holder)}
                     twitter={getTwitter(chimpion.holder)}
                 />
             {/each}
