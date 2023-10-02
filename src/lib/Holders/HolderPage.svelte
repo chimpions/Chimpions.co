@@ -1,12 +1,14 @@
 <script>
+// @ts-nocheck
+
     import Fa from 'svelte-fa/src/fa.svelte';
     import { faDiscord } from "@fortawesome/free-brands-svg-icons";
     import { faTwitter } from "@fortawesome/free-brands-svg-icons";
     import { onMount } from "svelte";
-    import chimpions from "../_content/chimpions.json"
+    import chimpions from "../_content/chimpions.json";
     import Navigation from "../Navigation/Navigation.svelte";
-    import holders from "../_content/holders.json"
-    import discord_data from "../_content/discord_data.json"
+    import holders from "../_content/holders.json";
+    import matrica_data from "../_content/matrica_data.json";
 	import HolderSearch from "./Holder-search.svelte";
 	import Card from '$lib/Compendium/Cards/card.svelte';
 
@@ -20,10 +22,33 @@
     export let TWS = {};
     export let experience = "";
     export let skills = "";
-    $: experienceToDisplay = experience.replace(/\n/g, '<br/>');
-    $: skillsToDisplay = skills.replace(/\n/g, '<br/>');
+    export let favoriteArt = "";
+    let artName = "";
+    let artistName = "";
+    let nextHolder = "";
+    let visibility = "hidden";
 
+    $: experienceToDisplay = toHtml(experience);
+    $: skillsToDisplay = toHtml(skills);
+    $: getNextHolder(holderName);
+    $: getChimpionsData(chimpions_held);
+    $: if (holderName) {
+        filteredHolders = [];
+        chimpions_held_data = [];
+        getChimpionsData(chimpions_held);
+        getArtNameAndArtistName(favoriteArt);
+    };
+    $: if (holderName) {
+        searchTerm = "";
+    }
 
+    const toHtml = (topic) => {
+        if (topic != "" && topic != undefined) {
+            return topic.replace(/\n/g, '<br/>')
+        } else {
+            return "";
+        }
+    }
 
     let chimpions_held_data = [];
     let windowWidth = 1000;
@@ -36,20 +61,18 @@
     }
 
     onMount(() => {
-        getChimpionsData();
         loadPfps();
         windowWidth = window.innerWidth;
         window.addEventListener('resize', updateWindowSize);
-        console.log(windowWidth);
     });
 
-    const getChimpionsData = () => {
+    const getChimpionsData = (chimpions_held) => {
+        let chimpions_held_parsed = chimpions_held.map((chimpion) => chimpion.replace(/ /g, ""));
         for (let chimpion of chimpions) {
-            if (chimpions_held.includes(chimpion.name)) {
+            if (chimpions_held_parsed.includes(chimpion.name)) {
                 chimpions_held_data = [...chimpions_held_data, chimpion]
             }
         }
-        console.log(chimpions_held_data)
     }
 
     const loadPfps = () => {
@@ -74,41 +97,49 @@
     }
 
 
-
     let searchTerm = "";
     let filteredHolders = [];
 
 
-
-    const linkNextHolder = (holderName) => {
+    const getNextHolder = (holderName) => {
         let keysArray = Object.keys(holders);
         let currentIndex = 0;
         for (let name in holders) {
-            if (name.toLowerCase() == holderName) {
+            if (name.toLowerCase() == holderName.toLowerCase()) {
                 currentIndex = keysArray.indexOf(name);
             }
         }
-        return(`./${keysArray[currentIndex + 1]}`);
+        nextHolder = keysArray[currentIndex + 1]
     }
 
     const searchHolders = () => {
+        console.log(searchTerm)
         filteredHolders = []
         if (searchTerm != "") {
             for (let name in holders) {
                 if (name.includes(searchTerm) || name.toLowerCase().includes(searchTerm)) {
                     filteredHolders.push({
                         name: name,
-                        pfp: holders[name]["pfp"]
+                        pfp: matrica_data[holders[name]["matricaId"]]["pfp"]
                     })
                 }
             }
             filteredHolders.sort((a, b) => a.name.localeCompare(b.name));
-            console.log(filteredHolders);
+        }
+    }
+
+    const getArtNameAndArtistName = (favoriteArt) => {
+        if (favoriteArt != undefined) {
+            let favoriteArtArray = favoriteArt.split("/")
+            let artNameAndArtistNameArray = favoriteArtArray[favoriteArtArray.length - 1].split(".")[0].split("-");
+            artName = artNameAndArtistNameArray[0];
+            artistName = artNameAndArtistNameArray[1];
         }
     }
 
 
-    let isCopied = false; 
+
+    let isCopied = false;
     
     function copyToClipboard(textToCopy) {
         const textArea = document.createElement("textarea");
@@ -125,13 +156,14 @@
         document.body.removeChild(textArea);
     }
 
-    $: styles = `--width: ${windowWidth}px`;
+    $: styles = `--width: ${windowWidth}px;
+                 --visibility: ${visibility}`;
 </script>
 
 
     
 <Navigation />
-<div class="menu-cont">
+<div class="menu-cont" style={styles}>
     <div id="query-section">
         <div id="search-input-cont">
             <input 
@@ -141,6 +173,7 @@
                 autocomplete="on"
                 bind:value={searchTerm}
                 on:input={searchHolders}
+                on:focus={() => {visibility = "visible"; console.log(visibility)}}
             />
         </div>
         <div class="results">
@@ -157,127 +190,157 @@
         </div>
     </div>
     <div id="box-for-next-chimp">
-        <a href={linkNextHolder(holderName)}>
+        <a href="/holders/{nextHolder}">
             <div class="nextChimpion">
-                See Next Holder<span><img class="arrow-right" src="/images/arrow-right-white.png" alt="arrow to the right" /></span>
+                {#if windowWidth < 500}
+                    Next
+                {:else}
+                    See Next Holder
+                {/if}
+                <span><img class="arrow-right" src="/images/arrow-right-white.png" alt="arrow to the right" /></span>
             </div>
         </a>
     </div>
 </div>
 
 <div class="holder-misc">
-    <img class="pfp" src={pfp} alt="PFP" />
-    <span class="name">{holderName}</span>
-    <div class="socials">
-        {#if (twitter != "")}
-            <div class="icon"><Fa icon={faTwitter} size="sm" /></div>
-            <a href="https://twitter.com/{twitter}" target="_blank" rel="noreferrer">{twitter}</a>
-        {:else}
-            <div class="icon"><Fa icon={faTwitter} size="sm" /></div>
-            {twitter}
-        {/if}
-        <div class="icon"><Fa icon={faDiscord} size="sm" /></div>
-        <div class="tooltip">
-            <button on:click={copyToClipboard(discord)}>{discord}</button>
-        
-            {#if isCopied}
-                <span class="tooltiptext bottom">Copied to clipboard</span>
+    <div class="holder-misc-left">
+        <img class="pfp" src={pfp} alt="PFP" />
+        <span class="name">{holderName}</span>
+    </div>
+    <div class="holder-misc-right">
+        <div class="socials">
+            {#if (twitter != "")}
+                <div class="icon"><Fa icon={faTwitter} size="sm" /></div>
+                <a href="https://twitter.com/{twitter}" target="_blank" rel="noreferrer">{twitter}</a>
             {:else}
-                <span class="tooltiptext bottom">Copy to clipboard</span>
+                <div class="icon"><Fa icon={faTwitter} size="sm" /></div>
+                {twitter}
             {/if}
+            <div class="icon"><Fa icon={faDiscord} size="sm" /></div>
+            <div class="tooltip">
+                <button on:click={copyToClipboard(discord)}>{discord}</button>
+            
+                {#if isCopied}
+                    <span class="tooltiptext bottom">Copied to clipboard</span>
+                {:else}
+                    <span class="tooltiptext bottom">Copy to clipboard</span>
+                {/if}
+            </div>
         </div>
-    </div>
-    <div class="TWS-section">
-        <div class="tooltip">
-            <a href="https://www.tensor.trade/trade/tws1" target="_blank">
-                <img class="TWS {TWS["Forest Fellowship"] ? "" : "inactive"}" src="/images/tws/matabolong/forest_fellowship_square.png" />
-            </a>
-            <span class="tooltiptext top">TWS1: Forest Fellowship</span>
+        <div class="TWS-section">
+            <div class="tooltip">
+                <a href="https://www.tensor.trade/trade/tws1" target="_blank">
+                    <img class="TWS {TWS["Forest Fellowship"] ? "" : "inactive"}" src="/images/tws/matabolong/forest_fellowship_square.png" alt="" />
+                </a>
+                <span class="tooltiptext top">TWS1: Forest Fellowship</span>
+            </div>
+            <div class="tooltip">
+                <a href="https://www.tensor.trade/trade/tws2" target="_blank">
+                    <img class="TWS {TWS["Dusk Till Dawn"] ? "" : "inactive"}" src="/images/tws/nyaumon/dusk_till_dawn_square.png" alt="" />
+                </a>
+                <span class="tooltiptext top">TWS2: Dusk Till Dawn</span>
+            </div>
+            <div class="tooltip">
+                <a href="https://www.tensor.trade/trade/tws3" target="_blank">
+                    <img class="TWS {TWS["The Fall of the Eradicator"] ? "" : "inactive"}" src="/images/tws/rgb/ChimpionXCritters_square.png" alt="" />
+                </a>
+                <span class="tooltiptext top">TWS3: The Fall of the Eradicator</span>
+            </div>
+            <div class="tooltip">
+                <a href="https://www.tensor.trade/trade/tws4" target="_blank">
+                    <img class="TWS {TWS["Last Bastion"] ? "" : "inactive"}" src="/images/tws/neilvilppu/LastBastion_square.png" alt="" />
+                </a>
+                <span class="tooltiptext top">TWS4: Last Bastion</span>
+            </div>
+            <div class="tooltip">
+                <a href="https://magiceden.io/marketplace/tws5" target="_blank">
+                    <img class="TWS {TWS["The Uprising"] ? "" : "inactive"}" src="/images/tws/ugslabs/TheUprising_square.png" alt="" />
+                </a>
+                <span class="tooltiptext top">TWS5: The Uprising</span>
+            </div>
+            <div class="tooltip">
+                <a href="https://www.tensor.trade/trade/tws6" target="_blank">
+                    <img class="TWS {TWS["LaurenceAntonyXChimpions"] ? "" : "inactive"}" src="/images/tws/laurenceantony/Finale_square.png" alt="" />
+                </a>
+                <span class="tooltiptext top">TWS6: LaurenceAntony X Chimpions</span>
+            </div>
+            <div class="tooltip">
+                <a href="https://www.tensor.trade/trade/tws7" target="_blank">
+                    <img class="TWS {TWS["The Crystal of Unity"] ? "" : "inactive"}" src="/images/tws/knittables/CrystalCompanions_square.png" alt="" />
+                </a>
+                <span class="tooltiptext top">TWS7: The Crystal of Unity</span>
+            </div>
+            <div class="tooltip">
+                <a href="https://www.tensor.trade/trade/tws8" target="_blank">
+                    <img class="TWS {TWS["Grave Danger"] ? "" : "inactive"}" src="/images/tws/artbynafay/GraveDanger_square.png" alt="" />
+                </a>
+                <span class="tooltiptext top">TWS8: Grave Danger</span>
+            </div>
+            <div class="tooltip">
+                <a href="https://magiceden.io/marketplace/tws9" target="_blank">
+                    <img class="TWS {TWS["An Unlikely Friendship"] ? "" : "inactive"}" src="/images/tws/tainaker/AnUnlikelyFriendship_square.png" alt="" />
+                </a>
+                <span class="tooltiptext top">TWS9: An Unlikely Friendship</span>
+            </div>
         </div>
-        <div class="tooltip">
-            <a href="https://www.tensor.trade/trade/tws2" target="_blank">
-                <img class="TWS {TWS["Dusk Till Dawn"] ? "" : "inactive"}" src="/images/tws/nyaumon/dusk_till_dawn_square.png" />
-            </a>
-            <span class="tooltiptext top">TWS2: Dusk Till Dawn</span>
-        </div>
-        <div class="tooltip">
-            <a href="https://www.tensor.trade/trade/tws3" target="_blank">
-                <img class="TWS {TWS["The Fall of the Eradicator"] ? "" : "inactive"}" src="/images/tws/rgb/ChimpionXCritters_square.png" />
-            </a>
-            <span class="tooltiptext top">TWS3: The Fall of the Eradicator</span>
-        </div>
-        <div class="tooltip">
-            <a href="https://www.tensor.trade/trade/tws4" target="_blank">
-                <img class="TWS {TWS["Last Bastion"] ? "" : "inactive"}" src="/images/tws/neilvilppu/LastBastion_square.png" />
-            </a>
-            <span class="tooltiptext top">TWS4: Last Bastion</span>
-        </div>
-        <div class="tooltip">
-            <a href="https://magiceden.io/marketplace/tws5" target="_blank">
-                <img class="TWS {TWS["The Uprising"] ? "" : "inactive"}" src="/images/tws/ugslabs/TheUprising_square.png" />
-            </a>
-            <span class="tooltiptext top">TWS5: The Uprising</span>
-        </div>
-        <div class="tooltip">
-            <a href="https://www.tensor.trade/trade/tws6" target="_blank">
-                <img class="TWS {TWS["LaurenceAntonyXChimpions"] ? "" : "inactive"}" src="/images/tws/laurenceantony/Finale_square.png" />
-            </a>
-            <span class="tooltiptext top">TWS6: LaurenceAntony X Chimpions</span>
-        </div>
-        <div class="tooltip">
-            <a href="https://www.tensor.trade/trade/tws7" target="_blank">
-                <img class="TWS {TWS["The Crystal of Unity"] ? "" : "inactive"}" src="/images/tws/knittables/CrystalCompanions_square.png" />
-            </a>
-            <span class="tooltiptext top">TWS7: The Crystal of Unity</span>
-        </div>
-        <div class="tooltip">
-            <a href="https://www.tensor.trade/trade/tws8" target="_blank">
-                <img class="TWS {TWS["Grave Danger"] ? "" : "inactive"}" src="/images/tws/artbynafay/GraveDanger_square.png" />
-            </a>
-            <span class="tooltiptext top">TWS8: Grave Danger</span>
-        </div>
-        <div class="tooltip">
-            <a href="https://magiceden.io/marketplace/tws9" target="_blank">
-                <img class="TWS {TWS["An Unlikely Friendship"] ? "" : "inactive"}" src="/images/tws/tainaker/AnUnlikelyFriendship_square.png" />
-            </a>
-            <span class="tooltiptext top">TWS9: An Unlikely Friendship</span>
-        </div>
-    </div>
-    <div class="Experience">
-        <div>Level {level}</div>
-        <div class="progress-bar">
-            <div class="progress" style="width: {getProgressBar(level, points)}%;"></div>
+        <div class="Experience">
+            <div>Level {level}</div>
+            <div class="progress-bar">
+                <div class="progress" style="width: {getProgressBar(level, points)}%;"></div>
+            </div>
         </div>
     </div>
 </div>
 
 <div class="main-content">
     <div class="left-side">
+        {#if experience}
         <div class="ama-section">
             <span class="title">Web3 Experience</span>
             <div class="answer">
                 {@html experienceToDisplay}
             </div>
         </div>
+        {/if}
+        {#if skills}
         <div class="ama-section">
             <span class="title">Occupation / Professional skills</span>
             <div class="answer">
                 {@html skillsToDisplay}
             </div>
         </div>
+        {/if}
     </div>
     <div class="right-side">
+        {#if favoriteArt}
         <span class="title">Favorite artwork</span>
         <div class="favorite-art">
-            <img src="/images/chimpions/TheOriginal/TheOriginal-_rabbels_.png" alt="1" />
-            <span style="font-size: 1.25rem; text-decoration: underline">The Original</span> <i>by Rabbels</i>
+            <img src={favoriteArt} alt="{holderName}'s favorite artwork" />
+            <span style="font-size: 1.25rem; text-decoration: underline">{artName}</span> <i>by {artistName}</i>
         </div>
+        {/if}
     </div>
 </div>
 <div class="chimpions-held">
     <span class="title">Chimpions hodled</span>
-    
-    {#if chimpions_held_data.length == 1}
+    {#if windowWidth < 700}
+    <div class="card-grid" style={styles}>
+        {#each chimpions_held_data as chimpion}
+            <Card
+                active={false}
+                dynamic={cardMobility}
+                name={chimpion.name.split(/(?=[A-Z])/).join(' ')}
+                index={chimpion.index}
+                tribe={chimpion.tribe}
+                type={chimpion.type.split(/(?=[A-Z])/).join(' ')}
+                art_files={chimpion.paths}
+                lore={chimpion.lore}
+                holder_name={chimpion.holder}
+            />
+        {/each}
+    </div>
+    {:else if chimpions_held_data.length == 1}
     <div class="center-grid">
         {#each chimpions_held_data as chimpion}
             <Card
@@ -319,21 +382,30 @@
 <style>
     :root {
         --width: 1000px;
+        --visibility: hidden;
     }
 
     .holder-misc {
-        width: 50%;
-        margin-top: 100px;
-        margin-left: 10%;
-        margin-bottom: 1rem;
-        margin-right: auto;
+        width: 85%;
+        margin: 100px 5% 1rem 10%;
         display: flex;
-        width: fit-content;
-        align-items: center;
         border: 1px var(--white-purple) solid;
         border-radius: 0.25rem;
         background-color: var(--dark-purple);
         padding: 1rem;
+        column-gap: 3rem;
+        row-gap: 1rem;
+    }
+
+    .holder-misc-left {
+        display: flex;
+        align-items: center;
+        gap: 1rem;
+    }
+
+    .holder-misc-right {
+        display: flex;
+        align-items: center;
         gap: 2rem;
     }
 
@@ -363,7 +435,7 @@
         gap: 0.5rem;
     }
 
-    .tooltip button {
+    button {
         margin: 0;
         padding: 0;
         border: none;
@@ -458,7 +530,7 @@
 
     .main-content {
         display: flex;
-        margin: 50px auto;
+        margin: 2rem auto;
     }
 
     .left-side {
@@ -480,11 +552,6 @@
     .favorite-art img {
         width: 100%;
         padding: 1rem;
-    }
-
-    .ama-section {
-        /* width: 50%; */
-        /* margin-left: 10%; */
     }
 
     span.title {
@@ -561,11 +628,14 @@
     }
 
     .results {
+        visibility: var(--visibility);
         max-height: 200px;
         width: 200px;
         overflow: auto;
         border-bottom-left-radius: 0.25rem;
         border-bottom-right-radius: 0.25rem;
+        position: relative;
+        z-index: 5;
     }
     
     .results ul {
@@ -599,8 +669,6 @@
         height: 0.75rem;
     }
 
-
-
     a {
         text-decoration: none;
         color: inherit;
@@ -622,21 +690,58 @@
     ::-webkit-scrollbar-thumb:hover {
         background: var(--lighter-purple); 
     }
-    
-@media screen and (max-width: 800px) {
-    .chimp-info {
+
+@media screen and (max-width: 900px) {
+    .holder-misc {
+        margin-left: 5%;
+        margin-right: 5%;
+    }
+
+    .main-content {
         flex-direction: column;
     }
 
-    .chimp-info p {
-        margin: 0.25rem 0;
+    .left-side {
+        width: 90%;
+        margin-left: 5%;
+        margin-right: 5%;
+    }
+
+    .right-side {
+        width: 90%;
+        margin-left: 5%;
+        margin-right: 5%;
+    }
+}
+
+@media screen and (max-width: 800px) {
+    .holder-misc {
+        width: 90%;
+        margin-left: 5%;
+        margin-right: 5%;
+        flex-direction: column;
+    }
+
+    .holder-misc-left {
+        width: 100%;
+        gap: 1rem;
+    }
+
+    .holder-misc-right {
+        width: 100%;
+        gap: 1rem;
+    }
+
+    .favorite-art img {
+        width: 100%;
+        padding: 1rem 2rem 0.5rem 2rem;
     }
 }
 
 
     .card-grid {
 		display: grid;
-		margin:  50px auto;
+		margin:  1rem auto;
 		grid-template-columns: 305px;
         row-gap: 50px;
         justify-items: center;

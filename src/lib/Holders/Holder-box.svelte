@@ -1,65 +1,35 @@
 <script>
+// @ts-nocheck
+
     export let name = "";
-    export let holder_data = {};
+    export let matrica_data = {};
 
-    $: pfp = holder_data["pfp"];
-    $: twitter = holder_data["twitter"];
-    
-
-
+    $: pfp = matrica_data["pfp"];
+    console.log(pfp);
 
     function handleImageError() {
         pfp = '/images/unrevealed.png';
     }
 
-
-
-
 </script>
 
 
-<!-- <div class="holder-box">
-    <a href="/holders/{name}" class="align-items">
-        <img class="pfp" src={pfp} alt="Profile picture of {name}"/>
-        <span class="name">
-            {#if (twitter != "")}
-                <a href="https://twitter.com/{twitter}" target="_blank" rel="noreferrer">{name}</a>
-            {:else}
-                {name}
-            {/if}
-        </span>
-    </a>
-</div> -->
 
 <div class="holder-box">
-    {#if (twitter != "")}
-        <a class="align-items" href="https://twitter.com/{twitter}" target="_blank" rel="noreferrer">
-            <img class="pfp" src={pfp} alt="" on:error={handleImageError} />
-            <span class="name">
-                {#each name.split(" ") as namepart, i}
-                {#if (i < name.split(" ").length-1)}
-                    {namepart}&nbsp
-                {:else}
-                    {namepart}
-                {/if}
-                {/each}
-            </span>
-        </a>
-    {:else}
-        <div class="align-items">
-            <img class="pfp" src={pfp} alt="Profile picture of {name}"/>
-            <span class="name">
-                {#each name.split(" ") as namepart, i}
-                {#if (i < name.split(" ").length-1)}
-                    {namepart}&nbsp
-                {:else}
-                    {namepart}
-                {/if}
-                {/each}
-            </span>
-        </div>
-    {/if}
+    <a class="align-items" href="./holders/{name}" rel="noreferrer">
+        <img class="pfp" src={pfp} alt="" on:error={handleImageError} />
+        <span class="name">
+            {#each name.split(" ") as namepart, i}
+            {#if (i < name.split(" ").length-1)}
+                {namepart}&nbsp
+            {:else}
+                {namepart}
+            {/if}
+            {/each}
+        </span>
+    </a>
 </div>
+
 
 
 <style>

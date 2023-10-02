@@ -1,2463 +1,505 @@
 const ThunderBear = {
-  pfp: "https://pbs.twimg.com/profile_images/1597446929520132096/r69DxNCA_400x400.jpg",
-  twitter: "NFT_TB_Crypto",
-  level: 1,
-  chimpions: [
-    "TheLightInShadow",
-    "TheTimeworn",
-    "TheShieldBearer",
-    "TheCommodore",
-    "TheEmaciated",
-    "TheMilitant",
-    "TheRemnant",
-    "TheCursed",
-    "TheAureate",
-    "TheSquire",
-    "TheHardwired",
-    "ThePlumber",
-    "TheTestSubject",
-    "TheSummoner",
-    "TheGolem",
-    "TheOrdained",
-    "TheAberration",
-    "TheYouthful",
-    "TheSpiritKeeper",
-    "TheCybernetic"
-  ],
-  TWS: {
-    "Forest Fellowship": true,
-    "Dusk Till Dawn": false,
-    "The Fall of the Eradicator": false,
-    "Last Bastion": false,
-    "The Uprising": true,
-    LaurenceAntonyXChimpions: true,
-    "The Crystal of Unity": true,
-    "Grave Danger": true,
-    "An Unlikely Friendship": true
-  }
+  discordId: "867186625456504852",
+  matricaId: "ThunderBear"
 };
 const Doudou = {
-  pfp: "https://nft.matrica.io/nft/FUoc5Nvgp6A8Ava2dyzf2q24NVK8HJ44ivhFTBQGWDP4.png",
-  twitter: "notdoudou_sol",
-  level: 12,
-  chimpions: [
-    "TheGhastly",
-    "TheEvaluator",
-    "TheDecorated",
-    "TheFirewatch",
-    "TheColorful",
-    "TheBeacon",
-    "ThePaladin",
-    "TheKnightCompanion",
-    "TheAchromatic",
-    "TheJudge",
-    "ThePackLeader",
-    "TheJovian",
-    "TheEdgy",
-    "TheHunter"
-  ],
-  TWS: {
-    "Forest Fellowship": true,
-    "Dusk Till Dawn": true,
-    "The Fall of the Eradicator": true,
-    "Last Bastion": true,
-    "The Uprising": true,
-    LaurenceAntonyXChimpions: true,
-    "The Crystal of Unity": true,
-    "Grave Danger": true,
-    "An Unlikely Friendship": true
-  }
+  discordId: "304124024672223234",
+  matricaId: "NotDoudou"
 };
 const SolBigBrain = {
-  pfp: "https://pbs.twimg.com/profile_images/1653077175287914496/qESpHuGx_400x400.jpg",
-  twitter: "SOLBigBrain",
-  level: 1,
-  chimpions: [
-    "TheFrozen",
-    "TheOathkeeper",
-    "TheWithered",
-    "TheDoctor"
-  ],
-  TWS: {
-    "Forest Fellowship": true,
-    "Dusk Till Dawn": false,
-    "The Fall of the Eradicator": false,
-    "Last Bastion": false,
-    "The Uprising": true,
-    LaurenceAntonyXChimpions: true,
-    "The Crystal of Unity": false,
-    "Grave Danger": false,
-    "An Unlikely Friendship": true
-  }
+  discordId: "785722075942879243",
+  matricaId: "SolBigBrain"
 };
 const huatrabbit = {
-  pfp: "https://www.arweave.net/3RIsvstu8iU9SPLVuTDn3mb1l1YsN4OGS5FW_CLrFbo?ext=png",
-  twitter: "huatrabbit",
-  level: 4,
-  chimpions: [
-    "TheOneWhoRocksHard",
-    "TheZealous",
-    "TheAgitator",
-    "TheInstrument"
-  ],
-  TWS: {
-    "Forest Fellowship": false,
-    "Dusk Till Dawn": false,
-    "The Fall of the Eradicator": false,
-    "Last Bastion": false,
-    "The Uprising": false,
-    LaurenceAntonyXChimpions: false,
-    "The Crystal of Unity": false,
-    "Grave Danger": false,
-    "An Unlikely Friendship": false
-  }
+  discordId: "349889849353830404",
+  matricaId: "huatrabbit"
 };
 const SKUX = {
-  pfp: "/images/chimpions/ThePtolemaic/ThePtolemaic-badluckzulp.png",
-  twitter: "_SKUX_",
-  level: 1,
-  chimpions: [
-    "ThePtolemaic",
-    "TheReversed",
-    "TheCelestial"
-  ],
-  TWS: {
-    "Forest Fellowship": false,
-    "Dusk Till Dawn": false,
-    "The Fall of the Eradicator": false,
-    "Last Bastion": false,
-    "The Uprising": false,
-    LaurenceAntonyXChimpions: false,
-    "The Crystal of Unity": false,
-    "Grave Danger": false,
-    "An Unlikely Friendship": false
-  }
+  discordId: "909808227024261140",
+  matricaId: "SKUX"
 };
 const An0rak7 = {
-  pfp: "/images/chimpions/TheFuturist/TheFuturist-_rabbels_.png",
-  twitter: "an0rak7",
-  level: 1,
-  chimpions: [
-    "TheFuturist",
-    "TheTrained"
-  ],
-  TWS: {
-    "Forest Fellowship": true,
-    "Dusk Till Dawn": true,
-    "The Fall of the Eradicator": true,
-    "Last Bastion": true,
-    "The Uprising": true,
-    LaurenceAntonyXChimpions: true,
-    "The Crystal of Unity": false,
-    "Grave Danger": false,
-    "An Unlikely Friendship": true
-  }
+  discordId: "419798818239021059",
+  matricaId: "an0rak07"
 };
 const unskilledfather = {
-  pfp: "https://www.arweave.net/NRSwbTvbMZIPL0NIrW2P5DqwPDxYqkNAE1aucDaSjrw?ext=jpg",
-  twitter: "unskilledfather",
-  level: 1,
-  chimpions: [
-    "TheRebel",
-    "TheElated"
-  ],
-  TWS: {
-    "Forest Fellowship": false,
-    "Dusk Till Dawn": false,
-    "The Fall of the Eradicator": false,
-    "Last Bastion": false,
-    "The Uprising": true,
-    LaurenceAntonyXChimpions: true,
-    "The Crystal of Unity": false,
-    "Grave Danger": true,
-    "An Unlikely Friendship": true
-  }
+  discordId: "904826894665515028",
+  matricaId: "𝕦𝕟𝕤𝕜𝕚𝕝𝕝𝕖𝕕𝕗𝕒𝕥𝕙𝕖𝕣"
 };
 const Utopia = {
-  pfp: "https://nft.matrica.io/nft/5ZtnfVMj9Lc3j6ivTpbXPd34bj9FR3UQCQsr2nWndTAo.png",
-  twitter: "utopia_artist",
-  level: 16,
-  chimpions: [
-    "TheSinged",
-    "TheFirstborn"
-  ],
-  TWS: {
-    "Forest Fellowship": false,
-    "Dusk Till Dawn": false,
-    "The Fall of the Eradicator": false,
-    "Last Bastion": false,
-    "The Uprising": false,
-    LaurenceAntonyXChimpions: false,
-    "The Crystal of Unity": false,
-    "Grave Danger": false,
-    "An Unlikely Friendship": false
-  }
+  discordId: "314686698716004353",
+  matricaId: "Matrica User"
 };
 const CMC81 = {
-  pfp: "/images/chimpions/ThePatrolman/ThePatrolman-_rabbels_.png",
-  twitter: "cmc816",
-  level: 3,
-  chimpions: [
-    "ThePatrolman",
-    "TheEradicator"
-  ],
-  TWS: {
-    "Forest Fellowship": false,
-    "Dusk Till Dawn": false,
-    "The Fall of the Eradicator": false,
-    "Last Bastion": false,
-    "The Uprising": true,
-    LaurenceAntonyXChimpions: true,
-    "The Crystal of Unity": false,
-    "Grave Danger": false,
-    "An Unlikely Friendship": false
-  }
+  discordId: "886961750392586251",
+  matricaId: "CMC81"
 };
 const Terrora = {
-  pfp: "https://nft.matrica.io/nft/7y1y5WJxietWfvYfmvZwMWsDu2dFjwe1qr9si4Nuys5p.png",
-  twitter: "terroraonsol",
-  level: 1,
-  chimpions: [
-    "TheShogun",
-    "TheWitchDoctor"
-  ],
-  TWS: {
-    "Forest Fellowship": true,
-    "Dusk Till Dawn": true,
-    "The Fall of the Eradicator": true,
-    "Last Bastion": true,
-    "The Uprising": true,
-    LaurenceAntonyXChimpions: true,
-    "The Crystal of Unity": false,
-    "Grave Danger": true,
-    "An Unlikely Friendship": true
-  }
+  discordId: "300960990890295309",
+  matricaId: "phant0m"
 };
 const HeisenThug = {
-  pfp: "/images/chimpions/TheGangster/TheGangster-_rabbels_.png",
-  twitter: "",
-  level: 2,
-  chimpions: [
-    "TheGangster",
-    "TheStreetFighter"
-  ],
-  TWS: {
-    "Forest Fellowship": true,
-    "Dusk Till Dawn": true,
-    "The Fall of the Eradicator": true,
-    "Last Bastion": true,
-    "The Uprising": true,
-    LaurenceAntonyXChimpions: true,
-    "The Crystal of Unity": false,
-    "Grave Danger": false,
-    "An Unlikely Friendship": true
-  }
+  discordId: "639471981934280714",
+  matricaId: "HJrYczWnCWYRdvTEzHhrvNB7foHSjG58WEcHgPLBn4TT"
 };
 const Raves = {
-  pfp: "https://pbs.twimg.com/profile_images/1659520035835072516/3QUnbWCw_400x400.jpg",
-  twitter: "Ravers",
-  level: 1,
-  chimpions: [
-    "TheMartialArtist",
-    "TheDigital"
-  ],
-  TWS: {
-    "Forest Fellowship": false,
-    "Dusk Till Dawn": false,
-    "The Fall of the Eradicator": false,
-    "Last Bastion": false,
-    "The Uprising": false,
-    LaurenceAntonyXChimpions: false,
-    "The Crystal of Unity": false,
-    "Grave Danger": false,
-    "An Unlikely Friendship": true
-  }
+  discordId: "103306856465731584",
+  matricaId: "Raves"
 };
 const sidvicious843 = {
-  pfp: "https://nft.matrica.io/nft/8jHZGee6bBYqX51r5rVgpqyFsmBCPn15h7X16y7g7qFw.png",
-  twitter: "Sidvicious843",
-  level: 9,
-  chimpions: [
-    "TheTrickster",
-    "TheFreelancer"
-  ],
-  TWS: {
-    "Forest Fellowship": false,
-    "Dusk Till Dawn": false,
-    "The Fall of the Eradicator": false,
-    "Last Bastion": false,
-    "The Uprising": false,
-    LaurenceAntonyXChimpions: false,
-    "The Crystal of Unity": false,
-    "Grave Danger": false,
-    "An Unlikely Friendship": false
-  }
+  discordId: "690046283091935239",
+  matricaId: "sidvicious843"
 };
 const palmora = {
-  pfp: "/images/chimpions/TheBubbly/TheBubbly-_rabbels_.png",
-  twitter: "palmora09",
-  level: 1,
-  chimpions: [
-    "TheBubbly"
-  ],
-  TWS: {
-    "Forest Fellowship": false,
-    "Dusk Till Dawn": false,
-    "The Fall of the Eradicator": false,
-    "Last Bastion": false,
-    "The Uprising": false,
-    LaurenceAntonyXChimpions: false,
-    "The Crystal of Unity": false,
-    "Grave Danger": false,
-    "An Unlikely Friendship": false
-  }
+  discordId: "594811677896081417",
+  matricaId: "palmora"
 };
 const Visery = {
-  pfp: "/images/chimpions/TheHellion/TheHellion-badluckzulp.png",
-  twitter: "VizeryNFTs",
-  level: 1,
-  chimpions: [
-    "TheHellion"
-  ],
-  TWS: {
-    "Forest Fellowship": false,
-    "Dusk Till Dawn": false,
-    "The Fall of the Eradicator": false,
-    "Last Bastion": false,
-    "The Uprising": false,
-    LaurenceAntonyXChimpions: false,
-    "The Crystal of Unity": false,
-    "Grave Danger": false,
-    "An Unlikely Friendship": false
-  }
+  discordId: "237628434145083392",
+  matricaId: "Visery"
 };
 const Pwenguin = {
-  pfp: "/images/chimpions/TheRancher/TheRancher-_rabbels_.png",
-  twitter: "Pwenguin_16",
-  level: 1,
-  chimpions: [
-    "TheRancher"
-  ],
-  TWS: {
-    "Forest Fellowship": false,
-    "Dusk Till Dawn": false,
-    "The Fall of the Eradicator": false,
-    "Last Bastion": false,
-    "The Uprising": true,
-    LaurenceAntonyXChimpions: false,
-    "The Crystal of Unity": false,
-    "Grave Danger": false,
-    "An Unlikely Friendship": true
-  }
+  discordId: "704327714298921050",
+  matricaId: "Pwenguin"
 };
 const rene = {
-  pfp: "/images/chimpions/TheStubborn/TheStubborn-badluckzulp.png",
-  twitter: "",
-  level: 1,
-  chimpions: [
-    "TheStubborn"
-  ],
-  TWS: {
-    "Forest Fellowship": true,
-    "Dusk Till Dawn": false,
-    "The Fall of the Eradicator": false,
-    "Last Bastion": false,
-    "The Uprising": true,
-    LaurenceAntonyXChimpions: true,
-    "The Crystal of Unity": false,
-    "Grave Danger": false,
-    "An Unlikely Friendship": true
-  }
+  discordId: "931412410030518294",
+  matricaId: "9mooXoqKP7bXCrXFKAVmqxLPLE4UA3VbHhuodhDdakqd"
 };
 const Soledge = {
-  pfp: "/images/chimpions/TheBlazing/TheBlazing-zen0m.png",
-  twitter: "Themultipool",
-  level: 1,
-  chimpions: [
-    "TheBlazing"
-  ],
-  TWS: {
-    "Forest Fellowship": true,
-    "Dusk Till Dawn": true,
-    "The Fall of the Eradicator": true,
-    "Last Bastion": true,
-    "The Uprising": true,
-    LaurenceAntonyXChimpions: true,
-    "The Crystal of Unity": true,
-    "Grave Danger": true,
-    "An Unlikely Friendship": true
-  }
+  discordId: "150023955745472514",
+  matricaId: "Soledge"
 };
 const zachary = {
-  pfp: "/images/chimpions/TheMessenger/TheMessenger-_rabbels_.png",
-  twitter: "",
-  level: 1,
-  chimpions: [
-    "TheMessenger"
-  ],
-  TWS: {
-    "Forest Fellowship": false,
-    "Dusk Till Dawn": true,
-    "The Fall of the Eradicator": false,
-    "Last Bastion": false,
-    "The Uprising": true,
-    LaurenceAntonyXChimpions: true,
-    "The Crystal of Unity": false,
-    "Grave Danger": false,
-    "An Unlikely Friendship": true
-  }
+  discordId: "896337062393958400",
+  matricaId: "zachary"
 };
 const murath = {
-  pfp: "https://nft.matrica.io/nft/CzbSTMx3CJbp6wHfpQc91uHuRfz3rfmYrQke6aCPFMGT.png",
-  twitter: "murathsol",
-  level: 1,
-  chimpions: [
-    "TheVassal"
-  ],
-  TWS: {
-    "Forest Fellowship": false,
-    "Dusk Till Dawn": false,
-    "The Fall of the Eradicator": true,
-    "Last Bastion": true,
-    "The Uprising": false,
-    LaurenceAntonyXChimpions: true,
-    "The Crystal of Unity": false,
-    "Grave Danger": true,
-    "An Unlikely Friendship": true
-  }
+  discordId: "399626989750976514",
+  matricaId: "murath"
 };
 const dabums = {
-  pfp: "/images/chimpions/TheWatchman/TheWatchman-_rabbels_.png",
-  twitter: "dabums1",
-  level: 2,
-  chimpions: [
-    "TheWatchman"
-  ],
-  TWS: {
-    "Forest Fellowship": false,
-    "Dusk Till Dawn": false,
-    "The Fall of the Eradicator": false,
-    "Last Bastion": false,
-    "The Uprising": false,
-    LaurenceAntonyXChimpions: false,
-    "The Crystal of Unity": false,
-    "Grave Danger": false,
-    "An Unlikely Friendship": true
-  }
+  discordId: "511623487622873088",
+  matricaId: "dabums3"
 };
 const Vell = {
-  pfp: "https://ipfs.io/ipfs/QmPmbQdAsDccz6GYFtyGdg7CuTa44KkJUN8LdZ6T92Uwhz",
-  twitter: "vell_sol",
-  level: 1,
-  chimpions: [
-    "TheTattered"
-  ],
-  TWS: {
-    "Forest Fellowship": false,
-    "Dusk Till Dawn": false,
-    "The Fall of the Eradicator": false,
-    "Last Bastion": false,
-    "The Uprising": false,
-    LaurenceAntonyXChimpions: false,
-    "The Crystal of Unity": false,
-    "Grave Danger": false,
-    "An Unlikely Friendship": false
-  }
+  discordId: "255686519426121728",
+  matricaId: "Vell"
 };
 const bip = {
-  pfp: "/images/chimpions/TheJuror/TheJuror-_rabbels_.png",
-  twitter: "bipkoyn",
-  level: 1,
-  chimpions: [
-    "TheJuror"
-  ],
-  TWS: {
-    "Forest Fellowship": false,
-    "Dusk Till Dawn": false,
-    "The Fall of the Eradicator": false,
-    "Last Bastion": false,
-    "The Uprising": false,
-    LaurenceAntonyXChimpions: false,
-    "The Crystal of Unity": false,
-    "Grave Danger": true,
-    "An Unlikely Friendship": true
-  }
+  discordId: "625230933569699866",
+  matricaId: "bipkoyn"
 };
 const Grooovy = {
-  pfp: "https://pbs.twimg.com/profile_images/1561547292431228929/orzVdkma_400x400.jpg",
-  twitter: "GroovyNFTs",
-  level: 1,
-  chimpions: [
-    "TheCeremonial"
-  ],
-  TWS: {
-    "Forest Fellowship": true,
-    "Dusk Till Dawn": false,
-    "The Fall of the Eradicator": false,
-    "Last Bastion": false,
-    "The Uprising": true,
-    LaurenceAntonyXChimpions: true,
-    "The Crystal of Unity": false,
-    "Grave Danger": false,
-    "An Unlikely Friendship": true
-  }
+  discordId: "105451106590564352",
+  matricaId: "Grooovy"
 };
 const Simba = {
-  pfp: "https://pbs.twimg.com/profile_images/1676904981859893248/YXUIR7lo_400x400.jpg",
-  twitter: "simba_sol",
-  level: 2,
-  chimpions: [
-    "TheRitualist"
-  ],
-  TWS: {
-    "Forest Fellowship": false,
-    "Dusk Till Dawn": false,
-    "The Fall of the Eradicator": false,
-    "Last Bastion": false,
-    "The Uprising": false,
-    LaurenceAntonyXChimpions: false,
-    "The Crystal of Unity": false,
-    "Grave Danger": false,
-    "An Unlikely Friendship": false
-  }
+  discordId: "383019686465372162",
+  matricaId: "zekarodzer"
 };
 const futuristic = {
-  pfp: "/images/chimpions/TheKnightCommander/TheKnightCommander-_rabbels_.png",
-  twitter: "futuristicS0L",
-  level: 4,
-  chimpions: [
-    "TheKnightCommander"
-  ],
-  TWS: {
-    "Forest Fellowship": true,
-    "Dusk Till Dawn": true,
-    "The Fall of the Eradicator": true,
-    "Last Bastion": true,
-    "The Uprising": true,
-    LaurenceAntonyXChimpions: true,
-    "The Crystal of Unity": false,
-    "Grave Danger": false,
-    "An Unlikely Friendship": true
-  }
+  discordId: "295984223569969152",
+  matricaId: "futuristics0l"
 };
 const MrCamel = {
-  pfp: "/images/chimpions/TheSocial/TheSocial-_rabbels_.png",
-  twitter: "MrCamel__",
-  level: 3,
-  chimpions: [
-    "TheSocial"
-  ],
-  TWS: {
-    "Forest Fellowship": false,
-    "Dusk Till Dawn": false,
-    "The Fall of the Eradicator": false,
-    "Last Bastion": false,
-    "The Uprising": false,
-    LaurenceAntonyXChimpions: false,
-    "The Crystal of Unity": false,
-    "Grave Danger": true,
-    "An Unlikely Friendship": true
-  }
+  discordId: "926198013028884562",
+  matricaId: "H71yxeDHUd8A1HhNpHtcnQYmvBmdimSo87sjwau4wy3A"
 };
 const Dutch = {
-  pfp: "https://pbs.twimg.com/profile_images/1684031699481681921/RlUGKzHv_400x400.jpg",
-  twitter: "0xDutch",
-  level: 1,
-  chimpions: [
-    "TheScorched"
-  ],
-  TWS: {
-    "Forest Fellowship": false,
-    "Dusk Till Dawn": false,
-    "The Fall of the Eradicator": false,
-    "Last Bastion": false,
-    "The Uprising": false,
-    LaurenceAntonyXChimpions: false,
-    "The Crystal of Unity": false,
-    "Grave Danger": false,
-    "An Unlikely Friendship": true
-  }
+  discordId: "926670219827626074",
+  matricaId: "Dutch"
 };
 const Aspen = {
-  pfp: "/images/chimpions/TheLover/TheLover-_rabbels_.png",
-  twitter: "aspen_ow",
-  level: 1,
-  chimpions: [
-    "TheLover"
-  ],
-  TWS: {
-    "Forest Fellowship": false,
-    "Dusk Till Dawn": false,
-    "The Fall of the Eradicator": false,
-    "Last Bastion": false,
-    "The Uprising": false,
-    LaurenceAntonyXChimpions: false,
-    "The Crystal of Unity": false,
-    "Grave Danger": false,
-    "An Unlikely Friendship": false
-  }
+  discordId: "222204690404868096",
+  matricaId: "FokcyAi3xEeJXxmKNuy7Smg4J2VK8uHFvsnnK7PUMw8X"
 };
 const Dasein = {
-  pfp: "https://nft.matrica.io/nft/4YjyXSzMGQGhWYKwqLCQAhA22f1qqcB7ibncbaFfEDBn.png",
-  twitter: "daseinillusion",
-  level: 16,
-  chimpions: [
-    "TheStatic"
-  ],
-  TWS: {
-    "Forest Fellowship": false,
-    "Dusk Till Dawn": false,
-    "The Fall of the Eradicator": false,
-    "Last Bastion": false,
-    "The Uprising": false,
-    LaurenceAntonyXChimpions: false,
-    "The Crystal of Unity": false,
-    "Grave Danger": false,
-    "An Unlikely Friendship": false
-  }
+  discordId: "830941636720197652",
+  matricaId: "dasein2249"
 };
 const Marculino = {
-  pfp: "https://arweave.net/taaE-YW9nUpy7rnOaBl54c8nJ6tW1jZiIxG-ra4iaXE?ext=png",
-  twitter: "marculinopng",
-  level: 1,
-  chimpions: [
-    "TheCultist"
-  ],
-  TWS: {
-    "Forest Fellowship": false,
-    "Dusk Till Dawn": false,
-    "The Fall of the Eradicator": false,
-    "Last Bastion": false,
-    "The Uprising": false,
-    LaurenceAntonyXChimpions: false,
-    "The Crystal of Unity": false,
-    "Grave Danger": false,
-    "An Unlikely Friendship": false
-  }
+  discordId: "432183629485965312",
+  matricaId: "Marculinopng"
 };
 const NickSayWhat = {
-  pfp: "https://nft.matrica.io/nft/5bKZmaav5uX8Hs3c2DFs7o198bhpytF35cqUVYz2BTdV.png",
-  twitter: "",
-  level: 2,
-  chimpions: [
-    "TheJoyful"
-  ],
-  TWS: {
-    "Forest Fellowship": false,
-    "Dusk Till Dawn": false,
-    "The Fall of the Eradicator": false,
-    "Last Bastion": false,
-    "The Uprising": false,
-    LaurenceAntonyXChimpions: false,
-    "The Crystal of Unity": false,
-    "Grave Danger": false,
-    "An Unlikely Friendship": false
-  }
+  discordId: "853739185595613194",
+  matricaId: "nicksaywhat"
 };
 const Akaba = {
-  pfp: "/images/chimpions/TheHeroic/TheHeroic-_rabbels_.png",
-  twitter: "",
-  level: 1,
-  chimpions: [
-    "TheHeroic"
-  ],
-  TWS: {
-    "Forest Fellowship": false,
-    "Dusk Till Dawn": true,
-    "The Fall of the Eradicator": false,
-    "Last Bastion": true,
-    "The Uprising": true,
-    LaurenceAntonyXChimpions: true,
-    "The Crystal of Unity": false,
-    "Grave Danger": true,
-    "An Unlikely Friendship": true
-  }
+  discordId: "679994255913254927",
+  matricaId: "Akaba"
 };
 const Katsu = {
-  pfp: "https://nft.matrica.io/nft/5GbTChPtHL16oJzrJAjqg29GGTmeFrRJifYzLeUNyvkU.png",
-  twitter: "katsudon_sol",
-  level: 7,
-  chimpions: [
-    "TheRocker"
-  ],
-  TWS: {
-    "Forest Fellowship": true,
-    "Dusk Till Dawn": true,
-    "The Fall of the Eradicator": true,
-    "Last Bastion": true,
-    "The Uprising": true,
-    LaurenceAntonyXChimpions: true,
-    "The Crystal of Unity": false,
-    "Grave Danger": true,
-    "An Unlikely Friendship": true
-  }
+  discordId: "381248536810881024",
+  matricaId: "donkatsu"
 };
 const Johners = {
-  pfp: "/images/chimpions/TheRoyal/TheRoyal-_rabbels_.png",
-  twitter: "j0hners",
-  level: 1,
-  chimpions: [
-    "TheRoyal"
-  ],
-  TWS: {
-    "Forest Fellowship": true,
-    "Dusk Till Dawn": true,
-    "The Fall of the Eradicator": false,
-    "Last Bastion": true,
-    "The Uprising": true,
-    LaurenceAntonyXChimpions: true,
-    "The Crystal of Unity": false,
-    "Grave Danger": true,
-    "An Unlikely Friendship": false
-  }
+  discordId: "828052192124076083",
+  matricaId: "EE9PmcDQ3aGNxJ8iP6jqKRf95DdaU7dJwEQ8m3DBUo1p"
 };
 const mebbs = {
-  pfp: "https://nft.matrica.io/nft/6vgSXedvo4vaJbkkEsHYKmp6t66cuYRQfRSK68JVL2pb.png",
-  twitter: "xmebbs",
-  level: 2,
-  chimpions: [
-    "TheSpelunker"
-  ],
-  TWS: {
-    "Forest Fellowship": false,
-    "Dusk Till Dawn": false,
-    "The Fall of the Eradicator": false,
-    "Last Bastion": false,
-    "The Uprising": false,
-    LaurenceAntonyXChimpions: false,
-    "The Crystal of Unity": false,
-    "Grave Danger": false,
-    "An Unlikely Friendship": false
-  }
+  discordId: "461991057337352232",
+  matricaId: "mebbs"
 };
 const DMX = {
-  pfp: "/images/chimpions/TheBranded/TheBranded-zen0m.png",
-  twitter: "",
-  level: 1,
-  chimpions: [
-    "TheBranded"
-  ],
-  TWS: {
-    "Forest Fellowship": false,
-    "Dusk Till Dawn": false,
-    "The Fall of the Eradicator": false,
-    "Last Bastion": false,
-    "The Uprising": false,
-    LaurenceAntonyXChimpions: true,
-    "The Crystal of Unity": false,
-    "Grave Danger": false,
-    "An Unlikely Friendship": true
-  }
+  discordId: "156191111692419074",
+  matricaId: "2rXm46giBNKAR7itut91G1C9sk5n3AF16SPnxJ8wyvgi"
 };
 const Wald = {
-  pfp: "https://www.arweave.net/wlFrAOb0sOLnU9MEZrPPo7s5hjWv0wk3BecR7fM1xWE?ext=jpeg",
-  twitter: "YoSoyWald",
-  level: 1,
-  chimpions: [
-    "TheOmniscient"
-  ],
-  TWS: {
-    "Forest Fellowship": true,
-    "Dusk Till Dawn": true,
-    "The Fall of the Eradicator": false,
-    "Last Bastion": false,
-    "The Uprising": true,
-    LaurenceAntonyXChimpions: true,
-    "The Crystal of Unity": false,
-    "Grave Danger": true,
-    "An Unlikely Friendship": true
-  }
+  discordId: "415336779017617408",
+  matricaId: "Wald"
 };
 const Rheld = {
-  pfp: "/images/chimpions/TheOfficer/TheOfficer-badluckzulp.png",
-  twitter: "",
-  level: 1,
-  chimpions: [
-    "TheOfficer"
-  ],
-  TWS: {
-    "Forest Fellowship": false,
-    "Dusk Till Dawn": false,
-    "The Fall of the Eradicator": false,
-    "Last Bastion": false,
-    "The Uprising": false,
-    LaurenceAntonyXChimpions: true,
-    "The Crystal of Unity": false,
-    "Grave Danger": false,
-    "An Unlikely Friendship": true
-  }
+  discordId: "160599849304064001",
+  matricaId: "Rheld"
 };
 const Tellias = {
-  pfp: "/images/chimpions/TheProfessional/TheProfessional-badluckzulp.png",
-  twitter: "TelNFT",
-  level: 4,
-  chimpions: [
-    "TheProfessional"
-  ],
-  TWS: {
-    "Forest Fellowship": false,
-    "Dusk Till Dawn": false,
-    "The Fall of the Eradicator": false,
-    "Last Bastion": false,
-    "The Uprising": false,
-    LaurenceAntonyXChimpions: false,
-    "The Crystal of Unity": false,
-    "Grave Danger": false,
-    "An Unlikely Friendship": false
-  }
+  discordId: "446267337964912650",
+  matricaId: "EaeMcN6KWaVTa2iu2MVGC6uVAxes7xJVnSoEjbQ5MyAL"
 };
 const EarlthePearl = {
-  pfp: "/images/chimpions/TheRightHand/TheRightHand-_rabbels_.png",
-  twitter: "_EARL_the_pEARL",
-  level: 4,
-  chimpions: [
-    "TheRightHand"
-  ],
-  TWS: {
-    "Forest Fellowship": true,
-    "Dusk Till Dawn": true,
-    "The Fall of the Eradicator": false,
-    "Last Bastion": true,
-    "The Uprising": true,
-    LaurenceAntonyXChimpions: true,
-    "The Crystal of Unity": false,
-    "Grave Danger": true,
-    "An Unlikely Friendship": true
-  }
+  discordId: "711189328457498675",
+  matricaId: "Dappearl"
 };
 const Outcast = {
-  pfp: "https://nft.matrica.io/nft/9kuEixvzfP4Ei7v5X6wMuf2b3TBwd5g7j4qYQr1Nj7qt.png",
-  twitter: "OutkastNFTs",
-  level: 1,
-  chimpions: [
-    "TheIndecisive"
-  ],
-  TWS: {
-    "Forest Fellowship": true,
-    "Dusk Till Dawn": false,
-    "The Fall of the Eradicator": false,
-    "Last Bastion": false,
-    "The Uprising": true,
-    LaurenceAntonyXChimpions: true,
-    "The Crystal of Unity": false,
-    "Grave Danger": false,
-    "An Unlikely Friendship": true
-  }
+  discordId: "864528887131013140",
+  matricaId: "koreancatdog"
 };
 const meddler = {
-  pfp: "/images/chimpions/TheConcealed/TheConcealed-_rabbels_.png",
-  twitter: "0x_meddler",
-  level: 1,
-  chimpions: [
-    "TheConcealed"
-  ],
-  TWS: {
-    "Forest Fellowship": true,
-    "Dusk Till Dawn": true,
-    "The Fall of the Eradicator": false,
-    "Last Bastion": false,
-    "The Uprising": false,
-    LaurenceAntonyXChimpions: false,
-    "The Crystal of Unity": false,
-    "Grave Danger": true,
-    "An Unlikely Friendship": true
-  }
+  discordId: "615878607700754462",
+  matricaId: "meddler"
 };
 const Puggl3 = {
-  pfp: "https://pbs.twimg.com/profile_images/1511896770585890819/VDXsVRTf_400x400.jpg",
-  twitter: "puggl3",
-  level: 2,
-  chimpions: [
-    "TheAviator"
-  ],
-  TWS: {
-    "Forest Fellowship": false,
-    "Dusk Till Dawn": false,
-    "The Fall of the Eradicator": false,
-    "Last Bastion": false,
-    "The Uprising": false,
-    LaurenceAntonyXChimpions: true,
-    "The Crystal of Unity": false,
-    "Grave Danger": false,
-    "An Unlikely Friendship": true
-  }
+  discordId: "145648034829565952",
+  matricaId: "3Afw3cCxHkhngihdeAxu4rFHMkTLGT1GgD9dx5uSW8Y6"
 };
 const HFP = {
-  pfp: "https://pbs.twimg.com/profile_images/1693223837742026752/2txqIVvr_400x400.jpg",
-  twitter: "degenHFP",
-  level: 1,
-  chimpions: [
-    "TheHollow"
-  ],
-  TWS: {
-    "Forest Fellowship": true,
-    "Dusk Till Dawn": false,
-    "The Fall of the Eradicator": false,
-    "Last Bastion": false,
-    "The Uprising": true,
-    LaurenceAntonyXChimpions: false,
-    "The Crystal of Unity": false,
-    "Grave Danger": false,
-    "An Unlikely Friendship": true
-  }
+  discordId: "872987712251134013",
+  matricaId: "HFP"
 };
 const Faddy = {
-  pfp: "/images/chimpions/TheMercenary/TheMercenary-_rabbels_.png",
-  twitter: "faddybaton",
-  level: 1,
-  chimpions: [
-    "TheMercenary"
-  ],
-  TWS: {
-    "Forest Fellowship": true,
-    "Dusk Till Dawn": true,
-    "The Fall of the Eradicator": true,
-    "Last Bastion": false,
-    "The Uprising": true,
-    LaurenceAntonyXChimpions: true,
-    "The Crystal of Unity": false,
-    "Grave Danger": true,
-    "An Unlikely Friendship": true
-  }
+  discordId: "905268446386876437",
+  matricaId: "6wjLnSy5XxWfEm3xBMbt6o3UXkcMFRuV19r1rpR49dWK"
 };
 const Jota = {
-  pfp: "/images/chimpions/TheFriendly/TheFriendly-smallfroggi.png",
-  twitter: "Jotadotsol",
-  level: 6,
-  chimpions: [
-    "TheFriendly"
-  ],
-  TWS: {
-    "Forest Fellowship": false,
-    "Dusk Till Dawn": false,
-    "The Fall of the Eradicator": false,
-    "Last Bastion": true,
-    "The Uprising": false,
-    LaurenceAntonyXChimpions: false,
-    "The Crystal of Unity": false,
-    "Grave Danger": false,
-    "An Unlikely Friendship": true
-  }
+  discordId: "283569743711961089",
+  matricaId: "Jotatavo"
 };
 const heleemelon = {
-  pfp: "/images/chimpions/TheUnknowable/TheUnknowable-Brink_Brinker.png",
-  twitter: "heleemelon",
-  level: 1,
-  chimpions: [
-    "TheUnknowable"
-  ],
-  TWS: {
-    "Forest Fellowship": true,
-    "Dusk Till Dawn": false,
-    "The Fall of the Eradicator": false,
-    "Last Bastion": false,
-    "The Uprising": true,
-    LaurenceAntonyXChimpions: true,
-    "The Crystal of Unity": false,
-    "Grave Danger": false,
-    "An Unlikely Friendship": true
-  }
+  discordId: "705096053283881030",
+  matricaId: "heleemelon"
 };
 const iamlaurael = {
-  pfp: "https://pbs.twimg.com/profile_images/1625855847619502081/FdTPOTSW_400x400.jpg",
-  twitter: "iamlaurael",
-  level: 1,
-  chimpions: [
-    "TheGilded"
-  ],
-  TWS: {
-    "Forest Fellowship": true,
-    "Dusk Till Dawn": false,
-    "The Fall of the Eradicator": false,
-    "Last Bastion": false,
-    "The Uprising": true,
-    LaurenceAntonyXChimpions: true,
-    "The Crystal of Unity": false,
-    "Grave Danger": false,
-    "An Unlikely Friendship": true
-  }
+  discordId: "929162432088256573",
+  matricaId: "iamlaurael"
 };
 const Jreff = {
-  pfp: "https://www.arweave.net/P3f6FpynxbtyrmPFcaF_2-S95222VQMOLxC6MyzjVFI?ext=png",
-  twitter: "MyNamesJreff",
-  level: 3,
-  chimpions: [
-    "TheIllustrator"
-  ],
-  TWS: {
-    "Forest Fellowship": false,
-    "Dusk Till Dawn": false,
-    "The Fall of the Eradicator": false,
-    "Last Bastion": false,
-    "The Uprising": false,
-    LaurenceAntonyXChimpions: false,
-    "The Crystal of Unity": false,
-    "Grave Danger": true,
-    "An Unlikely Friendship": false
-  }
+  discordId: "246590325257273344",
+  matricaId: "EWweH6VE7ifGwb7ocuQCrNK3PbqhDwdZ4TJrbpfARvBL"
 };
 const konstantina = {
-  pfp: "https://arweave.net/oe0bDRlJd0ZCYRD3zy1VakCPng8hWtsxcTJa1tGjuhs",
-  twitter: "0xkonstantina",
-  level: 3,
-  chimpions: [
-    "TheEphemeral"
-  ],
-  TWS: {
-    "Forest Fellowship": false,
-    "Dusk Till Dawn": false,
-    "The Fall of the Eradicator": false,
-    "Last Bastion": false,
-    "The Uprising": false,
-    LaurenceAntonyXChimpions: false,
-    "The Crystal of Unity": false,
-    "Grave Danger": false,
-    "An Unlikely Friendship": true
-  }
+  discordId: "373168260188733460",
+  matricaId: "konstantina"
 };
 const Draco = {
-  pfp: "/images/chimpions/TheWartorn/TheWartorn-_rabbels_.png",
-  twitter: "",
-  level: 1,
-  chimpions: [
-    "TheWartorn"
-  ],
-  TWS: {
-    "Forest Fellowship": true,
-    "Dusk Till Dawn": false,
-    "The Fall of the Eradicator": false,
-    "Last Bastion": false,
-    "The Uprising": true,
-    LaurenceAntonyXChimpions: false,
-    "The Crystal of Unity": false,
-    "Grave Danger": false,
-    "An Unlikely Friendship": true
-  }
+  discordId: "802093937346215976",
+  matricaId: "mikethompson"
 };
 const birb = {
-  pfp: "https://nft.matrica.io/nft/4FNxKQt3aAeV8bgW5iz6FM8zJPkx42RAkZDVi1HAzTkj.png",
-  twitter: "mulletmusketeer",
-  level: 15,
-  chimpions: [
-    "TheOffworlder"
-  ],
-  TWS: {
-    "Forest Fellowship": false,
-    "Dusk Till Dawn": false,
-    "The Fall of the Eradicator": false,
-    "Last Bastion": false,
-    "The Uprising": false,
-    LaurenceAntonyXChimpions: false,
-    "The Crystal of Unity": false,
-    "Grave Danger": false,
-    "An Unlikely Friendship": false
-  }
+  discordId: "329380399362998283",
+  matricaId: "mulletmusketeer"
 };
 const Mamon = {
-  pfp: "https://www.arweave.net/1X0f8rLvzpc_jHHXiomY9ARSUD_Hzdb7spB-IZnpz7o?ext=png",
-  twitter: "mamonbtc",
-  level: 11,
-  chimpions: [
-    "TheEnforcer"
-  ],
-  TWS: {
-    "Forest Fellowship": false,
-    "Dusk Till Dawn": false,
-    "The Fall of the Eradicator": false,
-    "Last Bastion": false,
-    "The Uprising": false,
-    LaurenceAntonyXChimpions: false,
-    "The Crystal of Unity": false,
-    "Grave Danger": false,
-    "An Unlikely Friendship": false
-  }
+  discordId: "316905146770522113",
+  matricaId: "mccapital"
 };
 const Alkine = {
-  pfp: "https://ipfs.io/ipfs/QmNXGqqJnGuXLsaKbqxWQ3GMdpJWDRifdBxb4tqqZUPe5x",
-  twitter: "alkineee",
-  level: 10,
-  chimpions: [
-    "TheOverflowing"
-  ],
-  TWS: {
-    "Forest Fellowship": false,
-    "Dusk Till Dawn": false,
-    "The Fall of the Eradicator": false,
-    "Last Bastion": false,
-    "The Uprising": false,
-    LaurenceAntonyXChimpions: false,
-    "The Crystal of Unity": false,
-    "Grave Danger": false,
-    "An Unlikely Friendship": false
-  }
+  discordId: "266989823879806978",
+  matricaId: "Alkine"
 };
 const DEON = {
-  pfp: "https://nft.matrica.io/nft/BrbmfjMUPsvtpENurqddM53ohrg9AGwrPuLFYuYwVCCF.png",
-  twitter: "0x_deon",
-  level: 1,
-  chimpions: [
-    "TheAdolescent"
-  ],
-  TWS: {
-    "Forest Fellowship": false,
-    "Dusk Till Dawn": false,
-    "The Fall of the Eradicator": false,
-    "Last Bastion": false,
-    "The Uprising": false,
-    LaurenceAntonyXChimpions: false,
-    "The Crystal of Unity": false,
-    "Grave Danger": false,
-    "An Unlikely Friendship": true
-  }
+  discordId: "399844565143519242",
+  matricaId: "NOED"
 };
 const wronguser = {
-  pfp: "https://pbs.twimg.com/profile_images/1611364759340720132/Vpn9l_SD_400x400.jpg",
-  twitter: "wronguser000",
-  level: 6,
-  chimpions: [
-    "TheDreamer"
-  ],
-  TWS: {
-    "Forest Fellowship": false,
-    "Dusk Till Dawn": true,
-    "The Fall of the Eradicator": false,
-    "Last Bastion": false,
-    "The Uprising": true,
-    LaurenceAntonyXChimpions: true,
-    "The Crystal of Unity": false,
-    "Grave Danger": true,
-    "An Unlikely Friendship": true
-  }
-};
-const SOLNoob = {
-  pfp: "https://pbs.twimg.com/profile_images/1635437803042492416/MYA01QFW_400x400.jpg",
-  twitter: "SolanaNoob",
-  level: 1,
-  chimpions: [
-    "TheDormant"
-  ],
-  TWS: {
-    "Forest Fellowship": true,
-    "Dusk Till Dawn": false,
-    "The Fall of the Eradicator": false,
-    "Last Bastion": false,
-    "The Uprising": true,
-    LaurenceAntonyXChimpions: true,
-    "The Crystal of Unity": false,
-    "Grave Danger": false,
-    "An Unlikely Friendship": true
-  }
+  discordId: "527601406727815181",
+  matricaId: "wu"
 };
 const PNP = {
-  pfp: "/images/chimpions/TheMeathead/TheMeathead-_rabbels_.png",
-  twitter: "papernprotein",
-  level: 6,
-  chimpions: [
-    "TheMeathead"
-  ],
-  TWS: {
-    "Forest Fellowship": false,
-    "Dusk Till Dawn": false,
-    "The Fall of the Eradicator": false,
-    "Last Bastion": false,
-    "The Uprising": false,
-    LaurenceAntonyXChimpions: false,
-    "The Crystal of Unity": false,
-    "Grave Danger": false,
-    "An Unlikely Friendship": false
-  }
+  discordId: "793743503863578675",
+  matricaId: "PNP"
 };
 const CryptoDriller = {
-  pfp: "https://bafybeifrvg3yvo4uehfgaoryh36dt5nm4blwgz4h3ivjxhpv7xlyd7lyma.ipfs.nftstorage.link/13.png",
-  twitter: "CryptoDriller",
-  level: 1,
-  chimpions: [
-    "TheBeholder"
-  ],
-  TWS: {
-    "Forest Fellowship": true,
-    "Dusk Till Dawn": true,
-    "The Fall of the Eradicator": false,
-    "Last Bastion": false,
-    "The Uprising": true,
-    LaurenceAntonyXChimpions: true,
-    "The Crystal of Unity": false,
-    "Grave Danger": true,
-    "An Unlikely Friendship": true
-  }
+  discordId: "597921661785735199",
+  matricaId: "CryptoDriller"
 };
 const Hyblinxx = {
-  pfp: "/images/chimpions/TheMainCharacter/TheMainCharacter-_rabbels_.png",
-  twitter: "hyblinxx",
-  level: 1,
-  chimpions: [
-    "TheMainCharacter"
-  ],
-  TWS: {
-    "Forest Fellowship": true,
-    "Dusk Till Dawn": false,
-    "The Fall of the Eradicator": false,
-    "Last Bastion": false,
-    "The Uprising": true,
-    LaurenceAntonyXChimpions: true,
-    "The Crystal of Unity": false,
-    "Grave Danger": false,
-    "An Unlikely Friendship": true
-  }
+  discordId: "176545456845750272",
+  matricaId: "Hyblinxxx"
 };
 const gl00m = {
-  pfp: "https://pbs.twimg.com/profile_images/1693137424954826752/auIf_KU3_400x400.jpg",
-  twitter: "gloom_sol",
-  level: 1,
-  chimpions: [
-    "TheEnvoy"
-  ],
-  TWS: {
-    "Forest Fellowship": false,
-    "Dusk Till Dawn": false,
-    "The Fall of the Eradicator": false,
-    "Last Bastion": false,
-    "The Uprising": true,
-    LaurenceAntonyXChimpions: true,
-    "The Crystal of Unity": false,
-    "Grave Danger": false,
-    "An Unlikely Friendship": true
-  }
+  discordId: "825219927384391691",
+  matricaId: "gl00m"
 };
 const SCUM = {
-  pfp: "https://pbs.twimg.com/profile_images/1694459502261850112/vYoTMEqJ_400x400.jpg",
-  twitter: "SCUMSOL",
-  level: 1,
-  chimpions: [
-    "TheProgrammed"
-  ],
-  TWS: {
-    "Forest Fellowship": true,
-    "Dusk Till Dawn": false,
-    "The Fall of the Eradicator": false,
-    "Last Bastion": false,
-    "The Uprising": true,
-    LaurenceAntonyXChimpions: false,
-    "The Crystal of Unity": false,
-    "Grave Danger": false,
-    "An Unlikely Friendship": false
-  }
+  discordId: "585519703221338126",
+  matricaId: "AXA8gaik3ckUTjK1hLDBC7quVGgvgjKPZFai3d8zceTA"
 };
 const Polkjia = {
-  pfp: "/images/chimpions/TheEnraged/TheEnraged-_rabbels_.png",
-  twitter: "",
-  level: 1,
-  chimpions: [
-    "TheEnraged"
-  ],
-  TWS: {
-    "Forest Fellowship": true,
-    "Dusk Till Dawn": false,
-    "The Fall of the Eradicator": false,
-    "Last Bastion": true,
-    "The Uprising": true,
-    LaurenceAntonyXChimpions: true,
-    "The Crystal of Unity": false,
-    "Grave Danger": false,
-    "An Unlikely Friendship": true
-  }
+  discordId: "687780309710012438",
+  matricaId: "Polkjia"
 };
 const Case = {
-  pfp: "/images/chimpions/TheImperial/TheImperial-badluckzulp.png",
-  twitter: "case_fud",
-  level: 4,
-  chimpions: [
-    "TheImperial"
-  ],
-  TWS: {
-    "Forest Fellowship": false,
-    "Dusk Till Dawn": false,
-    "The Fall of the Eradicator": false,
-    "Last Bastion": false,
-    "The Uprising": false,
-    LaurenceAntonyXChimpions: false,
-    "The Crystal of Unity": false,
-    "Grave Danger": false,
-    "An Unlikely Friendship": false
-  }
+  discordId: "450008770458812418",
+  matricaId: "GPKBo1rEhz5SafcAw3k6PUHeYcjXpwxeFwuQhTZJ6YsP"
 };
 const genuinearticles = {
-  pfp: "https://www.arweave.net/5JsWCSqgSLP9-tpAypZui6BoC_YkJs5MLc5H_9APZ9Q?ext=jpeg",
-  twitter: "genuinearticles",
-  level: 5,
-  chimpions: [
-    "TheWondrous"
-  ],
-  TWS: {
-    "Forest Fellowship": true,
-    "Dusk Till Dawn": true,
-    "The Fall of the Eradicator": true,
-    "Last Bastion": true,
-    "The Uprising": true,
-    LaurenceAntonyXChimpions: true,
-    "The Crystal of Unity": false,
-    "Grave Danger": true,
-    "An Unlikely Friendship": true
-  }
+  discordId: "561035955822133259",
+  matricaId: "genuinearticles"
 };
 const purp = {
-  pfp: "/images/chimpions/TheInsomniac/TheInsomniac-badluckzulp.png",
-  twitter: "purpgorillaglue",
-  level: 1,
-  chimpions: [
-    "TheInsomniac"
-  ],
-  TWS: {
-    "Forest Fellowship": true,
-    "Dusk Till Dawn": true,
-    "The Fall of the Eradicator": false,
-    "Last Bastion": false,
-    "The Uprising": true,
-    LaurenceAntonyXChimpions: true,
-    "The Crystal of Unity": false,
-    "Grave Danger": true,
-    "An Unlikely Friendship": true
-  }
+  discordId: "450295239232454666",
+  matricaId: "DEGENAPES"
 };
 const OneEngineer = {
-  pfp: "https://arweave.net/Qxnd0HxBbU2LlTqD84R9JBd_AfosjuDFi9HzZfw-O8c?ext=png",
-  twitter: "chart_garden",
-  level: 1,
-  chimpions: [
-    "TheAutomaton"
-  ],
-  TWS: {
-    "Forest Fellowship": true,
-    "Dusk Till Dawn": false,
-    "The Fall of the Eradicator": false,
-    "Last Bastion": false,
-    "The Uprising": true,
-    LaurenceAntonyXChimpions: true,
-    "The Crystal of Unity": false,
-    "Grave Danger": false,
-    "An Unlikely Friendship": true
-  }
+  discordId: "329264435656916993",
+  matricaId: "OneEngineer"
 };
 const Gentlemonke = {
-  pfp: "/images/chimpions/TheComrade/TheComrade-_rabbels_.png",
-  twitter: "TheGentlemonke",
-  level: 1,
-  chimpions: [
-    "TheComrade"
-  ],
-  TWS: {
-    "Forest Fellowship": false,
-    "Dusk Till Dawn": false,
-    "The Fall of the Eradicator": false,
-    "Last Bastion": false,
-    "The Uprising": false,
-    LaurenceAntonyXChimpions: true,
-    "The Crystal of Unity": false,
-    "Grave Danger": false,
-    "An Unlikely Friendship": true
-  }
+  discordId: "871715895905509437",
+  matricaId: "The Gentlemonke"
 };
 const DreLaSol = {
-  pfp: "https://famousfoxes.com/hd/2761.png",
-  twitter: "DreLaSOL",
-  level: 2,
-  chimpions: [
-    "TheOtherworldly"
-  ],
-  TWS: {
-    "Forest Fellowship": true,
-    "Dusk Till Dawn": true,
-    "The Fall of the Eradicator": true,
-    "Last Bastion": true,
-    "The Uprising": true,
-    LaurenceAntonyXChimpions: true,
-    "The Crystal of Unity": false,
-    "Grave Danger": false,
-    "An Unlikely Friendship": true
-  }
+  discordId: "562434959080554527",
+  matricaId: "drelasol"
 };
 const ExpliciT = {
-  pfp: "/images/chimpions/TheSultan/TheSultan-_rabbels_.png",
-  twitter: "",
-  level: 2,
-  chimpions: [
-    "TheSultan"
-  ],
-  TWS: {
-    "Forest Fellowship": false,
-    "Dusk Till Dawn": false,
-    "The Fall of the Eradicator": false,
-    "Last Bastion": false,
-    "The Uprising": false,
-    LaurenceAntonyXChimpions: true,
-    "The Crystal of Unity": false,
-    "Grave Danger": false,
-    "An Unlikely Friendship": true
-  }
+  discordId: "535861769248178176",
+  matricaId: "ExpliciT"
 };
 const minne_ape_olis = {
-  pfp: "/images/chimpions/ThePensive/ThePensive-_rabbels_.png",
-  twitter: "minne_ape_olis",
-  level: 7,
-  chimpions: [
-    "ThePensive"
-  ],
-  TWS: {
-    "Forest Fellowship": true,
-    "Dusk Till Dawn": true,
-    "The Fall of the Eradicator": true,
-    "Last Bastion": true,
-    "The Uprising": true,
-    LaurenceAntonyXChimpions: true,
-    "The Crystal of Unity": false,
-    "Grave Danger": true,
-    "An Unlikely Friendship": true
-  }
+  discordId: "308629865744302101",
+  matricaId: "3Fv9YppPQ8Z1p3j3vDT8TGhVqmdNnREmQsW94Wvhg8nh"
 };
 const citineuqua = {
-  pfp: "/images/chimpions/TheStudious/TheStudious-badluckzulp.png",
-  twitter: "InfinityDeFi",
-  level: 1,
-  chimpions: [
-    "TheStudious"
-  ],
-  TWS: {
-    "Forest Fellowship": true,
-    "Dusk Till Dawn": false,
-    "The Fall of the Eradicator": false,
-    "Last Bastion": false,
-    "The Uprising": true,
-    LaurenceAntonyXChimpions: true,
-    "The Crystal of Unity": false,
-    "Grave Danger": false,
-    "An Unlikely Friendship": true
-  }
+  discordId: "888590718061412352",
+  matricaId: "kqek2ij4RLgcm9fYQ855zn9AL5ND75zkwFteujCvcHc"
 };
 const J0hanna = {
-  pfp: "/images/chimpions/TheOrnamented/TheOrnamented-_rabbels_.png",
-  twitter: "WeStillEarly",
-  level: 4,
-  chimpions: [
-    "TheOrnamented"
-  ],
-  TWS: {
-    "Forest Fellowship": true,
-    "Dusk Till Dawn": true,
-    "The Fall of the Eradicator": false,
-    "Last Bastion": false,
-    "The Uprising": false,
-    LaurenceAntonyXChimpions: true,
-    "The Crystal of Unity": false,
-    "Grave Danger": false,
-    "An Unlikely Friendship": true
-  }
+  discordId: "833692218563887164",
+  matricaId: "9QNjD2hxzLpkRQx9zR9mAcqH3aqGEYCmTbYKyFmbYtRx"
 };
 const hamster = {
-  pfp: "/images/chimpions/TheWarlike/TheWarlike-_rabbels_.png",
-  twitter: "hamster_labs",
-  level: 9,
-  chimpions: [
-    "TheWarlike"
-  ],
-  TWS: {
-    "Forest Fellowship": false,
-    "Dusk Till Dawn": false,
-    "The Fall of the Eradicator": false,
-    "Last Bastion": false,
-    "The Uprising": false,
-    LaurenceAntonyXChimpions: false,
-    "The Crystal of Unity": false,
-    "Grave Danger": false,
-    "An Unlikely Friendship": true
-  }
+  discordId: "747420576250855445",
+  matricaId: "hamster"
 };
 const dreilord = {
-  pfp: "/images/chimpions/TheFirethrower/TheFirethrower-_rabbels_.png",
-  twitter: "dreilord_sol",
-  level: 1,
-  chimpions: [
-    "TheFirethrower"
-  ],
-  TWS: {
-    "Forest Fellowship": true,
-    "Dusk Till Dawn": false,
-    "The Fall of the Eradicator": false,
-    "Last Bastion": false,
-    "The Uprising": true,
-    LaurenceAntonyXChimpions: true,
-    "The Crystal of Unity": false,
-    "Grave Danger": false,
-    "An Unlikely Friendship": true
-  }
+  discordId: "544790436452237314",
+  matricaId: "5kzNMQoPDcfSy1eBbHokyapKHe3hgBLBZ26FZdqm4Ers"
 };
 const Faint = {
-  pfp: "/images/chimpions/TheScientist/TheScientist-badluckzulp.png",
-  twitter: "faintdotwav",
-  level: 2,
-  chimpions: [
-    "TheScientist"
-  ],
-  TWS: {
-    "Forest Fellowship": true,
-    "Dusk Till Dawn": false,
-    "The Fall of the Eradicator": false,
-    "Last Bastion": false,
-    "The Uprising": true,
-    LaurenceAntonyXChimpions: true,
-    "The Crystal of Unity": false,
-    "Grave Danger": false,
-    "An Unlikely Friendship": true
-  }
-};
-const MoonLights = {
-  pfp: "/images/chimpions/TheExecutioner/TheExecutioner-_rabbels_.png",
-  twitter: "",
-  level: 1,
-  chimpions: [
-    "TheExecutioner"
-  ],
-  TWS: {
-    "Forest Fellowship": true,
-    "Dusk Till Dawn": false,
-    "The Fall of the Eradicator": false,
-    "Last Bastion": false,
-    "The Uprising": true,
-    LaurenceAntonyXChimpions: true,
-    "The Crystal of Unity": false,
-    "Grave Danger": true,
-    "An Unlikely Friendship": true
-  }
+  discordId: "386371975095910400",
+  matricaId: "93wqaPBJ1N5F4sDzVyCLvHrGNsx6cedWu2qNEcQQYzLM"
 };
 const Whydee = {
-  pfp: "https://pbs.twimg.com/profile_images/1628832458547372037/qM0xKLRa_400x400.jpg",
-  twitter: "Why_De2",
-  level: 2,
-  chimpions: [
-    "TheExpressive"
-  ],
-  TWS: {
-    "Forest Fellowship": false,
-    "Dusk Till Dawn": false,
-    "The Fall of the Eradicator": false,
-    "Last Bastion": false,
-    "The Uprising": false,
-    LaurenceAntonyXChimpions: false,
-    "The Crystal of Unity": false,
-    "Grave Danger": false,
-    "An Unlikely Friendship": false
-  }
+  discordId: "846757705010905149",
+  matricaId: "Whyde2"
 };
 const Thesis = {
-  pfp: "/images/chimpions/TheComedian/TheComedian-_rabbels_.png",
-  twitter: "ThesisInvestor",
-  level: 13,
-  chimpions: [
-    "TheComedian"
-  ],
-  TWS: {
-    "Forest Fellowship": true,
-    "Dusk Till Dawn": false,
-    "The Fall of the Eradicator": false,
-    "Last Bastion": true,
-    "The Uprising": false,
-    LaurenceAntonyXChimpions: true,
-    "The Crystal of Unity": false,
-    "Grave Danger": false,
-    "An Unlikely Friendship": false
-  }
+  discordId: "275630935339433986",
+  matricaId: "Thesis"
 };
 const Aure64 = {
-  pfp: "https://arweave.net/lZbCZA3g_UfsT1IzTDkvodEIbvV0DYrKV9mkWeRbclw?ext=png",
-  twitter: "Aure_0405",
-  level: 2,
-  chimpions: [
-    "TheTechnophile"
-  ],
-  TWS: {
-    "Forest Fellowship": true,
-    "Dusk Till Dawn": true,
-    "The Fall of the Eradicator": true,
-    "Last Bastion": true,
-    "The Uprising": true,
-    LaurenceAntonyXChimpions: true,
-    "The Crystal of Unity": false,
-    "Grave Danger": true,
-    "An Unlikely Friendship": true
-  }
+  discordId: "844874021706792962",
+  matricaId: "Aure64"
 };
 const WallStreet = {
-  pfp: "https://arweave.net/SBiplbGlZk057Ej-cUCQ-0f2siNqZxrvn3NIOMLAJHM?ext=png",
-  twitter: "WallStreetCorp",
-  level: 1,
-  chimpions: [
-    "TheChevalier"
-  ],
-  TWS: {
-    "Forest Fellowship": true,
-    "Dusk Till Dawn": false,
-    "The Fall of the Eradicator": false,
-    "Last Bastion": false,
-    "The Uprising": true,
-    LaurenceAntonyXChimpions: true,
-    "The Crystal of Unity": false,
-    "Grave Danger": false,
-    "An Unlikely Friendship": true
-  }
+  discordId: "399022823143899136",
+  matricaId: "WallStreet"
 };
 const Froggie = {
-  pfp: "https://www.arweave.net/3HUWhbcjRRnQf879XheOF6UkWfQeZFJKRY4u9MXB6os?ext=png",
-  twitter: "smallfroggi",
-  level: 1,
-  chimpions: [
-    "TheAntipaladin"
-  ],
-  TWS: {
-    "Forest Fellowship": true,
-    "Dusk Till Dawn": false,
-    "The Fall of the Eradicator": false,
-    "Last Bastion": false,
-    "The Uprising": true,
-    LaurenceAntonyXChimpions: true,
-    "The Crystal of Unity": false,
-    "Grave Danger": false,
-    "An Unlikely Friendship": true
-  }
+  discordId: "888046309746016306",
+  matricaId: "Froggie"
 };
 const cripped = {
-  pfp: "https://arweave.net/3rPiUsCf0fVcXCunbufKPuP05vvJVT56GFKMZfT4jI8",
-  twitter: "cripped_0",
-  level: 1,
-  chimpions: [
-    "TheStarbound"
-  ],
-  TWS: {
-    "Forest Fellowship": true,
-    "Dusk Till Dawn": true,
-    "The Fall of the Eradicator": true,
-    "Last Bastion": true,
-    "The Uprising": true,
-    LaurenceAntonyXChimpions: true,
-    "The Crystal of Unity": false,
-    "Grave Danger": true,
-    "An Unlikely Friendship": true
-  }
+  discordId: "502326628060495901",
+  matricaId: "cripped_0"
 };
 const Confusername = {
-  pfp: "/images/chimpions/TheFractured/TheFractured-_rabbels_.png",
-  twitter: "Confusername1",
-  level: 1,
-  chimpions: [
-    "TheFractured"
-  ],
-  TWS: {
-    "Forest Fellowship": false,
-    "Dusk Till Dawn": false,
-    "The Fall of the Eradicator": false,
-    "Last Bastion": true,
-    "The Uprising": true,
-    LaurenceAntonyXChimpions: false,
-    "The Crystal of Unity": false,
-    "Grave Danger": false,
-    "An Unlikely Friendship": true
-  }
+  discordId: "483779106606153764",
+  matricaId: "Confusername"
 };
 const RAZR = {
-  pfp: "/images/chimpions/TheErroneous/TheErroneous-_rabbels_.png",
-  twitter: "",
-  level: 1,
-  chimpions: [
-    "TheErroneous"
-  ],
-  TWS: {
-    "Forest Fellowship": true,
-    "Dusk Till Dawn": false,
-    "The Fall of the Eradicator": false,
-    "Last Bastion": false,
-    "The Uprising": true,
-    LaurenceAntonyXChimpions: true,
-    "The Crystal of Unity": false,
-    "Grave Danger": false,
-    "An Unlikely Friendship": true
-  }
+  discordId: "222365429371371521",
+  matricaId: "razr"
 };
 const Mundz = {
-  pfp: "https://arweave.net/AShwA3x177WQ5TccLBV5W-BYZDrDBYrwMnyXnys_n10?ext=png",
-  twitter: "fox_mundz",
-  level: 3,
-  chimpions: [
-    "TheTechnician"
-  ],
-  TWS: {
-    "Forest Fellowship": false,
-    "Dusk Till Dawn": false,
-    "The Fall of the Eradicator": false,
-    "Last Bastion": false,
-    "The Uprising": false,
-    LaurenceAntonyXChimpions: false,
-    "The Crystal of Unity": false,
-    "Grave Danger": false,
-    "An Unlikely Friendship": false
-  }
+  discordId: "817838163799965716",
+  matricaId: "mundz"
 };
 const counter = {
-  pfp: "/images/chimpions/TheRegal/TheRegal-_rabbels_.png",
-  twitter: "0xcounter",
-  level: 7,
-  chimpions: [
-    "TheRegal"
-  ],
-  TWS: {
-    "Forest Fellowship": false,
-    "Dusk Till Dawn": false,
-    "The Fall of the Eradicator": false,
-    "Last Bastion": false,
-    "The Uprising": false,
-    LaurenceAntonyXChimpions: false,
-    "The Crystal of Unity": false,
-    "Grave Danger": false,
-    "An Unlikely Friendship": false
-  }
+  discordId: "307942307091578890",
+  matricaId: "counter"
 };
 const oxo = {
-  pfp: "/images/chimpions/TheInverted/TheInverted-_rabbels_.png",
-  twitter: "oxonomye",
-  level: 1,
-  chimpions: [
-    "TheInverted"
-  ],
-  TWS: {
-    "Forest Fellowship": false,
-    "Dusk Till Dawn": false,
-    "The Fall of the Eradicator": false,
-    "Last Bastion": false,
-    "The Uprising": false,
-    LaurenceAntonyXChimpions: false,
-    "The Crystal of Unity": false,
-    "Grave Danger": false,
-    "An Unlikely Friendship": false
-  }
+  discordId: "905124402683842610",
+  matricaId: "oxonomye"
 };
 const zeroSol = {
-  pfp: "/images/chimpions/TheApologetic/TheApologetic-_rabbels_.png",
-  twitter: "zeroatasehir",
-  level: 1,
-  chimpions: [
-    "TheApologetic"
-  ],
-  TWS: {
-    "Forest Fellowship": true,
-    "Dusk Till Dawn": true,
-    "The Fall of the Eradicator": false,
-    "Last Bastion": true,
-    "The Uprising": true,
-    LaurenceAntonyXChimpions: true,
-    "The Crystal of Unity": false,
-    "Grave Danger": true,
-    "An Unlikely Friendship": true
-  }
+  discordId: "807813212397240354",
+  matricaId: "Db8f51heQz4UxD1gdQLBJYf4tWnN5xtJs7smu2h9UAc2"
 };
 const Plexoo = {
-  pfp: "https://arweave.net/KIt3wxjr7W5-hLY77-hhhBUOWEogbnV4DKAKo8zgwvg",
-  twitter: "Plexoooo",
-  level: 1,
-  chimpions: [
-    "TheChromatic"
-  ],
-  TWS: {
-    "Forest Fellowship": false,
-    "Dusk Till Dawn": false,
-    "The Fall of the Eradicator": false,
-    "Last Bastion": false,
-    "The Uprising": false,
-    LaurenceAntonyXChimpions: false,
-    "The Crystal of Unity": false,
-    "Grave Danger": false,
-    "An Unlikely Friendship": false
-  }
+  discordId: "215543767938236417",
+  matricaId: "Plexoo"
 };
 const Nargar = {
-  pfp: "/images/chimpions/TheMischievous/TheMischievous-badluckzulp.png",
-  twitter: "Nargar6",
-  level: 1,
-  chimpions: [
-    "TheMischievous"
-  ],
-  TWS: {
-    "Forest Fellowship": false,
-    "Dusk Till Dawn": false,
-    "The Fall of the Eradicator": false,
-    "Last Bastion": false,
-    "The Uprising": false,
-    LaurenceAntonyXChimpions: false,
-    "The Crystal of Unity": false,
-    "Grave Danger": true,
-    "An Unlikely Friendship": true
-  }
+  discordId: "294592430127185921",
+  matricaId: "Nargar"
 };
 const xmancxd = {
-  pfp: "/images/chimpions/TheCyborg/TheCyborg-_rabbels_.png",
-  twitter: "",
-  level: 1,
-  chimpions: [
-    "TheCyborg"
-  ],
-  TWS: {
-    "Forest Fellowship": true,
-    "Dusk Till Dawn": false,
-    "The Fall of the Eradicator": false,
-    "Last Bastion": false,
-    "The Uprising": true,
-    LaurenceAntonyXChimpions: true,
-    "The Crystal of Unity": false,
-    "Grave Danger": false,
-    "An Unlikely Friendship": true
-  }
+  discordId: "295358658286714881",
+  matricaId: "8GjgPdkJAzupvk4azPY7BhaA9sL1BqTdVUTsbKk2YAF7"
 };
 const MPRTI = {
-  pfp: "/images/chimpions/TheCountryman/TheCountryman-_rabbels_.png",
-  twitter: "MPRTI",
-  level: 1,
-  chimpions: [
-    "TheCountryman"
-  ],
-  TWS: {
-    "Forest Fellowship": true,
-    "Dusk Till Dawn": false,
-    "The Fall of the Eradicator": false,
-    "Last Bastion": true,
-    "The Uprising": true,
-    LaurenceAntonyXChimpions: true,
-    "The Crystal of Unity": false,
-    "Grave Danger": false,
-    "An Unlikely Friendship": true
-  }
+  discordId: "910542912595558460",
+  matricaId: "MPRTI44"
 };
 const Shark = {
-  pfp: "https://nft.matrica.io/nft/B9EJtuxPb63FqAdBhUgTL6N7EGFJMpfRvJWHbHpnBPJv.png",
-  twitter: "0xShark_",
-  level: 1,
-  chimpions: [
-    "TheExperiment"
-  ],
-  TWS: {
-    "Forest Fellowship": false,
-    "Dusk Till Dawn": true,
-    "The Fall of the Eradicator": false,
-    "Last Bastion": true,
-    "The Uprising": true,
-    LaurenceAntonyXChimpions: true,
-    "The Crystal of Unity": false,
-    "Grave Danger": true,
-    "An Unlikely Friendship": true
-  }
+  discordId: "202248168681897987",
+  matricaId: "GA9ZBqncLUcoXunBjWkydi1XBPRQ49oGCSfem8zu6mET"
 };
 const papits = {
-  pfp: "/images/chimpions/TheFirestarter/TheFirestarter-badluckzulp.png",
-  twitter: "papits_sol",
-  level: 1,
-  chimpions: [
-    "TheFirestarter"
-  ],
-  TWS: {
-    "Forest Fellowship": false,
-    "Dusk Till Dawn": false,
-    "The Fall of the Eradicator": false,
-    "Last Bastion": false,
-    "The Uprising": false,
-    LaurenceAntonyXChimpions: false,
-    "The Crystal of Unity": false,
-    "Grave Danger": false,
-    "An Unlikely Friendship": true
-  }
+  discordId: "270468690514804739",
+  matricaId: "papits"
 };
 const SirBertoli = {
-  pfp: "/images/chimpions/TheGrunt/TheGrunt-badluckzulp.png",
-  twitter: "SirBertoli",
-  level: 8,
-  chimpions: [
-    "TheGrunt"
-  ],
-  TWS: {
-    "Forest Fellowship": false,
-    "Dusk Till Dawn": false,
-    "The Fall of the Eradicator": false,
-    "Last Bastion": false,
-    "The Uprising": false,
-    LaurenceAntonyXChimpions: false,
-    "The Crystal of Unity": false,
-    "Grave Danger": false,
-    "An Unlikely Friendship": false
-  }
+  discordId: "897031594404102155",
+  matricaId: "SirBertol"
 };
 const Hatse = {
-  pfp: "/images/chimpions/TheWastelander/TheWastelander-zen0m.png",
-  twitter: "HatseHatse",
-  level: 3,
-  chimpions: [
-    "TheWastelander"
-  ],
-  TWS: {
-    "Forest Fellowship": false,
-    "Dusk Till Dawn": false,
-    "The Fall of the Eradicator": false,
-    "Last Bastion": false,
-    "The Uprising": false,
-    LaurenceAntonyXChimpions: false,
-    "The Crystal of Unity": false,
-    "Grave Danger": false,
-    "An Unlikely Friendship": false
-  }
+  discordId: "772080590282293288",
+  matricaId: "hatse"
 };
 const minz = {
-  pfp: "https://nft.matrica.io/nft/7s3XXscm2QaSthfMeSDCSeyvEmhw4iriuuSX5uW97Usu.png",
-  twitter: "minnieZ23",
-  level: 1,
-  chimpions: [
-    "ThePowderMonkey"
-  ],
-  TWS: {
-    "Forest Fellowship": false,
-    "Dusk Till Dawn": false,
-    "The Fall of the Eradicator": false,
-    "Last Bastion": false,
-    "The Uprising": false,
-    LaurenceAntonyXChimpions: false,
-    "The Crystal of Unity": false,
-    "Grave Danger": false,
-    "An Unlikely Friendship": false
-  }
+  discordId: "439912094834360321",
+  matricaId: "swzzi"
 };
 const Maxbrs = {
-  pfp: "https://arweave.net/Mk6dC3IVoz5HA-Hg4-CJzdAd575DgTBvMk98sBAUR9E?ext=png",
-  twitter: "MaxBrsNFT",
-  level: 13,
-  chimpions: [
-    "TheOriginal"
-  ],
-  TWS: {
-    "Forest Fellowship": true,
-    "Dusk Till Dawn": true,
-    "The Fall of the Eradicator": true,
-    "Last Bastion": true,
-    "The Uprising": true,
-    LaurenceAntonyXChimpions: true,
-    "The Crystal of Unity": false,
-    "Grave Danger": false,
-    "An Unlikely Friendship": true
-  }
+  discordId: "806446353420517397",
+  matricaId: "maxbrs.sol",
+  experience: "My NFT journey started in Aug 21 on Solana (with a low bid on Boogles...) and this is where I've spent most of my time even if I'm diversified on other chains as well.\n\nCurrently part of The Chimpions leadership since we moved to 100% DAO owned a year ago. Specifically focusing on Opportunities, WL/presales and other investment deals.\n\nI've also been COO for Simmple Labs, created a French cross-chain DAO and I've been involved in some alpha teams like Cets and Pesky Penguins.\n\nI'm a strong believer of web3 with higher values so I'm trying to do my part by sharing knowledge for free on my Twitter and my NFT Educational platform (100+ articles).",
+  skills: "Web2 is still my main world and I invest through real estate, stocks, seed investments, etc.\n\nI used to be a strategy consultant for 5+ years and I'm now Chief Product & Strategy Officer for a scale-up company in luxury audio where I was involved in raising around 250M$. And my next journey will probably be entrepreneurial in web3 !\n\nI've also worked on creating the web3 roadmap for my web2 company so I've been quite connected with the French ecosystem and with Aura. I've also encountered all the struggle for traditional business to enter this space, lot to talk about !",
+  favoriteArt: "/images/holders/Maxbrs/EverythingGreen-MaxBrs.png"
 };
 const Kyufei = {
-  pfp: "/images/chimpions/TheHidden/TheHidden-_rabbels_.png",
-  twitter: "NFTKid2",
-  level: 1,
-  chimpions: [
-    "TheHidden"
-  ],
-  TWS: {
-    "Forest Fellowship": true,
-    "Dusk Till Dawn": true,
-    "The Fall of the Eradicator": false,
-    "Last Bastion": false,
-    "The Uprising": true,
-    LaurenceAntonyXChimpions: true,
-    "The Crystal of Unity": false,
-    "Grave Danger": true,
-    "An Unlikely Friendship": true
-  }
+  discordId: "773317868463849492",
+  matricaId: "24A94GwWo2U3WjbvcGxmwA1E97gqE5KFE9hUJ5wLjCeR"
 };
 const genwei = {
-  pfp: "/images/chimpions/TheFlamescarred/TheFlamescarred-badluckzulp.png",
-  twitter: "genweii",
-  level: 1,
-  chimpions: [
-    "TheFlamescarred"
-  ],
-  TWS: {
-    "Forest Fellowship": true,
-    "Dusk Till Dawn": false,
-    "The Fall of the Eradicator": false,
-    "Last Bastion": false,
-    "The Uprising": true,
-    LaurenceAntonyXChimpions: true,
-    "The Crystal of Unity": false,
-    "Grave Danger": false,
-    "An Unlikely Friendship": true
-  }
+  discordId: "285560956946219010",
+  matricaId: "gwi"
 };
 const Damasta = {
-  pfp: "/images/chimpions/TheNightstalker/TheNightstalker-zen0m.png",
-  twitter: "Damasta_",
-  level: 1,
-  chimpions: [
-    "TheNightstalker"
-  ],
-  TWS: {
-    "Forest Fellowship": false,
-    "Dusk Till Dawn": false,
-    "The Fall of the Eradicator": false,
-    "Last Bastion": false,
-    "The Uprising": false,
-    LaurenceAntonyXChimpions: false,
-    "The Crystal of Unity": false,
-    "Grave Danger": false,
-    "An Unlikely Friendship": false
-  }
+  discordId: "143733325499072512",
+  matricaId: "Damasta"
 };
 const Uranium = {
-  pfp: "https://pbs.twimg.com/profile_images/1570550023615651847/Z9p-UDK0_400x400.jpg",
-  twitter: "uraniumSOL",
-  level: 1,
-  chimpions: [
-    "TheFaded"
-  ],
-  TWS: {
-    "Forest Fellowship": true,
-    "Dusk Till Dawn": false,
-    "The Fall of the Eradicator": false,
-    "Last Bastion": false,
-    "The Uprising": true,
-    LaurenceAntonyXChimpions: true,
-    "The Crystal of Unity": false,
-    "Grave Danger": false,
-    "An Unlikely Friendship": true
-  }
+  discordId: "839418904958468098",
+  matricaId: "Uranium"
 };
 const Meattyy = {
-  pfp: "/images/chimpions/TheGhostHunter/TheGhostHunter-_rabbels_.png",
-  twitter: "Meattyyy",
-  level: 1,
-  chimpions: [
-    "TheGhostHunter"
-  ],
-  TWS: {
-    "Forest Fellowship": false,
-    "Dusk Till Dawn": false,
-    "The Fall of the Eradicator": false,
-    "Last Bastion": false,
-    "The Uprising": true,
-    LaurenceAntonyXChimpions: true,
-    "The Crystal of Unity": false,
-    "Grave Danger": false,
-    "An Unlikely Friendship": true
-  }
+  discordId: "257807581735682049",
+  matricaId: "Meattyy"
 };
 const Nepenthe = {
-  pfp: "https://nft.matrica.io/nft/3sB186FseuG5Uurq41kUjD7gPpZrxnBUakCiYmg4jAmK.png",
-  twitter: "nepenthe_sol",
-  level: 1,
-  chimpions: [
-    "TheArmsman"
-  ],
-  TWS: {
-    "Forest Fellowship": false,
-    "Dusk Till Dawn": false,
-    "The Fall of the Eradicator": false,
-    "Last Bastion": false,
-    "The Uprising": false,
-    LaurenceAntonyXChimpions: false,
-    "The Crystal of Unity": false,
-    "Grave Danger": false,
-    "An Unlikely Friendship": true
-  }
+  discordId: "307500488029634562",
+  matricaId: "Nepenthe"
 };
 const Becca = {
-  pfp: "https://pbs.twimg.com/profile_images/1447355806970785793/b7tHSo6I_400x400.jpg",
-  twitter: "rebeccagund",
-  level: 1,
-  chimpions: [
-    "TheBosun"
-  ],
-  TWS: {
-    "Forest Fellowship": false,
-    "Dusk Till Dawn": false,
-    "The Fall of the Eradicator": false,
-    "Last Bastion": false,
-    "The Uprising": true,
-    LaurenceAntonyXChimpions: true,
-    "The Crystal of Unity": false,
-    "Grave Danger": false,
-    "An Unlikely Friendship": true
-  }
+  discordId: "860522484015956038",
+  matricaId: "hmph"
 };
 const mork = {
-  pfp: "/images/chimpions/ThePocketMonkey/ThePocketMonkey-_rabbels_.png",
-  twitter: "0xMork",
-  level: 1,
-  chimpions: [
-    "ThePocketMonkey"
-  ],
-  TWS: {
-    "Forest Fellowship": false,
-    "Dusk Till Dawn": false,
-    "The Fall of the Eradicator": false,
-    "Last Bastion": false,
-    "The Uprising": false,
-    LaurenceAntonyXChimpions: false,
-    "The Crystal of Unity": false,
-    "Grave Danger": false,
-    "An Unlikely Friendship": false
-  }
+  discordId: "765029847629824001",
+  matricaId: "mork"
 };
 const Kuse = {
-  pfp: "/images/chimpions/TheDrowsy/TheDrowsy-_rabbels_.png",
-  twitter: "",
-  level: 1,
-  chimpions: [
-    "TheDrowsy"
-  ],
-  TWS: {
-    "Forest Fellowship": true,
-    "Dusk Till Dawn": false,
-    "The Fall of the Eradicator": false,
-    "Last Bastion": false,
-    "The Uprising": true,
-    LaurenceAntonyXChimpions: true,
-    "The Crystal of Unity": false,
-    "Grave Danger": false,
-    "An Unlikely Friendship": true
-  }
+  discordId: "546855918264909834",
+  matricaId: "kuse"
 };
 const Thomass = {
-  pfp: "/images/chimpions/TheTotemic/TheTotemic-_rabbels_.png",
-  twitter: "",
-  level: 1,
-  chimpions: [
-    "TheTotemic"
-  ],
-  TWS: {
-    "Forest Fellowship": false,
-    "Dusk Till Dawn": false,
-    "The Fall of the Eradicator": false,
-    "Last Bastion": false,
-    "The Uprising": false,
-    LaurenceAntonyXChimpions: false,
-    "The Crystal of Unity": false,
-    "Grave Danger": false,
-    "An Unlikely Friendship": false
-  }
+  discordId: "274942175257690112",
+  matricaId: "AXn72v6GSNuozvPchh5Ry3sfMww5WfyLvLEtMVn5AZEY"
 };
 const Tainaker = {
-  pfp: "https://nft.matrica.io/nft/Et2rtRD9pKwzFWdtkMqNFH74DJqVpUkB86aFHHyEmYVC.png",
-  twitter: "tainaker",
-  level: 1,
-  chimpions: [
-    "TheDeepdweller"
-  ],
-  TWS: {
-    "Forest Fellowship": false,
-    "Dusk Till Dawn": false,
-    "The Fall of the Eradicator": false,
-    "Last Bastion": false,
-    "The Uprising": false,
-    LaurenceAntonyXChimpions: false,
-    "The Crystal of Unity": false,
-    "Grave Danger": false,
-    "An Unlikely Friendship": false
-  }
+  discordId: "464906353971036163",
+  matricaId: "Tainaker"
 };
 const Zionatlas = {
-  pfp: "https://arweave.net/tEcStZqJRq2BAzNknNkQ3UMPjR3fupHBDumk15XW7Vo?ext=png",
-  twitter: "zionatlas",
-  level: 7,
-  chimpions: [
-    "TheFaulty"
-  ],
-  TWS: {
-    "Forest Fellowship": false,
-    "Dusk Till Dawn": false,
-    "The Fall of the Eradicator": true,
-    "Last Bastion": false,
-    "The Uprising": false,
-    LaurenceAntonyXChimpions: true,
-    "The Crystal of Unity": false,
-    "Grave Danger": false,
-    "An Unlikely Friendship": true
-  }
+  discordId: "343985217452900352",
+  matricaId: "ZionAtlas"
 };
 const DanielB = {
-  pfp: "/images/chimpions/TheLeisurely/TheLeisurely-badluckzulp.png",
-  twitter: "0xDanielB",
-  level: 2,
-  chimpions: [
-    "TheLeisurely"
-  ],
-  TWS: {
-    "Forest Fellowship": true,
-    "Dusk Till Dawn": true,
-    "The Fall of the Eradicator": true,
-    "Last Bastion": false,
-    "The Uprising": true,
-    LaurenceAntonyXChimpions: true,
-    "The Crystal of Unity": false,
-    "Grave Danger": true,
-    "An Unlikely Friendship": true
-  }
+  discordId: "219389399396253696",
+  matricaId: "DanielB"
 };
 const Rikishi = {
-  pfp: "https://nft.matrica.io/nft/BZntk5RcqXeJA2D697XsC6jFk9tm3KtU8ZvuhgFXPZmy.png",
-  twitter: "CryptoRikishi",
-  level: 1,
-  chimpions: [
-    "TheBinary"
-  ],
-  TWS: {
-    "Forest Fellowship": false,
-    "Dusk Till Dawn": false,
-    "The Fall of the Eradicator": false,
-    "Last Bastion": false,
-    "The Uprising": false,
-    LaurenceAntonyXChimpions: true,
-    "The Crystal of Unity": false,
-    "Grave Danger": false,
-    "An Unlikely Friendship": false
-  }
+  discordId: "317279968595804163",
+  matricaId: "123456789Matrica"
 };
 const CryptoSazerac = {
-  pfp: "/images/chimpions/TheEnameled/TheEnameled-_rabbels_.png",
-  twitter: "Cryptosazerac81",
-  level: 1,
-  chimpions: [
-    "TheEnameled"
-  ],
-  TWS: {
-    "Forest Fellowship": true,
-    "Dusk Till Dawn": false,
-    "The Fall of the Eradicator": false,
-    "Last Bastion": false,
-    "The Uprising": true,
-    LaurenceAntonyXChimpions: true,
-    "The Crystal of Unity": false,
-    "Grave Danger": false,
-    "An Unlikely Friendship": true
-  }
+  discordId: "384731134682071041",
+  matricaId: "liquidgold"
 };
 const SomdotSol = {
-  pfp: "https://arweave.net/Wn5OWRCLkv5CbhAec9Q9f764LarFUaN77wShW-Sm3hU",
-  twitter: "SomdotSol",
-  level: 1,
-  chimpions: [
-    "TheAngsty"
-  ],
-  TWS: {
-    "Forest Fellowship": false,
-    "Dusk Till Dawn": false,
-    "The Fall of the Eradicator": true,
-    "Last Bastion": false,
-    "The Uprising": true,
-    LaurenceAntonyXChimpions: true,
-    "The Crystal of Unity": false,
-    "Grave Danger": false,
-    "An Unlikely Friendship": true
-  }
+  discordId: "232019243959320577",
+  matricaId: "SomdotSol"
 };
 const RGB = {
-  pfp: "https://pbs.twimg.com/profile_images/1576568371453231104/ULguoO6b_400x400.jpg",
-  twitter: "rgb0x00",
-  level: 1,
-  chimpions: [
-    "TheAmalgamation"
-  ],
-  TWS: {
-    "Forest Fellowship": false,
-    "Dusk Till Dawn": false,
-    "The Fall of the Eradicator": true,
-    "Last Bastion": false,
-    "The Uprising": false,
-    LaurenceAntonyXChimpions: true,
-    "The Crystal of Unity": false,
-    "Grave Danger": false,
-    "An Unlikely Friendship": false
-  }
+  discordId: "805901543080722473",
+  matricaId: "rgb"
 };
 const Nights = {
-  pfp: "https://nft.matrica.io/nft/Gw5hjhuLx8UfSXu6w9FxnAzX6o7aRbC5QCg5EJiJ5WNA.png",
-  twitter: "",
-  level: 1,
-  chimpions: [
-    "TheArisen"
-  ],
-  TWS: {
-    "Forest Fellowship": false,
-    "Dusk Till Dawn": false,
-    "The Fall of the Eradicator": false,
-    "Last Bastion": false,
-    "The Uprising": false,
-    LaurenceAntonyXChimpions: false,
-    "The Crystal of Unity": false,
-    "Grave Danger": false,
-    "An Unlikely Friendship": true
-  }
+  discordId: "272869614785134611",
+  matricaId: "Nightsx"
 };
 const b0k = {
-  pfp: "https://nft.matrica.io/nft/HFDMEVrh8PP7xmw36t2jJ59qEaJAdSLkf2SpAsWA4wYE.png",
-  twitter: "",
-  level: 1,
-  chimpions: [
-    "TheChief"
-  ],
-  TWS: {
-    "Forest Fellowship": false,
-    "Dusk Till Dawn": false,
-    "The Fall of the Eradicator": false,
-    "Last Bastion": false,
-    "The Uprising": false,
-    LaurenceAntonyXChimpions: false,
-    "The Crystal of Unity": false,
-    "Grave Danger": false,
-    "An Unlikely Friendship": false
-  }
+  discordId: "882152974317649920",
+  matricaId: "bokieV"
 };
 const shades = {
-  pfp: "https://nft.matrica.io/nft/RytCw4Wbo1htcif15ZkvgNgY6cUz8o7e2yEHGgjpibX.png",
-  twitter: "shades_sol",
-  level: 6,
-  chimpions: [
-    "TheDeckhand"
-  ],
-  TWS: {
-    "Forest Fellowship": true,
-    "Dusk Till Dawn": true,
-    "The Fall of the Eradicator": false,
-    "Last Bastion": false,
-    "The Uprising": false,
-    LaurenceAntonyXChimpions: false,
-    "The Crystal of Unity": false,
-    "Grave Danger": false,
-    "An Unlikely Friendship": false
-  }
+  discordId: "461031295640928256",
+  matricaId: "shades"
 };
 const thirty = {
-  pfp: "https://pbs.twimg.com/media/FDeNIrxUUAQStXz?format=png&name=small",
-  twitter: "thirtyNFT",
-  level: 1,
-  chimpions: [
-    "TheYeoman"
-  ],
-  TWS: {
-    "Forest Fellowship": false,
-    "Dusk Till Dawn": false,
-    "The Fall of the Eradicator": false,
-    "Last Bastion": false,
-    "The Uprising": false,
-    LaurenceAntonyXChimpions: false,
-    "The Crystal of Unity": false,
-    "Grave Danger": false,
-    "An Unlikely Friendship": true
-  }
+  discordId: "138425184666386433",
+  matricaId: "thirty"
 };
 const LFK = {
-  pfp: "/images/chimpions/TheAnalyst/TheAnalyst-badluckzulp.png",
-  twitter: "LFKOnChain",
-  level: 1,
-  chimpions: [
-    "TheAnalyst"
-  ],
-  TWS: {
-    "Forest Fellowship": true,
-    "Dusk Till Dawn": false,
-    "The Fall of the Eradicator": true,
-    "Last Bastion": true,
-    "The Uprising": true,
-    LaurenceAntonyXChimpions: true,
-    "The Crystal of Unity": false,
-    "Grave Danger": false,
-    "An Unlikely Friendship": true
-  }
+  discordId: "388653562827374602",
+  matricaId: "lfk"
 };
 const Brink = {
-  pfp: "https://www.arweave.net/rINOXYzKE1mjO9pO_L-ExzYnMqzGUSwsU7Cjtb-B0Gw?ext=PNG",
-  twitter: "Brink_Brinker",
-  level: 10,
-  chimpions: [
-    "TheNeuromancer"
-  ],
-  TWS: {
-    "Forest Fellowship": true,
-    "Dusk Till Dawn": true,
-    "The Fall of the Eradicator": false,
-    "Last Bastion": false,
-    "The Uprising": true,
-    LaurenceAntonyXChimpions: true,
-    "The Crystal of Unity": false,
-    "Grave Danger": false,
-    "An Unlikely Friendship": true
-  }
+  discordId: "176183220688125952",
+  matricaId: "Brink"
 };
 const tuxr = {
-  pfp: "https://nft.matrica.io/nft/Hu2MqACi2QctmNpFCxXkxsroUoYvaC9ZTxrDbVLfTD3.png",
-  twitter: "tuxr228",
-  level: 12,
-  chimpions: [
-    "TheBionic"
-  ],
-  TWS: {
-    "Forest Fellowship": false,
-    "Dusk Till Dawn": false,
-    "The Fall of the Eradicator": false,
-    "Last Bastion": false,
-    "The Uprising": false,
-    LaurenceAntonyXChimpions: false,
-    "The Crystal of Unity": false,
-    "Grave Danger": false,
-    "An Unlikely Friendship": false
-  }
+  discordId: "436310639640576021",
+  matricaId: "tuxr"
 };
 const zuzuzuzuzuzuzu = {
-  pfp: "/images/chimpions/ThePainter/ThePainter-_rabbels_.png",
-  twitter: "Zuzu_ww",
-  level: 1,
-  chimpions: [
-    "ThePainter"
-  ],
-  TWS: {
-    "Forest Fellowship": false,
-    "Dusk Till Dawn": false,
-    "The Fall of the Eradicator": false,
-    "Last Bastion": false,
-    "The Uprising": false,
-    LaurenceAntonyXChimpions: false,
-    "The Crystal of Unity": false,
-    "Grave Danger": false,
-    "An Unlikely Friendship": true
-  }
+  discordId: "645315104958709762",
+  matricaId: "5LDdaHcE1tzcwtfBzor6xbYB9k57hwz8z7Edq7NBVhRj"
 };
 const Sterrling = {
-  pfp: "https://www.arweave.net/EdC2utS2ULGvrNP6ibriH8TKn5kevZQ4CmMxSuusImg?ext=jpeg",
-  twitter: "MSterrling",
-  level: 1,
-  chimpions: [
-    "TheCaptain"
-  ],
-  TWS: {
-    "Forest Fellowship": false,
-    "Dusk Till Dawn": false,
-    "The Fall of the Eradicator": false,
-    "Last Bastion": true,
-    "The Uprising": true,
-    LaurenceAntonyXChimpions: true,
-    "The Crystal of Unity": false,
-    "Grave Danger": false,
-    "An Unlikely Friendship": false
-  }
+  discordId: "372580834227781633",
+  matricaId: "Max Sterrling"
 };
 const Lex = {
-  pfp: "/images/chimpions/TheRapscallion/TheRapscallion-_rabbels_.png",
-  twitter: "Alex_R_J_Swann",
-  level: 2,
-  chimpions: [
-    "TheRapscallion"
-  ],
-  TWS: {
-    "Forest Fellowship": false,
-    "Dusk Till Dawn": false,
-    "The Fall of the Eradicator": false,
-    "Last Bastion": false,
-    "The Uprising": false,
-    LaurenceAntonyXChimpions: false,
-    "The Crystal of Unity": false,
-    "Grave Danger": false,
-    "An Unlikely Friendship": false
-  }
+  discordId: "235804343176003586",
+  matricaId: "Lex"
 };
 const holders = {
   ThunderBear,
@@ -2480,23 +522,8 @@ const holders = {
   Soledge,
   zachary,
   "Gwei Stefani": {
-    pfp: "/images/chimpions/TheGreeter/TheGreeter-_rabbels_.png",
-    twitter: "gweistefani_",
-    level: 1,
-    chimpions: [
-      "TheGreeter"
-    ],
-    TWS: {
-      "Forest Fellowship": true,
-      "Dusk Till Dawn": false,
-      "The Fall of the Eradicator": false,
-      "Last Bastion": true,
-      "The Uprising": true,
-      LaurenceAntonyXChimpions: true,
-      "The Crystal of Unity": false,
-      "Grave Danger": false,
-      "An Unlikely Friendship": true
-    }
+    discordId: "760792786802573313",
+    matricaId: "599Pzfg4GPgGbb5BZvT9CJQHp7ptEEjT5wApVr7qv7Rq"
   },
   murath,
   dabums,
@@ -2516,23 +543,8 @@ const holders = {
   Johners,
   mebbs,
   "Punk Monke": {
-    pfp: "/images/chimpions/ThePunk/ThePunk-_rabbels_.png",
-    twitter: "Punk_Monke",
-    level: 13,
-    chimpions: [
-      "ThePunk"
-    ],
-    TWS: {
-      "Forest Fellowship": true,
-      "Dusk Till Dawn": true,
-      "The Fall of the Eradicator": false,
-      "Last Bastion": false,
-      "The Uprising": true,
-      LaurenceAntonyXChimpions: true,
-      "The Crystal of Unity": false,
-      "Grave Danger": false,
-      "An Unlikely Friendship": true
-    }
+    discordId: "819007619690922025",
+    matricaId: "PunkMonke"
   },
   DMX,
   Wald,
@@ -2543,42 +555,12 @@ const holders = {
   meddler,
   Puggl3,
   "Eddie Rebel": {
-    pfp: "/images/chimpions/TheHip/TheHip-badluckzulp.png",
-    twitter: "0xEddieRebel",
-    level: 1,
-    chimpions: [
-      "TheHip"
-    ],
-    TWS: {
-      "Forest Fellowship": true,
-      "Dusk Till Dawn": false,
-      "The Fall of the Eradicator": false,
-      "Last Bastion": false,
-      "The Uprising": true,
-      LaurenceAntonyXChimpions: true,
-      "The Crystal of Unity": false,
-      "Grave Danger": false,
-      "An Unlikely Friendship": true
-    }
+    discordId: "945815476116815963",
+    matricaId: "eddierebel"
   },
   "Ken Goh": {
-    pfp: "https://nft.matrica.io/nft/FTikYeiaghi9ds2NUFv499zZyKfHPbNs7rFn7u2TWxe9.png",
-    twitter: "Ken_Goh_",
-    level: 11,
-    chimpions: [
-      "TheHighPriest"
-    ],
-    TWS: {
-      "Forest Fellowship": false,
-      "Dusk Till Dawn": false,
-      "The Fall of the Eradicator": false,
-      "Last Bastion": false,
-      "The Uprising": false,
-      LaurenceAntonyXChimpions: false,
-      "The Crystal of Unity": true,
-      "Grave Danger": false,
-      "An Unlikely Friendship": false
-    }
+    discordId: "807535973842944030",
+    matricaId: "KenGoh"
   },
   HFP,
   Faddy,
@@ -2592,72 +574,26 @@ const holders = {
   Mamon,
   Alkine,
   "Jelly beans": {
-    pfp: "/images/chimpions/TheEncased/TheEncased-_rabbels_.png",
-    twitter: "Jeshness",
-    level: 1,
-    chimpions: [
-      "TheEncased"
-    ],
-    TWS: {
-      "Forest Fellowship": true,
-      "Dusk Till Dawn": false,
-      "The Fall of the Eradicator": false,
-      "Last Bastion": false,
-      "The Uprising": true,
-      LaurenceAntonyXChimpions: true,
-      "The Crystal of Unity": false,
-      "Grave Danger": false,
-      "An Unlikely Friendship": true
-    }
+    discordId: "404180172288425985",
+    matricaId: "ED8qVQFtrHWVb7625mCqcTrJGFJ5HFqZF86F2FsbF3BH"
   },
   DEON,
   wronguser,
-  SOLNoob,
   PNP,
   CryptoDriller,
   Hyblinxx,
   gl00m,
   "trucker.sol": {
-    pfp: "/images/chimpions/TheAttendant/TheAttendant-badluckzulp.png",
-    twitter: "",
-    level: 2,
-    chimpions: [
-      "TheAttendant"
-    ],
-    TWS: {
-      "Forest Fellowship": false,
-      "Dusk Till Dawn": true,
-      "The Fall of the Eradicator": false,
-      "Last Bastion": false,
-      "The Uprising": false,
-      LaurenceAntonyXChimpions: false,
-      "The Crystal of Unity": false,
-      "Grave Danger": false,
-      "An Unlikely Friendship": false
-    }
+    discordId: "920111592455168071",
+    matricaId: "trucker.sol"
   },
   SCUM,
   Polkjia,
   Case,
   genuinearticles,
   "R!ck": {
-    pfp: "/images/chimpions/ThePreeminent/ThePreeminent-badluckzulp.png",
-    twitter: "",
-    level: 5,
-    chimpions: [
-      "ThePreeminent"
-    ],
-    TWS: {
-      "Forest Fellowship": false,
-      "Dusk Till Dawn": false,
-      "The Fall of the Eradicator": false,
-      "Last Bastion": false,
-      "The Uprising": false,
-      LaurenceAntonyXChimpions: false,
-      "The Crystal of Unity": false,
-      "Grave Danger": true,
-      "An Unlikely Friendship": true
-    }
+    discordId: "457814187276632065",
+    matricaId: "Rick009"
   },
   purp,
   OneEngineer,
@@ -2670,30 +606,14 @@ const holders = {
   hamster,
   dreilord,
   Faint,
-  MoonLights,
   Whydee,
   Thesis,
   Aure64,
   WallStreet,
   Froggie,
   "Tom B.": {
-    pfp: "/images/chimpions/TheMasked/TheMasked-_rabbels_.png",
-    twitter: "tomboutin_",
-    level: 1,
-    chimpions: [
-      "TheMasked"
-    ],
-    TWS: {
-      "Forest Fellowship": false,
-      "Dusk Till Dawn": false,
-      "The Fall of the Eradicator": false,
-      "Last Bastion": false,
-      "The Uprising": false,
-      LaurenceAntonyXChimpions: false,
-      "The Crystal of Unity": false,
-      "Grave Danger": false,
-      "An Unlikely Friendship": false
-    }
+    discordId: "263669007570305025",
+    matricaId: "HyJ4vc9wUfVrnojdqRetVA6ktrpVQRsUgry4C6Hc5uSg"
   },
   cripped,
   Confusername,
@@ -2702,23 +622,8 @@ const holders = {
   counter,
   oxo,
   "Mo Betta": {
-    pfp: "/images/chimpions/TheSpectral/TheSpectral-meltytanti.png",
-    twitter: "",
-    level: 1,
-    chimpions: [
-      "TheSpectral"
-    ],
-    TWS: {
-      "Forest Fellowship": false,
-      "Dusk Till Dawn": false,
-      "The Fall of the Eradicator": false,
-      "Last Bastion": false,
-      "The Uprising": false,
-      LaurenceAntonyXChimpions: false,
-      "The Crystal of Unity": false,
-      "Grave Danger": false,
-      "An Unlikely Friendship": false
-    }
+    discordId: "",
+    matricaId: "9mAqWNp1WYesoV1TaCVm3Vv761Gnsi8kBrvXKc23uyp9"
   },
   zeroSol,
   Plexoo,
@@ -2732,45 +637,15 @@ const holders = {
   minz,
   Maxbrs,
   "Odd Skull": {
-    pfp: "https://arweave.net/Y3GhSr2J6b8OFUQFOIx91l494t-tibq3vFn9vuP94x0?ext=png",
-    twitter: "OddSkull_",
-    level: 1,
-    chimpions: [
-      "TheReincarnated"
-    ],
-    TWS: {
-      "Forest Fellowship": false,
-      "Dusk Till Dawn": false,
-      "The Fall of the Eradicator": false,
-      "Last Bastion": false,
-      "The Uprising": false,
-      LaurenceAntonyXChimpions: false,
-      "The Crystal of Unity": false,
-      "Grave Danger": false,
-      "An Unlikely Friendship": true
-    }
+    discordId: "915127375073783818",
+    matricaId: "Odd Skull"
   },
   Kyufei,
   genwei,
   Damasta,
   "0x4P3": {
-    pfp: "/images/chimpions/TheDemon/TheDemon-_rabbels_.png",
-    twitter: "cryptoretard69",
-    level: 4,
-    chimpions: [
-      "TheDemon"
-    ],
-    TWS: {
-      "Forest Fellowship": false,
-      "Dusk Till Dawn": false,
-      "The Fall of the Eradicator": false,
-      "Last Bastion": false,
-      "The Uprising": false,
-      LaurenceAntonyXChimpions: false,
-      "The Crystal of Unity": false,
-      "Grave Danger": false,
-      "An Unlikely Friendship": true
-    }
+    discordId: "209394359475372032",
+    matricaId: "Hp3uHMFi2NvLkwHpq6fFhKgiEjLMTBiHN3F7PTNjHXwE"
   },
   Uranium,
   Meattyy,
@@ -2784,23 +659,8 @@ const holders = {
   DanielB,
   Rikishi,
   "endy.sol": {
-    pfp: "/images/chimpions/TheJockey/TheJockey-_rabbels_.png",
-    twitter: "",
-    level: 1,
-    chimpions: [
-      "TheJockey"
-    ],
-    TWS: {
-      "Forest Fellowship": false,
-      "Dusk Till Dawn": false,
-      "The Fall of the Eradicator": false,
-      "Last Bastion": false,
-      "The Uprising": true,
-      LaurenceAntonyXChimpions: true,
-      "The Crystal of Unity": false,
-      "Grave Danger": true,
-      "An Unlikely Friendship": true
-    }
+    discordId: "342670605037862913",
+    matricaId: "endy.sol"
   },
   CryptoSazerac,
   SomdotSol,
@@ -2815,23 +675,8 @@ const holders = {
   zuzuzuzuzuzuzu,
   Sterrling,
   "0xnasa": {
-    pfp: "/images/chimpions/ThePainted/ThePainted-_rabbels_.png",
-    twitter: "",
-    level: 1,
-    chimpions: [
-      "ThePainted"
-    ],
-    TWS: {
-      "Forest Fellowship": false,
-      "Dusk Till Dawn": false,
-      "The Fall of the Eradicator": false,
-      "Last Bastion": false,
-      "The Uprising": false,
-      LaurenceAntonyXChimpions: false,
-      "The Crystal of Unity": false,
-      "Grave Danger": false,
-      "An Unlikely Friendship": false
-    }
+    discordId: "236125507446374401",
+    matricaId: "0xnasa"
   },
   Lex
 };

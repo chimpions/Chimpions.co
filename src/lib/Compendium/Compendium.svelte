@@ -6,7 +6,6 @@
     import "$lib/css/global.css";
 
     import Card from "./Cards/card.svelte";
-    import holders from "../_content/holders.json";
     import chimpions from "../_content/chimpions.json";
   	import { onMount } from "svelte";
 
@@ -25,14 +24,6 @@
     function updateWindowSize() {
         windowWidth = window.innerWidth;
     }
-
-    const getTwitter = (holder_name) => {
-        if (holders[holder_name])
-            return holders[holder_name]["twitter"];
-        else {
-            return "";
-        }
-	}
 	
 	const getTypes = () => {
 		for (let chimpion of chimpions) {
@@ -172,7 +163,6 @@
                     art_files={chimpion.paths}
                     lore={chimpion.lore}
                     holder_name={chimpion.holder}
-                    twitter={getTwitter(chimpion.holder)}
                 />
             {/each}
         </div>
