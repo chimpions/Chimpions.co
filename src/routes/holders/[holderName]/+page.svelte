@@ -1,28 +1,29 @@
 <script>
 // @ts-nocheck
     import holders from "$lib/_content/holders.json";
+    import matrica_data from "$lib/_content/matrica_data.json";
     import discord_data from "$lib/_content/discord_data.json";
     import { page } from '$app/stores';
     import NotFound from "$lib/NotFound.svelte";
 	import HolderPage from "$lib/Holders/HolderPage.svelte";
-    
 
-    let holderName = ""
-    $: holder_data = getHolderData($page.params.holderName);
 
-    function getHolderData(params) {
+    $: holderName = getHolderName($page.params.holderName);
+    $: MatricaKey = holders[holderName].matricaId;
+    $: DiscordKey = holders[holderName].discordId;
+
+
+    function getHolderName(params) {
         try {
-            let holderNameArray = params.toLowerCase();
-            holderName = holderNameArray;
+            let holderName = params.toLowerCase();
             for (let key in holders) {
                 if (key.toLowerCase() == holderName) {
-                    holderName = key;
-                    return holder_data = holders[key];
+                    return holderName = key;
                 }
             }
         } catch (error) {
             console.log('HolderNotFoundError');
-            return holder_data = null;
+            return holderName = null;
         }
     }
     
@@ -30,18 +31,19 @@
 
 
 
-{#if (holder_data)}
+{#if (MatricaKey && DiscordKey)}
     <HolderPage
         holderName={holderName}
-        pfp={holder_data.pfp}
-        twitter={discord_data[holder_data["discordId"]]["twitterHandle"]}
-        discord={discord_data[holder_data["discordId"]]["discordHandle"]}
-        points={discord_data[holder_data["discordId"]]["points"]}
-        level={discord_data[holder_data["discordId"]]["level"]}
-        chimpions_held={holder_data.chimpions}
-        TWS={holder_data.TWS}
-        experience={holder_data.experience}
-        skills={holder_data.skills}
+        pfp={matrica_data[MatricaKey].pfp}
+        twitter={discord_data[DiscordKey].twitterHandle}
+        discord={discord_data[DiscordKey].discordHandle}
+        points={discord_data[DiscordKey].points}
+        level={discord_data[DiscordKey].level}
+        chimpions_held={matrica_data[MatricaKey].chimpions}
+        TWS={matrica_data[MatricaKey].TWS}
+        experience={holders[holderName].experience}
+        skills={holders[holderName].skills}
+        favoriteArt={holders[holderName].favoriteArt}
     />
 {:else}
     <NotFound />

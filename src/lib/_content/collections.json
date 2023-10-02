@@ -1,35 +1,35 @@
 {
     "12166093-97ad-44b5-9d74-a5cbabbeb8a6": {
         "name": "The Chimpions",
-        "count": 199
+        "count": 200
     },
     "dd1c99b6-7abe-4f6d-9c6d-c8853ca42d1a": {
         "name": "Claynosaurz",
-        "count": 129
+        "count": 79
     },
     "2658a0cc-1d6d-44fa-bde2-482b824e2e50": {
         "name": "SMB Gen3",
+        "count": 66
+    },
+    "42d90ce9-cca6-413a-a506-a73a585f3450": {
+        "name": "SMB Gen2",
         "count": 61
     },
     "007c429c-50ec-4b9b-a57b-9687b4415fe5": {
         "name": "Galactic Gecko Space Garage",
-        "count": 1570
-    },
-    "42d90ce9-cca6-413a-a506-a73a585f3450": {
-        "name": "SMB Gen2",
-        "count": 54
+        "count": 1571
     },
     "785864e9-7f38-48af-88fe-80d0ea677a4e": {
         "name": "Famous Fox Dens",
-        "count": 89
+        "count": 91
     },
     "fe99399a-ce55-4c97-a92a-4dcf844e6575": {
         "name": "Transdimensional Fox Federation",
-        "count": 339
+        "count": 315
     },
     "79ded0f9-31f6-4f8a-84d6-2a915c5f776e": {
         "name": "Famous Fox Federation",
-        "count": 417
+        "count": 387
     },
     "5976cea5-6d8b-4ee5-bd13-eb32e01cc8ff": {
         "name": "Just Ape",
@@ -37,19 +37,19 @@
     },
     "91f62ea6-26d0-4e91-b480-7ff1148fcdef": {
         "name": "Taiyo Pilots",
-        "count": 98
+        "count": 50
     },
     "eb518a0c-0ac2-4fdd-b435-82c71de0c4c7": {
         "name": "Critters",
-        "count": 134
+        "count": 180
     },
     "e3bb8482-36b7-44d0-afac-d2e819132d6e": {
         "name": "Helions ",
-        "count": 184
+        "count": 183
     },
     "f98aaa45-460f-4c40-9311-b43927e4c702": {
         "name": "LILY",
-        "count": 134
+        "count": 120
     },
     "9a07eb38-1621-42df-ba13-5d4e506497f0": {
         "name": "PRIMATES",
@@ -57,43 +57,43 @@
     },
     "92b8b2b1-71fb-40ee-8968-6fa234d5d253": {
         "name": "The Bastards",
-        "count": 128
+        "count": 123
     },
     "81cd15da-6a71-4a88-95f5-6de00b17bffe": {
         "name": "Glyphscapes",
-        "count": 124
+        "count": 154
     },
     "28cf00f2-922f-48ee-b153-e692153c9258": {
         "name": "oogy",
-        "count": 106
+        "count": 85
     },
     "9ee7307f-b3d6-4bfd-a995-9f0058dd3abb": {
         "name": "Degen Fat Cats",
-        "count": 92
+        "count": 120
     },
     "bbf8d920-0391-4d09-a8c7-516544c9bf78": {
         "name": "Smyths",
-        "count": 33
+        "count": 37
     },
     "0cec0ad8-8264-43ae-b1c5-68b383c59b85": {
         "name": "Okay Bears",
-        "count": 81
+        "count": 78
     },
     "98eac594-4342-47d2-b3ee-f8fd5a498a5f": {
         "name": "Taiyo Robotics",
-        "count": 21
+        "count": 19
     },
     "aedc98df-7d51-47f6-96db-308a96ab6987": {
         "name": "Galactic Gecko Concordians",
-        "count": 130
+        "count": 128
     },
     "dbb0488a-aaf9-44c1-9228-2c27d3242c89": {
         "name": "Degenerate Ape Academy",
-        "count": 365
+        "count": 366
     },
     "0aec7519-46c8-431d-b7ef-188eb5dfa948": {
         "name": "Claymakers",
-        "count": 179
+        "count": 116
     },
     "15ef2ab2-3678-44fd-8dbc-b2ec3a7f2dc8": {
         "name": "Vibe Knights ",
@@ -105,11 +105,11 @@
     },
     "8ff7c4bb-26e1-467c-9c0c-937730fec6d8": {
         "name": "Monkey Baby Business",
-        "count": 24
+        "count": 25
     },
     "098aaad1-e6cc-4469-993c-b2e6fb54b5e1": {
         "name": "Degen Trash Pandas",
-        "count": 559
+        "count": 561
     },
     "5de32e68-e7c9-466f-8062-a428c38801c4": {
         "name": "The Catalina Whale Mixer",
@@ -121,6 +121,6 @@
     },
     "e232b323-8410-454a-92fd-a8604360afdb": {
         "name": "Mad Lads",
-        "count": 18
+        "count": 10
     }
 }

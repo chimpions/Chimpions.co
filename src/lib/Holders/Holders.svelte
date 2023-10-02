@@ -4,11 +4,12 @@
     import Navigation from "$lib/Navigation/Navigation.svelte";
     import BackToTop from "$lib/BackToTop.svelte";
     import holders from "$lib/_content/holders.json";
+    import matrica_data from "$lib/_content/matrica_data.json";
     import discord_data from "$lib/_content/discord_data.json";
-    import "$lib/css/global.css"
+    import "$lib/css/global.css";
     import HolderBox from "./Holder-box.svelte";
     import { onMount } from "svelte";
-    
+
 
     let screenWidth = 1000;
     let lastScreenWidth = 1000;
@@ -91,8 +92,7 @@
                 {#each Object.keys(holderLine) as holderName}
                     <HolderBox
                         name={holderName}
-                        holder_data={holderLine[holderName]}
-                        discord_data={discord_data[holderLine[holderName]["discordId"]]}
+                        matrica_data={matrica_data[holders[holderName].matricaId]}
                     />
                 {/each}
             </div>

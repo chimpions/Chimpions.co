@@ -76,7 +76,7 @@ const chimpions = [
     type: "Creatures",
     bg_color: "synth",
     bd_color: "pink",
-    lore: "",
+    lore: "The night is with me. A night I cannot see. A night I know.\n\nEvery sky fire and star. I know.\nEvery heartbeat. I know.\nThe sounds of this world. I know.\nWhere you all are. I know.\n\nYou surround me.",
     png_artist: "badluckzulp",
     gif_artist: "katsudon_sol",
     paths: {
@@ -93,7 +93,7 @@ const chimpions = [
     type: "Scientist",
     bg_color: "twilight",
     bd_color: "pink",
-    lore: "",
+    lore: "IT'S OVER 9000!!!!",
     png_artist: "badluckzulp",
     gif_artist: "katsudon_sol",
     paths: {
@@ -127,7 +127,7 @@ const chimpions = [
     type: "Naked",
     bg_color: "green",
     bd_color: "darkseagreen",
-    lore: "",
+    lore: "It's late. The Ancient wearily looks into the mirror and concentrates.\n\nSlowly, time turns. The skies recede. The icefall rises. Once great empires return.\n\nIt's all quite rejuvenating...",
     png_artist: "_rabbels_",
     gif_artist: "katsudon_sol",
     paths: {
@@ -144,7 +144,7 @@ const chimpions = [
     type: "Emotional ",
     bg_color: "blue",
     bd_color: "dodgerblue",
-    lore: "",
+    lore: "They're happy as a lark, oblivious to the reality of things.\nThe world as we know it will disappear forever, and yet they keep on dancing.\nPoor fools... You'd better run or hide. But no matter, sooner or later, they'll find us.",
     png_artist: "badluckzulp",
     gif_artist: "katsudon_sol",
     paths: {
@@ -161,7 +161,7 @@ const chimpions = [
     type: "Knight",
     bg_color: "darkgrey",
     bd_color: "grey",
-    lore: "",
+    lore: "Breaking into churches, riling up the horses, drinking and laughing late into the night (all of this with The Golem following along), The Antipaladin is thoroughly corrupted in a way that all Chimpions admire. Darkly maniacal and quite entertaining.",
     png_artist: "_rabbels_",
     gif_artist: "katsudon_sol",
     paths: {
@@ -178,7 +178,9 @@ const chimpions = [
     type: "Military",
     bg_color: "skyblue",
     bd_color: "DeepSkyBlue",
-    lore: "",
+    lore: `Down the ranks of the Chimpion Guard lies the lowly Apologetic, practicing those marches. and apologizing. Even when brother brings by a sandwich. "I'm sorry, I'll pay you back."
+
+Watch the soldier spring into action if you're seen sneaking up the palace steps.`,
     png_artist: "_rabbels_",
     gif_artist: "katsudon_sol",
     paths: {
@@ -229,7 +231,7 @@ const chimpions = [
     type: "Knight",
     bg_color: "mediumpurple",
     bd_color: "MediumPurple",
-    lore: "",
+    lore: "Iron Fist of The Knight Commander, Wielder of the Seven Swords, The Armsman can pass through any door in the land, with just a flash of a sharpened blade.\nThe Armsman is not fond of a fight, but of keeping one's metal and armor impressive enough to win at a look.",
     png_artist: "_rabbels_",
     gif_artist: "katsudon_sol",
     paths: {
@@ -246,7 +248,7 @@ const chimpions = [
     type: "Worker",
     bg_color: "mellow",
     bd_color: "yellow",
-    lore: "",
+    lore: "Trouble keeping spirit today? Ape into 100% Wagmi beef on a freshly toasted sesame seed bun. Let our Attendant flip your fever into calm, cool satisfaction.\nEmployee of the Month four years straight!",
     png_artist: "badluckzulp",
     gif_artist: "katsudon_sol",
     paths: {
@@ -265,7 +267,7 @@ const chimpions = [
     type: "Pokemon",
     bg_color: "purpleblue",
     bd_color: "dodgerblue",
-    lore: "",
+    lore: "Long ago, a powerful meteor struck our world.\nThis molten rock took our form and walks among us, absorbing energy from the cosmos.\n\nThis being is The Aureate, a guardian of the night.\nSome say they have seen it fire golden shards and beams of blinding light.",
     png_artist: "badluckzulp",
     gif_artist: "katsudon_sol",
     paths: {
@@ -282,7 +284,7 @@ const chimpions = [
     type: "Android",
     bg_color: "twilight",
     bd_color: "pink",
-    lore: "",
+    lore: "Always observing, always scanning. You hear its sparks - and a sudden whirring to life behind you.\n\n“Nine-oh five five”, it says, leaning to examine you.\nIts formidable alloy shell is gleaming. The thing looks like a walking bomb. Best to leave it alone.",
     png_artist: "_rabbels_",
     gif_artist: "katsudon_sol",
     paths: {
@@ -299,7 +301,7 @@ const chimpions = [
     type: "Worker",
     bg_color: "lightblue",
     bd_color: "lightblue",
-    lore: "",
+    lore: "“Come fly with me, let's fly, let's fly away”",
     png_artist: "badluckzulp",
     gif_artist: "katsudon_sol",
     paths: {
@@ -318,7 +320,7 @@ const chimpions = [
     type: "Android",
     bg_color: "lightgrey",
     bd_color: "white",
-    lore: "",
+    lore: "Chimpion teens like to walk around The Beacon with their phones, thinking they're getting a signal boost. It's pure coincidence, though. They'll all run off anyway whenever The Beacon announces another incoming earthquake.",
     png_artist: "_rabbels_",
     gif_artist: "katsudon_sol",
     paths: {
@@ -352,7 +354,7 @@ const chimpions = [
     type: "Monitor",
     bg_color: "blue",
     bd_color: "dodgerblue",
-    lore: "",
+    lore: "“01000111 01001101 00100000 01000011 01001000 01001001 01000001 01001111 00100001\n01001011 01100101 01100101 01110000 00100000 01010011 01110000 01101001 01110010 01101001 01110100 00100001”",
     png_artist: "_rabbels_",
     gif_artist: "katsudon_sol",
     paths: {
@@ -386,7 +388,7 @@ const chimpions = [
     type: "BurningSkull",
     bg_color: "blackgreen",
     bd_color: "lawngreen",
-    lore: "",
+    lore: "So blazed, so lit, spittin fire, unchained and flame-brained, leaving a trail of rank gas smell straight from hell.\n\nBut don't get burned. This fire doesn't stop.",
     png_artist: "zen0m",
     gif_artist: "katsudon_sol",
     paths: {
@@ -403,7 +405,7 @@ const chimpions = [
     type: "Shaman",
     bg_color: "darkgreen",
     bd_color: "darkgreen",
-    lore: "",
+    lore: "Made of bones, but harder than steel. They bind their soul in every weapon they've conjured. The clinking and clanking of the Bonesmith can be heard throughout the night.\n\nNobody questions where their endless supply of bones come from...",
     png_artist: "badluckzulp",
     gif_artist: "katsudon_sol",
     paths: {
@@ -476,7 +478,7 @@ const chimpions = [
     type: "Innocent",
     bg_color: "skyblue",
     bd_color: "deepskyblue",
-    lore: "",
+    lore: "Lives on the edge of town in a tiny shed that contains everything you'd ever need - including an endless supply of stray cats. (A real kitten coop.)\nOften seen wearing The Comrade's fur hat around, The Bubbly is in everyone's business but is impossible not to love.",
     png_artist: "_rabbels_",
     gif_artist: "katsudon_sol",
     paths: {
@@ -493,7 +495,7 @@ const chimpions = [
     type: "Pirate",
     bg_color: "dark",
     bd_color: "chartreuse",
-    lore: "",
+    lore: "They're a crew of five at sea - but who ever sees Cap? Always down below deck, storming around, or even below that - The Deckhand swears to spot that glow among the dark waves.\n\nCursed to roam the bottom of the sea?",
     png_artist: "zen0m",
     gif_artist: "katsudon_sol",
     paths: {
@@ -510,7 +512,7 @@ const chimpions = [
     type: "Creatures",
     bg_color: "dark",
     bd_color: "darkblue",
-    lore: "",
+    lore: "“I come from the night. But it's all night up there. In the stillness of space. My home there is infinite. Where the cool stardust rains upon your face, lending its lively energy. What else is there?”",
     png_artist: "badluckzulp",
     gif_artist: "katsudon_sol",
     paths: {
@@ -544,7 +546,7 @@ const chimpions = [
     type: "Scientist",
     bg_color: "blue",
     bd_color: "dodgerblue",
-    lore: "",
+    lore: "“And now, we shake a little and...”\nBANG!!\n“Arghh!!\n\nOh no, not again!”",
     png_artist: "badluckzulp",
     gif_artist: "katsudon_sol",
     paths: {
@@ -992,7 +994,7 @@ const chimpions = [
     type: "Monitor",
     bg_color: "radiation",
     bd_color: "turquoise",
-    lore: "",
+    lore: "Are calmness and sheer positivity an energy source? Could they be bottled and contained? What if we told you we infused them into our pixels and microchips, such as the new ChimPC-420 with Turbo Spirit™?\n\nLift your eyes to the screen and rejoice.",
     png_artist: "_rabbels_",
     gif_artist: "katsudon_sol",
     paths: {
@@ -1116,7 +1118,7 @@ const chimpions = [
     type: "NightLife",
     bg_color: "purple",
     bd_color: "white",
-    lore: "",
+    lore: "Fading between worlds, the projection of a figure walking the planes. Others lurk or smolder in the shadow. But The Ephemeral is always emerging. Walking on the edge of light, where nothing can stand in their way.",
     png_artist: "_rabbels_",
     gif_artist: "katsudon_sol",
     paths: {
@@ -1342,7 +1344,7 @@ const chimpions = [
     type: "Naked",
     bg_color: "twilight",
     bd_color: "pink",
-    lore: "",
+    lore: "Hello!\n\nAnyone there?\n\nＡＮＹＯＮＥ？𝘈𝘯𝘺𝘰𝘯𝘦? ᴬⁿʸᵒⁿᵉ?",
     png_artist: "_rabbels_",
     gif_artist: "katsudon_sol",
     paths: {
@@ -1397,7 +1399,7 @@ const chimpions = [
     type: "Knight",
     bg_color: "purpleblue",
     bd_color: "dodgerblue",
-    lore: "",
+    lore: "Cutie by day, warrior by night.\nHe uses his good looks to hypnotize his challengers before dismembering them with his mace.",
     png_artist: "_rabbels_",
     gif_artist: "katsudon_sol",
     paths: {
@@ -1435,7 +1437,7 @@ const chimpions = [
     type: "Time-Lost",
     bg_color: "skyblue",
     bd_color: "deepskyblue",
-    lore: "",
+    lore: "Clouds often crowd out the icefall. On clearer days, you can make out a shimmering figure, frozen to the crest.\nA public monument of a forgotten hero who fought the freeze so we could cross.",
     png_artist: "_rabbels_",
     gif_artist: "katsudon_sol",
     paths: {
@@ -1924,7 +1926,7 @@ const chimpions = [
     type: "Naked",
     bg_color: "lightgrey",
     bd_color: "lightgrey",
-    lore: "",
+    lore: "You never expect it. A chimp crouching in the far corner of the ceiling. It must be lonely up there.\n\nLater, as you work through the busy streets, you spot The Inverted walking under the city ledges. What a carefree life! You wish you could go anywhere like that.",
     png_artist: "_rabbels_",
     gif_artist: "katsudon_sol",
     paths: {
@@ -2026,7 +2028,7 @@ const chimpions = [
     type: "HelmetWearer",
     bg_color: "synth",
     bd_color: "white",
-    lore: "",
+    lore: "Innocent or guilty? It's difficult to know. But then there are times when it clicks! The Judge can see clearly. And the gavel strikes definitively.\nCase closed.",
     png_artist: "_rabbels_",
     gif_artist: "katsudon_sol",
     paths: {
@@ -2972,7 +2974,7 @@ const chimpions = [
     type: "Royal",
     bg_color: "gold",
     bd_color: "gold",
-    lore: "",
+    lore: "At times, young and svelte. On other days, wild and unruly. But always impressive. Always on a higher tier. A legendary and mythic being from the tales we used to tell.",
     png_artist: "_rabbels_",
     gif_artist: "katsudon_sol",
     paths: {
@@ -2989,7 +2991,7 @@ const chimpions = [
     type: "Tribal",
     bg_color: "skin",
     bd_color: "sienna",
-    lore: "",
+    lore: "Look who's back! - after taking a perilous spill off a cliff into a long series of crates. The spirit of the wooden mask revived The Marsupial, making them 10x jumpier and basically invincible.\nLife is so much better after death.",
     png_artist: "_rabbels_",
     gif_artist: "katsudon_sol",
     paths: {
@@ -3306,7 +3308,7 @@ const chimpions = [
     type: "Monk",
     bg_color: "gold",
     bd_color: "gold",
-    lore: "",
+    lore: "A ray of light falls upon the darkness. The Chimpions bow together. No one is left out. All possibilities still remain. They are here by choice.\nSpirit is kept",
     png_artist: "_rabbels_",
     gif_artist: "katsudon_sol",
     paths: {
@@ -3444,7 +3446,7 @@ const chimpions = [
     type: "Shaman",
     bg_color: "dark",
     bd_color: "maroon",
-    lore: "",
+    lore: "Bones rattle and the sky fills with chanting skulls. What is being summoned? Only every dead ancestor that still clings to this world - some out of vengeance, others out of boredom. Brought to life by the shake of a stick.\n\nFires of so many hells in these eyes.",
     png_artist: "badluckzulp",
     gif_artist: "katsudon_sol",
     paths: {
@@ -3705,7 +3707,7 @@ const chimpions = [
     type: "Samurai",
     bg_color: "green",
     bd_color: "darkseagreen",
-    lore: "",
+    lore: "“Convey My Will to This Blade...\n\nNow Let's See if I Am Able to Cut Steel.”",
     png_artist: "_rabbels_",
     gif_artist: "katsudon_sol",
     paths: {
@@ -3763,7 +3765,7 @@ const chimpions = [
       png: "/images/chimpions/TheWatchman/TheWatchman-_rabbels_.png",
       gif: "/images/chimpions/TheWatchman/TheWatchman-katsudon_sol.gif",
       alternative_art: [
-        "/images/chimpions/TheWatchman/TheWatchamn-Lahseminit.jpeg"
+        "/images/chimpions/TheWatchman/TheWatchman-Lahseminit.jpeg"
       ]
     },
     holder: "dabums"

@@ -1,4 +1,4 @@
-import { c as create_ssr_component, a as subscribe, b as add_attribute, e as escape, v as validate_component, d as each } from "../../../chunks/ssr.js";
+import { c as create_ssr_component, a as subscribe, b as add_attribute, d as escape, v as validate_component, e as each } from "../../../chunks/ssr.js";
 import { N as Navigation } from "../../../chunks/Navigation.js";
 import { s as spring } from "../../../chunks/spring.js";
 import { w as writable, r as readable } from "../../../chunks/index.js";

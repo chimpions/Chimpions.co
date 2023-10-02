@@ -1,4 +1,4 @@
-import { c as create_ssr_component, v as validate_component, e as escape, b as add_attribute, d as each, a as subscribe } from "../../../../chunks/ssr.js";
+import { c as create_ssr_component, v as validate_component, d as escape, b as add_attribute, e as each, a as subscribe } from "../../../../chunks/ssr.js";
 import { N as Navigation } from "../../../../chunks/Navigation.js";
 import { F as Fa } from "../../../../chunks/fa.js";
 import { faPaintBrush } from "@fortawesome/free-solid-svg-icons/index.js";

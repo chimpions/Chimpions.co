@@ -15,7 +15,6 @@
     export let art_files = {};
     export let lore = "";
     export let holder_name = "";
-    export let twitter = "";
 
 
 
@@ -24,7 +23,6 @@
     let currentIndex = 0;
     let displayed_image = "";
     let artist = "";
-    let searchTerm = "";
     let bd_color = "transparent";
     let videoPlayer;
     $: images = getImages(art_files);
@@ -32,7 +30,6 @@
 
 
     function getImages(art_files) {
-        searchTerm = "";
         displayed_image = art_files["png"];
         artist = displayed_image.split(".")[0].split("-")[1];
         let imagesArray = [art_files["png"]];
@@ -278,10 +275,8 @@
                         <div class="description__card">
                             <span>Tribe: {tribe.split(/(?=[A-Z])/).join(' ')}</span>
                             <span>Type: {type}</span>
-                            {#if holder_name != "" && twitter != ""}
-                                <span class="holder">Holder:&nbsp;<a href="https://twitter.com/{twitter}" target="_blank">{holder_name}</a></span>
-                            {:else if twitter == ""}
-                                <span class="holder">Holder:&nbsp;{holder_name}</span>
+                            {#if holder_name != ""}
+                                <span class="holder">Holder:&nbsp;<a href="/holders/{holder_name}">{holder_name}</a></span>
                             {:else}
                                 <span>Holder: Unknown</span>
                             {/if}

@@ -1,4 +1,4 @@
-import { c as create_ssr_component, b as add_attribute, e as escape, v as validate_component } from "./ssr.js";
+import { c as create_ssr_component, b as add_attribute, d as escape, v as validate_component } from "./ssr.js";
 const global = "";
 const button_svelte_svelte_type_style_lang = "";
 const css = {

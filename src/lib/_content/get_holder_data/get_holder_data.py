@@ -1,15 +1,15 @@
 import json
 
-with open('./src/lib/_content/chimpions.json', 'r', encoding="utf-8") as f:
+with open('C:/Users/33607/Downloads/Chimpions.co/src/lib/_content/chimpions.json', 'r', encoding="utf-8") as f:
     chimpions = json.load(f)
 
-with open('./src/lib/_content/discord-twitter_data.json', 'r', encoding="utf-8") as f:
+with open('C:/Users/33607/Downloads/Chimpions.co/src/lib/_content/discord-twitter_data.json', 'r', encoding="utf-8") as f:
     discord_twitter_data = json.load(f)
 
-with open('./src/lib/_content/matrica_data.json', 'r', encoding="utf-8") as f:
+with open('C:/Users/33607/Downloads/Chimpions.co/src/lib/_content/matrica_data.json', 'r', encoding="utf-8") as f:
     matrica_data = json.load(f)
 
-file = open("./src/lib/_content/get_holder_data/notes.txt", 'r')
+file = open("C:/Users/33607/Downloads/Chimpions.co/src/lib/_content/get_holder_data/notes.txt", 'r')
 names = []
 discord_ids = []
 for line in file.readlines():
@@ -74,5 +74,5 @@ for holder in holders:
 
 
 
-with open("./src/lib/_content/holders2.json", "w") as f:
+with open("C:/Users/33607/Downloads/Chimpions.co/src/lib/_content/holders2.json", "w") as f:
     json.dump(holders_final, f, indent = 4)

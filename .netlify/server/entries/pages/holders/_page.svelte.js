@@ -1,4 +1,4 @@
-import { c as create_ssr_component, e as escape, b as add_attribute, d as each, v as validate_component } from "../../../chunks/ssr.js";
+import { c as create_ssr_component, d as escape, b as add_attribute, e as each, v as validate_component } from "../../../chunks/ssr.js";
 import { N as Navigation } from "../../../chunks/Navigation.js";
 import { B as BackToTop } from "../../../chunks/BackToTop.js";
 const HolderBox_svelte_svelte_type_style_lang = "";
@@ -8,21 +8,18 @@ const css$1 = {
 };
 const Holder_box = create_ssr_component(($$result, $$props, $$bindings, slots) => {
   let pfp;
-  let twitter;
   let { name = "" } = $$props;
-  let { holder_data = {} } = $$props;
+  let { matrica_data = {} } = $$props;
+  console.log(pfp);
   if ($$props.name === void 0 && $$bindings.name && name !== void 0)
     $$bindings.name(name);
-  if ($$props.holder_data === void 0 && $$bindings.holder_data && holder_data !== void 0)
-    $$bindings.holder_data(holder_data);
+  if ($$props.matrica_data === void 0 && $$bindings.matrica_data && matrica_data !== void 0)
+    $$bindings.matrica_data(matrica_data);
   $$result.css.add(css$1);
-  pfp = holder_data["pfp"];
-  twitter = holder_data["twitter"];
-  return ` <div class="holder-box svelte-grv6on">${twitter != "" ? `<a class="align-items svelte-grv6on" href="${"https://twitter.com/" + escape(twitter, true)}" target="_blank" rel="noreferrer"><img class="pfp svelte-grv6on"${add_attribute("src", pfp, 0)} alt="${"Profile picture of " + escape(name, true)}"> <span class="name svelte-grv6on">${each(name.split(" "), (namepart, i) => {
+  pfp = matrica_data["pfp"];
+  return `<div class="holder-box svelte-grv6on"><a class="align-items svelte-grv6on" href="${"./holders/" + escape(name, true)}" rel="noreferrer"><img class="pfp svelte-grv6on"${add_attribute("src", pfp, 0)} alt=""> <span class="name svelte-grv6on">${each(name.split(" "), (namepart, i) => {
     return `${i < name.split(" ").length - 1 ? `${escape(namepart)} ` : `${escape(namepart)}`}`;
-  })}</span></a>` : `<div class="align-items svelte-grv6on"><img class="pfp svelte-grv6on"${add_attribute("src", pfp, 0)} alt="${"Profile picture of " + escape(name, true)}"> <span class="name svelte-grv6on">${each(name.split(" "), (namepart, i) => {
-    return `${i < name.split(" ").length - 1 ? `${escape(namepart)} ` : `${escape(namepart)}`}`;
-  })}</span></div>`} </div>`;
+  })}</span></a> </div>`;
 });
 const Holders_svelte_svelte_type_style_lang = "";
 const css = {
@@ -38,7 +35,7 @@ const Holders = create_ssr_component(($$result, $$props, $$bindings, slots) => {
         $$result,
         {
           name: holderName,
-          holder_data: holderLine[holderName]
+          matrica_data: holderLine[holderName].matricaId
         },
         {},
         {}

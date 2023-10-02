@@ -9,7 +9,7 @@
 
 
 
-<a href={`/compendium/${holderName}`}>
+<a href={`/holders/${holderName}`}>
     <li><img class="search-pfp" src={holderPfp} alt="" on:error={handleImageError}/>{holderName}</li>
 </a>
 
