@@ -16,8 +16,6 @@
                 .map(word => word.charAt(0).toUpperCase() + word.slice(1))
                 .join('');
             if (chimpions.some(chimpion => chimpion.name === chimpionName)) {
-                let xchimpion_data = chimpions.find(chimpion => chimpion.name === chimpionName)
-                console.log(xchimpion_data);
                 return chimpion_data = chimpions.find(chimpion => chimpion.name === chimpionName)
             }
         } catch (error) {

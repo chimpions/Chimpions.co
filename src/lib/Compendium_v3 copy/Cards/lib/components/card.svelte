@@ -157,7 +157,6 @@
         if ($activeCard) {
 
                 retreat();
-                console.log("deactivate");
                 interactEnd();
                 setTimeout(() => {
                     zIndex = 1;
@@ -182,7 +181,6 @@
     };
 
     const retreat = () => {
-        console.log("retreat")
         springScale.set(1.2);
         setTimeout(() => {
             springScale.set(1 , { soft: true });

@@ -6,7 +6,7 @@
         "chimpions": [
             "TheOperative"
         ],
-        "pfp": "/images/compressed-pfps/3341xpm9ovPwrDsxhVxrKxT3u5aVSyb5VJEjFLQx87vG.png",
+        "pfp": "/images/chimpions/TheOperative/TheOperative-badluckzulp.png",
         "TWS": {
             "Forest Fellowship": true,
             "Dusk Till Dawn": false,
@@ -26,7 +26,7 @@
         "chimpions": [
             "TheBubbly"
         ],
-        "pfp": "/images/compressed-pfps/palmora.png",
+        "pfp": "/images/chimpions/TheBubbly/TheBubbly-_rabbels_.png",
         "TWS": {
             "Forest Fellowship": false,
             "Dusk Till Dawn": false,
@@ -46,7 +46,7 @@
         "chimpions": [
             "TheHellion"
         ],
-        "pfp": "/images/compressed-pfps/Visery.png",
+        "pfp": "/images/chimpions/TheHellion/TheHellion-badluckzulp.png",
         "TWS": {
             "Forest Fellowship": false,
             "Dusk Till Dawn": false,
@@ -92,7 +92,7 @@
             "TheMartialArtist",
             "TheLeftHand"
         ],
-        "pfp": "/images/compressed-pfps/ThunderBear.png",
+        "pfp": "/images/chimpions/TheLightInShadow/TheLightInShadow-badluckzulp.png",
         "TWS": {
             "Forest Fellowship": true,
             "Dusk Till Dawn": false,
@@ -108,15 +108,20 @@
     "SolBigBrain": {
         "wallets": [
             "2sFenzGQwUgQtqU5fy8Uysz4GY91eyM6NARSkpFivgna",
-            "25TYJVvSFHdjiuu5YRMDspFmg4jMmJB9PZfw6SidN1je"
+            "25TYJVvSFHdjiuu5YRMDspFmg4jMmJB9PZfw6SidN1je",
+            "Ez2U27TRScksd6q7xoVgX44gX9HAjviN2cdKAL3cFBFE"
         ],
         "chimpions": [
             "TheFrozen",
             "TheOathkeeper",
             "TheWithered",
-            "TheDoctor"
+            "TheDoctor",
+            "TheTrickster",
+            "TheHealer",
+            "TheFreelancer",
+            "ThePainted"
         ],
-        "pfp": "/images/compressed-pfps/SolBigBrain.png",
+        "pfp": "https://www.arweave.net/yE2nDgHkKo133nUo_p1SvKof6Vwi1gyH69xX0OHYpJ4?ext=png",
         "TWS": {
             "Forest Fellowship": true,
             "Dusk Till Dawn": false,
@@ -136,7 +141,7 @@
         "chimpions": [
             "TheRancher"
         ],
-        "pfp": "/images/compressed-pfps/Pwenguin.png",
+        "pfp": "/images/chimpions/TheRancher/TheRancher-_rabbels_.png",
         "TWS": {
             "Forest Fellowship": false,
             "Dusk Till Dawn": false,
@@ -157,7 +162,7 @@
             "TheHost",
             "TheConstantCompanion"
         ],
-        "pfp": "/images/compressed-pfps/F2LKKz4oq8TFaA1zYqJVWcj9n3ZFKAocDqwgaW6Wgps9.png",
+        "pfp": "/images/chimpions/TheHost/TheHost-badluckzulp.png",
         "TWS": {
             "Forest Fellowship": false,
             "Dusk Till Dawn": false,
@@ -177,7 +182,7 @@
         "chimpions": [
             "TheStubborn"
         ],
-        "pfp": "/images/compressed-pfps/9mooXoqKP7bXCrXFKAVmqxLPLE4UA3VbHhuodhDdakqd.png",
+        "pfp": "/images/chimpions/TheStubborn/TheStubborn-badluckzulp.png",
         "TWS": {
             "Forest Fellowship": true,
             "Dusk Till Dawn": false,
@@ -198,7 +203,7 @@
             "TheFuturist",
             "TheTrained"
         ],
-        "pfp": "/images/compressed-pfps/an0rak07.png",
+        "pfp": "/images/chimpions/TheFuturist/TheFuturist-_rabbels_.png",
         "TWS": {
             "Forest Fellowship": true,
             "Dusk Till Dawn": true,
@@ -218,7 +223,7 @@
         "chimpions": [
             "TheBlazing"
         ],
-        "pfp": "/images/compressed-pfps/Soledge.png",
+        "pfp": "/images/chimpions/TheBlazing/TheBlazing-zen0m.png",
         "TWS": {
             "Forest Fellowship": true,
             "Dusk Till Dawn": true,
@@ -238,7 +243,7 @@
         "chimpions": [
             "TheMessenger"
         ],
-        "pfp": "/images/compressed-pfps/zachary.png",
+        "pfp": "/images/chimpions/TheMessenger/TheMessenger-_rabbels_.png",
         "TWS": {
             "Forest Fellowship": false,
             "Dusk Till Dawn": true,
@@ -251,6 +256,26 @@
             "An Unlikely Friendship": true
         }
     },
+    "mundz": {
+        "wallets": [
+            "DyBMTRZnMAtiL6Vg8pRn2pyYBDfMoEUzMjLsorzhi6HN"
+        ],
+        "chimpions": [
+            "TheTechnician"
+        ],
+        "pfp": "https://arweave.net/AShwA3x177WQ5TccLBV5W-BYZDrDBYrwMnyXnys_n10?ext=png",
+        "TWS": {
+            "Forest Fellowship": false,
+            "Dusk Till Dawn": false,
+            "The Fall of the Eradicator": false,
+            "Last Bastion": false,
+            "The Uprising": false,
+            "LaurenceAntonyXChimpions": false,
+            "The Crystal of Unity": false,
+            "Grave Danger": false,
+            "An Unlikely Friendship": false
+        }
+    },
     "7dUj9sypMMfTgs4nNRuj4upKrVE6agnEhBDNoKFfEdwu": {
         "wallets": [
             "7dUj9sypMMfTgs4nNRuj4upKrVE6agnEhBDNoKFfEdwu"
@@ -258,7 +283,7 @@
         "chimpions": [
             "TheNomad"
         ],
-        "pfp": "/images/compressed-pfps/7dUj9sypMMfTgs4nNRuj4upKrVE6agnEhBDNoKFfEdwu.png",
+        "pfp": "/images/chimpions/TheNomad/TheNomad-_rabbels_.png",
         "TWS": {
             "Forest Fellowship": true,
             "Dusk Till Dawn": false,
@@ -278,7 +303,7 @@
         "chimpions": [
             "TheGreeter"
         ],
-        "pfp": "/images/compressed-pfps/599Pzfg4GPgGbb5BZvT9CJQHp7ptEEjT5wApVr7qv7Rq.png",
+        "pfp": "/images/chimpions/TheGreeter/TheGreeter-_rabbels_.png",
         "TWS": {
             "Forest Fellowship": true,
             "Dusk Till Dawn": false,
@@ -298,7 +323,7 @@
         "chimpions": [
             "TheVassal"
         ],
-        "pfp": "/images/compressed-pfps/murath.png",
+        "pfp": "https://nft.matrica.io/nft/CzbSTMx3CJbp6wHfpQc91uHuRfz3rfmYrQke6aCPFMGT.png",
         "TWS": {
             "Forest Fellowship": false,
             "Dusk Till Dawn": false,
@@ -318,7 +343,7 @@
         "chimpions": [
             "TheWatchman"
         ],
-        "pfp": "/images/compressed-pfps/dabums3.png",
+        "pfp": "/images/chimpions/TheWatchman/TheWatchman-_rabbels_.png",
         "TWS": {
             "Forest Fellowship": false,
             "Dusk Till Dawn": false,
@@ -334,25 +359,20 @@
     "NotDoudou": {
         "wallets": [
             "JCfN3HU8Ji9TFBUVdQY5kbximweEhVgx2dM11ZLWJA9H",
-            "DCrUzchP8h1B1fHYhNNE1xN5Rs5bkQU1y6VrhJpVfJMR",
             "Doudouiw35DhHz79MxW679fNEZ1Mi4fyo1UtG2Xd57iQ"
         ],
         "chimpions": [
             "TheGhastly",
             "TheEvaluator",
-            "TheFirewatch",
-            "TheColorful",
-            "TheBeacon",
             "ThePaladin",
             "TheKnightCompanion",
+            "TheFirewatch",
             "TheAchromatic",
-            "TheJudge",
-            "ThePackLeader",
+            "TheColorful",
             "TheJovian",
-            "TheEdgy",
             "TheHunter"
         ],
-        "pfp": "/images/compressed-pfps/NotDoudou.png",
+        "pfp": "https://nft.matrica.io/nft/FUoc5Nvgp6A8Ava2dyzf2q24NVK8HJ44ivhFTBQGWDP4.png",
         "TWS": {
             "Forest Fellowship": true,
             "Dusk Till Dawn": true,
@@ -372,7 +392,7 @@
         "chimpions": [
             "TheTattered"
         ],
-        "pfp": "/images/compressed-pfps/Vell.png",
+        "pfp": "https://ipfs.io/ipfs/QmPmbQdAsDccz6GYFtyGdg7CuTa44KkJUN8LdZ6T92Uwhz",
         "TWS": {
             "Forest Fellowship": false,
             "Dusk Till Dawn": false,
@@ -392,7 +412,7 @@
         "chimpions": [
             "TheJuror"
         ],
-        "pfp": "/images/compressed-pfps/bipkoyn.png",
+        "pfp": "/images/chimpions/TheJuror/TheJuror-_rabbels_.png",
         "TWS": {
             "Forest Fellowship": false,
             "Dusk Till Dawn": false,
@@ -412,7 +432,7 @@
         "chimpions": [
             "TheCeremonial"
         ],
-        "pfp": "/images/compressed-pfps/Grooovy.png",
+        "pfp": "https://bafybeihhk3jb3i6ocdunoxpgrg6e2o72yxep7jhn6doyqcyfmex47vc46y.ipfs.nftstorage.link/102.png?ext=png",
         "TWS": {
             "Forest Fellowship": true,
             "Dusk Till Dawn": false,
@@ -425,14 +445,14 @@
             "An Unlikely Friendship": true
         }
     },
-    "zekarodzer": {
+    "TheProcess": {
         "wallets": [
-            "CgW1Tj6g51u2DtMgUGmyx7TPNZGgn3LHPZwVWxXpu4VD"
+            "JAVY4rjWn2rG1kuF9wHyT7f5mLbNADnUkkHxPgukYWMV"
         ],
         "chimpions": [
             "TheRitualist"
         ],
-        "pfp": "/images/compressed-pfps/zekarodzer.png",
+        "pfp": "/images/chimpions/TheRitualist/TheRitualist-_rabbels_.png",
         "TWS": {
             "Forest Fellowship": false,
             "Dusk Till Dawn": false,
@@ -452,7 +472,7 @@
         "chimpions": [
             "TheKnightCommander"
         ],
-        "pfp": "/images/compressed-pfps/futuristics0l.png",
+        "pfp": "/images/chimpions/TheKnightCommander/TheKnightCommander-_rabbels_.png",
         "TWS": {
             "Forest Fellowship": true,
             "Dusk Till Dawn": true,
@@ -472,7 +492,7 @@
         "chimpions": [
             "TheSocial"
         ],
-        "pfp": "/images/compressed-pfps/H71yxeDHUd8A1HhNpHtcnQYmvBmdimSo87sjwau4wy3A.png",
+        "pfp": "/images/chimpions/TheSocial/TheSocial-_rabbels_.png",
         "TWS": {
             "Forest Fellowship": false,
             "Dusk Till Dawn": false,
@@ -492,7 +512,7 @@
         "chimpions": [
             "TheScorched"
         ],
-        "pfp": "/images/compressed-pfps/Dutch.png",
+        "pfp": "/images/chimpions/TheScorched/TheScorched-zen0m.png",
         "TWS": {
             "Forest Fellowship": false,
             "Dusk Till Dawn": false,
@@ -512,7 +532,7 @@
         "chimpions": [
             "TheLover"
         ],
-        "pfp": "/images/compressed-pfps/FokcyAi3xEeJXxmKNuy7Smg4J2VK8uHFvsnnK7PUMw8X.png",
+        "pfp": "/images/chimpions/TheLover/TheLover-_rabbels_.png",
         "TWS": {
             "Forest Fellowship": false,
             "Dusk Till Dawn": false,
@@ -532,7 +552,7 @@
         "chimpions": [
             "TheStatic"
         ],
-        "pfp": "/images/compressed-pfps/dasein2249.png",
+        "pfp": "https://nft.matrica.io/nft/4YjyXSzMGQGhWYKwqLCQAhA22f1qqcB7ibncbaFfEDBn.png",
         "TWS": {
             "Forest Fellowship": false,
             "Dusk Till Dawn": false,
@@ -545,14 +565,14 @@
             "An Unlikely Friendship": false
         }
     },
-    "Marculinopng": {
+    "BigBrainDT": {
         "wallets": [
-            "4jKL6AZCUr8xT9dQN4jD7ZkCjJqdWPbtqkkSzNGZoDxX"
+            "5j1eDPTZZpyp7iPUFhxqnWPHhVYuX1scgRDNEnURuM1A"
         ],
         "chimpions": [
             "TheCultist"
         ],
-        "pfp": "/images/compressed-pfps/Marculinopng.png",
+        "pfp": "https://nft.matrica.io/nft/0x8821bee2ba0df28761afff119d66390d594cd2804644.png",
         "TWS": {
             "Forest Fellowship": false,
             "Dusk Till Dawn": false,
@@ -569,10 +589,8 @@
         "wallets": [
             "D36aPW2xnnRX9MDp1sdTuHk9vSsdPJUgQU3igajkRQW"
         ],
-        "chimpions": [
-            "TheJoyful"
-        ],
-        "pfp": "/images/compressed-pfps/nicksaywhat.png",
+        "chimpions": [],
+        "pfp": "https://nft.matrica.io/nft/5bKZmaav5uX8Hs3c2DFs7o198bhpytF35cqUVYz2BTdV.png",
         "TWS": {
             "Forest Fellowship": false,
             "Dusk Till Dawn": false,
@@ -592,7 +610,7 @@
         "chimpions": [
             "TheHeroic"
         ],
-        "pfp": "/images/compressed-pfps/Akaba.png",
+        "pfp": "/images/chimpions/TheHeroic/TheHeroic-_rabbels_.png",
         "TWS": {
             "Forest Fellowship": false,
             "Dusk Till Dawn": true,
@@ -612,7 +630,7 @@
         "chimpions": [
             "TheRocker"
         ],
-        "pfp": "/images/compressed-pfps/donkatsu.png",
+        "pfp": "https://nft.matrica.io/nft/5GbTChPtHL16oJzrJAjqg29GGTmeFrRJifYzLeUNyvkU.png",
         "TWS": {
             "Forest Fellowship": true,
             "Dusk Till Dawn": true,
@@ -632,7 +650,7 @@
         "chimpions": [
             "TheRoyal"
         ],
-        "pfp": "/images/compressed-pfps/EE9PmcDQ3aGNxJ8iP6jqKRf95DdaU7dJwEQ8m3DBUo1p.png",
+        "pfp": "/images/chimpions/TheRoyal/TheRoyal-_rabbels_.png",
         "TWS": {
             "Forest Fellowship": true,
             "Dusk Till Dawn": true,
@@ -642,7 +660,7 @@
             "LaurenceAntonyXChimpions": true,
             "The Crystal of Unity": false,
             "Grave Danger": true,
-            "An Unlikely Friendship": false
+            "An Unlikely Friendship": true
         }
     },
     "mebbs": {
@@ -652,7 +670,7 @@
         "chimpions": [
             "TheSpelunker"
         ],
-        "pfp": "/images/compressed-pfps/mebbs.png",
+        "pfp": "https://nft.matrica.io/nft/CVqBrc538VZLj599rwhxHCHziJ2tgLeuW5BpyxpNKSZh.png",
         "TWS": {
             "Forest Fellowship": false,
             "Dusk Till Dawn": false,
@@ -665,6 +683,26 @@
             "An Unlikely Friendship": false
         }
     },
+    "88DWZEQGbodQZn9jg8BwFqG1Ks23vNcP7qtueZidUi4t": {
+        "wallets": [
+            "88DWZEQGbodQZn9jg8BwFqG1Ks23vNcP7qtueZidUi4t"
+        ],
+        "chimpions": [
+            "TheArchon"
+        ],
+        "pfp": "/images/chimpions/TheArchon/TheArchon-Brink_Brinker.png",
+        "TWS": {
+            "Forest Fellowship": false,
+            "Dusk Till Dawn": false,
+            "The Fall of the Eradicator": false,
+            "Last Bastion": false,
+            "The Uprising": true,
+            "LaurenceAntonyXChimpions": true,
+            "The Crystal of Unity": false,
+            "Grave Danger": false,
+            "An Unlikely Friendship": false
+        }
+    },
     "PunkMonke": {
         "wallets": [
             "HiuTF84WysMp3K1opSzFdXzKxi7hdLJ8nqcgUfDMaNVe"
@@ -672,7 +710,7 @@
         "chimpions": [
             "ThePunk"
         ],
-        "pfp": "/images/compressed-pfps/PunkMonke.png",
+        "pfp": "/images/chimpions/ThePunk/ThePunk-_rabbels_.png",
         "TWS": {
             "Forest Fellowship": true,
             "Dusk Till Dawn": true,
@@ -690,11 +728,8 @@
             "ErqxDxaz7HUtA8ANqLxhmLyWciXFWYFdfhBo6uqSKNgE",
             "DmMxdroUbhrouPjcNtkbJjSc9MqsVWfzC9om8jgQGVyc"
         ],
-        "chimpions": [
-            "TheRebel",
-            "TheElated"
-        ],
-        "pfp": "/images/compressed-pfps/\ud835\udd66\ud835\udd5f\ud835\udd64\ud835\udd5c\ud835\udd5a\ud835\udd5d\ud835\udd5d\ud835\udd56\ud835\udd55\ud835\udd57\ud835\udd52\ud835\udd65\ud835\udd59\ud835\udd56\ud835\udd63.png",
+        "chimpions": [],
+        "pfp": "https://www.arweave.net/NRSwbTvbMZIPL0NIrW2P5DqwPDxYqkNAE1aucDaSjrw?ext=jpg",
         "TWS": {
             "Forest Fellowship": false,
             "Dusk Till Dawn": false,
@@ -714,7 +749,7 @@
         "chimpions": [
             "TheBranded"
         ],
-        "pfp": "/images/compressed-pfps/2rXm46giBNKAR7itut91G1C9sk5n3AF16SPnxJ8wyvgi.png",
+        "pfp": "/images/chimpions/TheBranded/TheBranded-zen0m.png",
         "TWS": {
             "Forest Fellowship": false,
             "Dusk Till Dawn": false,
@@ -727,24 +762,25 @@
             "An Unlikely Friendship": true
         }
     },
-    "GJB2kQRLoRyTwaY11WCk9D8ZvKo2XAgT27xNGjxPQ58B": {
+    "WallStreet": {
         "wallets": [
-            "GJB2kQRLoRyTwaY11WCk9D8ZvKo2XAgT27xNGjxPQ58B"
+            "8StJhBs8GJK7B2SAardFKhUsaGdECftrUUMnQyQ8XnHJ"
         ],
         "chimpions": [
-            "TheIrradiated"
+            "TheIrradiated",
+            "TheChevalier"
         ],
-        "pfp": "/images/compressed-pfps/GJB2kQRLoRyTwaY11WCk9D8ZvKo2XAgT27xNGjxPQ58B.png",
+        "pfp": "https://arweave.net/SBiplbGlZk057Ej-cUCQ-0f2siNqZxrvn3NIOMLAJHM?ext=png",
         "TWS": {
-            "Forest Fellowship": false,
+            "Forest Fellowship": true,
             "Dusk Till Dawn": false,
             "The Fall of the Eradicator": false,
             "Last Bastion": false,
-            "The Uprising": false,
-            "LaurenceAntonyXChimpions": false,
+            "The Uprising": true,
+            "LaurenceAntonyXChimpions": true,
             "The Crystal of Unity": false,
             "Grave Danger": false,
-            "An Unlikely Friendship": false
+            "An Unlikely Friendship": true
         }
     },
     "Matrica User": {
@@ -752,10 +788,9 @@
             "bQhUy5CAdacYJQuBCrEpChbUtd6d5YDPGC27UFY9LZN"
         ],
         "chimpions": [
-            "TheSinged",
-            "TheFirstBorn"
+            "TheSinged"
         ],
-        "pfp": "/images/compressed-pfps/Matrica User.png",
+        "pfp": "https://nft.matrica.io/nft/5ZtnfVMj9Lc3j6ivTpbXPd34bj9FR3UQCQsr2nWndTAo.png",
         "TWS": {
             "Forest Fellowship": false,
             "Dusk Till Dawn": false,
@@ -775,7 +810,7 @@
         "chimpions": [
             "TheOmniscient"
         ],
-        "pfp": "/images/compressed-pfps/Wald.png",
+        "pfp": "https://www.arweave.net/wlFrAOb0sOLnU9MEZrPPo7s5hjWv0wk3BecR7fM1xWE?ext=jpeg",
         "TWS": {
             "Forest Fellowship": true,
             "Dusk Till Dawn": true,
@@ -788,26 +823,6 @@
             "An Unlikely Friendship": true
         }
     },
-    "Rheld": {
-        "wallets": [
-            "Au1By68c45zuU9wiCu9mj6LqH4eBN9md3dnkRoQTn22h"
-        ],
-        "chimpions": [
-            "TheOfficer"
-        ],
-        "pfp": "/images/compressed-pfps/Rheld.png",
-        "TWS": {
-            "Forest Fellowship": false,
-            "Dusk Till Dawn": false,
-            "The Fall of the Eradicator": false,
-            "Last Bastion": false,
-            "The Uprising": false,
-            "LaurenceAntonyXChimpions": true,
-            "The Crystal of Unity": false,
-            "Grave Danger": false,
-            "An Unlikely Friendship": true
-        }
-    },
     "EaeMcN6KWaVTa2iu2MVGC6uVAxes7xJVnSoEjbQ5MyAL": {
         "wallets": [
             "6dfPPZ1KFEkEfSwdrLRC82XuMz2oPN5xdFJHQw1saAqv"
@@ -815,7 +830,7 @@
         "chimpions": [
             "TheProfessional"
         ],
-        "pfp": "/images/compressed-pfps/EaeMcN6KWaVTa2iu2MVGC6uVAxes7xJVnSoEjbQ5MyAL.png",
+        "pfp": "/images/chimpions/TheProfessional/TheProfessional-badluckzulp.png",
         "TWS": {
             "Forest Fellowship": false,
             "Dusk Till Dawn": false,
@@ -837,7 +852,7 @@
             "ThePatrolman",
             "TheEradicator"
         ],
-        "pfp": "/images/compressed-pfps/CMC81.png",
+        "pfp": "/images/chimpions/ThePatrolman/ThePatrolman-_rabbels_.png",
         "TWS": {
             "Forest Fellowship": false,
             "Dusk Till Dawn": false,
@@ -857,32 +872,11 @@
         "chimpions": [
             "TheRightHand"
         ],
-        "pfp": "/images/compressed-pfps/Dappearl.png",
+        "pfp": "/images/chimpions/TheRightHand/TheRightHand-_rabbels_.png",
         "TWS": {
             "Forest Fellowship": true,
             "Dusk Till Dawn": true,
             "The Fall of the Eradicator": false,
-            "Last Bastion": true,
-            "The Uprising": true,
-            "LaurenceAntonyXChimpions": true,
-            "The Crystal of Unity": false,
-            "Grave Danger": true,
-            "An Unlikely Friendship": true
-        }
-    },
-    "phant0m": {
-        "wallets": [
-            "6MHJ9GFNyrto2hr5xU2QMCNdbKvNUJcvtBUJVqj1dTym"
-        ],
-        "chimpions": [
-            "TheShogun",
-            "TheWitchDoctor"
-        ],
-        "pfp": "/images/compressed-pfps/phant0m.png",
-        "TWS": {
-            "Forest Fellowship": true,
-            "Dusk Till Dawn": true,
-            "The Fall of the Eradicator": true,
             "Last Bastion": true,
             "The Uprising": true,
             "LaurenceAntonyXChimpions": true,
@@ -898,7 +892,7 @@
         "chimpions": [
             "TheIndecisive"
         ],
-        "pfp": "/images/compressed-pfps/koreancatdog.png",
+        "pfp": "https://nft.matrica.io/nft/9kuEixvzfP4Ei7v5X6wMuf2b3TBwd5g7j4qYQr1Nj7qt.png",
         "TWS": {
             "Forest Fellowship": true,
             "Dusk Till Dawn": false,
@@ -918,7 +912,7 @@
         "chimpions": [
             "TheConcealed"
         ],
-        "pfp": "/images/compressed-pfps/meddler.png",
+        "pfp": "/images/chimpions/TheConcealed/TheConcealed-_rabbels_.png",
         "TWS": {
             "Forest Fellowship": true,
             "Dusk Till Dawn": true,
@@ -931,24 +925,24 @@
             "An Unlikely Friendship": true
         }
     },
-    "3Afw3cCxHkhngihdeAxu4rFHMkTLGT1GgD9dx5uSW8Y6": {
+    "Entooka": {
         "wallets": [
-            "3Afw3cCxHkhngihdeAxu4rFHMkTLGT1GgD9dx5uSW8Y6"
+            "GgjkLEXsGyw5J1fMgkXf8j1FVw5TRouvcCfLDffMKJH8"
         ],
         "chimpions": [
             "TheAviator"
         ],
-        "pfp": "/images/compressed-pfps/3Afw3cCxHkhngihdeAxu4rFHMkTLGT1GgD9dx5uSW8Y6.png",
+        "pfp": "https://arweave.net/csPVH_oeJ8WDPY53H8YzPlYs5bpgIQhHW4vnMs7MvMA",
         "TWS": {
             "Forest Fellowship": false,
             "Dusk Till Dawn": false,
             "The Fall of the Eradicator": false,
             "Last Bastion": false,
             "The Uprising": false,
-            "LaurenceAntonyXChimpions": true,
+            "LaurenceAntonyXChimpions": false,
             "The Crystal of Unity": false,
             "Grave Danger": false,
-            "An Unlikely Friendship": true
+            "An Unlikely Friendship": false
         }
     },
     "eddierebel": {
@@ -958,7 +952,7 @@
         "chimpions": [
             "TheHip"
         ],
-        "pfp": "/images/compressed-pfps/eddierebel.png",
+        "pfp": "/images/chimpions/TheHip/TheHip-badluckzulp.png",
         "TWS": {
             "Forest Fellowship": true,
             "Dusk Till Dawn": false,
@@ -973,12 +967,12 @@
     },
     "KenGoh": {
         "wallets": [
-            "6kZUFXLoNwDARuFkrHGqW18SdSwnkZEL3zoZ4thGuLgD"
+            "HzGbGADhYFrok2kSsFBWVE4CsDd1yhAi7JQU8VEvu3Sm"
         ],
         "chimpions": [
             "TheHighPriest"
         ],
-        "pfp": "/images/compressed-pfps/KenGoh.png",
+        "pfp": "https://nft.matrica.io/nft/FTikYeiaghi9ds2NUFv499zZyKfHPbNs7rFn7u2TWxe9.png",
         "TWS": {
             "Forest Fellowship": false,
             "Dusk Till Dawn": false,
@@ -991,14 +985,14 @@
             "An Unlikely Friendship": false
         }
     },
-    "HFP": {
+    "0xd95c18c277dBEccb789CB17D42265a633977887B": {
         "wallets": [
             "HFPaT6WKk9SkwtYVZ5m5Sqw7ZbyehGu9GHjsctigm49S"
         ],
         "chimpions": [
             "TheHollow"
         ],
-        "pfp": "/images/compressed-pfps/HFP.png",
+        "pfp": "https://matrica.io/assets/default_square.jpg",
         "TWS": {
             "Forest Fellowship": true,
             "Dusk Till Dawn": false,
@@ -1011,44 +1005,24 @@
             "An Unlikely Friendship": true
         }
     },
-    "6wjLnSy5XxWfEm3xBMbt6o3UXkcMFRuV19r1rpR49dWK": {
+    "kazma": {
         "wallets": [
-            "6wjLnSy5XxWfEm3xBMbt6o3UXkcMFRuV19r1rpR49dWK"
-        ],
-        "chimpions": [
-            "TheMercenary"
-        ],
-        "pfp": "/images/compressed-pfps/6wjLnSy5XxWfEm3xBMbt6o3UXkcMFRuV19r1rpR49dWK.png",
-        "TWS": {
-            "Forest Fellowship": true,
-            "Dusk Till Dawn": true,
-            "The Fall of the Eradicator": true,
-            "Last Bastion": false,
-            "The Uprising": true,
-            "LaurenceAntonyXChimpions": true,
-            "The Crystal of Unity": false,
-            "Grave Danger": true,
-            "An Unlikely Friendship": true
-        }
-    },
-    "Jotatavo": {
-        "wallets": [
-            "CVHnMEjMyBqdT8458SNvkb6vCzfkWsfVVCmhFoxLR9ep"
+            "7FxfED4WMqcHqRjHZtB2BWkQte28CVKfwhBYCXvKBBiR"
         ],
         "chimpions": [
             "TheFriendly"
         ],
-        "pfp": "/images/compressed-pfps/Jotatavo.png",
+        "pfp": "https://nft.matrica.io/nft/79AxeXWSNV1HWpiAVd9Gud6ViT8DseKGtjm2SAhvURUC.png",
         "TWS": {
             "Forest Fellowship": false,
             "Dusk Till Dawn": false,
             "The Fall of the Eradicator": false,
-            "Last Bastion": true,
+            "Last Bastion": false,
             "The Uprising": false,
             "LaurenceAntonyXChimpions": false,
             "The Crystal of Unity": false,
             "Grave Danger": false,
-            "An Unlikely Friendship": true
+            "An Unlikely Friendship": false
         }
     },
     "heleemelon": {
@@ -1058,7 +1032,7 @@
         "chimpions": [
             "TheUnknowable"
         ],
-        "pfp": "/images/compressed-pfps/heleemelon.png",
+        "pfp": "/images/chimpions/TheUnknowable/TheUnknowable-Brink_Brinker.png",
         "TWS": {
             "Forest Fellowship": true,
             "Dusk Till Dawn": false,
@@ -1078,7 +1052,7 @@
         "chimpions": [
             "TheGilded"
         ],
-        "pfp": "/images/compressed-pfps/iamlaurael.png",
+        "pfp": "/images/chimpions/TheGilded/TheGilded-badluckzulp.png",
         "TWS": {
             "Forest Fellowship": true,
             "Dusk Till Dawn": false,
@@ -1098,7 +1072,7 @@
         "chimpions": [
             "TheIllustrator"
         ],
-        "pfp": "/images/compressed-pfps/EWweH6VE7ifGwb7ocuQCrNK3PbqhDwdZ4TJrbpfARvBL.png",
+        "pfp": "https://www.arweave.net/P3f6FpynxbtyrmPFcaF_2-S95222VQMOLxC6MyzjVFI?ext=png",
         "TWS": {
             "Forest Fellowship": false,
             "Dusk Till Dawn": false,
@@ -1111,28 +1085,6 @@
             "An Unlikely Friendship": false
         }
     },
-    "Ap3s6w9zkKSyTvt3Gpc2kubEwYGo4veiRADgqqdW3767": {
-        "wallets": [
-            "fppWEaJFy8gXoWmuWok3KV1SDN3A6FwPnZJrWchFY8s",
-            "Ap3s6w9zkKSyTvt3Gpc2kubEwYGo4veiRADgqqdW3767"
-        ],
-        "chimpions": [
-            "TheSurvivor",
-            "TheHeretic"
-        ],
-        "pfp": "/images/compressed-pfps/Ap3s6w9zkKSyTvt3Gpc2kubEwYGo4veiRADgqqdW3767.png",
-        "TWS": {
-            "Forest Fellowship": true,
-            "Dusk Till Dawn": false,
-            "The Fall of the Eradicator": false,
-            "Last Bastion": false,
-            "The Uprising": true,
-            "LaurenceAntonyXChimpions": true,
-            "The Crystal of Unity": false,
-            "Grave Danger": false,
-            "An Unlikely Friendship": true
-        }
-    },
     "konstantina": {
         "wallets": [
             "CwrWGN7RXGGe4XTD4BYJKYmHjdeiKvXGQ4Si2jEQduxh"
@@ -1140,7 +1092,7 @@
         "chimpions": [
             "TheEphemeral"
         ],
-        "pfp": "/images/compressed-pfps/konstantina.png",
+        "pfp": "https://arweave.net/oe0bDRlJd0ZCYRD3zy1VakCPng8hWtsxcTJa1tGjuhs",
         "TWS": {
             "Forest Fellowship": false,
             "Dusk Till Dawn": false,
@@ -1160,7 +1112,7 @@
         "chimpions": [
             "TheWartorn"
         ],
-        "pfp": "/images/compressed-pfps/mikethompson.png",
+        "pfp": "/images/chimpions/TheWartorn/TheWartorn-_rabbels_.png",
         "TWS": {
             "Forest Fellowship": true,
             "Dusk Till Dawn": false,
@@ -1173,14 +1125,14 @@
             "An Unlikely Friendship": true
         }
     },
-    "mulletmusketeer": {
+    "Flakes": {
         "wallets": [
-            "EkExbysCPaWtPyvKYKsPnpuZxzfFubVKg9Ri6qrV5gTm"
+            "5M9cSpkdg9mZtx7FwM3KBNCPeog2iBbnwyRdxPJ6HuFt"
         ],
         "chimpions": [
-            "TheOffworlder"
+            "TheAncient"
         ],
-        "pfp": "/images/compressed-pfps/mulletmusketeer.png",
+        "pfp": "/images/chimpions/TheAncient/TheAncient-_rabbels_.png",
         "TWS": {
             "Forest Fellowship": false,
             "Dusk Till Dawn": false,
@@ -1193,14 +1145,55 @@
             "An Unlikely Friendship": false
         }
     },
-    "mccapital": {
+    "phant0m": {
+        "wallets": [
+            "6MHJ9GFNyrto2hr5xU2QMCNdbKvNUJcvtBUJVqj1dTym"
+        ],
+        "chimpions": [
+            "TheWitchDoctor",
+            "TheDreamer"
+        ],
+        "pfp": "https://nft.matrica.io/nft/7y1y5WJxietWfvYfmvZwMWsDu2dFjwe1qr9si4Nuys5p.png",
+        "TWS": {
+            "Forest Fellowship": true,
+            "Dusk Till Dawn": true,
+            "The Fall of the Eradicator": true,
+            "Last Bastion": true,
+            "The Uprising": true,
+            "LaurenceAntonyXChimpions": true,
+            "The Crystal of Unity": false,
+            "Grave Danger": true,
+            "An Unlikely Friendship": true
+        }
+    },
+    "mulletmusketeer": {
+        "wallets": [
+            "EkExbysCPaWtPyvKYKsPnpuZxzfFubVKg9Ri6qrV5gTm"
+        ],
+        "chimpions": [
+            "TheOffworlder"
+        ],
+        "pfp": "https://nft.matrica.io/nft/85pthqtJZJci71hV7EkskZ4CJSVxb8JmUGYab9woqB6M.png",
+        "TWS": {
+            "Forest Fellowship": false,
+            "Dusk Till Dawn": false,
+            "The Fall of the Eradicator": false,
+            "Last Bastion": false,
+            "The Uprising": false,
+            "LaurenceAntonyXChimpions": false,
+            "The Crystal of Unity": false,
+            "Grave Danger": false,
+            "An Unlikely Friendship": false
+        }
+    },
+    "vacapiola": {
         "wallets": [
             "5eTF55jK4SQT4HE5m8w8PSSMn3Cy2D6KRgaFqApU1VGg"
         ],
         "chimpions": [
             "TheEnforcer"
         ],
-        "pfp": "/images/compressed-pfps/mccapital.png",
+        "pfp": "https://nft.matrica.io/nft/aHR0cHM6Ly9wcm9kLXRlbnNvci1jcmVhdG9ycy1zMy5zMy51cy1lYXN0LTEuYW1hem9uYXdzLmNvbS9kcm9wLW1ldGFkYXRhL2IzZDczYmVkLTBhMDItNDRiZC05YWFiLThlMTBjNWZkYmE3Yi9pbWFnZXMvODYzLnBuZw==.png",
         "TWS": {
             "Forest Fellowship": false,
             "Dusk Till Dawn": false,
@@ -1220,7 +1213,7 @@
         "chimpions": [
             "TheOverflowing"
         ],
-        "pfp": "/images/compressed-pfps/Alkine.png",
+        "pfp": "https://ipfs.io/ipfs/QmNXGqqJnGuXLsaKbqxWQ3GMdpJWDRifdBxb4tqqZUPe5x",
         "TWS": {
             "Forest Fellowship": false,
             "Dusk Till Dawn": false,
@@ -1240,7 +1233,7 @@
         "chimpions": [
             "TheEncased"
         ],
-        "pfp": "/images/compressed-pfps/ED8qVQFtrHWVb7625mCqcTrJGFJ5HFqZF86F2FsbF3BH.png",
+        "pfp": "/images/chimpions/TheEncased/TheEncased-_rabbels_.png",
         "TWS": {
             "Forest Fellowship": true,
             "Dusk Till Dawn": false,
@@ -1260,7 +1253,7 @@
         "chimpions": [
             "TheAdolescent"
         ],
-        "pfp": "/images/compressed-pfps/NOED.png",
+        "pfp": "https://nft.matrica.io/nft/BrbmfjMUPsvtpENurqddM53ohrg9AGwrPuLFYuYwVCCF.png",
         "TWS": {
             "Forest Fellowship": false,
             "Dusk Till Dawn": false,
@@ -1273,26 +1266,6 @@
             "An Unlikely Friendship": true
         }
     },
-    "wu": {
-        "wallets": [
-            "2ztQkQddhyhWi36dLECPB9Ktw5aATmvzeyurTcGvrtDs"
-        ],
-        "chimpions": [
-            "TheDreamer"
-        ],
-        "pfp": "/images/compressed-pfps/wu.png",
-        "TWS": {
-            "Forest Fellowship": false,
-            "Dusk Till Dawn": true,
-            "The Fall of the Eradicator": false,
-            "Last Bastion": false,
-            "The Uprising": true,
-            "LaurenceAntonyXChimpions": true,
-            "The Crystal of Unity": false,
-            "Grave Danger": true,
-            "An Unlikely Friendship": true
-        }
-    },
     "HJrYczWnCWYRdvTEzHhrvNB7foHSjG58WEcHgPLBn4TT": {
         "wallets": [
             "HJrYczWnCWYRdvTEzHhrvNB7foHSjG58WEcHgPLBn4TT"
@@ -1301,7 +1274,7 @@
             "TheGangster",
             "TheStreetFighter"
         ],
-        "pfp": "/images/compressed-pfps/HJrYczWnCWYRdvTEzHhrvNB7foHSjG58WEcHgPLBn4TT.png",
+        "pfp": "/images/chimpions/TheGangster/TheGangster-_rabbels_.png",
         "TWS": {
             "Forest Fellowship": true,
             "Dusk Till Dawn": true,
@@ -1316,12 +1289,12 @@
     },
     "PNP": {
         "wallets": [
-            "GymubUBcEtce529CFmQ9cG8niVbfp451Na1AmbgoNrrZ"
+            "A6e17GeAKsoffPBex46fUyhFDudHKXNARoWvgzaXUDTf"
         ],
         "chimpions": [
             "TheMeathead"
         ],
-        "pfp": "/images/compressed-pfps/PNP.png",
+        "pfp": "/images/chimpions/TheMeathead/TheMeathead-_rabbels_.png",
         "TWS": {
             "Forest Fellowship": false,
             "Dusk Till Dawn": false,
@@ -1341,7 +1314,7 @@
         "chimpions": [
             "TheBeholder"
         ],
-        "pfp": "/images/compressed-pfps/CryptoDriller.png",
+        "pfp": "https://bafybeifrvg3yvo4uehfgaoryh36dt5nm4blwgz4h3ivjxhpv7xlyd7lyma.ipfs.nftstorage.link/13.png",
         "TWS": {
             "Forest Fellowship": true,
             "Dusk Till Dawn": true,
@@ -1361,7 +1334,7 @@
         "chimpions": [
             "TheMainCharacter"
         ],
-        "pfp": "/images/compressed-pfps/Hyblinxxx.png",
+        "pfp": "/images/chimpions/TheMainCharacter/TheMainCharacter-_rabbels_.png",
         "TWS": {
             "Forest Fellowship": true,
             "Dusk Till Dawn": false,
@@ -1374,24 +1347,24 @@
             "An Unlikely Friendship": true
         }
     },
-    "gl00m": {
+    "dayvough": {
         "wallets": [
-            "2QZrCwwqRiSMX2kzbdhJxNkr55evjf6fmBNUnvifZ4WR"
+            "58LNXUQfwu7DLhA2pgAR1Wo5nsXvWR4W2fwzD4fHWe9N"
         ],
         "chimpions": [
             "TheEnvoy"
         ],
-        "pfp": "/images/compressed-pfps/gl00m.png",
+        "pfp": "https://arweave.net/gxFc5WuK7GRr5mrvZ9QFWndquReC4CCT2k9G3KF1VN8?ext=png",
         "TWS": {
             "Forest Fellowship": false,
             "Dusk Till Dawn": false,
             "The Fall of the Eradicator": false,
             "Last Bastion": false,
-            "The Uprising": true,
-            "LaurenceAntonyXChimpions": true,
+            "The Uprising": false,
+            "LaurenceAntonyXChimpions": false,
             "The Crystal of Unity": false,
-            "Grave Danger": false,
-            "An Unlikely Friendship": true
+            "Grave Danger": true,
+            "An Unlikely Friendship": false
         }
     },
     "trucker.sol": {
@@ -1401,10 +1374,10 @@
         "chimpions": [
             "TheAttendant"
         ],
-        "pfp": "/images/compressed-pfps/trucker.sol.png",
+        "pfp": "/images/chimpions/TheAttendant/TheAttendant-badluckzulp.png",
         "TWS": {
             "Forest Fellowship": false,
-            "Dusk Till Dawn": true,
+            "Dusk Till Dawn": false,
             "The Fall of the Eradicator": false,
             "Last Bastion": false,
             "The Uprising": false,
@@ -1421,7 +1394,7 @@
         "chimpions": [
             "TheProgrammed"
         ],
-        "pfp": "/images/compressed-pfps/AXA8gaik3ckUTjK1hLDBC7quVGgvgjKPZFai3d8zceTA.png",
+        "pfp": "/images/chimpions/TheProgrammed/TheProgrammed-_rabbels_.png",
         "TWS": {
             "Forest Fellowship": true,
             "Dusk Till Dawn": false,
@@ -1441,7 +1414,7 @@
         "chimpions": [
             "TheEnraged"
         ],
-        "pfp": "/images/compressed-pfps/Polkjia.png",
+        "pfp": "/images/chimpions/TheEnraged/TheEnraged-_rabbels_.png",
         "TWS": {
             "Forest Fellowship": true,
             "Dusk Till Dawn": false,
@@ -1461,7 +1434,7 @@
         "chimpions": [
             "TheImperial"
         ],
-        "pfp": "/images/compressed-pfps/GPKBo1rEhz5SafcAw3k6PUHeYcjXpwxeFwuQhTZJ6YsP.png",
+        "pfp": "/images/chimpions/TheImperial/TheImperial-badluckzulp.png",
         "TWS": {
             "Forest Fellowship": false,
             "Dusk Till Dawn": false,
@@ -1481,7 +1454,7 @@
         "chimpions": [
             "TheWondrous"
         ],
-        "pfp": "/images/compressed-pfps/genuinearticles.png",
+        "pfp": "https://www.arweave.net/5JsWCSqgSLP9-tpAypZui6BoC_YkJs5MLc5H_9APZ9Q?ext=jpeg",
         "TWS": {
             "Forest Fellowship": true,
             "Dusk Till Dawn": true,
@@ -1501,7 +1474,7 @@
         "chimpions": [
             "ThePioneer"
         ],
-        "pfp": "/images/compressed-pfps/76GmNz82LjfeNetiK1KGwhTqvMuQGzsHJ8cWsUewJfcQ.png",
+        "pfp": "https://matrica.io/assets/default_square.jpg",
         "TWS": {
             "Forest Fellowship": false,
             "Dusk Till Dawn": false,
@@ -1514,14 +1487,14 @@
             "An Unlikely Friendship": false
         }
     },
-    "Rick009": {
+    "Marculinopng": {
         "wallets": [
-            "Lefsq3Ei8VdCCDLULHUAgx4g1rMgt5Rm9a1fkT1mmwg"
+            "4jKL6AZCUr8xT9dQN4jD7ZkCjJqdWPbtqkkSzNGZoDxX"
         ],
         "chimpions": [
             "ThePreeminent"
         ],
-        "pfp": "/images/compressed-pfps/Rick009.png",
+        "pfp": "https://arweave.net/taaE-YW9nUpy7rnOaBl54c8nJ6tW1jZiIxG-ra4iaXE?ext=png",
         "TWS": {
             "Forest Fellowship": false,
             "Dusk Till Dawn": false,
@@ -1530,8 +1503,8 @@
             "The Uprising": false,
             "LaurenceAntonyXChimpions": false,
             "The Crystal of Unity": false,
-            "Grave Danger": true,
-            "An Unlikely Friendship": true
+            "Grave Danger": false,
+            "An Unlikely Friendship": false
         }
     },
     "DEGENAPES": {
@@ -1541,7 +1514,7 @@
         "chimpions": [
             "TheInsomniac"
         ],
-        "pfp": "/images/compressed-pfps/DEGENAPES.png",
+        "pfp": "/images/chimpions/TheInsomniac/TheInsomniac-badluckzulp.png",
         "TWS": {
             "Forest Fellowship": true,
             "Dusk Till Dawn": true,
@@ -1554,34 +1527,32 @@
             "An Unlikely Friendship": true
         }
     },
-    "OneEngineer": {
+    "Cireoh": {
         "wallets": [
-            "1eng1Eg2KVash5wXZMt2TRZm7nPXSoDZSwtzsporKXb"
+            "Henk9mbpq88XkRdY3GddDhhmF7Byv11tnQJEx7nES9pR"
         ],
         "chimpions": [
             "TheAutomaton"
         ],
-        "pfp": "/images/compressed-pfps/OneEngineer.png",
+        "pfp": "/images/chimpions/TheAutomaton/TheAutomaton-_rabbels_.png",
         "TWS": {
-            "Forest Fellowship": true,
+            "Forest Fellowship": false,
             "Dusk Till Dawn": false,
             "The Fall of the Eradicator": false,
             "Last Bastion": false,
-            "The Uprising": true,
-            "LaurenceAntonyXChimpions": true,
+            "The Uprising": false,
+            "LaurenceAntonyXChimpions": false,
             "The Crystal of Unity": false,
             "Grave Danger": false,
-            "An Unlikely Friendship": true
+            "An Unlikely Friendship": false
         }
     },
     "9HwDUmGzPNpLc1MXwXFf1tgT8ZfSAhbKqjU4zTQMGky6": {
         "wallets": [
             "9HwDUmGzPNpLc1MXwXFf1tgT8ZfSAhbKqjU4zTQMGky6"
         ],
-        "chimpions": [
-            "TheTraditional"
-        ],
-        "pfp": "/images/compressed-pfps/9HwDUmGzPNpLc1MXwXFf1tgT8ZfSAhbKqjU4zTQMGky6.png",
+        "chimpions": [],
+        "pfp": "",
         "TWS": {
             "Forest Fellowship": false,
             "Dusk Till Dawn": false,
@@ -1599,9 +1570,10 @@
             "JCapwSzWyHkjuVrT5ZTyKwBHzV9oYrTNhZguAMc9PiEc"
         ],
         "chimpions": [
-            "TheComrade"
+            "TheComrade",
+            "ThePowderMonkey"
         ],
-        "pfp": "/images/compressed-pfps/The Gentlemonke.png",
+        "pfp": "/images/chimpions/TheComrade/TheComrade-_rabbels_.png",
         "TWS": {
             "Forest Fellowship": false,
             "Dusk Till Dawn": false,
@@ -1621,7 +1593,7 @@
         "chimpions": [
             "TheOtherworldly"
         ],
-        "pfp": "/images/compressed-pfps/drelasol.png",
+        "pfp": "https://famousfoxes.com/hd/2761.png",
         "TWS": {
             "Forest Fellowship": true,
             "Dusk Till Dawn": true,
@@ -1634,24 +1606,44 @@
             "An Unlikely Friendship": true
         }
     },
-    "ExpliciT": {
+    "D4vid": {
         "wallets": [
-            "EZhRx2vRP4SzB6MTyzYa3Z8AegyWYJDTxnY2QY7P4jvm"
+            "DEMxxhuB7k581w4kPfFFguJF29tEgFDKETDZLxgFZKhn"
         ],
         "chimpions": [
-            "TheSultan"
+            "TheRigid"
         ],
-        "pfp": "/images/compressed-pfps/ExpliciT.png",
+        "pfp": "https://bafybeieuev3fszbiflxojo4vcptsjvledluk34jzbtbyyelcvk3ljv43ju.ipfs.nftstorage.link/3814.png?ext=png",
         "TWS": {
             "Forest Fellowship": false,
             "Dusk Till Dawn": false,
             "The Fall of the Eradicator": false,
             "Last Bastion": false,
             "The Uprising": false,
-            "LaurenceAntonyXChimpions": true,
+            "LaurenceAntonyXChimpions": false,
             "The Crystal of Unity": false,
             "Grave Danger": false,
-            "An Unlikely Friendship": true
+            "An Unlikely Friendship": false
+        }
+    },
+    "HNyznfBZGJCc3HqzU8uFjxZKYW7wRHrB9jzN63mTF9e9": {
+        "wallets": [
+            "Hc23PFp3jCJaBy5QacLXuvKHYbVjuzmj7W8Bni5N8nYT"
+        ],
+        "chimpions": [
+            "TheSultan"
+        ],
+        "pfp": "/images/chimpions/TheSultan/TheSultan-_rabbels_.png",
+        "TWS": {
+            "Forest Fellowship": false,
+            "Dusk Till Dawn": false,
+            "The Fall of the Eradicator": false,
+            "Last Bastion": false,
+            "The Uprising": false,
+            "LaurenceAntonyXChimpions": false,
+            "The Crystal of Unity": false,
+            "Grave Danger": false,
+            "An Unlikely Friendship": false
         }
     },
     "3Fv9YppPQ8Z1p3j3vDT8TGhVqmdNnREmQsW94Wvhg8nh": {
@@ -1661,7 +1653,7 @@
         "chimpions": [
             "ThePensive"
         ],
-        "pfp": "/images/compressed-pfps/3Fv9YppPQ8Z1p3j3vDT8TGhVqmdNnREmQsW94Wvhg8nh.png",
+        "pfp": "/images/chimpions/ThePensive/ThePensive-_rabbels_.png",
         "TWS": {
             "Forest Fellowship": true,
             "Dusk Till Dawn": true,
@@ -1684,7 +1676,7 @@
             "TheAgitator",
             "TheInstrument"
         ],
-        "pfp": "/images/compressed-pfps/huatrabbit.png",
+        "pfp": "https://www.arweave.net/3RIsvstu8iU9SPLVuTDn3mb1l1YsN4OGS5FW_CLrFbo?ext=png",
         "TWS": {
             "Forest Fellowship": false,
             "Dusk Till Dawn": false,
@@ -1697,14 +1689,14 @@
             "An Unlikely Friendship": false
         }
     },
-    "BAfSP8fqeeyGeewgdq6C8rQHVvjoFjSUUfPfooCSWZFr": {
+    "8it8yz4z3PJwNBfnKW54gYVpBt7GtyduVX8Aoknu1H9T": {
         "wallets": [
             "BAfSP8fqeeyGeewgdq6C8rQHVvjoFjSUUfPfooCSWZFr"
         ],
         "chimpions": [
             "TheMechanized"
         ],
-        "pfp": "/images/compressed-pfps/BAfSP8fqeeyGeewgdq6C8rQHVvjoFjSUUfPfooCSWZFr.png",
+        "pfp": "/images/chimpions/TheMechanized/TheMechanized-_rabbels_.png",
         "TWS": {
             "Forest Fellowship": true,
             "Dusk Till Dawn": false,
@@ -1717,14 +1709,37 @@
             "An Unlikely Friendship": false
         }
     },
-    "bmn": {
+    "maxbrs.sol": {
         "wallets": [
-            "2sJjz76VB1kdCYTX7DBR9gBPDDe58YToYPWm6fUdnL9g"
+            "GGi5SgSrMTFFNUocXPAeZK1YodY7TAXc2xxW8saAmSWf",
+            "DhCrUDCEgcLq2LheRauzzFbzAp1qdKifTF7r2hFFPT9i"
         ],
         "chimpions": [
-            "TheAncestral"
+            "TheAncestral",
+            "TheDigital",
+            "TheOriginal"
         ],
-        "pfp": "/images/compressed-pfps/bmn.png",
+        "pfp": "https://arweave.net/Mk6dC3IVoz5HA-Hg4-CJzdAd575DgTBvMk98sBAUR9E?ext=png",
+        "TWS": {
+            "Forest Fellowship": true,
+            "Dusk Till Dawn": true,
+            "The Fall of the Eradicator": true,
+            "Last Bastion": true,
+            "The Uprising": true,
+            "LaurenceAntonyXChimpions": true,
+            "The Crystal of Unity": false,
+            "Grave Danger": true,
+            "An Unlikely Friendship": true
+        }
+    },
+    "InfinityDefi": {
+        "wallets": [
+            "CVh8XedF7jsdkRAahSJANrZSfDhuMNRspAobVC3Wr63j"
+        ],
+        "chimpions": [
+            "TheStudious"
+        ],
+        "pfp": "/images/chimpions/TheStudious/TheStudious-badluckzulp.png",
         "TWS": {
             "Forest Fellowship": false,
             "Dusk Till Dawn": false,
@@ -1735,26 +1750,6 @@
             "The Crystal of Unity": false,
             "Grave Danger": false,
             "An Unlikely Friendship": false
-        }
-    },
-    "kqek2ij4RLgcm9fYQ855zn9AL5ND75zkwFteujCvcHc": {
-        "wallets": [
-            "kqek2ij4RLgcm9fYQ855zn9AL5ND75zkwFteujCvcHc"
-        ],
-        "chimpions": [
-            "TheStudious"
-        ],
-        "pfp": "/images/compressed-pfps/kqek2ij4RLgcm9fYQ855zn9AL5ND75zkwFteujCvcHc.png",
-        "TWS": {
-            "Forest Fellowship": true,
-            "Dusk Till Dawn": false,
-            "The Fall of the Eradicator": false,
-            "Last Bastion": false,
-            "The Uprising": true,
-            "LaurenceAntonyXChimpions": true,
-            "The Crystal of Unity": false,
-            "Grave Danger": false,
-            "An Unlikely Friendship": true
         }
     },
     "9QNjD2hxzLpkRQx9zR9mAcqH3aqGEYCmTbYKyFmbYtRx": {
@@ -1764,7 +1759,7 @@
         "chimpions": [
             "TheOrnamented"
         ],
-        "pfp": "/images/compressed-pfps/9QNjD2hxzLpkRQx9zR9mAcqH3aqGEYCmTbYKyFmbYtRx.png",
+        "pfp": "/images/chimpions/TheOrnamented/TheOrnamented-_rabbels_.png",
         "TWS": {
             "Forest Fellowship": true,
             "Dusk Till Dawn": true,
@@ -1781,10 +1776,8 @@
         "wallets": [
             "Fi3ytMzX8P2Zb7cDjS7gzwxAXmndJbSbbG4rbS2XVwEz"
         ],
-        "chimpions": [
-            "TheOneWhoLurksInShadow"
-        ],
-        "pfp": "/images/compressed-pfps/Fi3ytMzX8P2Zb7cDjS7gzwxAXmndJbSbbG4rbS2XVwEz.png",
+        "chimpions": [],
+        "pfp": "",
         "TWS": {
             "Forest Fellowship": false,
             "Dusk Till Dawn": false,
@@ -1804,7 +1797,7 @@
         "chimpions": [
             "TheWarlike"
         ],
-        "pfp": "/images/compressed-pfps/hamster.png",
+        "pfp": "/images/chimpions/TheWarlike/TheWarlike-_rabbels_.png",
         "TWS": {
             "Forest Fellowship": false,
             "Dusk Till Dawn": false,
@@ -1824,7 +1817,7 @@
         "chimpions": [
             "TheFirethrower"
         ],
-        "pfp": "/images/compressed-pfps/5kzNMQoPDcfSy1eBbHokyapKHe3hgBLBZ26FZdqm4Ers.png",
+        "pfp": "/images/chimpions/TheFirethrower/TheFirethrower-_rabbels_.png",
         "TWS": {
             "Forest Fellowship": true,
             "Dusk Till Dawn": false,
@@ -1846,7 +1839,7 @@
             "TheReversed",
             "TheCelestial"
         ],
-        "pfp": "/images/compressed-pfps/SKUX.png",
+        "pfp": "/images/chimpions/ThePtolemaic/ThePtolemaic-badluckzulp.png",
         "TWS": {
             "Forest Fellowship": false,
             "Dusk Till Dawn": false,
@@ -1866,7 +1859,7 @@
         "chimpions": [
             "TheScientist"
         ],
-        "pfp": "/images/compressed-pfps/93wqaPBJ1N5F4sDzVyCLvHrGNsx6cedWu2qNEcQQYzLM.png",
+        "pfp": "/images/chimpions/TheScientist/TheScientist-badluckzulp.png",
         "TWS": {
             "Forest Fellowship": true,
             "Dusk Till Dawn": false,
@@ -1879,14 +1872,12 @@
             "An Unlikely Friendship": true
         }
     },
-    "Whyde2": {
+    "modsiw": {
         "wallets": [
-            "Hdo42FLav4EusZJvqNiAjG5kh4oYBg596ADPK1z7oahn"
+            "CZyv4ABaadFKK6DEMEF8UbZ852scVApk5wmhMMuPuRLE"
         ],
-        "chimpions": [
-            "TheExpressive"
-        ],
-        "pfp": "/images/compressed-pfps/Whyde2.png",
+        "chimpions": [],
+        "pfp": "https://bafybeia5josrkms7ralnklsv2ulmf5icmg2i2xa3cmd7eivmemvdn47ar4.ipfs.nftstorage.link/2104.png",
         "TWS": {
             "Forest Fellowship": false,
             "Dusk Till Dawn": false,
@@ -1906,7 +1897,7 @@
         "chimpions": [
             "TheComedian"
         ],
-        "pfp": "/images/compressed-pfps/Thesis.png",
+        "pfp": "/images/chimpions/TheComedian/TheComedian-_rabbels_.png",
         "TWS": {
             "Forest Fellowship": true,
             "Dusk Till Dawn": false,
@@ -1926,7 +1917,7 @@
         "chimpions": [
             "TheTechnophile"
         ],
-        "pfp": "/images/compressed-pfps/Aure64.png",
+        "pfp": "https://arweave.net/lZbCZA3g_UfsT1IzTDkvodEIbvV0DYrKV9mkWeRbclw?ext=png",
         "TWS": {
             "Forest Fellowship": true,
             "Dusk Till Dawn": true,
@@ -1939,26 +1930,6 @@
             "An Unlikely Friendship": true
         }
     },
-    "WallStreet": {
-        "wallets": [
-            "8StJhBs8GJK7B2SAardFKhUsaGdECftrUUMnQyQ8XnHJ"
-        ],
-        "chimpions": [
-            "TheChevalier"
-        ],
-        "pfp": "/images/compressed-pfps/WallStreet.png",
-        "TWS": {
-            "Forest Fellowship": true,
-            "Dusk Till Dawn": false,
-            "The Fall of the Eradicator": false,
-            "Last Bastion": false,
-            "The Uprising": true,
-            "LaurenceAntonyXChimpions": true,
-            "The Crystal of Unity": false,
-            "Grave Danger": false,
-            "An Unlikely Friendship": true
-        }
-    },
     "Froggie": {
         "wallets": [
             "21ncMb4cVyAS3y38suWiuUrQSRhqGdnw1Z6Hmi1nDCU1"
@@ -1966,7 +1937,7 @@
         "chimpions": [
             "TheAntipaladin"
         ],
-        "pfp": "/images/compressed-pfps/Froggie.png",
+        "pfp": "https://www.arweave.net/3HUWhbcjRRnQf879XheOF6UkWfQeZFJKRY4u9MXB6os?ext=png",
         "TWS": {
             "Forest Fellowship": true,
             "Dusk Till Dawn": false,
@@ -1986,7 +1957,7 @@
         "chimpions": [
             "TheMasked"
         ],
-        "pfp": "/images/compressed-pfps/HyJ4vc9wUfVrnojdqRetVA6ktrpVQRsUgry4C6Hc5uSg.png",
+        "pfp": "/images/chimpions/TheMasked/TheMasked-_rabbels_.png",
         "TWS": {
             "Forest Fellowship": false,
             "Dusk Till Dawn": false,
@@ -2006,7 +1977,7 @@
         "chimpions": [
             "TheStarbound"
         ],
-        "pfp": "/images/compressed-pfps/cripped_0.png",
+        "pfp": "https://nft.matrica.io/nft/BZAqzSiRyF1kQKhHN9z1o7WEJvr3tBkAL7tbDmMEM7A1.png",
         "TWS": {
             "Forest Fellowship": true,
             "Dusk Till Dawn": true,
@@ -2019,26 +1990,6 @@
             "An Unlikely Friendship": true
         }
     },
-    "Confusername": {
-        "wallets": [
-            "6mBNN7cuBZ1Mq8UxcKqDapXP1ksdL4NS5W2KVvwCSYbQ"
-        ],
-        "chimpions": [
-            "TheFractured"
-        ],
-        "pfp": "/images/compressed-pfps/Confusername.png",
-        "TWS": {
-            "Forest Fellowship": false,
-            "Dusk Till Dawn": false,
-            "The Fall of the Eradicator": false,
-            "Last Bastion": true,
-            "The Uprising": true,
-            "LaurenceAntonyXChimpions": false,
-            "The Crystal of Unity": false,
-            "Grave Danger": false,
-            "An Unlikely Friendship": true
-        }
-    },
     "razr": {
         "wallets": [
             "91R9mB46N8nTfruMxqpeNmTdBoW2WZGHH6eCok7m7S5G"
@@ -2046,7 +1997,7 @@
         "chimpions": [
             "TheErroneous"
         ],
-        "pfp": "/images/compressed-pfps/razr.png",
+        "pfp": "/images/chimpions/TheErroneous/TheErroneous-_rabbels_.png",
         "TWS": {
             "Forest Fellowship": true,
             "Dusk Till Dawn": false,
@@ -2059,26 +2010,6 @@
             "An Unlikely Friendship": true
         }
     },
-    "mundz": {
-        "wallets": [
-            "DyBMTRZnMAtiL6Vg8pRn2pyYBDfMoEUzMjLsorzhi6HN"
-        ],
-        "chimpions": [
-            "TheTechnician"
-        ],
-        "pfp": "/images/compressed-pfps/mundz.png",
-        "TWS": {
-            "Forest Fellowship": false,
-            "Dusk Till Dawn": false,
-            "The Fall of the Eradicator": false,
-            "Last Bastion": false,
-            "The Uprising": false,
-            "LaurenceAntonyXChimpions": false,
-            "The Crystal of Unity": false,
-            "Grave Danger": false,
-            "An Unlikely Friendship": false
-        }
-    },
     "counter": {
         "wallets": [
             "3zgC5F6puExXHQDtaSrRyryL8UVPLnW6tvWky2em8bA1"
@@ -2086,7 +2017,7 @@
         "chimpions": [
             "TheRegal"
         ],
-        "pfp": "/images/compressed-pfps/counter.png",
+        "pfp": "https://nft.matrica.io/nft/22rToRYsK7c5aMteM71NnhzkLU7ykFNJ53hmXcGV3UCP.png",
         "TWS": {
             "Forest Fellowship": false,
             "Dusk Till Dawn": false,
@@ -2106,7 +2037,7 @@
         "chimpions": [
             "TheInverted"
         ],
-        "pfp": "/images/compressed-pfps/oxonomye.png",
+        "pfp": "/images/chimpions/TheInverted/TheInverted-_rabbels_.png",
         "TWS": {
             "Forest Fellowship": false,
             "Dusk Till Dawn": false,
@@ -2126,7 +2057,7 @@
         "chimpions": [
             "TheMutant"
         ],
-        "pfp": "/images/compressed-pfps/Checco.png",
+        "pfp": "/images/chimpions/TheMutant/TheMutant-_rabbels_.png",
         "TWS": {
             "Forest Fellowship": true,
             "Dusk Till Dawn": false,
@@ -2146,7 +2077,7 @@
         "chimpions": [
             "TheSpectral"
         ],
-        "pfp": "/images/compressed-pfps/9mAqWNp1WYesoV1TaCVm3Vv761Gnsi8kBrvXKc23uyp9.png",
+        "pfp": "/images/chimpions/TheSpectral/TheSpectral-meltytanti.png",
         "TWS": {
             "Forest Fellowship": false,
             "Dusk Till Dawn": false,
@@ -2166,7 +2097,7 @@
         "chimpions": [
             "TheApologetic"
         ],
-        "pfp": "/images/compressed-pfps/Db8f51heQz4UxD1gdQLBJYf4tWnN5xtJs7smu2h9UAc2.png",
+        "pfp": "/images/chimpions/TheApologetic/TheApologetic-_rabbels_.png",
         "TWS": {
             "Forest Fellowship": true,
             "Dusk Till Dawn": true,
@@ -2186,7 +2117,7 @@
         "chimpions": [
             "TheChromatic"
         ],
-        "pfp": "/images/compressed-pfps/Plexoo.png",
+        "pfp": "https://arweave.net/KIt3wxjr7W5-hLY77-hhhBUOWEogbnV4DKAKo8zgwvg",
         "TWS": {
             "Forest Fellowship": false,
             "Dusk Till Dawn": false,
@@ -2206,7 +2137,7 @@
         "chimpions": [
             "TheMischievous"
         ],
-        "pfp": "/images/compressed-pfps/Nargar.png",
+        "pfp": "/images/chimpions/TheMischievous/TheMischievous-badluckzulp.png",
         "TWS": {
             "Forest Fellowship": false,
             "Dusk Till Dawn": false,
@@ -2226,7 +2157,7 @@
         "chimpions": [
             "TheCyborg"
         ],
-        "pfp": "/images/compressed-pfps/8GjgPdkJAzupvk4azPY7BhaA9sL1BqTdVUTsbKk2YAF7.png",
+        "pfp": "/images/chimpions/TheCyborg/TheCyborg-_rabbels_.png",
         "TWS": {
             "Forest Fellowship": true,
             "Dusk Till Dawn": false,
@@ -2246,7 +2177,7 @@
         "chimpions": [
             "TheCountryman"
         ],
-        "pfp": "/images/compressed-pfps/MPRTI44.png",
+        "pfp": "/images/chimpions/TheCountryman/TheCountryman-_rabbels_.png",
         "TWS": {
             "Forest Fellowship": true,
             "Dusk Till Dawn": false,
@@ -2259,6 +2190,26 @@
             "An Unlikely Friendship": true
         }
     },
+    "dirkdiggler": {
+        "wallets": [
+            "3QitX2PMTccHP7hhCktZEK2xMZ7gQBhwCqtWDpaWAL2j"
+        ],
+        "chimpions": [
+            "ThePerplexed"
+        ],
+        "pfp": "/images/chimpions/ThePerplexed/ThePerplexed-_rabbels_.png",
+        "TWS": {
+            "Forest Fellowship": false,
+            "Dusk Till Dawn": false,
+            "The Fall of the Eradicator": false,
+            "Last Bastion": false,
+            "The Uprising": false,
+            "LaurenceAntonyXChimpions": false,
+            "The Crystal of Unity": false,
+            "Grave Danger": false,
+            "An Unlikely Friendship": false
+        }
+    },
     "GA9ZBqncLUcoXunBjWkydi1XBPRQ49oGCSfem8zu6mET": {
         "wallets": [
             "GA9ZBqncLUcoXunBjWkydi1XBPRQ49oGCSfem8zu6mET"
@@ -2266,11 +2217,11 @@
         "chimpions": [
             "TheExperiment"
         ],
-        "pfp": "/images/compressed-pfps/GA9ZBqncLUcoXunBjWkydi1XBPRQ49oGCSfem8zu6mET.png",
+        "pfp": "https://nft.matrica.io/nft/B9EJtuxPb63FqAdBhUgTL6N7EGFJMpfRvJWHbHpnBPJv.png",
         "TWS": {
             "Forest Fellowship": false,
             "Dusk Till Dawn": true,
-            "The Fall of the Eradicator": false,
+            "The Fall of the Eradicator": true,
             "Last Bastion": true,
             "The Uprising": true,
             "LaurenceAntonyXChimpions": true,
@@ -2286,7 +2237,7 @@
         "chimpions": [
             "TheFirestarter"
         ],
-        "pfp": "/images/compressed-pfps/papits.png",
+        "pfp": "https://nft.matrica.io/nft/32Ufpd5wNzAadjZPyUsdB5G7UXiuJ936Nqw2pFJqcuaJ.png",
         "TWS": {
             "Forest Fellowship": false,
             "Dusk Till Dawn": false,
@@ -2299,14 +2250,14 @@
             "An Unlikely Friendship": true
         }
     },
-    "SirBertol": {
+    "8sFeLohsaYfvAuGVSE1vVyF35GbDYRdrsPJK6xiNQFiN": {
         "wallets": [
-            "6vww9G3a8BFqMurXouPRb9XNhM5v99B9NiDJCjE3SFeK"
+            "8sFeLohsaYfvAuGVSE1vVyF35GbDYRdrsPJK6xiNQFiN"
         ],
         "chimpions": [
             "TheGrunt"
         ],
-        "pfp": "/images/compressed-pfps/SirBertol.png",
+        "pfp": "https://matrica.io/assets/default_square.jpg",
         "TWS": {
             "Forest Fellowship": false,
             "Dusk Till Dawn": false,
@@ -2326,7 +2277,7 @@
         "chimpions": [
             "TheWastelander"
         ],
-        "pfp": "/images/compressed-pfps/hatse.png",
+        "pfp": "/images/chimpions/TheWastelander/TheWastelander-zen0m.png",
         "TWS": {
             "Forest Fellowship": false,
             "Dusk Till Dawn": false,
@@ -2337,46 +2288,6 @@
             "The Crystal of Unity": false,
             "Grave Danger": false,
             "An Unlikely Friendship": false
-        }
-    },
-    "swzzi": {
-        "wallets": [
-            "FdqjjuUFLpGrwq1kdoU16W7872rSBQZgnJnuqY3F1jfL"
-        ],
-        "chimpions": [
-            "ThePowderMonkey"
-        ],
-        "pfp": "/images/compressed-pfps/swzzi.png",
-        "TWS": {
-            "Forest Fellowship": false,
-            "Dusk Till Dawn": false,
-            "The Fall of the Eradicator": false,
-            "Last Bastion": false,
-            "The Uprising": false,
-            "LaurenceAntonyXChimpions": false,
-            "The Crystal of Unity": false,
-            "Grave Danger": false,
-            "An Unlikely Friendship": false
-        }
-    },
-    "maxbrs.sol": {
-        "wallets": [
-            "DhCrUDCEgcLq2LheRauzzFbzAp1qdKifTF7r2hFFPT9i"
-        ],
-        "chimpions": [
-            "TheOriginal"
-        ],
-        "pfp": "/images/compressed-pfps/maxbrs.sol.png",
-        "TWS": {
-            "Forest Fellowship": true,
-            "Dusk Till Dawn": true,
-            "The Fall of the Eradicator": true,
-            "Last Bastion": true,
-            "The Uprising": true,
-            "LaurenceAntonyXChimpions": true,
-            "The Crystal of Unity": false,
-            "Grave Danger": false,
-            "An Unlikely Friendship": true
         }
     },
     "Odd Skull": {
@@ -2386,7 +2297,7 @@
         "chimpions": [
             "TheReincarnated"
         ],
-        "pfp": "/images/compressed-pfps/Odd Skull.png",
+        "pfp": "https://arweave.net/Y3GhSr2J6b8OFUQFOIx91l494t-tibq3vFn9vuP94x0?ext=png",
         "TWS": {
             "Forest Fellowship": false,
             "Dusk Till Dawn": false,
@@ -2394,6 +2305,26 @@
             "Last Bastion": false,
             "The Uprising": false,
             "LaurenceAntonyXChimpions": false,
+            "The Crystal of Unity": false,
+            "Grave Danger": false,
+            "An Unlikely Friendship": false
+        }
+    },
+    "Ap3s6w9zkKSyTvt3Gpc2kubEwYGo4veiRADgqqdW3767": {
+        "wallets": [
+            "Ap3s6w9zkKSyTvt3Gpc2kubEwYGo4veiRADgqqdW3767"
+        ],
+        "chimpions": [
+            "TheHeretic"
+        ],
+        "pfp": "/images/chimpions/TheHeretic/TheHeretic-badluckzulp.png",
+        "TWS": {
+            "Forest Fellowship": true,
+            "Dusk Till Dawn": false,
+            "The Fall of the Eradicator": false,
+            "Last Bastion": false,
+            "The Uprising": true,
+            "LaurenceAntonyXChimpions": true,
             "The Crystal of Unity": false,
             "Grave Danger": false,
             "An Unlikely Friendship": true
@@ -2406,7 +2337,7 @@
         "chimpions": [
             "TheHidden"
         ],
-        "pfp": "/images/compressed-pfps/24A94GwWo2U3WjbvcGxmwA1E97gqE5KFE9hUJ5wLjCeR.png",
+        "pfp": "/images/chimpions/TheHidden/TheHidden-_rabbels_.png",
         "TWS": {
             "Forest Fellowship": true,
             "Dusk Till Dawn": true,
@@ -2426,7 +2357,7 @@
         "chimpions": [
             "TheFlamescarred"
         ],
-        "pfp": "/images/compressed-pfps/gwi.png",
+        "pfp": "/images/chimpions/TheFlamescarred/TheFlamescarred-badluckzulp.png",
         "TWS": {
             "Forest Fellowship": true,
             "Dusk Till Dawn": false,
@@ -2444,29 +2375,10 @@
             "5RJ5rwSpeNfRYanwVnRJRwMEbfsaRyo6JrEQUAW3oiER"
         ],
         "chimpions": [
-            "TheDecorated"
+            "TheDecorated",
+            "TheJudge"
         ],
-        "pfp": "/images/compressed-pfps/q2.png",
-        "TWS": {
-            "Forest Fellowship": false,
-            "Dusk Till Dawn": false,
-            "The Fall of the Eradicator": false,
-            "Last Bastion": false,
-            "The Uprising": false,
-            "LaurenceAntonyXChimpions": false,
-            "The Crystal of Unity": false,
-            "Grave Danger": false,
-            "An Unlikely Friendship": false
-        }
-    },
-    "Damasta": {
-        "wallets": [
-            "4AB9iz8pjTffD5BhAggtqVD1ccABDnFpBLadcBAbu4bZ"
-        ],
-        "chimpions": [
-            "TheNightstalker"
-        ],
-        "pfp": "/images/compressed-pfps/Damasta.png",
+        "pfp": "/images/chimpions/TheDecorated/TheDecorated-_rabbels_.png",
         "TWS": {
             "Forest Fellowship": false,
             "Dusk Till Dawn": false,
@@ -2486,7 +2398,7 @@
         "chimpions": [
             "TheDemon"
         ],
-        "pfp": "/images/compressed-pfps/Hp3uHMFi2NvLkwHpq6fFhKgiEjLMTBiHN3F7PTNjHXwE.png",
+        "pfp": "/images/chimpions/TheDemon/TheDemon-_rabbels_.png",
         "TWS": {
             "Forest Fellowship": false,
             "Dusk Till Dawn": false,
@@ -2506,7 +2418,7 @@
         "chimpions": [
             "TheFaded"
         ],
-        "pfp": "/images/compressed-pfps/Uranium.png",
+        "pfp": "/images/chimpions/TheFaded/TheFaded-_rabbels_.png",
         "TWS": {
             "Forest Fellowship": true,
             "Dusk Till Dawn": false,
@@ -2526,7 +2438,7 @@
         "chimpions": [
             "TheGhostHunter"
         ],
-        "pfp": "/images/compressed-pfps/Meattyy.png",
+        "pfp": "/images/chimpions/TheGhostHunter/TheGhostHunter-_rabbels_.png",
         "TWS": {
             "Forest Fellowship": false,
             "Dusk Till Dawn": false,
@@ -2546,7 +2458,7 @@
         "chimpions": [
             "TheArmsman"
         ],
-        "pfp": "/images/compressed-pfps/Nepenthe.png",
+        "pfp": "https://nft.matrica.io/nft/3sB186FseuG5Uurq41kUjD7gPpZrxnBUakCiYmg4jAmK.png",
         "TWS": {
             "Forest Fellowship": false,
             "Dusk Till Dawn": false,
@@ -2566,7 +2478,7 @@
         "chimpions": [
             "TheBosun"
         ],
-        "pfp": "/images/compressed-pfps/hmph.png",
+        "pfp": "https://www.arweave.net/tzwR4qeIQ9kgyk0EKi-EVLgT4LkoYdsaS-fNquFuRBo?ext=png",
         "TWS": {
             "Forest Fellowship": false,
             "Dusk Till Dawn": false,
@@ -2579,47 +2491,6 @@
             "An Unlikely Friendship": true
         }
     },
-    "sidvicious843": {
-        "wallets": [
-            "H6ZLTRpVXobSYuNWufG8iqN9dMRQyZkXXSR5nEaeW73r"
-        ],
-        "chimpions": [
-            "TheTrickster",
-            "TheFreelancer"
-        ],
-        "pfp": "/images/compressed-pfps/sidvicious843.png",
-        "TWS": {
-            "Forest Fellowship": false,
-            "Dusk Till Dawn": false,
-            "The Fall of the Eradicator": false,
-            "Last Bastion": false,
-            "The Uprising": false,
-            "LaurenceAntonyXChimpions": false,
-            "The Crystal of Unity": false,
-            "Grave Danger": false,
-            "An Unlikely Friendship": false
-        }
-    },
-    "Raves": {
-        "wallets": [
-            "2PQC5Yvsm6jWn28fXKxMMVsnjauNFkktG2PVXSNqpTMu"
-        ],
-        "chimpions": [
-            "TheDigital"
-        ],
-        "pfp": "/images/compressed-pfps/Raves.png",
-        "TWS": {
-            "Forest Fellowship": false,
-            "Dusk Till Dawn": false,
-            "The Fall of the Eradicator": false,
-            "Last Bastion": false,
-            "The Uprising": false,
-            "LaurenceAntonyXChimpions": false,
-            "The Crystal of Unity": false,
-            "Grave Danger": false,
-            "An Unlikely Friendship": true
-        }
-    },
     "mork": {
         "wallets": [
             "ApGoCDpwvt5X3j7PvCnuYySnv6C5Ncu4mvjCViGyavkU"
@@ -2627,7 +2498,7 @@
         "chimpions": [
             "ThePocketMonkey"
         ],
-        "pfp": "/images/compressed-pfps/mork.png",
+        "pfp": "https://nft.matrica.io/nft/HB4SELGqT5mNt2tMnFGnMHBFMz9nT783hotL9V2EbCkx.png",
         "TWS": {
             "Forest Fellowship": false,
             "Dusk Till Dawn": false,
@@ -2647,7 +2518,7 @@
         "chimpions": [
             "TheDrowsy"
         ],
-        "pfp": "/images/compressed-pfps/kuse.png",
+        "pfp": "/images/chimpions/TheDrowsy/TheDrowsy-_rabbels_.png",
         "TWS": {
             "Forest Fellowship": true,
             "Dusk Till Dawn": false,
@@ -2667,7 +2538,7 @@
         "chimpions": [
             "TheTotemic"
         ],
-        "pfp": "/images/compressed-pfps/AXn72v6GSNuozvPchh5Ry3sfMww5WfyLvLEtMVn5AZEY.png",
+        "pfp": "/images/chimpions/TheTotemic/TheTotemic-_rabbels_.png",
         "TWS": {
             "Forest Fellowship": false,
             "Dusk Till Dawn": false,
@@ -2687,7 +2558,7 @@
         "chimpions": [
             "TheDeepdweller"
         ],
-        "pfp": "/images/compressed-pfps/Tainaker.png",
+        "pfp": "https://nft.matrica.io/nft/Et2rtRD9pKwzFWdtkMqNFH74DJqVpUkB86aFHHyEmYVC.png",
         "TWS": {
             "Forest Fellowship": false,
             "Dusk Till Dawn": false,
@@ -2707,16 +2578,16 @@
         "chimpions": [
             "TheFaulty"
         ],
-        "pfp": "/images/compressed-pfps/ZionAtlas.png",
+        "pfp": "https://arweave.net/tEcStZqJRq2BAzNknNkQ3UMPjR3fupHBDumk15XW7Vo?ext=png",
         "TWS": {
             "Forest Fellowship": false,
             "Dusk Till Dawn": false,
             "The Fall of the Eradicator": true,
-            "Last Bastion": false,
+            "Last Bastion": true,
             "The Uprising": false,
             "LaurenceAntonyXChimpions": true,
             "The Crystal of Unity": false,
-            "Grave Danger": false,
+            "Grave Danger": true,
             "An Unlikely Friendship": true
         }
     },
@@ -2727,7 +2598,7 @@
         "chimpions": [
             "TheLeisurely"
         ],
-        "pfp": "/images/compressed-pfps/DanielB.png",
+        "pfp": "/images/chimpions/TheLeisurely/TheLeisurely-badluckzulp.png",
         "TWS": {
             "Forest Fellowship": true,
             "Dusk Till Dawn": true,
@@ -2740,21 +2611,21 @@
             "An Unlikely Friendship": true
         }
     },
-    "123456789Matrica": {
+    "RAFFA \ud83d\udc8e": {
         "wallets": [
-            "Fkof1epwMtTSL9PRGSBYguQgRU3MPqupgjBwN794JkQ8"
+            "9w9o4R3zDqTyEW1k3P9rxmx78G3pqsRGjC84A7kf4p1w"
         ],
         "chimpions": [
             "TheBinary"
         ],
-        "pfp": "/images/compressed-pfps/123456789Matrica.png",
+        "pfp": "/images/chimpions/TheBinary/TheBinary-_rabbels_.png",
         "TWS": {
             "Forest Fellowship": false,
             "Dusk Till Dawn": false,
             "The Fall of the Eradicator": false,
             "Last Bastion": false,
             "The Uprising": false,
-            "LaurenceAntonyXChimpions": true,
+            "LaurenceAntonyXChimpions": false,
             "The Crystal of Unity": false,
             "Grave Danger": false,
             "An Unlikely Friendship": false
@@ -2767,7 +2638,7 @@
         "chimpions": [
             "TheJockey"
         ],
-        "pfp": "/images/compressed-pfps/endy.sol.png",
+        "pfp": "/images/chimpions/TheJockey/TheJockey-_rabbels_.png",
         "TWS": {
             "Forest Fellowship": false,
             "Dusk Till Dawn": false,
@@ -2787,7 +2658,7 @@
         "chimpions": [
             "TheEnameled"
         ],
-        "pfp": "/images/compressed-pfps/liquidgold.png",
+        "pfp": "/images/chimpions/TheEnameled/TheEnameled-_rabbels_.png",
         "TWS": {
             "Forest Fellowship": true,
             "Dusk Till Dawn": false,
@@ -2807,7 +2678,7 @@
         "chimpions": [
             "TheAngsty"
         ],
-        "pfp": "/images/compressed-pfps/SomdotSol.png",
+        "pfp": "https://arweave.net/Wn5OWRCLkv5CbhAec9Q9f764LarFUaN77wShW-Sm3hU",
         "TWS": {
             "Forest Fellowship": false,
             "Dusk Till Dawn": false,
@@ -2827,13 +2698,13 @@
         "chimpions": [
             "TheAmalgamation"
         ],
-        "pfp": "/images/compressed-pfps/rgb.png",
+        "pfp": "https://nft.matrica.io/nft/GugUdpKb1vUJ8qdbui1otSXkKisoX6J33Re7A7MPw8vi.png",
         "TWS": {
-            "Forest Fellowship": false,
+            "Forest Fellowship": true,
             "Dusk Till Dawn": false,
             "The Fall of the Eradicator": true,
             "Last Bastion": false,
-            "The Uprising": false,
+            "The Uprising": true,
             "LaurenceAntonyXChimpions": true,
             "The Crystal of Unity": false,
             "Grave Danger": false,
@@ -2847,7 +2718,7 @@
         "chimpions": [
             "TheArisen"
         ],
-        "pfp": "/images/compressed-pfps/Nightsx.png",
+        "pfp": "https://nft.matrica.io/nft/Gw5hjhuLx8UfSXu6w9FxnAzX6o7aRbC5QCg5EJiJ5WNA.png",
         "TWS": {
             "Forest Fellowship": false,
             "Dusk Till Dawn": false,
@@ -2867,30 +2738,10 @@
         "chimpions": [
             "TheChief"
         ],
-        "pfp": "/images/compressed-pfps/bokieV.png",
+        "pfp": "https://nft.matrica.io/nft/HFDMEVrh8PP7xmw36t2jJ59qEaJAdSLkf2SpAsWA4wYE.png",
         "TWS": {
             "Forest Fellowship": false,
             "Dusk Till Dawn": false,
-            "The Fall of the Eradicator": false,
-            "Last Bastion": false,
-            "The Uprising": false,
-            "LaurenceAntonyXChimpions": false,
-            "The Crystal of Unity": false,
-            "Grave Danger": false,
-            "An Unlikely Friendship": false
-        }
-    },
-    "shades": {
-        "wallets": [
-            "BXCxwXnRkdHs4rB77T23WgB69ReKEhmmmixJCvLTDubN"
-        ],
-        "chimpions": [
-            "TheDeckhand"
-        ],
-        "pfp": "/images/compressed-pfps/shades.png",
-        "TWS": {
-            "Forest Fellowship": true,
-            "Dusk Till Dawn": true,
             "The Fall of the Eradicator": false,
             "Last Bastion": false,
             "The Uprising": false,
@@ -2907,7 +2758,7 @@
         "chimpions": [
             "TheYeoman"
         ],
-        "pfp": "/images/compressed-pfps/thirty.png",
+        "pfp": "/images/chimpions/TheYeoman/TheYeoman-_rabbels_.png",
         "TWS": {
             "Forest Fellowship": false,
             "Dusk Till Dawn": false,
@@ -2927,7 +2778,7 @@
         "chimpions": [
             "TheAnalyst"
         ],
-        "pfp": "/images/compressed-pfps/lfk.png",
+        "pfp": "/images/chimpions/TheAnalyst/TheAnalyst-badluckzulp.png",
         "TWS": {
             "Forest Fellowship": true,
             "Dusk Till Dawn": false,
@@ -2947,7 +2798,7 @@
         "chimpions": [
             "TheNeuromancer"
         ],
-        "pfp": "/images/compressed-pfps/Brink.png",
+        "pfp": "https://www.arweave.net/rINOXYzKE1mjO9pO_L-ExzYnMqzGUSwsU7Cjtb-B0Gw?ext=PNG",
         "TWS": {
             "Forest Fellowship": true,
             "Dusk Till Dawn": true,
@@ -2967,7 +2818,7 @@
         "chimpions": [
             "TheBionic"
         ],
-        "pfp": "/images/compressed-pfps/tuxr.png",
+        "pfp": "https://nft.matrica.io/nft/hVyKuJPBQ4N26XSzWBkeENjWYrgcC1jT6b2xtW5oUra.png",
         "TWS": {
             "Forest Fellowship": false,
             "Dusk Till Dawn": false,
@@ -2987,7 +2838,7 @@
         "chimpions": [
             "ThePainter"
         ],
-        "pfp": "/images/compressed-pfps/5LDdaHcE1tzcwtfBzor6xbYB9k57hwz8z7Edq7NBVhRj.png",
+        "pfp": "/images/chimpions/ThePainter/ThePainter-_rabbels_.png",
         "TWS": {
             "Forest Fellowship": false,
             "Dusk Till Dawn": false,
@@ -3000,34 +2851,14 @@
             "An Unlikely Friendship": true
         }
     },
-    "Max Sterrling": {
+    "GamingBigBrain": {
         "wallets": [
-            "FiZSfokXNfPMRqNPrGNcjGKMCbGu3Apj7UPobfsQetjb"
+            "4f27WNrJbC8mz737wQuRtqLVvG6fqAo2aeZX8s7dc87D"
         ],
         "chimpions": [
-            "TheCaptain"
+            "TheHuntress"
         ],
-        "pfp": "/images/compressed-pfps/Max Sterrling.png",
-        "TWS": {
-            "Forest Fellowship": false,
-            "Dusk Till Dawn": false,
-            "The Fall of the Eradicator": false,
-            "Last Bastion": true,
-            "The Uprising": true,
-            "LaurenceAntonyXChimpions": true,
-            "The Crystal of Unity": false,
-            "Grave Danger": false,
-            "An Unlikely Friendship": false
-        }
-    },
-    "0xnasa": {
-        "wallets": [
-            "631p9sYTTDDkRp1JjY5DxVezWQeg9kFMvxnb5PirQgD8"
-        ],
-        "chimpions": [
-            "ThePainted"
-        ],
-        "pfp": "/images/compressed-pfps/0xnasa.png",
+        "pfp": "https://bafybeichwdxetjmkydqlh3cbazr6lo7yi2mkhc3zzvygckuvoe7bdv4yxy.ipfs.nftstorage.link/0.png?ext=png",
         "TWS": {
             "Forest Fellowship": false,
             "Dusk Till Dawn": false,
@@ -3040,14 +2871,34 @@
             "An Unlikely Friendship": false
         }
     },
-    "Lex": {
+    "Max Sterrling": {
         "wallets": [
-            "5cw7nMpBZVsqTfgC2QqeXrjt5AHbcDwBeNWuagUsf61i"
+            "FiZSfokXNfPMRqNPrGNcjGKMCbGu3Apj7UPobfsQetjb"
+        ],
+        "chimpions": [
+            "TheCaptain"
+        ],
+        "pfp": "https://www.arweave.net/EdC2utS2ULGvrNP6ibriH8TKn5kevZQ4CmMxSuusImg?ext=jpeg",
+        "TWS": {
+            "Forest Fellowship": false,
+            "Dusk Till Dawn": false,
+            "The Fall of the Eradicator": false,
+            "Last Bastion": true,
+            "The Uprising": true,
+            "LaurenceAntonyXChimpions": true,
+            "The Crystal of Unity": false,
+            "Grave Danger": false,
+            "An Unlikely Friendship": false
+        }
+    },
+    "Paria": {
+        "wallets": [
+            "5UagJSMfJdHPAsMbEVrj7vJPVjVX5vezutkEELmUtFEe"
         ],
         "chimpions": [
             "TheRapscallion"
         ],
-        "pfp": "/images/compressed-pfps/Lex.png",
+        "pfp": "https://nft.matrica.io/nft/VMEwUGkUqvPGAGNHsyxjavnpMCLGBt4SkZbepDN1G5h.png",
         "TWS": {
             "Forest Fellowship": false,
             "Dusk Till Dawn": false,
