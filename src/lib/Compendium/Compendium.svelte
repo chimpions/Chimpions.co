@@ -12,9 +12,9 @@
 	let cardMobility = true
     let types = [];
 	let selectedType = "SelectAType";
-    let selectedTribe = "Proletariat";
-    let lastSelectedTribe = "";
-    let lastSelectedType = "";
+    let selectedTribe = "SelectATribe";
+    let lastSelectedTribe = "All";
+    let lastSelectedType = "All";
     let windowWidth = 1000;
 
 
@@ -36,12 +36,24 @@
 	}
 	onMount(() => {
         getTypes();
+        getPageContent(chimpions);
         windowWidth = window.innerWidth;
         window.addEventListener('resize', updateWindowSize);
     });
 	
 	// Query results
 	let filteredChimpions = [];
+    let pageOneList = [];
+    let pageTwoList = [];
+    let pageThreeList = [];
+    let pageFourList = [];
+
+    // Active Page
+    let pageContent;
+    let activePageList = pageOneList;
+    $: if (pageOneList) {
+        activePageList = pageOneList;
+    };
 	
 	// For Select Menu
 	$: if (selectedType) getChimpsByType();
@@ -51,23 +63,40 @@
 		// resets search input if menu is being used
         if (selectedType == "SelectAType") return;
 		searchTerm = "";
-		if (selectedType == "None") {
+		if (selectedType == "All") {
             selectedType = "SelectAType";
             selectedTribe = lastSelectedTribe;
 		} else {
-            selectedTribe = "None";
+            selectedTribe = "SelectATribe";
             lastSelectedType = selectedType;
             filteredChimpions = chimpions.filter(chimpion => chimpion.type === selectedType.replace(/ /g,''));
         }
+        pageContent = getPageContent(filteredChimpions);
+        pageOneList = pageContent.pageOne;
+        pageTwoList = pageContent.pageTwo;
+        pageThreeList = pageContent.pageThree;
+        pageFourList = pageContent.pageFour;
+        activePageList = pageOneList;
 	}
 
     const getChimpsByTribe = () => {
-		// resets search input if menu is being used
-        if (selectedTribe == "None") return;
+        if (selectedTribe == "SelectATribe") return;
 		searchTerm = "";
-        selectedType = "SelectAType";
-        lastSelectedTribe = selectedTribe;
-		filteredChimpions = chimpions.filter(chimpion => chimpion.tribe === selectedTribe.replace(/ /g,''));
+		if (selectedTribe == "All") {
+            selectedTribe = "SelectATribe";
+            selectedType = "SelectAType";
+            filteredChimpions = chimpions;
+		} else {
+            selectedType = "SelectAType";
+            lastSelectedTribe = selectedTribe;
+            filteredChimpions = chimpions.filter(chimpion => chimpion.tribe === selectedTribe.replace(/ /g,''));
+        }
+        pageContent = getPageContent(filteredChimpions);
+        pageOneList = pageContent.pageOne;
+        pageTwoList = pageContent.pageTwo;
+        pageThreeList = pageContent.pageThree;
+        pageFourList = pageContent.pageFour;
+        activePageList = pageOneList;
 	}
 	
 	// For Search Input
@@ -75,7 +104,7 @@
 	// resets language menu if search input is used
 	$: if (searchTerm) {
         selectedType = "SelectAType";
-        selectedTribe = "None";
+        selectedTribe = "SelectATribe";
     }
          
 	
@@ -98,13 +127,38 @@
                     return false;
                 }
             });
-            if ((filteredChimpionsBeforeEvaluation.length < 50) || (searchTerm.length > 2 && (("badluckzulp".includes(searchTerm)) || ("_rabbels_".includes(searchTerm))))) return filteredChimpions = filteredChimpionsBeforeEvaluation;
+            if ((filteredChimpionsBeforeEvaluation.length < 50) || (searchTerm.length > 2 && (("badluckzulp".includes(searchTerm)) || ("_rabbels_".includes(searchTerm))))) {
+                getPageContent(filteredChimpionsBeforeEvaluation);
+            };
         }
 	}
+
+    const getPageContent = (chimpionsList) => {
+        pageOneList = [];
+        pageTwoList = [];
+        pageThreeList = [];
+        pageFourList = [];
+        for (let i = 0; i < chimpionsList.length; i++) {
+            if (i < 56) {pageOneList.push(chimpionsList[i])}
+            else if (i < 112) {pageTwoList.push(chimpionsList[i])}
+            else if (i < 168) {pageThreeList.push(chimpionsList[i])}
+            else {pageFourList.push(chimpionsList[i])}
+		}
+    return { pageOne: pageOneList, pageTwo: pageTwoList, pageThree: pageThreeList, pageFour: pageFourList };
+    }
+
+    function ReturnUp(PageList) {
+        activePageList = PageList;
+        let targetElement = document.getElementById("query-section");
+        if (targetElement) {
+            targetElement.scrollIntoView({ behavior: 'smooth' });
+        }
+    }
 
     $: styles = `--width: ${windowWidth}px`;
 
 </script>
+
 
 
 <Navigation />
@@ -117,8 +171,9 @@
         <div id="query-section">
             <div class="menu-cont">
                 <select class="menu" name="menu" id="menu" bind:value={selectedTribe}>
-                    <option disabled value="None">No Selected Tribe</option>
-                    <option selected value="FutureWarPack">Future War Pack</option>
+                    <option disabled selected value="SelectATribe">Select a tribe</option>
+                    <option value="All">All</option>
+                    <option value="FutureWarPack">Future War Pack</option>
                     <option value="OldWorldCult">Old World Cult</option>
                     <option value="Planeswalkers">Planeswalkers</option>
                     <option value="Proletariat">Proletariat</option>
@@ -127,8 +182,7 @@
             <div class="menu-cont">
                 <select class="menu" name="menu" id="menu" bind:value={selectedType}>
                     <option disabled selected value="SelectAType">Select a type</option>
-                    <option value="None">None</option>
-                    <!-- <option value="None">No Selected Type</option> -->
+                    <option value="All">All</option>
                     {#each types as type}
                         <option value={type}>{type}</option>
                     {/each}
@@ -146,13 +200,13 @@
     </div>
 
 
-    {#if searchTerm && filteredChimpions.length === 0}
+    {#if searchTerm && activePageList.length === 0}
         <div class="no-results-msg">
             <p>No results for {searchTerm}</p>
         </div>
     {:else}
         <div class="card-grid" style={styles}>
-            {#each filteredChimpions as chimpion}
+            {#each activePageList as chimpion}
                 <Card 
                     active={false}
                     dynamic={cardMobility}
@@ -167,6 +221,22 @@
             {/each}
         </div>
     {/if}
+
+    <div class="pageChoiceContainer">
+        {#if pageOneList.length > 0}
+            <button on:click={ReturnUp(pageOneList)} class="pageChoice">1</button>
+        {/if}
+        {#if pageTwoList.length > 0}
+            <button on:click={ReturnUp(pageTwoList)} class="pageChoice">2</button>
+        {/if}
+        {#if pageThreeList.length > 0}
+            <button on:click={ReturnUp(pageThreeList)} class="pageChoice">3</button>
+        {/if}
+        {#if pageFourList.length > 0}
+            <button on:click={ReturnUp(pageFourList)} class="pageChoice">4</button>
+        {/if}
+    </div>
+
     <BackToTop />
 </section>
 
@@ -277,4 +347,31 @@
 		font-size: 2rem;
 		text-align: center;
 	}
+
+    .pageChoiceContainer {
+        display: flex;
+        justify-content: center;
+        gap: 1rem;
+        margin-bottom: 5rem;
+    }
+
+    button.pageChoice {
+        width: 2.5rem;
+        height: 3rem;
+        padding: 0.5rem;
+        border: 1px var(--whiter-purple) solid;
+        border-radius: 0.5rem;
+        background-color: var(--dark-purple);
+        color: var(--whiter-purple);
+        text-align: center;
+        font-size: 1.5rem;
+    }
+
+    button.pageChoice:hover {
+        cursor: pointer;
+        border: 1px white solid;
+        background-color: var(--purple);
+        color: white;
+        transition: 0.3s all;
+    }
 </style>

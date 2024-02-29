@@ -2,7 +2,12 @@
 	import chimpions from './chimpions.json';
 
 	export const council = [
-
+        {
+			name: 'Bip',
+			twitter: '@bipkoyn',
+			discord: 'bipkoyn',
+			chimp: chimpions[117]
+		},
 		{
 			name: 'Birb',
 			twitter: '@mulletmusketeer',
@@ -12,8 +17,14 @@
         {
 			name: 'Brink',
 			twitter: '@Brink_Brinker',
-			discord: 'Brink#0001',
+			discord: 'brinkbrinker',
 			chimp: chimpions[134]
+		},
+		{
+			name: 'CMC81',
+			twitter: '@cmc816',
+			discord: 'cmc81',
+			chimp: chimpions[65]
 		},
 		{
 			name: 'Dasein',
@@ -21,27 +32,9 @@
 			discord: 'dasein2249',
 			chimp: chimpions[192]
 		},
-        {
-			name: 'Jota',
-			twitter: '@JotaDotSol',
-			discord: 'Jota#0002',
-			chimp: chimpions[81]
-		},
-        {
-			name: 'Katsu',
-			twitter: '@katsudon_sol',
-			discord: 'katsudon#7432',
-			chimp: chimpions[178]
-		},
-        {
-			name: 'Mamon',
-			twitter: '@mamonBTC',
-			discord: 'debankedmamon',
-			chimp: chimpions[61]
-		},
 		{
 			name: 'MaxBrs',
-			twitter: '@Max___Brs',
+			twitter: '@MaxBrsNFT',
 			discord: 'MaxBrs ⛏#5204',
 			chimp: chimpions[145]
 		},
@@ -53,16 +46,28 @@
 			chimp: chimpions[156]
 		},
         {
-			name: 'Punk Monke',
-			twitter: '@Punk_Monke',
-			discord: 'punkmonke',
-			chimp: chimpions[166]
+			name: 'Raffa',
+			twitter: '@0xRAFFA',
+			discord: '0xraffa',
+			chimp: chimpions[20]
+		},
+        {
+			name: 'Requiem',
+			twitter: '@RequiemSolana',
+			discord: 'requiem',
+			chimp: chimpions[77]
+		},
+        {
+			name: 'tuxr',
+			twitter: '@tuxr228',
+			discord: 'tuxr',
+			chimp: chimpions[21]
 		},
 		{
 			name: 'Utopia',
 			twitter: '@utopia_artist',
 			discord: 'Utopia#3861',
 			chimp: chimpions[185]
-		}
+		},
 	];
 </script>

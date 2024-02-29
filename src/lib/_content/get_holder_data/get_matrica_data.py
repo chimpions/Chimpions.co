@@ -64,13 +64,13 @@ for holder_wallet in file.readlines():
     else:
         holder_wallets.append(holder_wallet)
 
-holders = {}
-collections = {}
-
 
 
 ## API functions
 def make_api_call(url):
+    """
+    return the nfts held by an address (25 by 25)
+    """
     try:
         response = requests.get(url)
         if response.status_code == 200:
@@ -87,6 +87,9 @@ def make_api_call(url):
 
 
 def get_username_and_pfp(wallet):
+    """
+    return username and pfp based on the address of the wallet holding the chimp
+    """
     url = f"https://api.matrica.io/v1/wallet/{wallet}?apiKey={matrica_api_key}"
     data = make_api_call(url)
     if data:
@@ -104,6 +107,9 @@ def get_username_and_pfp(wallet):
 
 
 def get_nfts(wallet):
+    """
+    return username and pfp based on the address of the wallet holding a chimp
+    """
     count = 0
     url = f"https://api.matrica.io/v1/wallet/{wallet}/nfts?apiKey={matrica_api_key}&sortBy=id&skip={count}"
     data = make_api_call(url)
@@ -122,6 +128,9 @@ def get_nfts(wallet):
 
 
 def get_pfp(name, url):
+    """
+    return username and pfp based on the address of the wallet holding a chimp
+    """
     print(name, url)
 
     if url[:7] != "/images" and url[:7] != "":
@@ -132,10 +141,10 @@ def get_pfp(name, url):
         else:
             for chimpion in chimpions:
                 if chimpion["name"] in holders[name]["chimpions"]:
-                    image = Image.open("../../../../static" + chimpion["paths"]["png"])
+                    image = Image.open("static" + chimpion["paths"]["png"])
                     break
     else:
-        image = Image.open("../../../../static" + url)
+        image = Image.open("static" + url)
 
     width, height = image.size
     while width > 200 and height > 200:
@@ -151,9 +160,19 @@ def get_pfp(name, url):
 
 
 def main():
-    number_of_holders_fetched = 0
+    holders = {}
+    collections = {}
+    number_of_holders_fetched = -1
     for holder_wallet in holder_wallets:
-        holder_name, pfp = get_username_and_pfp(holder_wallet)
+        if len(holders) > 0:
+            with open('C:/Users/33607/Downloads/Chimpions.co/src/lib/_content/matrica_data2.json', 'r', encoding="utf-8") as f:
+                holders = json.load(f)
+        if number_of_holders_fetched < 0:
+            break
+        try:
+            holder_name, pfp = get_username_and_pfp(holder_wallet)
+        except:
+            continue
         if holder_name not in holders.keys():
             holders[holder_name] = {
                 "wallets": [],
@@ -195,6 +214,9 @@ def main():
                 if collection_id in TWS_ids.keys():
                     holders[holder_name]["TWS"][TWS_ids[collection_id]] = True
         
+
+        with open('C:/Users/33607/Downloads/Chimpions.co/src/lib/_content/matrica_data2.json', 'w') as f:
+            json.dump(holders, f, indent = 4)
         number_of_holders_fetched += 1
         print(f"Fetched data for {number_of_holders_fetched} holders")
     

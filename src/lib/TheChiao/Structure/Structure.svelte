@@ -40,11 +40,7 @@
                 Who leads the Chimpions?
             </p>
             <p class="subsectionAnswer">
-                The Chimpions have adapted to the ecosystem in which they live. Whereas a model where 10 Leads representing the Chimpions served them for just over a year, the Chimpions have decided to pivot to a governance model with a CEO.
-                <br/><br/>
-                The new model operates as follows:
-                The chimpions elect a CEO from among the members of the previous board for a 6-month term.
-                A new board is created from 10 volunteers chosen in order of the most active members of the community.
+                Every 6 months, the Chimpions elect the council. Any member of the chiao can run for a seat on the council. In January, <a href="#the-council">11 members</a> have been elected to lead the Chimpions. 
             </p>
         </div>
         <div class="qa">
@@ -71,60 +67,14 @@
                 The Chimpions are a tight knit community. If you have a question, don’t hesitate to ask on <a href="https://twitter.com/TheChimpions/">Twitter</a> or on <a href="https://discord.gg/thechimpions">Discord</a>.
             </p>
         </div>
-    <h2 class="subsectionHeading">
-        The CEO
-    </h2>
-    <div class="subsectionParagraph">
-        <p>
-            For this first term running from July 17, 2023 to January 17, 2024, Doudou has been elected CEO.
-        </p>
-        <p>
-            Missions:
-        </p>
-        <ul>
-            <li>Make the Chimpions prosper</li>
-            <li>Satisfy CHIAO's requests</li>
-            <li>Manage the Treasury</li>
-        </ul>
-    </div>
-    <div class="CEO">
-        <div class="lead-box">
-            <img
-                class='chimpImage'
-                src={chimpions[1].paths.gif}
-                alt='Chimpion of Doudou'
-            />
-            <div class="leadDescription">
-                <div class='leadName'>
-                    Doudou
-                </div>
-                <div class='leadTwitterAndDiscord'>
-                    <Fa icon={faTwitter} size="sm" />
-                    <a href="https://twitter.com/notdoudou_sol" target="_blank" rel="noreferrer" style="color: inherit; text-decoration:none; 
-                    cursor:pointer;">@notdoudou_sol</a>
-                </div>
-                <div class='leadTwitterAndDiscord'>
-                    <Fa icon={faDiscord} size="sm" />
-                    notdoudou_sol
-                </div>
-            </div>
-        </div>
-    </div>
 
-        
-    <h2 class="subsectionHeading">
+    <h2 class="subsectionHeading" id="the-council">
         The Council
     </h2>
     <div class="subsectionParagraph">
         <p>
-            The Council is the intermediary between the CEO and the CHIAO.
+            The Council steers the ship of The Chimpions.
         </p>
-        Missions:
-        <ul>
-            <li>Secure the CHIAO treasury by validating the transactions</li>
-            <li>Support the CEO in decision-making</li>
-            <li>Vote to dismiss the CEO in case of profound disagreement with the actions taken</li>
-        </ul>
         <p>
             The current Council members are :
         </p>

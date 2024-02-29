@@ -10,7 +10,6 @@
 	let searchTerm = "";
 	
 	const searchChimpions = () => {
-        console.log(searchTerm);
         if (searchTerm == "") {
             return filteredChimpions = [];
         } else {

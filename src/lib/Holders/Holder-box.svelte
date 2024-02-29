@@ -5,7 +5,6 @@
     export let matrica_data = {};
 
     $: pfp = matrica_data["pfp"];
-    console.log(pfp);
 
     function handleImageError() {
         pfp = '/images/unrevealed.png';

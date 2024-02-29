@@ -11,8 +11,10 @@
     export let twitter = "";
     export let marketplace = "";
 
+
     $: styles = `
-                --numberOfThisCollection: ${numberOfThisCollection};`;
+                --numberOfThisCollection: ${numberOfThisCollection};
+                --numberLength: ${numberOfThisCollection.toString().length}`;
 </script>
 
 
@@ -24,7 +26,7 @@
     />
     <div class="numberOf">
         <div class="increment" style={styles}></div>
-        <div class="collectionName">
+        <div>
             {name}
         </div>
     </div>
@@ -41,6 +43,7 @@
 <style>
     :root {
         --numberOfThisCollection: 0;
+        --numberLength: 1;
     }
 
     .collectionContainer {
@@ -65,10 +68,11 @@
 
     .numberOf {
         display: flex;
+        text-align: left;
+        text-wrap: nowrap;
         justify-content: end;
-        width: 200px;
         column-gap: 0.5rem;
-        font-size: 2rem;
+        font-size: 1.75rem;
         padding: 0.5rem;
         color: white;
     }
@@ -80,7 +84,7 @@
     }
 
     .increment {
-        width: 70px;
+        width: calc(15px * var(--numberLength));
         text-align: end;
         animation: counter 4.20s ease-out forwards;
         counter-set: num var(--num);
@@ -93,10 +97,6 @@
     @keyframes counter {
         0% { --num: 0; }
         100% { --num: var(--numberOfThisCollection); }
-    }
-
-    .collectionName {
-        width: 65%;
     }
 
     .links {

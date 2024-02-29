@@ -113,7 +113,6 @@
     }
 
     const searchHolders = () => {
-        console.log(searchTerm)
         filteredHolders = []
         if (searchTerm != "") {
             for (let name in holders) {
@@ -173,7 +172,7 @@
                 autocomplete="on"
                 bind:value={searchTerm}
                 on:input={searchHolders}
-                on:focus={() => {visibility = "visible"; console.log(visibility)}}
+                on:focus={() => {visibility = "visible"}}
             />
         </div>
         <div class="results">

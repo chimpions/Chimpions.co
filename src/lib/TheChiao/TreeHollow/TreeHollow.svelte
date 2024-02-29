@@ -4,18 +4,18 @@
 
     const collections = [
         {
-            name: "Galactic Geckos",
+            name: "Geckos",
             website: "https://www.galacticgeckos.app/",
             image: "/images/ggsg.png",
-            number: 1513,
+            number: 1830,
             twitter: "https://twitter.com/GalacticGeckoSG",
             marketplace: "https://www.tensor.trade/trade/galactic_geckos"
         },
         {
-            name: "Famous Foxes",
+            name: "Foxes",
             website: "https://famousfoxes.com/",
             image: "/images/fff.png",
-            number: 509,
+            number: 591,
             twitter: "https://twitter.com/FamousFoxFed",
             marketplace: "https://www.tensor.trade/trade/famous_fox_federation"
         },
@@ -23,7 +23,7 @@
             name: "Degen Apes",
             website: "https://www.degenape.academy/",
             image: "/images/DAA.png",
-            number: 432,
+            number: 389,
             twitter: "https://twitter.com/DegenApeAcademy",
             marketplace: "https://www.tensor.trade/trade/degenerate_ape_academy"
         },
@@ -31,7 +31,7 @@
             name: "Claynos",
             website: "https://claynosaurz.com/",
             image: "/images/claynosaurz.png",
-            number: 217,
+            number: 184,
             twitter: "https://twitter.com/Claynosaurz",
             marketplace: "https://www.tensor.trade/trade/claynosaurz"
         },
@@ -39,7 +39,7 @@
             name: "SMBs",
             website: "https://solanamonkey.business/",
             image: "/images/smb.png",
-            number: 102,
+            number: 114,
             twitter: "https://twitter.com/SolanaMBS",
             marketplace: "https://www.tensor.trade/trade/solana_monkey_business"
         },
@@ -47,15 +47,15 @@
             name: "Okay Bears",
             website: "https://www.okaybears.com/",
             image: "/images/okay.png",
-            number: 110,
+            number: 117,
             twitter: "https://twitter.com/okaybears",
             marketplace: "https://www.tensor.trade/trade/okay_bears"
         },
         {
-            name: "Taiyo Robotics",
+            name: "TYRs",
             website: "https://taiyorobotics.com/",
             image: "/images/taiyo.png",
-            number: 82,
+            number: 49,
             twitter: "https://twitter.com/TaiyoRobotics",
             marketplace: "https://www.tensor.trade/trade/taiyo_robotics"
         },
@@ -68,12 +68,12 @@
             marketplace: "https://www.tensor.trade/trade/monkey_baby_business"
         },
         {
-            name: "Catalina Whales",
-            website: "https://www.catalinawhalemixer.com/",
-            image: "/images/catalina.png",
-            number: 85,
-            twitter: "https://twitter.com/catalinawhales",
-            marketplace: "https://www.tensor.trade/trade/the_catalina_whale_mixer"
+            name: "Tensorians",
+            website: "https://tensor.trade/",
+            image: "/images/tensor.png",
+            number: 45,
+            twitter: "https://twitter.com/tensor_hq",
+            marketplace: "https://www.tensor.trade/trade/tensorians"
         },
         {
             name: "Anons",
@@ -84,12 +84,12 @@
             marketplace: "https://www.tensor.trade/trade/888_anon_club"
         },
         {
-            name: "Degen Bears",
-            website: "https://www.degenape.academy/",
-            image: "/images/DDB.png",
-            number: 281,
-            twitter: "https://twitter.com/DegenApeAcademy",
-            marketplace: "https://www.tensor.trade/trade/degenerate_ape_kindergarten"
+            name: "Mad Lads",
+            website: "https://madlads.com/",
+            image: "/images/madlads.png",
+            number: 43,
+            twitter: "https://twitter.com/MadLads",
+            marketplace: "https://www.tensor.trade/trade/madlads"
         },
         {
             name: "Degen Pandas",

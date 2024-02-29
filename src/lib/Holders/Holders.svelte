@@ -3,9 +3,7 @@
 
     import Navigation from "$lib/Navigation/Navigation.svelte";
     import BackToTop from "$lib/BackToTop.svelte";
-    import holders from "$lib/_content/holders.json";
-    import matrica_data from "$lib/_content/matrica_data.json";
-    import discord_data from "$lib/_content/discord_data.json";
+    import holders_data from "$lib/_content/matrica_data.json";
     import "$lib/css/global.css";
     import HolderBox from "./Holder-box.svelte";
     import { onMount } from "svelte";
@@ -41,15 +39,17 @@
             let maxLength = 0.85 * screenWidth;
             let margin = 100;
             let currentLength = 0;
-            for (let holderName in holders) {
-                if (currentLength + holderName.length * 10 + margin < maxLength) {
-                    holderLine[holderName] = holders[holderName];
-                    currentLength += (holderName.length * 10 + margin)
-                } else {
-                    holderLines.push(holderLine);
-                    holderLine = {};
-                    holderLine[holderName] = holders[holderName];
-                    currentLength = (holderName.length * 10 + margin);
+            for (let holderName in holders_data) {
+                if (holderName.length < 20) {
+                    if (currentLength + holderName.length * 10 + margin < maxLength) {
+                        holderLine[holderName] = holders_data[holderName];
+                        currentLength += (holderName.length * 10 + margin)
+                    } else {
+                        holderLines.push(holderLine);
+                        holderLine = {};
+                        holderLine[holderName] = holders_data[holderName];
+                        currentLength = (holderName.length * 10 + margin);
+                    }
                 }
             };
         } else {
@@ -58,15 +58,17 @@
             let maxLength = 0.85 * screenWidth;
             let margin = 60;
             let currentLength = 0;
-            for (let holderName in holders) {
-                if (currentLength + holderName.length * 8 + margin < maxLength) {
-                    holderLine[holderName] = holders[holderName];
-                    currentLength += (holderName.length * 8 + margin)
-                } else {
-                    holderLines.push(holderLine);
-                    holderLine = {};
-                    holderLine[holderName] = holders[holderName];
-                    currentLength = (holderName.length * 8 + margin);
+            for (let holderName in holders_data) {
+                if (holderName.length < 20) {
+                    if (currentLength + holderName.length * 8 + margin < maxLength) {
+                        holderLine[holderName] = holders_data[holderName];
+                        currentLength += (holderName.length * 8 + margin)
+                    } else {
+                        holderLines.push(holderLine);
+                        holderLine = {};
+                        holderLine[holderName] = holders_data[holderName];
+                        currentLength = (holderName.length * 8 + margin);
+                    }
                 }
             };
         }
@@ -92,7 +94,7 @@
                 {#each Object.keys(holderLine) as holderName}
                     <HolderBox
                         name={holderName}
-                        matrica_data={matrica_data[holders[holderName].matricaId]}
+                        matrica_data={holders_data[holderName]}
                     />
                 {/each}
             </div>
